@@ -1,0 +1,9 @@
+{
+  "projectId": "2329a3ba-c06f-4d3f-bd4f-b3b5330760bd",
+  "createdAt": 1778482376770,
+  "version": "1.0",
+  "startupCommands": [
+    "cd taxi-amro; npm install; npm run dev"
+  ],
+  "templateId": "auto"
+}
