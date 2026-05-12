@@ -1,7 +1,0 @@
-{
-  "buildCommand": "cd taxi-amro && npm install && npm run build",
-  "outputDirectory": "taxi-amro/dist",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
