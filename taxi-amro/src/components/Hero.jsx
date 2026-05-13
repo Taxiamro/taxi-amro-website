@@ -118,11 +118,11 @@ export default function Hero() {
           style={{ background: 'radial-gradient(circle, rgba(191,219,254,0.3) 0%, transparent 70%)', top: '35%', right: '5%' }} />
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-24 pt-28">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-20 pt-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
           {/* ── LEFT: 3D Car photo + stats ── */}
-          <div className="flex flex-col items-center lg:items-start gap-6">
+          <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-6">
 
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-amber-100 border border-amber-300 rounded-full px-4 py-1.5">
@@ -131,7 +131,7 @@ export default function Hero() {
             </div>
 
             {/* 3D Car image card */}
-            <div className="relative w-full max-w-lg">
+            <div className="relative w-full max-w-lg px-8 sm:px-10 lg:px-0">
               {/* Glow behind */}
               <div className="absolute inset-0 rounded-3xl blur-3xl opacity-40"
                 style={{ background: 'linear-gradient(135deg, #fde68a 0%, #a7f3d0 100%)', transform: 'scale(0.95) translateY(12px)' }} />
@@ -164,7 +164,7 @@ export default function Hero() {
               {/* Floating stat chips — triangle layout */}
               {/* Top-right: ⭐ Beoordeling */}
               <div
-                className="stat-float absolute -top-5 -right-5 rounded-2xl px-4 py-3 shadow-lg text-center"
+                className="stat-float absolute -top-4 right-0 sm:-right-5 rounded-2xl px-3 py-2 shadow-lg text-center"
                 style={{
                   background: STATS[0].bg, border: `1.5px solid ${STATS[0].border}`,
                   boxShadow: `0 8px 24px ${STATS[0].glow}`, animationDelay: STATS[0].delay, minWidth: 90,
@@ -179,7 +179,7 @@ export default function Hero() {
 
               {/* Left-center: 🕐 Beschikbaar */}
               <div
-                className="stat-float absolute top-1/2 -translate-y-1/2 -left-7 rounded-2xl px-4 py-3 shadow-lg text-center"
+                className="stat-float absolute top-1/2 -translate-y-1/2 left-0 sm:-left-7 rounded-2xl px-3 py-2 shadow-lg text-center"
                 style={{
                   background: STATS[1].bg, border: `1.5px solid ${STATS[1].border}`,
                   boxShadow: `0 8px 24px ${STATS[1].glow}`, animationDelay: STATS[1].delay, minWidth: 88,
@@ -194,7 +194,7 @@ export default function Hero() {
 
               {/* Bottom-right: ⚡ Elektrisch */}
               <div
-                className="stat-float absolute -bottom-5 -right-5 rounded-2xl px-4 py-3 shadow-lg text-center"
+                className="stat-float absolute -bottom-4 right-0 sm:-right-5 rounded-2xl px-3 py-2 shadow-lg text-center"
                 style={{
                   background: STATS[2].bg, border: `1.5px solid ${STATS[2].border}`,
                   boxShadow: `0 8px 24px ${STATS[2].glow}`, animationDelay: STATS[2].delay, minWidth: 90,
@@ -222,9 +222,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* ── RIGHT: Booking widget ── */}
-          <div>
-            <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-xl shadow-gray-100 text-left">
+          {/* ── RIGHT: Booking widget (first on mobile) ── */}
+          <div className="order-1 lg:order-2">
+            <div className="bg-white border border-gray-200 rounded-2xl p-5 sm:p-6 shadow-xl shadow-gray-100 text-left">
               <div className="flex items-center gap-3 mb-5">
                 <div className="w-9 h-9 bg-amber-400 rounded-xl flex items-center justify-center flex-shrink-0">
                   <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -257,7 +257,7 @@ export default function Hero() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-3 gap-3 mb-4">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3 mb-4">
                   <div className="relative">
                     <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
@@ -272,7 +272,7 @@ export default function Hero() {
                     <input type="time" value={time} onChange={(e) => setTime(e.target.value)}
                       className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-8 pr-2 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-sm" />
                   </div>
-                  <div className="bg-gray-50 border border-gray-200 rounded-xl px-3 py-2 flex items-center justify-between">
+                  <div className="bg-gray-50 border border-gray-200 rounded-xl px-3 py-2 flex items-center justify-between col-span-2 sm:col-span-1">
                     <svg className="w-3.5 h-3.5 text-gray-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>

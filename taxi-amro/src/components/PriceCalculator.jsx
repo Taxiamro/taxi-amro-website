@@ -200,7 +200,7 @@ export default function PriceCalculator() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 items-start">
           {/* Left: Input panel */}
           <div
             ref={cardRef}

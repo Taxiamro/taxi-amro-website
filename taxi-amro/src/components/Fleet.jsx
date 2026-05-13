@@ -1,4 +1,5 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
+import { useScrollTilt } from '../hooks/useScrollTilt'
 
 const specs = [
   { label: 'Type', value: 'Hyundai Nexo', icon: '🚗' },
@@ -16,27 +17,8 @@ const gallery = [
   { src: '/nexo-engine.webp', label: 'Waterstofmotor' },
 ]
 
-function use3DTilt() {
-  const ref = useRef(null)
-  const [tilt, setTilt] = useState({ x: 0, y: 0 })
-  const [hovered, setHovered] = useState(false)
-
-  const onMouseMove = (e) => {
-    const rect = ref.current.getBoundingClientRect()
-    const cx = rect.left + rect.width / 2
-    const cy = rect.top + rect.height / 2
-    const dx = (e.clientX - cx) / (rect.width / 2)
-    const dy = (e.clientY - cy) / (rect.height / 2)
-    setTilt({ x: dy * -8, y: dx * 8 })
-  }
-  const onMouseEnter = () => setHovered(true)
-  const onMouseLeave = () => { setTilt({ x: 0, y: 0 }); setHovered(false) }
-
-  return { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave }
-}
-
 function SpecCard({ spec }) {
-  const { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = use3DTilt()
+  const { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = useScrollTilt(8)
 
   return (
     <div
@@ -80,10 +62,10 @@ function SpecCard({ spec }) {
 
 export default function Fleet() {
   const [active, setActive] = useState(0)
-  const { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = use3DTilt()
+  const { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = useScrollTilt(8)
 
   return (
-    <section className="py-24 bg-white overflow-hidden">
+    <section className="py-16 sm:py-24 bg-white overflow-hidden relative">
       {/* Decorative 3D blobs */}
       <div style={{
         position: 'absolute', width: 400, height: 400, borderRadius: '50%',
@@ -208,7 +190,7 @@ export default function Fleet() {
           </div>
 
           {/* 3D Spec grid */}
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {specs.map((spec) => (
               <SpecCard key={spec.label} spec={spec} />
             ))}

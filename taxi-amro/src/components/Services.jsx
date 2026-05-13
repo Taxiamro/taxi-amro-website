@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useScrollTilt } from '../hooks/useScrollTilt'
 
 const services = [
   {
@@ -141,27 +141,16 @@ const services = [
 ]
 
 function ServiceCard({ service, index }) {
-  const cardRef = useRef(null)
-  const [tilt, setTilt] = useState({ x: 0, y: 0 })
-  const [hovered, setHovered] = useState(false)
-
-  const handleMouseMove = (e) => {
-    const rect = cardRef.current.getBoundingClientRect()
-    const cx = rect.left + rect.width / 2
-    const cy = rect.top + rect.height / 2
-    const dx = (e.clientX - cx) / (rect.width / 2)
-    const dy = (e.clientY - cy) / (rect.height / 2)
-    setTilt({ x: dy * -10, y: dx * 10 })
-  }
+  const { ref: cardRef, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = useScrollTilt(10)
 
   return (
     <div
       ref={cardRef}
       data-reveal
       className={`fade-up stagger-${index + 1}`}
-      onMouseMove={handleMouseMove}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => { setTilt({ x: 0, y: 0 }); setHovered(false) }}
+      onMouseMove={onMouseMove}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       style={{ perspective: 900 }}
     >
       <div style={{
@@ -216,7 +205,7 @@ function ServiceCard({ service, index }) {
         </div>
 
         {/* Card body */}
-        <div style={{ padding: '28px 30px 28px', flex: 1, display: 'flex', flexDirection: 'column' }}>
+        <div style={{ padding: '20px 20px 24px', flex: 1, display: 'flex', flexDirection: 'column' }}>
 
         {/* Background glow */}
         <div style={{
@@ -329,7 +318,7 @@ export default function Services() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {services.map((service, i) => (
             <ServiceCard key={service.title} service={service} index={i} />
           ))}

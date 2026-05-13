@@ -1,0 +1,83 @@
+<svg width="100%" viewBox="0 0 690 730" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Taxi Amro logo - tekst versie</title>
+<desc>Modern logo met grote Taxi Amro tekst en zachte gele tinten</desc>
+
+<defs>
+<linearGradient id="softGold" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFF4B8"/>
+<stop offset="50%" stop-color="#FFE066"/>
+<stop offset="100%" stop-color="#FFC93C"/>
+</linearGradient>
+<linearGradient id="softGoldDeep" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFC93C"/>
+<stop offset="100%" stop-color="#E8A317"/>
+</linearGradient>
+<linearGradient id="bigTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#FFEB99"/>
+<stop offset="40%" stop-color="#FFD93D"/>
+<stop offset="100%" stop-color="#E8A317"/>
+</linearGradient>
+<linearGradient id="bgSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#FFFEF7"/>
+<stop offset="100%" stop-color="#FFF8E1"/>
+</linearGradient>
+<linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#FFD93D"/>
+<stop offset="100%" stop-color="#FFC93C"/>
+</linearGradient>
+</defs>
+
+<!-- Light background -->
+<rect x="0" y="0" width="680" height="720" rx="20" fill="url(#bgSoft)"/>
+
+<!-- Subtle decorative circles in background -->
+<circle cx="80" cy="100" r="40" fill="#FFE066" opacity="0.2"/>
+<circle cx="600" cy="80" r="60" fill="#FFD93D" opacity="0.15"/>
+<circle cx="620" cy="640" r="50" fill="#FFE066" opacity="0.2"/>
+<circle cx="60" cy="600" r="35" fill="#FFD93D" opacity="0.15"/>
+
+<!-- ============ BIG TAXI AMRO TEXT (vervangt de auto) ============ -->
+<g transform="translate(340, 230)">
+<!-- Shadow laag voor diepte -->
+<text x="6" y="6" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="700" font-style="italic" fill="#8B6914" opacity="0.4">Taxi</text>
+<!-- Hoofdtekst TAXI -->
+<text x="0" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="700" font-style="italic" fill="url(#bigTextGrad)" stroke="#8B6914" stroke-width="2">Taxi</text>
+</g>
+
+<g transform="translate(340, 380)">
+<!-- Shadow laag voor diepte -->
+<text x="6" y="6" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="700" font-style="italic" fill="#8B6914" opacity="0.4">Amro</text>
+<!-- Hoofdtekst AMRO -->
+<text x="0" y="0" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="700" font-style="italic" fill="url(#bigTextGrad)" stroke="#8B6914" stroke-width="2">Amro</text>
+</g>
+
+<!-- Decoratieve sterretjes / accenten rond de tekst -->
+<circle cx="120" cy="220" r="6" fill="#FFD93D" stroke="#B8860B" stroke-width="1.5"/>
+<circle cx="560" cy="220" r="6" fill="#FFD93D" stroke="#B8860B" stroke-width="1.5"/>
+<circle cx="120" cy="380" r="6" fill="#FFD93D" stroke="#B8860B" stroke-width="1.5"/>
+<circle cx="560" cy="380" r="6" fill="#FFD93D" stroke="#B8860B" stroke-width="1.5"/>
+
+<!-- Decorative line -->
+<line x1="180" y1="470" x2="500" y2="470" stroke="url(#softGoldDeep)" stroke-width="2" opacity="0.6"/>
+<circle cx="340" cy="470" r="4" fill="#FFD93D" stroke="#B8860B" stroke-width="1.5"/>
+
+<!-- ============ PHONE NUMBER ============ -->
+<g transform="translate(140, 540)">
+<!-- Shadow -->
+<rect x="4" y="4" width="400" height="56" rx="28" fill="#B8860B" opacity="0.4"/>
+<!-- Pill -->
+<rect x="0" y="0" width="400" height="56" rx="28" fill="url(#phoneGrad)" stroke="#B8860B" stroke-width="2"/>
+<!-- Highlight -->
+<rect x="20" y="6" width="360" height="10" rx="5" fill="#FFF9C4" opacity="0.7"/>
+<!-- Phone icon circle -->
+<circle cx="38" cy="28" r="18" fill="#FFF8E1" stroke="#B8860B" stroke-width="2"/>
+<!-- Phone icon -->
+<path d="M 30 22 Q 30 20, 32 20 L 35 20 Q 37 20, 38 22 L 39 26 Q 39 28, 37 29 L 35 30 Q 36 33, 39 36 L 41 37 Q 43 37, 44 35 L 45 33 Q 46 32, 48 32 L 50 32 Q 52 32, 52 34 Q 52 38, 49 41 Q 46 43, 42 41 Q 36 38, 31 33 Q 28 28, 30 22 Z" fill="#1a1a1a"/>
+<!-- Number -->
+<text x="220" y="38" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="26" font-weight="900" fill="#1a1a1a" letter-spacing="1.5">+31 6 33 72 15 65</text>
+</g>
+
+<!-- Tagline -->
+<text x="340" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" letter-spacing="6" fill="#B8860B" font-weight="600">SNEL  •  BETROUWBAAR  •  24/7</text>
+
+</svg>

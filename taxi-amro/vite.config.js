@@ -11,4 +11,9 @@ export default defineConfig({
       interval: 200,
     },
   },
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+    crittersOptions: false,
+  },
 })

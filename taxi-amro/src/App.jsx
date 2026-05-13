@@ -3,9 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import WhyUs from './components/WhyUs'
 import Fleet from './components/Fleet'
 import Pricing from './components/Pricing'
 import PriceCalculator from './components/PriceCalculator'
+import Testimonials from './components/Testimonials'
+import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
@@ -35,16 +38,19 @@ function useScrollReveal() {
   }, [])
 }
 
-function HomePage() {
+export function HomePage() {
   useScrollReveal()
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
       <Services />
+      <WhyUs />
       <Fleet />
       <Pricing />
       <PriceCalculator />
+      <Testimonials />
+      <FAQ />
       <Contact />
       <Footer />
       <FloatingWhatsApp />

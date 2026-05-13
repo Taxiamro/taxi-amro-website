@@ -1,4 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import { blogPosts } from '../data/blogPosts'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -14,8 +15,6 @@ export default function BlogPostPage() {
   const fallbackRelated = blogPosts.filter((p) => p.slug !== slug).slice(0, 3)
   const relatedPosts = related.length >= 2 ? related : fallbackRelated
 
-  const pageUrl = `https://www.taxiamro.nl/blog/${post.slug}`
-
   function share(platform) {
     const encodedUrl = encodeURIComponent(pageUrl)
     const encodedTitle = encodeURIComponent(post.title)
@@ -26,10 +25,51 @@ export default function BlogPostPage() {
     }
   }
 
+  const pageUrl = `https://www.taxiamro.nl/blog/${post.slug}`
+  const articleSchema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    image: post.featuredImage,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: { '@type': 'Organization', name: 'Taxi Amro' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Taxi Amro',
+      logo: { '@type': 'ImageObject', url: 'https://www.taxiamro.nl/logo.svg' },
+    },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': pageUrl },
+    keywords: post.keywords.join(', '),
+  })
+  const breadcrumbSchema = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.taxiamro.nl/' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.taxiamro.nl/blog' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: pageUrl },
+    ],
+  })
+
   return (
     <>
-      {/* SEO meta via helmet-style side effect — using document directly for SPA */}
-      <DocumentMeta post={post} />
+      <Helmet>
+        <title>{post.title} | Taxi Amro Groningen</title>
+        <meta name="description" content={post.excerpt + ' Bel +31 6 33721505.'} />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.excerpt} />
+        <meta property="og:image" content={post.featuredImage} />
+        <meta property="og:url" content={pageUrl} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content={post.featuredImage} />
+        <script type="application/ld+json">{articleSchema}</script>
+        <script type="application/ld+json">{breadcrumbSchema}</script>
+      </Helmet>
       <Navbar blogMode />
       <main className="pt-16 min-h-screen bg-white">
         {/* Hero image */}
@@ -246,16 +286,6 @@ export default function BlogPostPage() {
       <FloatingWhatsApp />
     </>
   )
-}
-
-// Updates document title + meta description for this post
-function DocumentMeta({ post }) {
-  if (typeof document !== 'undefined') {
-    document.title = `${post.title} | TaxiAmro Groningen`
-    let desc = document.querySelector('meta[name="description"]')
-    if (desc) desc.setAttribute('content', post.excerpt + ' Bel +31 6 33721505.')
-  }
-  return null
 }
 
 function formatDate(dateStr) {

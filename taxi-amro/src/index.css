@@ -3,16 +3,30 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   body {
     margin: 0;
     font-family: 'Inter', system-ui, 'Segoe UI', sans-serif;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: pan-y;
   }
   #root {
     width: 100%;
-    max-width: 100%;
+    max-width: 100vw;
     text-align: left;
+    overflow-x: hidden;
+  }
+  /* Better touch targets on mobile */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  /* Prevent input zoom on iOS */
+  input, select, textarea {
+    font-size: 16px !important;
   }
 }
 

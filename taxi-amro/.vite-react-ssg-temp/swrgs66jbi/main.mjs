@@ -1,16 +1,24 @@
-export const blogPosts = [
-  {
-    slug: 'taxi-groningen-schiphol-prijs-2026',
-    title: 'Wat kost een taxi van Groningen naar Schiphol in 2026?',
-    date: '2026-05-12',
-    category: 'Prijzen',
-    readTime: '5 min',
-    excerpt: 'Alles wat je moet weten over de prijs van een taxi van Groningen naar Schiphol — vaste tarieven, reistijd en handige tips voor 2026.',
-    featuredImage: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Amsterdam Airport Schiphol taxi transfer vanuit Groningen',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi groningen schiphol', 'prijs taxi schiphol', 'luchthavenvervoer groningen'],
-    content: `
+import { ViteReactSSG } from "vite-react-ssg";
+import { HelmetProvider } from "react-helmet-async";
+import { jsx } from "react/jsx-runtime";
+//#region src/data/blogPosts.js
+var blogPosts = [
+	{
+		slug: "taxi-groningen-schiphol-prijs-2026",
+		title: "Wat kost een taxi van Groningen naar Schiphol in 2026?",
+		date: "2026-05-12",
+		category: "Prijzen",
+		readTime: "5 min",
+		excerpt: "Alles wat je moet weten over de prijs van een taxi van Groningen naar Schiphol — vaste tarieven, reistijd en handige tips voor 2026.",
+		featuredImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Amsterdam Airport Schiphol taxi transfer vanuit Groningen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi groningen schiphol",
+			"prijs taxi schiphol",
+			"luchthavenvervoer groningen"
+		],
+		content: `
       <p>Plan je een vlucht vanaf Schiphol en zoek je een betrouwbare taxi vanuit Groningen? Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs. In dit artikel leggen we precies uit wat een taxi van Groningen naar Schiphol kost, hoe lang de rit duurt en waarom een vooraf geboekte taxi vaak slimmer is dan zelf rijden.</p>
 
       <h2>Vaste prijs versus straattaxi</h2>
@@ -43,20 +51,24 @@ export const blogPosts = [
       <p><strong>Kan ik per pin betalen?</strong><br/>Ja, je kunt contant, per pin of via Tikkie/overschrijving betalen.</p>
 
       <p>Voor meer info over vervoer op Schiphol check de <a href="https://www.schiphol.nl/nl/vervoer/" target="_blank" rel="noopener noreferrer">officiële Schiphol website</a>.</p>
-    `,
-  },
-  {
-    slug: 'taxi-eemshaven-haven-cruise',
-    title: 'Taxi naar Eemshaven: havenvervoer, cruise en ploegendienst',
-    date: '2026-05-12',
-    category: 'Eemshaven',
-    readTime: '4 min',
-    excerpt: 'Alles over taxivervoer van en naar Eemshaven — voor havenwerkers, cruisepassagiers en zakelijk vervoer. 24/7 beschikbaar.',
-    featuredImage: '/eemshaven.png',
-    featuredImageAlt: 'Beatrixhaven Eemshaven taxi vervoer havenarbeiders cruise',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi eemshaven', 'cruise eemshaven taxi', 'havenvervoer noord-nederland'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-eemshaven-haven-cruise",
+		title: "Taxi naar Eemshaven: havenvervoer, cruise en ploegendienst",
+		date: "2026-05-12",
+		category: "Eemshaven",
+		readTime: "4 min",
+		excerpt: "Alles over taxivervoer van en naar Eemshaven — voor havenwerkers, cruisepassagiers en zakelijk vervoer. 24/7 beschikbaar.",
+		featuredImage: "/eemshaven.png",
+		featuredImageAlt: "Beatrixhaven Eemshaven taxi vervoer havenarbeiders cruise",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi eemshaven",
+			"cruise eemshaven taxi",
+			"havenvervoer noord-nederland"
+		],
+		content: `
       <p>Eemshaven is een van de belangrijkste havens in Noord-Nederland. Werknemers van offshore-bedrijven, datacenters en de cruise-terminal hebben dagelijks vervoer nodig — vaak buiten reguliere openbaar vervoer-tijden. TaxiAmro rijdt <strong>24/7</strong> van en naar Eemshaven. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
 
       <h2>Voor wie rijden wij naar Eemshaven?</h2>
@@ -92,20 +104,25 @@ export const blogPosts = [
       <p><strong>Kan ik een vaste afspraak maken voor mijn ploegendienst?</strong><br/>Absoluut. Wij maken graag een vaste afspraak met vaste prijs voor terugkerende ritten.</p>
 
       <p>Voor cruise- en havenschema's check de <a href="https://www.groningen-seaports.com/" target="_blank" rel="noopener noreferrer">Groningen Seaports website</a>.</p>
-    `,
-  },
-  {
-    slug: 'waarom-waterstof-taxi-hyundai-nexo',
-    title: 'Waarom een waterstof-taxi? De Hyundai Nexo uitgelegd',
-    date: '2026-05-12',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Wij rijden 100% elektrisch op waterstof met de Hyundai Nexo. Ontdek waarom dit beter is voor jou, het milieu en de regio.',
-    featuredImage: '/nexo-exterior.webp',
-    featuredImageAlt: 'Hyundai Nexo waterstof taxi TaxiAmro Groningen 100% elektrisch',
-    author: 'Team TaxiAmro',
-    keywords: ['waterstof taxi', 'hyundai nexo taxi', 'elektrische taxi groningen', 'duurzaam vervoer'],
-    content: `
+    `
+	},
+	{
+		slug: "waarom-waterstof-taxi-hyundai-nexo",
+		title: "Waarom een waterstof-taxi? De Hyundai Nexo uitgelegd",
+		date: "2026-05-12",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Wij rijden 100% elektrisch op waterstof met de Hyundai Nexo. Ontdek waarom dit beter is voor jou, het milieu en de regio.",
+		featuredImage: "/nexo-exterior.webp",
+		featuredImageAlt: "Hyundai Nexo waterstof taxi TaxiAmro Groningen 100% elektrisch",
+		author: "Team TaxiAmro",
+		keywords: [
+			"waterstof taxi",
+			"hyundai nexo taxi",
+			"elektrische taxi groningen",
+			"duurzaam vervoer"
+		],
+		content: `
       <p>Bij TaxiAmro rijden wij in een <strong>Hyundai Nexo</strong> — een 100% elektrische auto die rijdt op waterstof. Geen uitlaatgassen, geen lawaai, alleen waterdamp uit de uitlaat. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een schone, stille rit.</p>
 
       <h2>Wat is een waterstofauto?</h2>
@@ -133,20 +150,24 @@ export const blogPosts = [
       <p><strong>Is het duurder dan een gewone taxi?</strong><br/>Nee. Wij rekenen dezelfde tarieven maar je krijgt duurzaam en comfortabel vervoer.</p>
 
       <p>Meer weten over waterstof? Lees op de <a href="https://www.rijksoverheid.nl/onderwerpen/duurzame-energie/waterstof" target="_blank" rel="noopener noreferrer">Rijksoverheid pagina over waterstof</a>.</p>
-    `,
-  },
-  {
-    slug: 'taxi-eelde-airport-vroege-ochtendvlucht',
-    title: 'Vroege vlucht vanaf Eelde Airport? Zo plan je je taxi',
-    date: '2026-05-12',
-    category: 'Luchthaven',
-    readTime: '4 min',
-    excerpt: 'Vlieg je vroeg vanaf Groningen Airport Eelde? Lees onze tips voor stressvrij vervoer en boek direct je taxi.',
-    featuredImage: 'https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Groningen Airport Eelde vroege ochtendvlucht taxi',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi eelde airport', 'groningen airport taxi', 'vroege vlucht eelde'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-eelde-airport-vroege-ochtendvlucht",
+		title: "Vroege vlucht vanaf Eelde Airport? Zo plan je je taxi",
+		date: "2026-05-12",
+		category: "Luchthaven",
+		readTime: "4 min",
+		excerpt: "Vlieg je vroeg vanaf Groningen Airport Eelde? Lees onze tips voor stressvrij vervoer en boek direct je taxi.",
+		featuredImage: "https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Groningen Airport Eelde vroege ochtendvlucht taxi",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi eelde airport",
+			"groningen airport taxi",
+			"vroege vlucht eelde"
+		],
+		content: `
       <p>Vertrek je vroeg in de ochtend vanaf <strong>Groningen Airport Eelde</strong>? Dan wil je geen risico nemen met OV of zelf rijden. TaxiAmro brengt je 24/7 stipt op tijd. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
 
       <h2>Waarom geen openbaar vervoer voor vroege vluchten?</h2>
@@ -192,20 +213,25 @@ export const blogPosts = [
       <p><strong>Kan ik 2 dagen vooraf boeken?</strong><br/>Ja, en zelfs maanden vooraf. Hoe eerder hoe beter voor garantie.</p>
 
       <p>Vluchttijden en info op <a href="https://www.groningenairport.nl/" target="_blank" rel="noopener noreferrer">Groningen Airport Eelde website</a>.</p>
-    `,
-  },
-  {
-    slug: 'taxi-emden-leer-duitsland-grensoverschrijdend',
-    title: 'Taxi naar Emden en Leer: grensoverschrijdend vervoer naar Duitsland',
-    date: '2026-05-12',
-    category: 'Duitsland',
-    readTime: '5 min',
-    excerpt: 'Reis je naar Emden, Leer of Bremen vanuit Noord-Nederland? Onze grensoverschrijdende taxidienst brengt je comfortabel over de grens.',
-    featuredImage: '/duitsland.png',
-    featuredImageAlt: 'Grens Bundesrepublik Deutschland grensoverschrijdend taxivervoer Emden Leer',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi emden', 'taxi leer duitsland', 'grensoverschrijdend vervoer', 'taxi naar duitsland'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-emden-leer-duitsland-grensoverschrijdend",
+		title: "Taxi naar Emden en Leer: grensoverschrijdend vervoer naar Duitsland",
+		date: "2026-05-12",
+		category: "Duitsland",
+		readTime: "5 min",
+		excerpt: "Reis je naar Emden, Leer of Bremen vanuit Noord-Nederland? Onze grensoverschrijdende taxidienst brengt je comfortabel over de grens.",
+		featuredImage: "/duitsland.png",
+		featuredImageAlt: "Grens Bundesrepublik Deutschland grensoverschrijdend taxivervoer Emden Leer",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi emden",
+			"taxi leer duitsland",
+			"grensoverschrijdend vervoer",
+			"taxi naar duitsland"
+		],
+		content: `
       <p>Heb je een afspraak in <strong>Emden</strong>, <strong>Leer</strong> of een andere stad net over de grens in Duitsland? TaxiAmro biedt comfortabel grensoverschrijdend vervoer vanuit heel Noord-Nederland. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs zonder verrassingen.</p>
 
       <h2>Waarom een Nederlandse taxi voor Duitsland?</h2>
@@ -249,21 +275,25 @@ export const blogPosts = [
       <p><strong>Is het duurder dan een Duitse taxi?</strong><br/>Vaak juist goedkoper vanwege onze vaste tarieven.</p>
 
       <p>Meer info bij de <a href="https://www.anwb.nl/auto/rijden-in-duitsland" target="_blank" rel="noopener noreferrer">ANWB over rijden in Duitsland</a>.</p>
-    `,
-  },
-  ,
-  {
-    slug: 'taxi-leeuwarden-schiphol-prijs',
-    title: 'Taxi van Leeuwarden naar Schiphol: prijs en reistijd',
-    date: '2026-05-13',
-    category: 'Prijzen',
-    readTime: '4 min',
-    excerpt: 'Wat kost een taxi van Leeuwarden naar Schiphol en hoe lang duurt de rit? Bekijk onze vaste tarieven en boek direct.',
-    featuredImage: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Taxi Leeuwarden Schiphol luchthavenvervoer Friesland',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi leeuwarden schiphol', 'vervoer leeuwarden schiphol', 'luchthavenvervoer friesland'],
-    content: `
+    `
+	},
+	,
+	{
+		slug: "taxi-leeuwarden-schiphol-prijs",
+		title: "Taxi van Leeuwarden naar Schiphol: prijs en reistijd",
+		date: "2026-05-13",
+		category: "Prijzen",
+		readTime: "4 min",
+		excerpt: "Wat kost een taxi van Leeuwarden naar Schiphol en hoe lang duurt de rit? Bekijk onze vaste tarieven en boek direct.",
+		featuredImage: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Taxi Leeuwarden Schiphol luchthavenvervoer Friesland",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi leeuwarden schiphol",
+			"vervoer leeuwarden schiphol",
+			"luchthavenvervoer friesland"
+		],
+		content: `
       <p>Vlieg je vanaf Schiphol en woon je in Leeuwarden of omstreken? Met TaxiAmro reis je comfortabel en zonder zorgen rechtstreeks naar de luchthaven. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
 
       <h2>Reistijd Leeuwarden — Schiphol</h2>
@@ -295,20 +325,24 @@ export const blogPosts = [
       <p><strong>Wat als ik om 4:00 's ochtends moet vertrekken?</strong><br/>Geen probleem — wij rijden 24/7.</p>
 
       <p>Voor actuele Schiphol-info: <a href="https://www.schiphol.nl/" target="_blank" rel="noopener noreferrer">Schiphol.nl</a>.</p>
-    `,
-  },
-  {
-    slug: 'studententaxi-groningen-nachtleven-veilig',
-    title: 'Studententaxi Groningen: veilig thuis na het uitgaan',
-    date: '2026-05-14',
-    category: 'Tips',
-    readTime: '3 min',
-    excerpt: 'Na een nacht uit in de Poelestraat of Peperstraat? TaxiAmro brengt je veilig en betaalbaar thuis. 24/7 beschikbaar in Groningen.',
-    featuredImage: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Studententaxi nachttaxi Groningen uitgaan veilig thuis',
-    author: 'Team TaxiAmro',
-    keywords: ['studententaxi groningen', 'nachttaxi groningen', 'taxi uitgaan groningen'],
-    content: `
+    `
+	},
+	{
+		slug: "studententaxi-groningen-nachtleven-veilig",
+		title: "Studententaxi Groningen: veilig thuis na het uitgaan",
+		date: "2026-05-14",
+		category: "Tips",
+		readTime: "3 min",
+		excerpt: "Na een nacht uit in de Poelestraat of Peperstraat? TaxiAmro brengt je veilig en betaalbaar thuis. 24/7 beschikbaar in Groningen.",
+		featuredImage: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Studententaxi nachttaxi Groningen uitgaan veilig thuis",
+		author: "Team TaxiAmro",
+		keywords: [
+			"studententaxi groningen",
+			"nachttaxi groningen",
+			"taxi uitgaan groningen"
+		],
+		content: `
       <p>Groningen is een van de beste studentensteden van Nederland. Maar na een nacht stappen in de Poelestraat, Peperstraat of bij de Vismarkt wil je veilig en snel thuis. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een betaalbare studententaxi.</p>
 
       <h2>Waarom een taxi en geen fiets?</h2>
@@ -337,20 +371,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Hoe laat rijden jullie?</strong><br/>24/7. Ook om 04:00 's ochtends.</p>
       <p><strong>Mogen we eten/drinken meenemen?</strong><br/>Liever niet vanwege reinigingskosten bij morsen. Friet in gesloten zak OK.</p>
-    `,
-  },
-  {
-    slug: 'taxi-bruiloft-feest-evenement-vervoer',
-    title: 'Taxi voor bruiloft of feest: vervoer regelen voor je gasten',
-    date: '2026-05-15',
-    category: 'Evenementen',
-    readTime: '4 min',
-    excerpt: 'Plan jij een bruiloft of feest? Wij verzorgen taxivervoer voor jou en je gasten naar elke locatie. Vraag een offerte aan.',
-    featuredImage: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Bruiloft taxi trouwauto vervoer Groningen feest evenement',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi bruiloft', 'trouwauto groningen', 'evenementen vervoer'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-bruiloft-feest-evenement-vervoer",
+		title: "Taxi voor bruiloft of feest: vervoer regelen voor je gasten",
+		date: "2026-05-15",
+		category: "Evenementen",
+		readTime: "4 min",
+		excerpt: "Plan jij een bruiloft of feest? Wij verzorgen taxivervoer voor jou en je gasten naar elke locatie. Vraag een offerte aan.",
+		featuredImage: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Bruiloft taxi trouwauto vervoer Groningen feest evenement",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi bruiloft",
+			"trouwauto groningen",
+			"evenementen vervoer"
+		],
+		content: `
       <p>Een bruiloft, jubileum of groot feest verdient zorgvuldig georganiseerd vervoer. Geen gedoe met parkeren, geen zorgen over alcohol achter het stuur. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een offerte.</p>
 
       <h2>Wat regelen wij voor jouw evenement?</h2>
@@ -390,20 +428,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Kunnen jullie met meerdere voertuigen rijden?</strong><br/>Ja, via ons netwerk regelen wij meerdere auto's voor grotere groepen.</p>
       <p><strong>Zijn jullie ook beschikbaar voor uitvaarten?</strong><br/>Ja, met passend voertuig en discrete service.</p>
-    `,
-  },
-  {
-    slug: 'ziekenhuisvervoer-umcg-groningen',
-    title: 'Ziekenhuisvervoer naar UMCG en Martini Ziekenhuis Groningen',
-    date: '2026-05-16',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Comfortabel vervoer naar het UMCG of Martini Ziekenhuis in Groningen. Voor afspraken, opname of bezoek. 24/7 beschikbaar.',
-    featuredImage: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Ziekenhuisvervoer UMCG Martini taxi patiënten ouderen Groningen',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi umcg', 'ziekenhuisvervoer groningen', 'taxi martini ziekenhuis'],
-    content: `
+    `
+	},
+	{
+		slug: "ziekenhuisvervoer-umcg-groningen",
+		title: "Ziekenhuisvervoer naar UMCG en Martini Ziekenhuis Groningen",
+		date: "2026-05-16",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Comfortabel vervoer naar het UMCG of Martini Ziekenhuis in Groningen. Voor afspraken, opname of bezoek. 24/7 beschikbaar.",
+		featuredImage: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Ziekenhuisvervoer UMCG Martini taxi patiënten ouderen Groningen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi umcg",
+			"ziekenhuisvervoer groningen",
+			"taxi martini ziekenhuis"
+		],
+		content: `
       <p>Een ziekenhuisafspraak, opname of bezoek aan een dierbare. Het laatste waar je dan op zit te wachten is parkeerzoekstress of een lange busrit. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <p><strong>⚠️ Let op:</strong> wij verzorgen géén medisch noodvervoer. Bij medische spoed altijd 112 bellen.</p>
@@ -434,20 +476,24 @@ export const blogPosts = [
       <p><strong>Helpen jullie met rolstoelen?</strong><br/>Voor reguliere klaprolstoelen ja.</p>
 
       <p>Meer info: <a href="https://www.zorgwijzer.nl/zorgwijzer/zittend-ziekenvervoer" target="_blank" rel="noopener noreferrer">Zorgwijzer.nl</a>.</p>
-    `,
-  },
-  {
-    slug: 'verschil-straattaxi-vooraf-geboekte-taxi',
-    title: 'Verschil tussen straattaxi en vooraf geboekte taxi',
-    date: '2026-05-17',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Wat is het verschil tussen een straattaxi en een vooraf geboekte taxi? En welke is voor jou het voordeligst?',
-    featuredImage: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Straattaxi versus vooraf geboekte taxi verschil prijzen',
-    author: 'Team TaxiAmro',
-    keywords: ['straattaxi', 'taxi boeken', 'verschil taxi'],
-    content: `
+    `
+	},
+	{
+		slug: "verschil-straattaxi-vooraf-geboekte-taxi",
+		title: "Verschil tussen straattaxi en vooraf geboekte taxi",
+		date: "2026-05-17",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Wat is het verschil tussen een straattaxi en een vooraf geboekte taxi? En welke is voor jou het voordeligst?",
+		featuredImage: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Straattaxi versus vooraf geboekte taxi verschil prijzen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"straattaxi",
+			"taxi boeken",
+			"verschil taxi"
+		],
+		content: `
       <p>Je kunt op twee manieren een taxi nemen: ergens onderweg er een aanhouden (<strong>straattaxi</strong>) of er <strong>vooraf één bestellen</strong>. Bij twijfel? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Wat is een straattaxi?</h2>
@@ -483,20 +529,24 @@ export const blogPosts = [
       <p>TaxiAmro biedt <strong>beide opties</strong>. Voor luchthavenritten adviseren wij <strong>altijd</strong> vooraf boeken. Geen risico, vaste prijs, gegarandeerd op tijd.</p>
 
       <p>Meer info: <a href="https://www.rijksoverheid.nl/onderwerpen/taxi" target="_blank" rel="noopener noreferrer">Rijksoverheid Taxi</a>.</p>
-    `,
-  },
-  {
-    slug: 'oudjaarsavond-carbid-vervoer-veilig-thuis',
-    title: 'Oudjaarsavond en carbid: veilig vervoer met de taxi',
-    date: '2026-05-18',
-    category: 'Tips',
-    readTime: '3 min',
-    excerpt: 'Oud en nieuw vieren met carbid of bij vrienden? Boek op tijd je taxi. TaxiAmro rijdt ook op 31 december en 1 januari.',
-    featuredImage: 'https://images.unsplash.com/photo-1546874177-9e664107314e?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Oudjaarsavond carbid taxi veilig vervoer Drenthe Groningen',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi oud en nieuw', 'carbid vervoer', 'taxi oudjaarsavond'],
-    content: `
+    `
+	},
+	{
+		slug: "oudjaarsavond-carbid-vervoer-veilig-thuis",
+		title: "Oudjaarsavond en carbid: veilig vervoer met de taxi",
+		date: "2026-05-18",
+		category: "Tips",
+		readTime: "3 min",
+		excerpt: "Oud en nieuw vieren met carbid of bij vrienden? Boek op tijd je taxi. TaxiAmro rijdt ook op 31 december en 1 januari.",
+		featuredImage: "https://images.unsplash.com/photo-1546874177-9e664107314e?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Oudjaarsavond carbid taxi veilig vervoer Drenthe Groningen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi oud en nieuw",
+			"carbid vervoer",
+			"taxi oudjaarsavond"
+		],
+		content: `
       <p>Oud en nieuw is de drukste taxi-avond van het jaar. Boek <strong>ruim op tijd</strong> je taxi. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Waarom op tijd boeken?</h2>
@@ -516,20 +566,25 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Mogen we vuurwerk meenemen?</strong><br/>Nee, in verband met veiligheid.</p>
       <p><strong>Hoe laat rijden jullie tijdens nieuwjaar?</strong><br/>24/7 ook tijdens oud en nieuw.</p>
-    `,
-  },
-  {
-    slug: 'taxi-concert-ahoy-ziggo-dome-festival',
-    title: 'Taxi naar concerten: Ziggo Dome, Ahoy en festivals',
-    date: '2026-05-19',
-    category: 'Evenementen',
-    readTime: '4 min',
-    excerpt: 'Ga je naar een concert in Ziggo Dome, Ahoy of een festival? Boek een taxi voor stressvrij vervoer heen en terug.',
-    featuredImage: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Concert taxi Ziggo Dome Ahoy festival vervoer',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi concert', 'taxi ziggo dome', 'taxi ahoy', 'festival vervoer'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-concert-ahoy-ziggo-dome-festival",
+		title: "Taxi naar concerten: Ziggo Dome, Ahoy en festivals",
+		date: "2026-05-19",
+		category: "Evenementen",
+		readTime: "4 min",
+		excerpt: "Ga je naar een concert in Ziggo Dome, Ahoy of een festival? Boek een taxi voor stressvrij vervoer heen en terug.",
+		featuredImage: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Concert taxi Ziggo Dome Ahoy festival vervoer",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi concert",
+			"taxi ziggo dome",
+			"taxi ahoy",
+			"festival vervoer"
+		],
+		content: `
       <p>Een avondje genieten van je favoriete artiest in Ziggo Dome, Ahoy of een festival? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Waarom een taxi naar het concert?</h2>
@@ -556,20 +611,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Kunnen jullie wachten tijdens het concert?</strong><br/>Voor lange optredens halen wij meestal op na afloop.</p>
       <p><strong>Kunnen wij ophalen na een festival?</strong><br/>Ja, geef exacte ophaallocatie en tijd door.</p>
-    `,
-  },
-  {
-    slug: 'bremen-airport-vs-schiphol-noord-nederland',
-    title: 'Bremen Airport of Schiphol? Welke is sneller vanuit Noord-Nederland?',
-    date: '2026-05-20',
-    category: 'Luchthaven',
-    readTime: '5 min',
-    excerpt: 'Bremen Airport is dichterbij vanuit Groningen dan Schiphol. Is een vlucht via Bremen sneller en goedkoper? Wij vergelijken.',
-    featuredImage: 'https://images.unsplash.com/photo-1583416750470-09c2c5c4d6a3?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Bremen Airport versus Schiphol luchthaven vanuit Groningen',
-    author: 'Team TaxiAmro',
-    keywords: ['bremen airport vanuit groningen', 'schiphol of bremen', 'taxi bremen luchthaven'],
-    content: `
+    `
+	},
+	{
+		slug: "bremen-airport-vs-schiphol-noord-nederland",
+		title: "Bremen Airport of Schiphol? Welke is sneller vanuit Noord-Nederland?",
+		date: "2026-05-20",
+		category: "Luchthaven",
+		readTime: "5 min",
+		excerpt: "Bremen Airport is dichterbij vanuit Groningen dan Schiphol. Is een vlucht via Bremen sneller en goedkoper? Wij vergelijken.",
+		featuredImage: "https://images.unsplash.com/photo-1583416750470-09c2c5c4d6a3?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Bremen Airport versus Schiphol luchthaven vanuit Groningen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"bremen airport vanuit groningen",
+			"schiphol of bremen",
+			"taxi bremen luchthaven"
+		],
+		content: `
       <p>Vlieg je internationaal vanuit Noord-Nederland? Schiphol ligt 200 km zuidwest. Bremen Airport ligt slechts 175 km oostwaarts. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor vervoer naar beide.</p>
 
       <h2>Reistijd vergelijking vanuit Groningen</h2>
@@ -601,20 +660,24 @@ export const blogPosts = [
       <p><strong>Heb ik een paspoort nodig?</strong><br/>Schengen-gebied = geen vaste controle. Wel altijd ID meenemen.</p>
 
       <p>Meer info: <a href="https://www.bremen-airport.com/" target="_blank" rel="noopener noreferrer">Bremen Airport</a>.</p>
-    `,
-  },
-  {
-    slug: 'eemshaven-cruise-terminal-gids-passagiers',
-    title: 'Eemshaven Cruise Terminal: volledige gids voor passagiers',
-    date: '2026-05-21',
-    category: 'Eemshaven',
-    readTime: '5 min',
-    excerpt: 'Alles wat je moet weten over de cruise terminal in Eemshaven: aankomst, faciliteiten, parkeren en het regelen van vervoer.',
-    featuredImage: 'https://images.unsplash.com/photo-1548574505-5e239809ee19?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Eemshaven cruise terminal AIDA schip vakantie',
-    author: 'Team TaxiAmro',
-    keywords: ['eemshaven cruise terminal', 'cruise vanuit eemshaven', 'aida eemshaven'],
-    content: `
+    `
+	},
+	{
+		slug: "eemshaven-cruise-terminal-gids-passagiers",
+		title: "Eemshaven Cruise Terminal: volledige gids voor passagiers",
+		date: "2026-05-21",
+		category: "Eemshaven",
+		readTime: "5 min",
+		excerpt: "Alles wat je moet weten over de cruise terminal in Eemshaven: aankomst, faciliteiten, parkeren en het regelen van vervoer.",
+		featuredImage: "https://images.unsplash.com/photo-1548574505-5e239809ee19?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Eemshaven cruise terminal AIDA schip vakantie",
+		author: "Team TaxiAmro",
+		keywords: [
+			"eemshaven cruise terminal",
+			"cruise vanuit eemshaven",
+			"aida eemshaven"
+		],
+		content: `
       <p>Eemshaven is in opkomst als cruise-haven in Noord-Nederland. Plan je een cruise vanuit Eemshaven? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Waar ligt de cruise terminal?</h2>
@@ -648,20 +711,24 @@ export const blogPosts = [
       <p><strong>Wat als de cruise vertraagd is?</strong><br/>Bij retour: geef ons je verwachte tijd, wij passen aan.</p>
 
       <p>Meer info: <a href="https://www.groningen-seaports.com/" target="_blank" rel="noopener noreferrer">Groningen Seaports</a>.</p>
-    `,
-  },
-  {
-    slug: 'zakelijk-vervoer-mkb-bedrijven-groningen',
-    title: 'Zakelijk vervoer voor MKB-bedrijven in Groningen',
-    date: '2026-05-22',
-    category: 'Zakelijk',
-    readTime: '4 min',
-    excerpt: 'Heeft jouw bedrijf vaste taxi-behoefte? Zakelijk vervoer met facturering op rekening, vaste tarieven en betrouwbare service.',
-    featuredImage: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Zakelijk vervoer MKB bedrijven Groningen directie chauffeur',
-    author: 'Team TaxiAmro',
-    keywords: ['zakelijk vervoer groningen', 'taxi bedrijf factuur', 'directiechauffeur groningen'],
-    content: `
+    `
+	},
+	{
+		slug: "zakelijk-vervoer-mkb-bedrijven-groningen",
+		title: "Zakelijk vervoer voor MKB-bedrijven in Groningen",
+		date: "2026-05-22",
+		category: "Zakelijk",
+		readTime: "4 min",
+		excerpt: "Heeft jouw bedrijf vaste taxi-behoefte? Zakelijk vervoer met facturering op rekening, vaste tarieven en betrouwbare service.",
+		featuredImage: "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Zakelijk vervoer MKB bedrijven Groningen directie chauffeur",
+		author: "Team TaxiAmro",
+		keywords: [
+			"zakelijk vervoer groningen",
+			"taxi bedrijf factuur",
+			"directiechauffeur groningen"
+		],
+		content: `
       <p>Heeft jouw bedrijf vaste taxi-behoefte? Met <strong>facturering op rekening</strong>, <strong>vaste tarieven</strong> en <strong>24/7 beschikbaarheid</strong>. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Voor wie?</h2>
@@ -695,20 +762,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Is er een minimumafname?</strong><br/>Nee, ook bij sporadisch zakelijk vervoer ben je welkom.</p>
       <p><strong>Wat zijn de betalingsvoorwaarden?</strong><br/>Standaard 14 dagen na factuurdatum.</p>
-    `,
-  },
-  {
-    slug: 'koningsdag-groningen-vervoer-feestvieren',
-    title: 'Koningsdag in Groningen: vervoer naar de festiviteiten',
-    date: '2026-05-23',
-    category: 'Evenementen',
-    readTime: '3 min',
-    excerpt: 'Vier Koningsdag stressvrij in Groningen. Met TaxiAmro bereik je makkelijk de Grote Markt, Vismarkt en alle vrijmarkten.',
-    featuredImage: 'https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Koningsdag Groningen vervoer oranje feest vrijmarkt',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi koningsdag groningen', 'koningsdag vervoer', '27 april taxi'],
-    content: `
+    `
+	},
+	{
+		slug: "koningsdag-groningen-vervoer-feestvieren",
+		title: "Koningsdag in Groningen: vervoer naar de festiviteiten",
+		date: "2026-05-23",
+		category: "Evenementen",
+		readTime: "3 min",
+		excerpt: "Vier Koningsdag stressvrij in Groningen. Met TaxiAmro bereik je makkelijk de Grote Markt, Vismarkt en alle vrijmarkten.",
+		featuredImage: "https://images.unsplash.com/photo-1601758174114-e711c0cbaa69?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Koningsdag Groningen vervoer oranje feest vrijmarkt",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi koningsdag groningen",
+			"koningsdag vervoer",
+			"27 april taxi"
+		],
+		content: `
       <p>Koningsdag is een van de drukste dagen in Groningen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor stressvrij Koningsdag-vervoer.</p>
 
       <h2>Waarom een taxi op Koningsdag?</h2>
@@ -736,20 +807,24 @@ export const blogPosts = [
 
       <h2>FAQ</h2>
       <p><strong>Tot hoe laat rijden jullie?</strong><br/>24 uur, ook op Koningsdag.</p>
-    `,
-  },
-  {
-    slug: 'top-10-bezienswaardigheden-groningen-taxi',
-    title: 'Top 10 bezienswaardigheden in Groningen — gemakkelijk per taxi',
-    date: '2026-05-24',
-    category: 'Tips',
-    readTime: '6 min',
-    excerpt: 'Ontdek de mooiste plekken van Groningen zonder zorgen over parkeren of OV. Onze top 10 met taxi-tips.',
-    featuredImage: 'https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Bezienswaardigheden Groningen Martinitoren toerisme stad',
-    author: 'Team TaxiAmro',
-    keywords: ['bezienswaardigheden groningen', 'dagje groningen', 'wat te doen in groningen'],
-    content: `
+    `
+	},
+	{
+		slug: "top-10-bezienswaardigheden-groningen-taxi",
+		title: "Top 10 bezienswaardigheden in Groningen — gemakkelijk per taxi",
+		date: "2026-05-24",
+		category: "Tips",
+		readTime: "6 min",
+		excerpt: "Ontdek de mooiste plekken van Groningen zonder zorgen over parkeren of OV. Onze top 10 met taxi-tips.",
+		featuredImage: "https://images.unsplash.com/photo-1576487248805-cf45f6bcc67f?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Bezienswaardigheden Groningen Martinitoren toerisme stad",
+		author: "Team TaxiAmro",
+		keywords: [
+			"bezienswaardigheden groningen",
+			"dagje groningen",
+			"wat te doen in groningen"
+		],
+		content: `
       <p>Groningen is een van de leukste steden van Nederland. Voor comfortabel vervoer bel je <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>1. Martinitoren</h2>
@@ -789,20 +864,24 @@ export const blogPosts = [
       <p><strong>Spreken jullie Engels of Duits voor toeristen?</strong><br/>Onze chauffeur spreekt voldoende Engels en Duits.</p>
 
       <p>Meer info: <a href="https://www.tourisminformation.nl/groningen" target="_blank" rel="noopener noreferrer">VVV Groningen</a>.</p>
-    `,
-  },
-  {
-    slug: 'wintervervoer-taxi-gladheid-veilig',
-    title: 'Wintervervoer: veilig op de weg bij sneeuw en gladheid',
-    date: '2026-05-25',
-    category: 'Tips',
-    readTime: '3 min',
-    excerpt: 'Bij sneeuw en gladheid is rijden risicovol. Laat het over aan onze ervaren chauffeurs. Veilig en op tijd.',
-    featuredImage: 'https://images.unsplash.com/photo-1457269449834-928af64c684d?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Wintervervoer taxi gladheid sneeuw veilig rijden',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi winter gladheid', 'taxi sneeuw', 'veilig wintervervoer'],
-    content: `
+    `
+	},
+	{
+		slug: "wintervervoer-taxi-gladheid-veilig",
+		title: "Wintervervoer: veilig op de weg bij sneeuw en gladheid",
+		date: "2026-05-25",
+		category: "Tips",
+		readTime: "3 min",
+		excerpt: "Bij sneeuw en gladheid is rijden risicovol. Laat het over aan onze ervaren chauffeurs. Veilig en op tijd.",
+		featuredImage: "https://images.unsplash.com/photo-1457269449834-928af64c684d?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Wintervervoer taxi gladheid sneeuw veilig rijden",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi winter gladheid",
+			"taxi sneeuw",
+			"veilig wintervervoer"
+		],
+		content: `
       <p>Bij winterweer wil je geen risico nemen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor veilig wintervervoer.</p>
 
       <h2>Waarom een taxi in winterse omstandigheden?</h2>
@@ -832,20 +911,24 @@ export const blogPosts = [
       <p><strong>Hebben jullie winterbanden?</strong><br/>Ja, vanaf 1 oktober tot 30 april standaard.</p>
 
       <p>Actueel weeralarm: <a href="https://www.knmi.nl/" target="_blank" rel="noopener noreferrer">KNMI.nl</a>.</p>
-    `,
-  },
-  {
-    slug: 'kerstmis-sinterklaas-familie-vervoer',
-    title: 'Kerst en Sinterklaas: vroeg boeken voor familievisites',
-    date: '2026-05-26',
-    category: 'Evenementen',
-    readTime: '3 min',
-    excerpt: 'Familievisite met kerst of pakjesavond? Boek je taxi tijdig — de feestdagen zijn de drukste taxi-avonden van het jaar.',
-    featuredImage: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Kerst Sinterklaas familie taxi vervoer feestdagen',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi kerst', 'taxi sinterklaas', 'feestdagen vervoer'],
-    content: `
+    `
+	},
+	{
+		slug: "kerstmis-sinterklaas-familie-vervoer",
+		title: "Kerst en Sinterklaas: vroeg boeken voor familievisites",
+		date: "2026-05-26",
+		category: "Evenementen",
+		readTime: "3 min",
+		excerpt: "Familievisite met kerst of pakjesavond? Boek je taxi tijdig — de feestdagen zijn de drukste taxi-avonden van het jaar.",
+		featuredImage: "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Kerst Sinterklaas familie taxi vervoer feestdagen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi kerst",
+			"taxi sinterklaas",
+			"feestdagen vervoer"
+		],
+		content: `
       <p>De feestdagen zijn voor familie. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en boek vroegtijdig.</p>
 
       <h2>Drukste taxi-avonden van het jaar</h2>
@@ -870,20 +953,24 @@ export const blogPosts = [
 
       <h2>FAQ</h2>
       <p><strong>Mogen cadeaus mee?</strong><br/>Vanzelfsprekend — ruimte voor bagage.</p>
-    `,
-  },
-  {
-    slug: 'taxi-senioren-ouderen-comfortabel-vervoer',
-    title: 'Taxi voor senioren: comfortabel vervoer voor ouderen',
-    date: '2026-05-27',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Vervoer voor ouderen die niet meer zelf rijden. Geduldig, hulpvaardig en betrouwbaar.',
-    featuredImage: 'https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Senioren ouderen taxi vervoer hulp ziekenhuis familie',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi senioren', 'vervoer ouderen', 'taxi met begeleiding'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-senioren-ouderen-comfortabel-vervoer",
+		title: "Taxi voor senioren: comfortabel vervoer voor ouderen",
+		date: "2026-05-27",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Vervoer voor ouderen die niet meer zelf rijden. Geduldig, hulpvaardig en betrouwbaar.",
+		featuredImage: "https://images.unsplash.com/photo-1559563362-c667ba5f5480?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Senioren ouderen taxi vervoer hulp ziekenhuis familie",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi senioren",
+			"vervoer ouderen",
+			"taxi met begeleiding"
+		],
+		content: `
       <p>TaxiAmro biedt geduldig, comfortabel vervoer voor ouderen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Wat maakt onze service geschikt voor senioren?</h2>
@@ -916,20 +1003,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Mag een verzorger gratis mee?</strong><br/>Ja, een begeleider reist gratis mee.</p>
       <p><strong>Hoe gaat het bij dementie?</strong><br/>Wij hebben ervaring — rustige aanpak, contact met familie.</p>
-    `,
-  },
-  {
-    slug: 'uber-vs-lokale-taxi-groningen-vergelijking',
-    title: 'Uber vs lokale taxi: wat zijn de échte verschillen?',
-    date: '2026-05-28',
-    category: 'Tips',
-    readTime: '5 min',
-    excerpt: 'Boek je Uber of lokale taxi in Groningen? Eerlijke vergelijking op prijs, beschikbaarheid en service.',
-    featuredImage: 'https://images.unsplash.com/photo-1493238792000-8113da705763?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Uber versus lokale taxi Groningen vergelijking prijzen',
-    author: 'Team TaxiAmro',
-    keywords: ['uber groningen', 'taxi vs uber', 'lokale taxi voordelen'],
-    content: `
+    `
+	},
+	{
+		slug: "uber-vs-lokale-taxi-groningen-vergelijking",
+		title: "Uber vs lokale taxi: wat zijn de échte verschillen?",
+		date: "2026-05-28",
+		category: "Tips",
+		readTime: "5 min",
+		excerpt: "Boek je Uber of lokale taxi in Groningen? Eerlijke vergelijking op prijs, beschikbaarheid en service.",
+		featuredImage: "https://images.unsplash.com/photo-1493238792000-8113da705763?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Uber versus lokale taxi Groningen vergelijking prijzen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"uber groningen",
+			"taxi vs uber",
+			"lokale taxi voordelen"
+		],
+		content: `
       <p>In Noord-Nederland heeft Uber beperkte aanwezigheid en domineren lokale taxi-bedrijven. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Wanneer is Uber handig?</h2>
@@ -961,20 +1052,24 @@ export const blogPosts = [
 
       <h2>FAQ</h2>
       <p><strong>Wat als Uber niet komt?</strong><br/>Bel ons direct — wij hebben meestal binnen 15-30 min een auto.</p>
-    `,
-  },
-  {
-    slug: 'lauwersoog-schiermonnikoog-eilanden-vervoer',
-    title: 'Vervoer naar de Waddeneilanden: Lauwersoog, Holwerd en meer',
-    date: '2026-05-29',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Op de boot naar Schiermonnikoog, Ameland of Terschelling? Wij brengen je naar de juiste veerhaven.',
-    featuredImage: 'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Waddeneilanden Lauwersoog veerboot Schiermonnikoog Ameland',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi lauwersoog', 'vervoer waddeneilanden', 'taxi schiermonnikoog boot'],
-    content: `
+    `
+	},
+	{
+		slug: "lauwersoog-schiermonnikoog-eilanden-vervoer",
+		title: "Vervoer naar de Waddeneilanden: Lauwersoog, Holwerd en meer",
+		date: "2026-05-29",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Op de boot naar Schiermonnikoog, Ameland of Terschelling? Wij brengen je naar de juiste veerhaven.",
+		featuredImage: "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Waddeneilanden Lauwersoog veerboot Schiermonnikoog Ameland",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi lauwersoog",
+			"vervoer waddeneilanden",
+			"taxi schiermonnikoog boot"
+		],
+		content: `
       <p>Plan je een uitstapje naar <strong>Schiermonnikoog</strong>, <strong>Ameland</strong>, <strong>Terschelling</strong>? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Veerverbindingen vanuit Noord-Nederland</h2>
@@ -1002,20 +1097,24 @@ export const blogPosts = [
       <p><strong>Hond mag mee?</strong><br/>Op de boot vaak ja, in onze taxi ook (zie voorwaarden).</p>
 
       <p>Veerverbindingen: <a href="https://www.wpd.nl/" target="_blank" rel="noopener noreferrer">Wagenborg</a> | <a href="https://www.rederij-doeksen.nl/" target="_blank" rel="noopener noreferrer">Doeksen</a>.</p>
-    `,
-  },
-  {
-    slug: 'eurosonic-noorderslag-festival-groningen-vervoer',
-    title: 'Eurosonic Noorderslag: vervoer tijdens het festival',
-    date: '2026-05-30',
-    category: 'Evenementen',
-    readTime: '3 min',
-    excerpt: 'Bezoek je Eurosonic Noorderslag in Groningen? Boek vooraf je taxi voor pendel tussen venues.',
-    featuredImage: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Eurosonic Noorderslag festival Groningen taxi vervoer',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi eurosonic', 'eurosonic noorderslag vervoer', 'festival groningen taxi'],
-    content: `
+    `
+	},
+	{
+		slug: "eurosonic-noorderslag-festival-groningen-vervoer",
+		title: "Eurosonic Noorderslag: vervoer tijdens het festival",
+		date: "2026-05-30",
+		category: "Evenementen",
+		readTime: "3 min",
+		excerpt: "Bezoek je Eurosonic Noorderslag in Groningen? Boek vooraf je taxi voor pendel tussen venues.",
+		featuredImage: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Eurosonic Noorderslag festival Groningen taxi vervoer",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi eurosonic",
+			"eurosonic noorderslag vervoer",
+			"festival groningen taxi"
+		],
+		content: `
       <p>Eurosonic Noorderslag is hét muziekfestival van Noord-Nederland — 4 dagen, 350+ optredens. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Wat is Eurosonic?</h2>
@@ -1041,20 +1140,24 @@ export const blogPosts = [
       <p><strong>Kan ik per nacht een vast aantal ritten boeken?</strong><br/>Ja, vraag een ESNS-arrangement aan met vaste prijs per dag.</p>
 
       <p>Programma: <a href="https://esns.nl/" target="_blank" rel="noopener noreferrer">esns.nl</a>.</p>
-    `,
-  },
-  {
-    slug: 'taxi-hotel-zakenreizigers-groningen',
-    title: 'Taxi voor zakenreizigers: van hotel naar afspraak in Groningen',
-    date: '2026-05-31',
-    category: 'Zakelijk',
-    readTime: '3 min',
-    excerpt: 'Op zakenreis in Groningen? Wij verzorgen comfortabel vervoer tussen hotel, afspraken en luchthaven.',
-    featuredImage: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Zakenreizigers hotel taxi Groningen business vervoer',
-    author: 'Team TaxiAmro',
-    keywords: ['taxi hotel groningen', 'zakenreiziger taxi', 'business taxi groningen'],
-    content: `
+    `
+	},
+	{
+		slug: "taxi-hotel-zakenreizigers-groningen",
+		title: "Taxi voor zakenreizigers: van hotel naar afspraak in Groningen",
+		date: "2026-05-31",
+		category: "Zakelijk",
+		readTime: "3 min",
+		excerpt: "Op zakenreis in Groningen? Wij verzorgen comfortabel vervoer tussen hotel, afspraken en luchthaven.",
+		featuredImage: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Zakenreizigers hotel taxi Groningen business vervoer",
+		author: "Team TaxiAmro",
+		keywords: [
+			"taxi hotel groningen",
+			"zakenreiziger taxi",
+			"business taxi groningen"
+		],
+		content: `
       <p>Op zakenreis in Groningen? Geen tijd voor parkeerzoekstress. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>Service voor zakenreizigers</h2>
@@ -1086,20 +1189,24 @@ export const blogPosts = [
       <h2>FAQ</h2>
       <p><strong>Kunnen jullie een Engels-sprekende klant ophalen?</strong><br/>Ja, onze chauffeur spreekt voldoende Engels.</p>
       <p><strong>Werkt jullie service ook in het weekend?</strong><br/>Ja, 24/7.</p>
-    `,
-  },
-  {
-    slug: 'betrouwbare-taxi-kiezen-5-tips',
-    title: 'Een betrouwbare taxi kiezen: 5 dingen om op te letten',
-    date: '2026-06-01',
-    category: 'Tips',
-    readTime: '4 min',
-    excerpt: 'Waar herken je een betrouwbaar taxibedrijf aan? Onze 5 tips om gedoe en teleurstelling te voorkomen.',
-    featuredImage: 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1200&q=80&fit=crop',
-    featuredImageAlt: 'Betrouwbare taxi kiezen tips kwaliteit service vertrouwen',
-    author: 'Team TaxiAmro',
-    keywords: ['betrouwbare taxi', 'taxi kiezen', 'goede taxi groningen'],
-    content: `
+    `
+	},
+	{
+		slug: "betrouwbare-taxi-kiezen-5-tips",
+		title: "Een betrouwbare taxi kiezen: 5 dingen om op te letten",
+		date: "2026-06-01",
+		category: "Tips",
+		readTime: "4 min",
+		excerpt: "Waar herken je een betrouwbaar taxibedrijf aan? Onze 5 tips om gedoe en teleurstelling te voorkomen.",
+		featuredImage: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1200&q=80&fit=crop",
+		featuredImageAlt: "Betrouwbare taxi kiezen tips kwaliteit service vertrouwen",
+		author: "Team TaxiAmro",
+		keywords: [
+			"betrouwbare taxi",
+			"taxi kiezen",
+			"goede taxi groningen"
+		],
+		content: `
       <p>Niet alle taxibedrijven zijn gelijk. Onze 5 tips — en hoe TaxiAmro daaraan voldoet. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
       <h2>1. Vraag naar de vergunning</h2>
@@ -1138,8 +1245,33 @@ export const blogPosts = [
       </ul>
 
       <p>Meer info: <a href="https://www.rijksoverheid.nl/onderwerpen/taxi" target="_blank" rel="noopener noreferrer">Rijksoverheid Taxi</a>.</p>
-    `,
-  },
-]
-
-export const categories = ['Alle', 'Luchthaven', 'Eemshaven', 'Zakelijk', 'Duitsland', 'Tips', 'Prijzen']
+    `
+	}
+];
+var categories = [
+	"Alle",
+	"Luchthaven",
+	"Eemshaven",
+	"Zakelijk",
+	"Duitsland",
+	"Tips",
+	"Prijzen"
+];
+var createRoot = ViteReactSSG({ routes: [
+	{
+		path: "/",
+		lazy: () => import("./assets/App-CYFvUSRL.js").then((m) => ({ Component: m.HomePage }))
+	},
+	{
+		path: "/blog",
+		lazy: () => import("./assets/BlogPage-D6rTKvk-.js").then((m) => ({ Component: m.default }))
+	},
+	...blogPosts.map((post) => ({
+		path: `/blog/${post.slug}`,
+		lazy: () => import("./assets/BlogPostPage-B_hoyrWi.js").then((m) => ({ Component: m.default }))
+	}))
+] }, ({ app }) => {
+	return /* @__PURE__ */ jsx(HelmetProvider, { children: app });
+});
+//#endregion
+export { createRoot, categories as n, blogPosts as t };
