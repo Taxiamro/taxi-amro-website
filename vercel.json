@@ -1,7 +1,7 @@
 {
-  "installCommand": "npm install --prefix taxi-amro --legacy-peer-deps",
-  "buildCommand": "cd taxi-amro && npm run build",
-  "outputDirectory": "taxi-amro/dist",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
