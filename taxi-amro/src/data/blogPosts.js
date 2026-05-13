@@ -345,7 +345,7 @@ export const blogPosts = [
     category: 'Evenementen',
     readTime: '4 min',
     excerpt: 'Plan jij een bruiloft of feest? Wij verzorgen taxivervoer voor jou en je gasten naar elke locatie. Vraag een offerte aan.',
-    featuredImage: '/groepsvervoer.png',
+    featuredImage: '/bruiloft.png',
     featuredImageAlt: 'Bruiloft taxi trouwauto vervoer Groningen feest evenement',
     author: 'Team TaxiAmro',
     keywords: ['taxi bruiloft', 'trouwauto groningen', 'evenementen vervoer'],
