@@ -5,5 +5,7 @@
   "startupCommands": [
     "cd taxi-amro; npm install; npm run dev"
   ],
-  "templateId": "auto"
+  "templateId": "auto",
+  "vercelProjectId": "prj_5t4j4OlywdmJGRwJAxrAzFEUvrnH",
+  "deployedWithUserToken": false
 }
