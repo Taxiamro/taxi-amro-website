@@ -142,8 +142,8 @@ export const blogPosts = [
     category: 'Luchthaven',
     readTime: '4 min',
     excerpt: 'Vlieg je vroeg vanaf Groningen Airport Eelde? Lees onze tips voor stressvrij vervoer en boek direct je taxi.',
-    featuredImage: '/schiphol.png',
-    featuredImageAlt: 'Groningen Airport Eelde vroege ochtendvlucht taxi',
+    featuredImage: '/eelde-airport.png',
+    featuredImageAlt: 'Groningen Airport Eelde ingang terminal vroege ochtendvlucht taxi',
     author: 'Team TaxiAmro',
     keywords: ['taxi eelde airport', 'groningen airport taxi', 'vroege vlucht eelde'],
     content: `
