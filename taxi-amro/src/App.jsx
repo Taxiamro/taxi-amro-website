@@ -15,6 +15,7 @@ import FloatingWhatsApp from './components/FloatingWhatsApp'
 import CookieBanner from './components/CookieBanner'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
+import NotFound from './pages/NotFound'
 
 function useScrollReveal() {
   useEffect(() => {
@@ -66,6 +67,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )
