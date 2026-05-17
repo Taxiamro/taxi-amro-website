@@ -311,10 +311,14 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-400">
-        <span className="text-xs uppercase tracking-widest">Scroll</span>
-        <div className="w-0.5 h-7 bg-gradient-to-b from-gray-300 to-transparent" />
+      {/* Calculator CTA */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2">
+        <button
+          onClick={() => document.getElementById('tarief-berekenaar')?.scrollIntoView({ behavior: 'smooth' })}
+          className="bg-green-700 hover:bg-green-600 text-white font-semibold px-5 py-2.5 rounded-full text-sm shadow-lg transition-all hover:scale-[1.03] whitespace-nowrap"
+        >
+          Bereken hier je ritprijs
+        </button>
       </div>
     </section>
   )

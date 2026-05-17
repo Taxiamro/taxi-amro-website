@@ -1,23 +1,11 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 
-const START_RATE = 4.15
-const PER_KM = 3.05
-const PER_MIN = 0.50
+const PRICING = {
+  startTarief: 7.50,
+  prijsPerKm: 2.35,
+  minimumPrijs: 15.00,
+}
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
-
-function getDiscount(km) {
-  if (km > 100) return 0.30
-  if (km > 50) return 0.20
-  if (km > 18) return 0.15
-  return 0
-}
-
-function discountLabel(d) {
-  if (d === 0.30) return '30% korting (>100 km)'
-  if (d === 0.20) return '20% korting (>50 km)'
-  if (d === 0.15) return '15% korting (>18 km)'
-  return null
-}
 
 function loadGoogleMaps() {
   return new Promise((resolve, reject) => {
@@ -130,20 +118,16 @@ export default function PriceCalculator() {
         },
         (res, status) => {
           setLoading(false)
-          if (status !== 'OK') return setError('Kon de route niet berekenen.')
+          if (status !== 'OK') return setError('Kon afstand niet berekenen. Bel +31 6 33721505.')
           const el = res.rows[0]?.elements[0]
-          if (el?.status !== 'OK') return setError('Geen route gevonden tussen deze adressen.')
+          if (el?.status !== 'OK') return setError('Kon afstand niet berekenen. Bel +31 6 33721505.')
           const km = el.distance.value / 1000
-          const min = el.duration.value / 60
-          const basePrice = START_RATE + km * PER_KM + min * PER_MIN
-          const discount = getDiscount(km)
-          const finalPrice = basePrice * (1 - discount)
+          const ruwePrijs = PRICING.startTarief + (km * PRICING.prijsPerKm)
+          const totalePrijs = Math.max(PRICING.minimumPrijs, ruwePrijs)
+          const eindPrijs = Math.round(totalePrijs)
           setResult({
             km: km.toFixed(1),
-            min: Math.round(min),
-            basePrice: basePrice.toFixed(2),
-            discount,
-            price: finalPrice.toFixed(2),
+            price: eindPrijs,
             distText: el.distance.text,
             durText: el.duration.text,
             origin: res.originAddresses[0],
@@ -169,13 +153,13 @@ export default function PriceCalculator() {
   const handleWhatsApp = () => {
     if (!result) return
     const msg = encodeURIComponent(
-      `Hallo TaxiAmro,\n\nIk wil graag een rit boeken.\n\n📍 Van: ${result.origin}\n📍 Naar: ${result.dest}\n📏 Afstand: ${result.distText}\n⏱ Reistijd: ${result.durText}\n💶 Geschat: €${result.price}\n\nKan ik een vaste prijs aanvragen?`
+      `Hallo, ik wil graag een rit boeken:\nVan: ${result.origin}\nNaar: ${result.dest}\nGeschatte prijs: €${result.price}`
     )
     window.open(`https://wa.me/31633721505?text=${msg}`, '_blank')
   }
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-amber-50/50" id="calculator">
+    <section className="py-20 bg-gradient-to-br from-slate-50 via-white to-amber-50/50" id="tarief-berekenaar">
       <style>{`
         @keyframes spinOrb { from { transform: rotate(0deg) translateX(60px) rotate(0deg); } to { transform: rotate(360deg) translateX(60px) rotate(-360deg); } }
         @keyframes fadeSlideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
@@ -390,48 +374,12 @@ export default function PriceCalculator() {
                   <div className="absolute -top-8 -right-8 w-32 h-32 rounded-full bg-amber-400/10 blur-2xl" />
                   <div className="absolute -bottom-6 -left-6 w-24 h-24 rounded-full bg-yellow-500/10 blur-xl" />
                   <div className="relative z-10">
-                    <div className="flex items-center justify-between mb-1">
-                      <div className="text-gray-400 text-xs uppercase tracking-wide">Geschatte ritprijs</div>
-                      {result.discount > 0 && (
-                        <div className="bg-green-500 text-white text-xs font-bold px-2 py-0.5 rounded-full">
-                          -{Math.round(result.discount * 100)}% korting
-                        </div>
-                      )}
+                    <div className="text-gray-400 text-xs uppercase tracking-wide mb-1">Geschatte ritprijs</div>
+                    <div className="text-yellow-400 font-bold text-4xl mb-1">
+                      € {result.price}
                     </div>
-                    <div className="text-yellow-400 font-bold text-4xl mb-3">
-                      <AnimatedNumber value={result.price} />
-                    </div>
-                    {/* breakdown */}
-                    <div className="border-t border-gray-700 pt-3 space-y-1.5 text-xs text-gray-500 mb-2">
-                      <div className="flex justify-between">
-                        <span>Starttarief</span><span className="text-gray-400">€ {START_RATE.toFixed(2)}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>{result.km} km × €{PER_KM}</span>
-                        <span className="text-gray-400">€ {(parseFloat(result.km) * PER_KM).toFixed(2)}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span>{result.min} min × €{PER_MIN}</span>
-                        <span className="text-gray-400">€ {(result.min * PER_MIN).toFixed(2)}</span>
-                      </div>
-                      {result.discount > 0 && (
-                        <>
-                          <div className="flex justify-between text-gray-600">
-                            <span>Subtotaal</span>
-                            <span className="line-through">€ {result.basePrice}</span>
-                          </div>
-                          <div className="flex justify-between text-green-400 font-medium">
-                            <span>{discountLabel(result.discount)}</span>
-                            <span>-€ {(parseFloat(result.basePrice) - parseFloat(result.price)).toFixed(2)}</span>
-                          </div>
-                        </>
-                      )}
-                    </div>
-                    <div className="text-gray-700 text-xs mb-5 mt-1">
-                      {result.discount === 0
-                        ? '≤18 km — geen korting van toepassing'
-                        : `Kortingsregels: >18km −15% · >50km −20% · >100km −30%`}
-                    </div>
+                    <div className="text-gray-400 text-sm mb-1">Afstand: {result.km.replace('.', ',')} km</div>
+                    <div className="text-gray-600 text-xs mb-5">Indicatie. Definitieve prijs via WhatsApp.</div>
                     <button
                       onClick={handleWhatsApp}
                       className="w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3.5 rounded-xl transition-all hover:shadow-lg hover:shadow-yellow-400/30 active:scale-95 flex items-center justify-center gap-2 text-sm"
@@ -439,7 +387,7 @@ export default function PriceCalculator() {
                       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                       </svg>
-                      Boek via WhatsApp · €{result.price}
+                      Boek via WhatsApp
                     </button>
                   </div>
                 </div>

@@ -45,11 +45,11 @@ export function HomePage() {
     <div className="min-h-screen bg-white">
       <Navbar />
       <Hero />
+      <PriceCalculator />
       <Services />
       <WhyUs />
       <Fleet />
       <Pricing />
-      <PriceCalculator />
       <Testimonials />
       <FAQ />
       <Contact />
