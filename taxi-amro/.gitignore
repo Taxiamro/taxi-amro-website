@@ -32,3 +32,6 @@ dist-ssr
 
 # Vercel
 .vercel
+
+# SSG build temp (contains bundled API keys)
+.vite-react-ssg-temp
