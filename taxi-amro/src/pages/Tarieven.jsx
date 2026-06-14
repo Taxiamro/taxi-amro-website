@@ -3,20 +3,22 @@ import Seo from '../components/Seo'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
+import { useScrollRevealAll } from '../hooks/useScrollReveal'
+import { useScrollTilt } from '../hooks/useScrollTilt'
 
-const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20graag%20een%20vaste%20prijs%20weten%20voor%20mijn%20rit.'
+const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20graag%20een%20vaste%20prijs%20weten.'
 const TEL = '+31633721505'
 
 const tarieven = [
-  { id: 'schiphol',   rit: 'Groningen → Schiphol',              afstand: '~205 km', prijs: 'vanaf €275' },
-  { id: 'eelde',      rit: 'Groningen → Airport Eelde',          afstand: '~12 km',  prijs: 'vanaf €25'  },
-  { id: 'eemshaven',  rit: 'Groningen → Eemshaven',              afstand: '~35 km',  prijs: 'vanaf €65'  },
-  { id: 'leeuwarden', rit: 'Groningen → Leeuwarden',             afstand: '~60 km',  prijs: 'vanaf €95'  },
-  { id: 'assen',      rit: 'Groningen → Assen',                  afstand: '~30 km',  prijs: 'vanaf €55'  },
-  { id: 'drachten',   rit: 'Groningen → Drachten',               afstand: '~40 km',  prijs: 'vanaf €70'  },
-  { id: 'bremen',     rit: 'Groningen → Bremen Airport',         afstand: '~190 km', prijs: 'vanaf €295' },
-  { id: 'dusseldorf', rit: 'Groningen → Düsseldorf Airport',     afstand: '~290 km', prijs: 'vanaf €425' },
-  { id: 'stad',       rit: 'Stadsrit Groningen (binnen stad)',   afstand: 'tot 5 km', prijs: 'vanaf €15' },
+  { id: 'schiphol',   rit: 'Groningen → Schiphol',           afstand: '~205 km', prijs: '€275', icon: '✈️', accent: '#3b82f6', bg: 'linear-gradient(135deg,#eff6ff,#fff)', border: 'rgba(59,130,246,0.2)', glow: 'rgba(59,130,246,0.12)' },
+  { id: 'eelde',      rit: 'Groningen → Airport Eelde',       afstand: '~12 km',  prijs: '€25',  icon: '🛫', accent: '#8b5cf6', bg: 'linear-gradient(135deg,#f5f3ff,#fff)', border: 'rgba(139,92,246,0.2)',  glow: 'rgba(139,92,246,0.12)' },
+  { id: 'eemshaven',  rit: 'Groningen → Eemshaven',           afstand: '~35 km',  prijs: '€65',  icon: '🚢', accent: '#10b981', bg: 'linear-gradient(135deg,#ecfdf5,#fff)', border: 'rgba(16,185,129,0.2)',  glow: 'rgba(16,185,129,0.12)' },
+  { id: 'leeuwarden', rit: 'Groningen → Leeuwarden',          afstand: '~60 km',  prijs: '€95',  icon: '🏙️', accent: '#f59e0b', bg: 'linear-gradient(135deg,#fffbeb,#fff)', border: 'rgba(245,158,11,0.2)',  glow: 'rgba(245,158,11,0.12)' },
+  { id: 'assen',      rit: 'Groningen → Assen',               afstand: '~30 km',  prijs: '€55',  icon: '🗺️', accent: '#ef4444', bg: 'linear-gradient(135deg,#fef2f2,#fff)', border: 'rgba(239,68,68,0.2)',   glow: 'rgba(239,68,68,0.12)'  },
+  { id: 'drachten',   rit: 'Groningen → Drachten',            afstand: '~40 km',  prijs: '€70',  icon: '📍', accent: '#06b6d4', bg: 'linear-gradient(135deg,#ecfeff,#fff)', border: 'rgba(6,182,212,0.2)',   glow: 'rgba(6,182,212,0.12)'  },
+  { id: 'bremen',     rit: 'Groningen → Bremen Airport',      afstand: '~190 km', prijs: '€295', icon: '🇩🇪', accent: '#f97316', bg: 'linear-gradient(135deg,#fff7ed,#fff)', border: 'rgba(249,115,22,0.2)',  glow: 'rgba(249,115,22,0.12)' },
+  { id: 'dusseldorf', rit: 'Groningen → Düsseldorf Airport',  afstand: '~290 km', prijs: '€425', icon: '🌍', accent: '#ec4899', bg: 'linear-gradient(135deg,#fdf2f8,#fff)', border: 'rgba(236,72,153,0.2)',  glow: 'rgba(236,72,153,0.12)' },
+  { id: 'stad',       rit: 'Stadsrit Groningen',              afstand: 'tot 5 km',prijs: '€15',  icon: '🏘️', accent: '#64748b', bg: 'linear-gradient(135deg,#f8fafc,#fff)', border: 'rgba(100,116,139,0.2)', glow: 'rgba(100,116,139,0.12)' },
 ]
 
 const schema = {
@@ -36,57 +38,61 @@ const schema = {
     name: t.rit,
     description: `Vaste prijs taxi: ${t.rit}`,
     priceCurrency: 'EUR',
-    price: t.prijs.replace(/[^0-9]/g, ''),
+    price: t.prijs.replace('€', ''),
   })),
 }
 
 const faqs = [
-  {
-    q: 'Geldt er een nachttarief?',
-    a: 'Nee. Bij Taxi Amro betaal je altijd de vooraf afgesproken vaste prijs — ook \'s nachts, in het weekend of op feestdagen.',
-  },
-  {
-    q: 'Wat als de rit langer duurt door file of omleidingen?',
-    a: 'Geen probleem. De vaste prijs die wij vooraf afspreken is altijd leidend. Extra reistijd door file of omleidingen is nooit voor jouw rekening.',
-  },
-  {
-    q: 'Rekenen jullie per persoon of per rit?',
-    a: 'Per rit, niet per persoon. Je kunt met meerdere reizigers (max. 4 personen) voor dezelfde prijs mee.',
-  },
-  {
-    q: 'Krijg ik korting bij een retourrit?',
-    a: 'Vraag gerust naar een retourpakket via WhatsApp. Voor vaste routes bieden we vaak een voordelig gecombineerd tarief.',
-  },
+  { q: 'Geldt er een nachttarief?', a: 'Nee. Bij Taxi Amro betaal je altijd de vooraf afgesproken vaste prijs — ook \'s nachts, in het weekend of op feestdagen.' },
+  { q: 'Wat als de rit langer duurt door file?', a: 'De vaste prijs die wij vooraf afspreken is altijd leidend. Extra reistijd door file of omleidingen is nooit voor jouw rekening.' },
+  { q: 'Rekenen jullie per persoon of per rit?', a: 'Per rit, niet per persoon. Je kunt met meerdere reizigers (max. 4 personen) voor dezelfde prijs mee.' },
+  { q: 'Krijg ik korting bij een retourrit?', a: 'Vraag gerust naar een retourpakket via WhatsApp. Voor vaste routes bieden we vaak een voordelig gecombineerd tarief.' },
 ]
 
-function CtaBtns({ center = false }) {
+function TariefCard({ t, index }) {
+  const { ref, tilt, hovered, onMouseMove, onMouseEnter, onMouseLeave } = useScrollTilt(10)
   return (
-    <div className={`flex flex-wrap gap-3 ${center ? 'justify-center' : ''}`}>
-      <a
-        href={WA}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all shadow-sm shadow-amber-200 text-sm"
-      >
-        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-        Vraag vaste prijs via WhatsApp
-      </a>
-      <a
-        href={`tel:${TEL}`}
-        className="inline-flex items-center gap-2 border-2 border-amber-400 text-amber-600 hover:bg-amber-400 hover:text-gray-900 font-bold px-6 py-3 rounded-xl transition-all text-sm"
-      >
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-        </svg>
-        Bel +31 6 33721505
-      </a>
+    <div
+      ref={ref}
+      id={t.id}
+      onMouseMove={onMouseMove}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
+      data-reveal
+      className={`fade-up stagger-${(index % 6) + 1}`}
+      style={{ perspective: 800 }}
+    >
+      <div style={{
+        background: hovered ? t.bg : '#fafafa',
+        border: `1.5px solid ${hovered ? t.border : '#f3f4f6'}`,
+        borderRadius: 20,
+        padding: '20px',
+        transform: `rotateX(${tilt.x}deg) rotateY(${tilt.y}deg) translateZ(${hovered ? 10 : 0}px)`,
+        transition: hovered ? 'transform 0.08s ease, box-shadow 0.2s ease, background 0.2s ease' : 'transform 0.5s ease, box-shadow 0.3s ease, background 0.3s ease',
+        boxShadow: hovered ? `0 16px 40px ${t.glow}, 0 4px 12px rgba(0,0,0,0.06)` : '0 2px 8px rgba(0,0,0,0.04)',
+        willChange: 'transform',
+      }}>
+        <div className="flex items-start justify-between gap-3">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">{t.icon}</span>
+            <div>
+              <p className="font-semibold text-gray-900 text-sm leading-tight">{t.rit}</p>
+              <p className="text-gray-400 text-xs mt-0.5">{t.afstand}</p>
+            </div>
+          </div>
+          <div className="text-right flex-shrink-0">
+            <p className="text-xs text-gray-400">vanaf</p>
+            <p className="font-bold text-lg leading-tight" style={{ color: t.accent }}>{t.prijs}</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
 
 export default function Tarieven() {
+  useScrollRevealAll()
+
   return (
     <>
       <Seo
@@ -96,123 +102,153 @@ export default function Tarieven() {
         schema={schema}
       />
       <div className="min-h-screen bg-white">
-        <Navbar blogMode />
-        <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-16">
+        <Navbar />
 
-          {/* Hero */}
-          <section className="mb-12">
-            <p className="text-amber-600 text-sm font-semibold uppercase tracking-wider mb-2">Vaste prijzen</p>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-              Wat kost een taxi in Groningen?
-            </h1>
-            <p className="text-lg text-gray-600 mb-6 max-w-2xl">
-              Bij Taxi Amro betaal je altijd een <strong>vaste prijs, vooraf afgesproken</strong>.
-              Geen taximeter, geen verrassingen achteraf.
-            </p>
-            <CtaBtns />
-          </section>
-
-          {/* Tarieven tabel */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4" id="tarieven-tabel">
-              Vaste prijzen voor populaire ritten
-            </h2>
-            <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
-              <table className="w-full text-left">
-                <thead className="bg-gray-50 border-b border-gray-200">
-                  <tr>
-                    <th className="px-5 py-3 text-sm font-semibold text-gray-600">Rit</th>
-                    <th className="px-5 py-3 text-sm font-semibold text-gray-600 whitespace-nowrap">Afstand</th>
-                    <th className="px-5 py-3 text-sm font-semibold text-gray-600 whitespace-nowrap">Prijs</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-100">
-                  {tarieven.map((t) => (
-                    <tr key={t.id} id={t.id} className="hover:bg-amber-50 transition-colors">
-                      <td className="px-5 py-3.5 text-gray-900 font-medium">{t.rit}</td>
-                      <td className="px-5 py-3.5 text-gray-500 whitespace-nowrap text-sm">{t.afstand}</td>
-                      <td className="px-5 py-3.5 font-bold text-amber-600 whitespace-nowrap">{t.prijs}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {/* Hero */}
+        <section className="relative pt-32 pb-20 overflow-hidden bg-gradient-to-br from-amber-50 via-white to-blue-50">
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-20 left-1/4 w-72 h-72 bg-amber-200 rounded-full opacity-20 blur-3xl" />
+            <div className="absolute bottom-10 right-1/4 w-56 h-56 bg-blue-200 rounded-full opacity-20 blur-3xl" />
+          </div>
+          <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <Link to="/" className="inline-flex items-center gap-1.5 text-gray-400 hover:text-amber-600 text-sm mb-6 transition-colors">
+              ← Terug naar home
+            </Link>
+            <div data-reveal className="fade-in">
+              <span className="inline-flex items-center gap-2 bg-amber-100 text-amber-700 text-xs font-semibold px-4 py-1.5 rounded-full mb-4 uppercase tracking-wider">
+                <span className="w-1.5 h-1.5 bg-amber-500 rounded-full" />
+                Vaste prijzen
+              </span>
             </div>
-            <p className="mt-3 text-xs text-gray-400">
-              * Indicatieprijzen. Exacte vaste prijs via{' '}
-              <a href={WA} target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline font-medium">WhatsApp</a>
-              {' '}of bel{' '}
-              <a href={`tel:${TEL}`} className="text-amber-600 hover:underline font-medium">+31 6 33721505</a>.
+            <h1 data-reveal className="fade-up stagger-1 text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+              Wat kost een taxi<br className="hidden md:block" /> in Groningen?
+            </h1>
+            <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 mb-8 max-w-xl mx-auto">
+              Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong> — geen taximeter, geen verrassingen achteraf.
             </p>
-          </section>
+            <div data-reveal className="fade-up stagger-3 flex flex-wrap justify-center gap-3">
+              <a href={WA} target="_blank" rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all shadow-md shadow-amber-200 text-sm hover:scale-105">
+                💬 Vraag vaste prijs via WhatsApp
+              </a>
+              <a href={`tel:${TEL}`}
+                 className="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-amber-400 text-gray-700 hover:text-amber-600 font-semibold px-6 py-3 rounded-xl transition-all text-sm hover:scale-105">
+                📞 Bel +31 6 33721505
+              </a>
+            </div>
+          </div>
+        </section>
 
-          {/* Hoe prijs berekend */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-5">Hoe wordt de prijs berekend?</h2>
-            <div className="grid sm:grid-cols-3 gap-4">
+        {/* Tarieven cards grid */}
+        <section className="py-20 bg-white">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-reveal className="fade-up text-center mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Populaire ritten</h2>
+              <p className="text-gray-500 text-sm">Hover over een kaart voor de 3D-preview</p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {tarieven.map((t, i) => <TariefCard key={t.id} t={t} index={i} />)}
+            </div>
+            <p data-reveal className="fade-in mt-5 text-center text-xs text-gray-400">
+              * Indicatieprijzen. Exacte vaste prijs op aanvraag via{' '}
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline font-medium">WhatsApp</a>.
+            </p>
+          </div>
+        </section>
+
+        {/* Hoe berekend */}
+        <section className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-reveal className="fade-up text-center mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Hoe wordt de prijs berekend?</h2>
+            </div>
+            <div className="grid sm:grid-cols-3 gap-6">
               {[
-                { icon: '🤝', title: 'Vaste prijs vooraf', text: 'De prijs wordt vóór de rit afgesproken. Jij weet precies wat je betaalt voordat je instapt.' },
-                { icon: '📍', title: 'Afstand + reistijd', text: 'Het tarief is gebaseerd op de afstand en verwachte reistijd van jouw rit.' },
-                { icon: '✅', title: 'Geen verrassingen', text: 'File, omleidingen of wachttijd op de luchthaven? Dat is nooit voor jouw rekening.' },
+                { icon: '🤝', title: 'Vaste prijs vooraf', text: 'Jij weet precies wat je betaalt vóór je instapt — geen meter die doorloopt.', delay: 'stagger-1' },
+                { icon: '📍', title: 'Afstand + reistijd', text: 'Tarief gebaseerd op afstand en verwachte reistijd. Eerlijk en transparant.', delay: 'stagger-2' },
+                { icon: '✅', title: 'Geen verrassingen', text: 'File, omleidingen of wachttijd op de luchthaven? Nooit voor jouw rekening.', delay: 'stagger-3' },
               ].map((item) => (
-                <div key={item.title} className="bg-gray-50 rounded-2xl p-5">
-                  <div className="text-3xl mb-3">{item.icon}</div>
-                  <h3 className="font-semibold text-gray-900 mb-1 text-sm">{item.title}</h3>
-                  <p className="text-gray-500 text-sm leading-relaxed">{item.text}</p>
+                <div key={item.title} data-reveal className={`fade-up ${item.delay}`}>
+                  <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:border-amber-200 hover:shadow-md transition-all">
+                    <div className="text-4xl mb-4">{item.icon}</div>
+                    <h3 className="font-bold text-gray-900 mb-2">{item.title}</h3>
+                    <p className="text-gray-500 text-sm leading-relaxed">{item.text}</p>
+                  </div>
                 </div>
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Inbegrepen */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-5">Inbegrepen in elke rit</h2>
-            <ul className="grid sm:grid-cols-2 gap-3">
+        {/* Inbegrepen */}
+        <section className="py-20 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-reveal className="fade-up text-center mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Inbegrepen in elke rit</h2>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                ['🚗', 'Comfortabele Hyundai Nexo (luxe SUV, 100% waterstof)'],
-                ['🕐', '24/7 beschikbaar — ook \'s nachts en in het weekend'],
-                ['😊', 'Vriendelijke chauffeur die meedenkt'],
-                ['✈️', 'Wachttijd inbegrepen bij luchthaven-pickup'],
-                ['📶', 'Gratis WiFi onderweg'],
-                ['💳', 'Pin & contant betaling mogelijk'],
-              ].map(([icon, text]) => (
-                <li key={text} className="flex items-start gap-3 bg-gray-50 rounded-xl px-4 py-3 text-sm text-gray-700">
-                  <span className="text-lg leading-none mt-0.5">{icon}</span>
-                  <span>{text}</span>
-                </li>
+                ['🚗', 'Hyundai Nexo', 'Luxe SUV, 100% waterstof'],
+                ['🕐', '24/7 beschikbaar', 'Ook \'s nachts & weekend'],
+                ['😊', 'Vriendelijke chauffeur', 'Denkt altijd mee'],
+                ['✈️', 'Wachttijd inbegrepen', 'Bij luchthaven-pickup'],
+                ['📶', 'Gratis WiFi', 'Onderweg altijd verbonden'],
+                ['💳', 'Pin & contant', 'Betaal zoals jij wilt'],
+              ].map(([icon, title, sub], i) => (
+                <div key={title} data-reveal className={`fade-up stagger-${(i % 3) + 1}`}>
+                  <div className="flex items-center gap-4 bg-gray-50 hover:bg-amber-50 border border-transparent hover:border-amber-200 rounded-2xl p-4 transition-all">
+                    <span className="text-3xl flex-shrink-0">{icon}</span>
+                    <div>
+                      <p className="font-semibold text-gray-900 text-sm">{title}</p>
+                      <p className="text-gray-400 text-xs">{sub}</p>
+                    </div>
+                  </div>
+                </div>
               ))}
-            </ul>
-          </section>
+            </div>
+          </div>
+        </section>
 
-          {/* FAQ */}
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-5">Veelgestelde vragen over tarieven</h2>
+        {/* FAQ */}
+        <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div data-reveal className="fade-up text-center mb-10">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Veelgestelde vragen</h2>
+            </div>
             <div className="space-y-3">
               {faqs.map((faq, i) => (
-                <details key={i} className="group border border-gray-200 rounded-2xl overflow-hidden">
-                  <summary className="flex justify-between items-center cursor-pointer px-5 py-4 font-semibold text-gray-900 text-sm hover:bg-gray-50 list-none">
+                <details key={i} data-reveal className={`fade-up stagger-${i + 1} group border border-gray-200 bg-white rounded-2xl overflow-hidden`}>
+                  <summary className="flex justify-between items-center cursor-pointer px-6 py-4 font-semibold text-gray-900 text-sm hover:bg-amber-50 list-none transition-colors">
                     {faq.q}
                     <svg className="w-4 h-4 text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0 ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                     </svg>
                   </summary>
-                  <p className="px-5 pb-4 pt-1 text-gray-600 text-sm border-t border-gray-100">{faq.a}</p>
+                  <p className="px-6 pb-5 pt-1 text-gray-500 text-sm border-t border-gray-100 leading-relaxed">{faq.a}</p>
                 </details>
               ))}
             </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Bottom CTA */}
-          <section className="bg-gray-900 rounded-3xl p-8 text-center">
-            <h2 className="text-2xl font-bold text-white mb-2">Klaar om te boeken?</h2>
-            <p className="text-gray-400 text-sm mb-6">Wij reageren snel — ook \'s avonds en in het weekend.</p>
-            <CtaBtns center />
-            <p className="mt-4 text-xs text-gray-600">
-              Of bekijk{' '}
-              <Link to="/diensten" className="text-amber-400 hover:underline">al onze diensten</Link>
-            </p>
-          </section>
+        {/* Bottom CTA */}
+        <section className="py-20 bg-gray-900">
+          <div data-reveal className="fade-up max-w-2xl mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold text-white mb-3">Klaar om te boeken?</h2>
+            <p className="text-gray-400 mb-8">Wij reageren snel — ook 's avonds en in het weekend.</p>
+            <div className="flex flex-wrap justify-center gap-3">
+              <a href={WA} target="_blank" rel="noopener noreferrer"
+                 className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3.5 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-900/30 text-sm">
+                💬 Vraag vaste prijs via WhatsApp
+              </a>
+              <Link to="/diensten"
+                 className="inline-flex items-center gap-2 border border-gray-600 hover:border-amber-400 text-gray-300 hover:text-amber-400 font-semibold px-7 py-3.5 rounded-xl transition-all text-sm">
+                Bekijk onze diensten →
+              </Link>
+            </div>
+          </div>
+        </section>
 
-        </main>
         <Footer />
         <FloatingWhatsApp />
       </div>
