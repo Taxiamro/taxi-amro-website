@@ -313,7 +313,7 @@ export default function Services() {
             Taxi op maat
           </h2>
           <p className="text-gray-500 text-lg max-w-lg mx-auto">
-            Van vliegveld tot Eemshaven, van stadsrit tot grensoverschrijdend vervoer — stil, snel en betrouwbaar.
+            Van vliegveld tot Eemshaven, van stadsrit tot grensoverschrijdend vervoer. Stil, snel en betrouwbaar.
           </p>
         </div>
 

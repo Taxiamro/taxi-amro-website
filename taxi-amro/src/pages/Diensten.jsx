@@ -40,7 +40,7 @@ export default function Diensten() {
               Taxi op maat —<br className="hidden md:block" /> voor elke rit
             </h1>
             <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 mb-8 max-w-xl mx-auto">
-              Van vliegveld transfer tot Eemshaven shuttle — altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>, 24/7 beschikbaar.
+              Van vliegveld transfer tot Eemshaven shuttle. Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>. 24/7 beschikbaar.
             </p>
             <div data-reveal className="fade-up stagger-3 flex flex-wrap justify-center gap-3">
               <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function Diensten() {
         <section className="py-20 bg-gray-900">
           <div data-reveal className="fade-up max-w-2xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-3">Vragen over een dienst?</h2>
-            <p className="text-gray-400 mb-8">We helpen je graag — ook voor maatwerk of zakelijke contracten.</p>
+            <p className="text-gray-400 mb-8">We helpen je graag, ook voor maatwerk of zakelijke contracten.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <Link to="/contact"
                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3.5 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-900/30 text-sm">

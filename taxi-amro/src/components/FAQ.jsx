@@ -3,7 +3,7 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'Hoe kan ik een taxi boeken bij Taxi Amro?',
-    a: 'U kunt ons 24/7 bereiken via WhatsApp (+31 6 33721505), telefoon of e-mail (taxiamro@outlook.com). Wij bevestigen uw boeking direct en staan altijd klaar — ook voor last-minute ritten.',
+    a: 'U kunt ons 24/7 bereiken via WhatsApp (+31 6 33721505), telefoon of e-mail (taxiamro@outlook.com). Wij bevestigen uw boeking direct en staan altijd klaar, ook voor last-minute ritten.',
   },
   {
     q: 'Rijdt Taxi Amro ook naar Schiphol vanuit Groningen?',
@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: 'Rijdt Taxi Amro naar Eemshaven?',
-    a: 'Absoluut. Eemshaven is een van onze specialiteiten. Wij verzorgen dagelijks vervoer voor havenarbeiders, zeelieden en cruisegasten naar en van Eemshaven — 24 uur per dag, 7 dagen per week, ook vroeg in de ochtend.',
+    a: 'Absoluut. Eemshaven is een van onze specialiteiten. Wij verzorgen dagelijks vervoer voor havenarbeiders, zeelieden en cruisegasten naar en van Eemshaven. 24 uur per dag, 7 dagen per week, ook vroeg in de ochtend.',
   },
   {
     q: 'Kan Taxi Amro mij naar Duitsland brengen (Emden, Leer, Bremen)?',
@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: 'Is een vaste prijs mogelijk?',
-    a: 'Ja! Voor alle ritten — vliegveldtransfers, Eemshaven, zakelijke ritten en langere trajecten — kunt u altijd een vrijblijvende vaste prijs aanvragen. Geen onverwachte kosten onderweg.',
+    a: 'Ja! Voor alle ritten — vliegveldtransfers, Eemshaven, zakelijke ritten en langere trajecten. U kunt altijd een vrijblijvende vaste prijs aanvragen. Geen onverwachte kosten onderweg.',
   },
   {
     q: 'Hebben jullie ook vervoer voor groepen?',

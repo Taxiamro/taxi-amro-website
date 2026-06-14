@@ -10,7 +10,7 @@ export default function Contact() {
             Direct in contact
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Bel, app of mail ons — wij reageren snel en helpen u graag verder.
+            Bel, app of mail ons. Wij reageren snel en helpen u graag verder.
           </p>
         </div>
 

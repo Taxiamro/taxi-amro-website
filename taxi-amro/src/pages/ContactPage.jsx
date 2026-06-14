@@ -103,7 +103,7 @@ export default function ContactPage() {
               Direct in contact
             </h1>
             <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 max-w-lg mx-auto">
-              Bel, app of mail ons — wij reageren snel en helpen je graag verder.
+              Bel, app of mail ons. Wij reageren snel en helpen je graag verder.
             </p>
           </div>
         </section>
@@ -159,7 +159,7 @@ export default function ContactPage() {
         <section className="py-20 bg-gray-900">
           <div data-reveal className="fade-up max-w-2xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-3">Rit boeken?</h2>
-            <p className="text-gray-400 mb-8">Stuur een WhatsApp — wij bevestigen snel met een vaste prijs.</p>
+            <p className="text-gray-400 mb-8">Stuur een WhatsApp. Wij bevestigen snel met een vaste prijs.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3.5 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-900/30 text-sm">

@@ -375,7 +375,7 @@ export default function Hero() {
                           ✓ €{savings} bespaard met retour korting
                         </div>
                       )}
-                      <p className="text-gray-500 text-xs mt-1.5">Incl. alle kosten · geen meter</p>
+                      <p className="text-gray-500 text-xs mt-1.5">Incl. alle kosten · vaste prijs</p>
                     </div>
 
                     {/* Discount toggles */}

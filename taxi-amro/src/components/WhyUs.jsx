@@ -2,7 +2,7 @@ const features = [
   {
     icon: '⚡',
     title: '100% Elektrisch',
-    desc: 'Wij rijden uitsluitend in de Hyundai Nexo — schoon, stil en duurzaam. Goed voor u en het milieu.',
+    desc: 'Wij rijden uitsluitend in de Hyundai Nexo. Schoon, stil en duurzaam. Goed voor u en het milieu.',
   },
   {
     icon: '🕐',
@@ -43,7 +43,7 @@ export default function WhyUs() {
             Kwaliteit die u kunt voelen
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Meer dan een rit — een premium rijervaring die u telkens opnieuw kiest.
+            Een premium rijervaring die u telkens opnieuw kiest.
           </p>
         </div>
 

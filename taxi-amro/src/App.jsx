@@ -96,30 +96,26 @@ export function HomePage() {
         <Hero />
         <PriceCalculator />
 
-        {/* Korte diensten-intro met link naar /diensten */}
-        <section className="py-16 bg-gray-50">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p className="text-amber-600 text-sm font-semibold uppercase tracking-wider mb-2">Wat doen wij</p>
-            <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Betrouwbaar taxi vervoer in Noord-Nederland
-            </h2>
-            <p className="text-gray-500 mb-8 max-w-2xl mx-auto">
-              Van vliegveld transfer naar Schiphol tot Eemshaven shuttle, zakelijk vervoer en grensoverschrijdende ritten naar Duitsland — altijd vaste prijs, altijd op tijd.
-            </p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Link
-                to="/diensten"
-                className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-semibold px-6 py-2.5 rounded-xl text-sm transition-colors"
-              >
-                Bekijk alle diensten →
-              </Link>
+        {/* Snelle links */}
+        <section className="py-10 bg-gray-50">
+          <div className="max-w-3xl mx-auto px-4 flex flex-wrap justify-center gap-3">
               <Link
                 to="/tarieven"
+                className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-2.5 rounded-xl text-sm transition-colors shadow-sm"
+              >
+                Bekijk alle tarieven →
+              </Link>
+              <Link
+                to="/diensten"
                 className="border border-gray-200 hover:border-amber-300 text-gray-700 font-semibold px-6 py-2.5 rounded-xl text-sm transition-colors"
               >
-                Bekijk tarieven
+                Onze diensten
               </Link>
-            </div>
+              <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
+                className="border border-green-200 hover:border-green-400 text-green-700 font-semibold px-6 py-2.5 rounded-xl text-sm transition-colors"
+              >
+                💬 WhatsApp boeken
+              </a>
           </div>
         </section>
 
@@ -132,7 +128,7 @@ export function HomePage() {
         <section className="py-16 bg-gray-900">
           <div className="max-w-2xl mx-auto px-4 text-center">
             <h2 className="text-2xl font-bold text-white mb-2">Klaar om te boeken?</h2>
-            <p className="text-gray-400 text-sm mb-6">24/7 bereikbaar — ook 's avonds en in het weekend.</p>
+            <p className="text-gray-400 text-sm mb-6">24/7 bereikbaar. Ook 's avonds en in het weekend.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a
                 href="https://wa.me/31633721505"

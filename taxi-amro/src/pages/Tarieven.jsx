@@ -43,7 +43,7 @@ const schema = {
 }
 
 const faqs = [
-  { q: 'Geldt er een nachttarief?', a: 'Nee. Bij Taxi Amro betaal je altijd de vooraf afgesproken vaste prijs — ook \'s nachts, in het weekend of op feestdagen.' },
+  { q: 'Geldt er een nachttarief?', a: 'Nee. Bij Taxi Amro betaal je altijd de vooraf afgesproken vaste prijs. Ook \'s nachts, in het weekend of op feestdagen.' },
   { q: 'Wat als de rit langer duurt door file?', a: 'De vaste prijs die wij vooraf afspreken is altijd leidend. Extra reistijd door file of omleidingen is nooit voor jouw rekening.' },
   { q: 'Rekenen jullie per persoon of per rit?', a: 'Per rit, niet per persoon. Je kunt met meerdere reizigers (max. 4 personen) voor dezelfde prijs mee.' },
   { q: 'Krijg ik korting bij een retourrit?', a: 'Vraag gerust naar een retourpakket via WhatsApp. Voor vaste routes bieden we vaak een voordelig gecombineerd tarief.' },
@@ -124,7 +124,7 @@ export default function Tarieven() {
               Wat kost een taxi<br className="hidden md:block" /> in Groningen?
             </h1>
             <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 mb-8 max-w-xl mx-auto">
-              Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong> — geen taximeter, geen verrassingen achteraf.
+              Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>. Geen verrassingen achteraf.
             </p>
             <div data-reveal className="fade-up stagger-3 flex flex-wrap justify-center gap-3">
               <a href={WA} target="_blank" rel="noopener noreferrer"
@@ -144,7 +144,7 @@ export default function Tarieven() {
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div data-reveal className="fade-up text-center mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Populaire ritten</h2>
-              <p className="text-gray-500 text-sm">Hover over een kaart voor de 3D-preview</p>
+              
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {tarieven.map((t, i) => <TariefCard key={t.id} t={t} index={i} />)}
@@ -164,7 +164,7 @@ export default function Tarieven() {
             </div>
             <div className="grid sm:grid-cols-3 gap-6">
               {[
-                { icon: '🤝', title: 'Vaste prijs vooraf', text: 'Jij weet precies wat je betaalt vóór je instapt — geen meter die doorloopt.', delay: 'stagger-1' },
+                { icon: '🤝', title: 'Vaste prijs vooraf', text: 'Jij weet precies wat je betaalt vóór je instapt.', delay: 'stagger-1' },
                 { icon: '📍', title: 'Afstand + reistijd', text: 'Tarief gebaseerd op afstand en verwachte reistijd. Eerlijk en transparant.', delay: 'stagger-2' },
                 { icon: '✅', title: 'Geen verrassingen', text: 'File, omleidingen of wachttijd op de luchthaven? Nooit voor jouw rekening.', delay: 'stagger-3' },
               ].map((item) => (
@@ -235,7 +235,7 @@ export default function Tarieven() {
         <section className="py-20 bg-gray-900">
           <div data-reveal className="fade-up max-w-2xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold text-white mb-3">Klaar om te boeken?</h2>
-            <p className="text-gray-400 mb-8">Wij reageren snel — ook 's avonds en in het weekend.</p>
+            <p className="text-gray-400 mb-8">Wij reageren snel. Ook 's avonds en in het weekend.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href={WA} target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3.5 rounded-xl transition-all hover:scale-105 shadow-lg shadow-amber-900/30 text-sm">

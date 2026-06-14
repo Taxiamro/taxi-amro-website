@@ -180,7 +180,7 @@ export default function PriceCalculator() {
             Bereken uw ritprijs
           </h2>
           <p className="text-gray-500 text-base max-w-md mx-auto">
-            Voer uw route in — realtime afstand via Google Maps.
+            Voer uw route in voor een directe prijsberekening.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function PriceCalculator() {
             {/* From */}
             <div className="mb-4 relative">
               <label className="text-gray-500 text-xs font-semibold uppercase tracking-wide block mb-2">
-                Van — Vertrekpunt
+                Vertrekpunt
               </label>
               <div className="relative">
                 <div className="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none">
@@ -265,7 +265,7 @@ export default function PriceCalculator() {
             {/* To */}
             <div className="mb-6 relative">
               <label className="text-gray-500 text-xs font-semibold uppercase tracking-wide block mb-2">
-                Naar — Bestemming
+                Bestemming
               </label>
               <div className="relative">
                 <div className="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none">

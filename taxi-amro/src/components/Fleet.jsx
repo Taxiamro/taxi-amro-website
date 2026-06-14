@@ -6,7 +6,7 @@ const specs = [
   { label: 'Aandrijving', value: 'Waterstof (FCEV)', icon: '💧' },
   { label: 'Emissies', value: '0 g CO₂/km', icon: '🌿' },
   { label: 'Actieradius', value: '~666 km', icon: '📍' },
-  { label: 'Passagiers', value: 'Tot 4 — of bus (8 pax)', icon: '👥' },
+  { label: 'Passagiers', value: 'Tot 4 personen', icon: '👥' },
   { label: 'Kofferbak', value: 'Ruime bagageruimte', icon: '🧳' },
 ]
 
@@ -89,7 +89,7 @@ export default function Fleet() {
             Rijden in de toekomst
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Wij rijden uitsluitend in de Hyundai Nexo — de meest geavanceerde waterstof-SUV ter wereld.
+            Wij rijden uitsluitend in de Hyundai Nexo, de meest geavanceerde waterstof-SUV ter wereld.
           </p>
         </div>
 
@@ -237,7 +237,7 @@ export default function Fleet() {
                 Groepsvervoer beschikbaar
               </div>
               <div style={{ color: '#94a3b8', fontSize: 12 }}>
-                Ruime bus voor tot <strong style={{ color: '#e2e8f0' }}>8 passagiers</strong> — ideaal voor groepen & uitstapjes
+                Ruime bus voor tot <strong style={{ color: '#e2e8f0' }}>8 passagiers</strong>. Ideaal voor groepen en uitstapjes.
               </div>
             </div>
             <div style={{ color: '#fbbf24', fontSize: 20 }}>→</div>
