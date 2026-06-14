@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/prijzen",
+      "destination": "/tarieven",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

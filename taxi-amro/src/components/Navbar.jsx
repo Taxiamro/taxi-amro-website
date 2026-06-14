@@ -1,14 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-// Anchor links (scrollen op homepage)
-const anchorLinks = [
-  { label: 'Diensten', href: '#services' },
-  { label: 'Contact',  href: '#contact'  },
-]
+const linkClass = 'text-gray-600 hover:text-amber-600 transition-colors text-sm font-medium'
 
-export default function Navbar({ blogMode = false }) {
-  const navigate = useNavigate()
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [logoHovered, setLogoHovered] = useState(false)
@@ -31,26 +26,10 @@ export default function Navbar({ blogMode = false }) {
     })
   }
 
-  const handleAnchor = (e, href) => {
-    if (blogMode || window.location.pathname !== '/') {
-      e.preventDefault()
-      navigate('/')
-      setTimeout(() => {
-        const el = document.querySelector(href)
-        if (el) el.scrollIntoView({ behavior: 'smooth' })
-      }, 120)
-    }
-    setMenuOpen(false)
-  }
-
-  const linkClass = 'text-gray-600 hover:text-amber-600 transition-colors text-sm font-medium'
-
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md border-b border-gray-100' : 'bg-white/80 backdrop-blur-sm'
-      }`}
-    >
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      scrolled ? 'bg-white shadow-md border-b border-gray-100' : 'bg-white/80 backdrop-blur-sm'
+    }`}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
@@ -75,15 +54,13 @@ export default function Navbar({ blogMode = false }) {
             </span>
           </Link>
 
-          {/* Desktop nav — Home | Tarieven | Diensten | Blog | Contact */}
+          {/* Desktop nav: Home | Tarieven | Diensten | Blog | Contact */}
           <div className="hidden md:flex items-center gap-6">
-            <a href={blogMode || window.location.pathname !== '/' ? '/' : '#home'}
-               onClick={(e) => handleAnchor(e, '#home')}
-               className={linkClass}>Home</a>
-            <Link to="/tarieven" className={linkClass}>Tarieven</Link>
-            <a href="#services" onClick={(e) => handleAnchor(e, '#services')} className={linkClass}>Diensten</a>
-            <Link to="/blog" className={linkClass}>Blog</Link>
-            <a href="#contact" onClick={(e) => handleAnchor(e, '#contact')} className={linkClass}>Contact</a>
+            <Link to="/"          className={linkClass}>Home</Link>
+            <Link to="/tarieven"  className={linkClass}>Tarieven</Link>
+            <Link to="/diensten"  className={linkClass}>Diensten</Link>
+            <Link to="/blog"      className={linkClass}>Blog</Link>
+            <Link to="/contact"   className={linkClass}>Contact</Link>
           </div>
 
           {/* Phone + CTA */}
@@ -101,7 +78,7 @@ export default function Navbar({ blogMode = false }) {
             </a>
           </div>
 
-          {/* Mobile: phone + hamburger */}
+          {/* Mobile hamburger */}
           <div className="md:hidden flex items-center gap-2">
             <a href="tel:+31633721505" className="flex items-center gap-1 text-amber-600 font-bold text-sm">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -123,16 +100,11 @@ export default function Navbar({ blogMode = false }) {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 px-4 py-4 flex flex-col gap-4 shadow-lg">
-          <a href="/" onClick={(e) => { handleAnchor(e, '#home'); setMenuOpen(false) }}
-             className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Home</a>
-          <Link to="/tarieven" onClick={() => setMenuOpen(false)}
-             className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Tarieven</Link>
-          <a href="#services" onClick={(e) => { handleAnchor(e, '#services'); setMenuOpen(false) }}
-             className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Diensten</a>
-          <Link to="/blog" onClick={() => setMenuOpen(false)}
-             className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Blog</Link>
-          <a href="#contact" onClick={(e) => { handleAnchor(e, '#contact'); setMenuOpen(false) }}
-             className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Contact</a>
+          <Link to="/"         onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Home</Link>
+          <Link to="/tarieven" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Tarieven</Link>
+          <Link to="/diensten" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Diensten</Link>
+          <Link to="/blog"     onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Blog</Link>
+          <Link to="/contact"  onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Contact</Link>
           <a href="tel:+31633721505"
              className="flex items-center gap-2 text-amber-600 font-bold text-base border border-amber-200 bg-amber-50 rounded-lg px-4 py-2.5">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

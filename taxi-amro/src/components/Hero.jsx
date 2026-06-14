@@ -310,7 +310,7 @@ export default function Hero() {
                 <Link to="/tarieven" className="hover:text-amber-600 transition-colors underline underline-offset-2">
                   Bekijk onze tarieven →
                 </Link>
-                <a href="#services" className="hover:text-amber-600 transition-colors underline underline-offset-2">
+                <a href="/diensten" className="hover:text-amber-600 transition-colors underline underline-offset-2">
                   Alle diensten →
                 </a>
               </div>

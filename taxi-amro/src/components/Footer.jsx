@@ -1,21 +1,21 @@
 import { Link } from 'react-router-dom'
 
 const serviceLinks = [
-  { label: 'Vliegveld Transfer', href: '#services' },
-  { label: 'Zakelijk Vervoer', href: '#services' },
-  { label: 'Eemshaven Vervoer', href: '#services' },
-  { label: 'Groepsvervoer (8 pax)', href: '#services' },
-  { label: 'Stads Taxi Groningen', href: '#services' },
-  { label: 'Grensoverschrijdend (DE)', href: '#services' },
+  { label: 'Vliegveld Transfer',       href: '/diensten' },
+  { label: 'Zakelijk Vervoer',         href: '/diensten' },
+  { label: 'Eemshaven Vervoer',        href: '/diensten' },
+  { label: 'Groepsvervoer (8 pax)',     href: '/diensten' },
+  { label: 'Stads Taxi Groningen',      href: '/diensten' },
+  { label: 'Grensoverschrijdend (DE)',  href: '/diensten' },
 ]
 
 const populaireRitten = [
-  { label: 'Taxi → Schiphol',     href: '/tarieven#schiphol'   },
-  { label: 'Taxi → Eemshaven',    href: '/tarieven#eemshaven'  },
-  { label: 'Taxi → Airport Eelde',href: '/tarieven#eelde'      },
-  { label: 'Taxi → Leeuwarden',   href: '/tarieven#leeuwarden' },
-  { label: 'Taxi → Bremen Airport',href: '/tarieven#bremen'    },
-  { label: 'Stadsrit Groningen',  href: '/tarieven#stad'       },
+  { label: 'Taxi → Schiphol',      href: '/tarieven#schiphol'   },
+  { label: 'Taxi → Eemshaven',     href: '/tarieven#eemshaven'  },
+  { label: 'Taxi → Airport Eelde', href: '/tarieven#eelde'      },
+  { label: 'Taxi → Leeuwarden',    href: '/tarieven#leeuwarden' },
+  { label: 'Taxi → Bremen Airport',href: '/tarieven#bremen'     },
+  { label: 'Stadsrit Groningen',   href: '/tarieven#stad'       },
 ]
 
 const regionLinks = [
@@ -61,11 +61,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Navigatie</h4>
             <ul className="space-y-2">
-              <li><a href="/" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Home</a></li>
+              <li><Link to="/"         className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Home</Link></li>
               <li><Link to="/tarieven" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Tarieven</Link></li>
-              <li><a href="/#services" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Diensten</a></li>
-              <li><Link to="/blog" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Blog</Link></li>
-              <li><a href="/#contact" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Contact</a></li>
+              <li><Link to="/diensten" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Diensten</Link></li>
+              <li><Link to="/blog"     className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Blog</Link></li>
+              <li><Link to="/contact"  className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Contact</Link></li>
             </ul>
           </div>
 

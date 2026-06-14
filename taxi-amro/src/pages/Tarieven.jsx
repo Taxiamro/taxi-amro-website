@@ -208,7 +208,7 @@ export default function Tarieven() {
             <CtaBtns center />
             <p className="mt-4 text-xs text-gray-600">
               Of bekijk{' '}
-              <Link to="/#services" className="text-amber-400 hover:underline">al onze diensten</Link>
+              <Link to="/diensten" className="text-amber-400 hover:underline">al onze diensten</Link>
             </p>
           </section>
 
