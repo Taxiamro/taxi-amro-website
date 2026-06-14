@@ -73,8 +73,8 @@ export default function BlogPage() {
   return (
     <>
       <Seo
-        title="Taxi Blog | Tips, prijzen & routes in Noord-Nederland"
-        description="Reisinformatie voor taxi naar Schiphol, Eemshaven, Groningen Airport en meer. Prijzen, reistijden en tips van Taxi Amro."
+        title="Taxi Blog | Prijzen, Routes en Tips | Taxi Amro Groningen"
+        description="Alles over taxivervoer in Noord-Nederland. Wat kost een taxi naar Schiphol? Hoe lang duurt de rit naar Eemshaven? Tips en vaste prijzen van Taxi Amro."
         canonical="/blog"
       />
       <div className="min-h-screen bg-white">

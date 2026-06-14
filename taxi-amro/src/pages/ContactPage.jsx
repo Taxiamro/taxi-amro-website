@@ -76,8 +76,8 @@ export default function ContactPage() {
   return (
     <>
       <Seo
-        title="Contact | Taxi Amro Noord-Nederland"
-        description="Bel +31 6 33721505 of WhatsApp ons. 24/7 bereikbaar voor taxiritten in Groningen, Friesland en Drenthe."
+        title="Contact Taxi Amro | Bel of WhatsApp 24/7 | Groningen"
+        description="Neem contact op met Taxi Amro. Bel of WhatsApp +31 6 33721505 voor een taxi in Groningen. Binnen 5 minuten reactie. 24/7 beschikbaar."
         canonical="/contact"
       />
       <div className="min-h-screen bg-white">
