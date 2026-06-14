@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 const MAPS_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
 
@@ -305,6 +306,14 @@ export default function Hero() {
                 </svg>
                 +31 6 33721505
               </a>
+              <div className="flex justify-center gap-4 mt-3 text-xs text-gray-400">
+                <Link to="/tarieven" className="hover:text-amber-600 transition-colors underline underline-offset-2">
+                  Bekijk onze tarieven →
+                </Link>
+                <a href="#services" className="hover:text-amber-600 transition-colors underline underline-offset-2">
+                  Alle diensten →
+                </a>
+              </div>
             </div>
           </div>
 

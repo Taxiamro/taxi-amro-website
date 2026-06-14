@@ -16,6 +16,8 @@ import CookieBanner from './components/CookieBanner'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 import NotFound from './pages/NotFound'
+import Tarieven from './pages/Tarieven'
+import Seo from './components/Seo'
 
 function useScrollReveal() {
   useEffect(() => {
@@ -42,21 +44,28 @@ function useScrollReveal() {
 export function HomePage() {
   useScrollReveal()
   return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <Hero />
-      <PriceCalculator />
-      <Services />
-      <WhyUs />
-      <Fleet />
-      <Pricing />
-      <Testimonials />
-      <FAQ />
-      <Contact />
-      <Footer />
-      <FloatingWhatsApp />
-      <CookieBanner />
-    </div>
+    <>
+      <Seo
+        title="Taxi Groningen | Taxi Amro Noord-Nederland – 24/7 Bereikbaar"
+        description="Taxi in Groningen, Friesland en Drenthe. Vaste prijs naar Schiphol & Eemshaven. 24/7 bereikbaar. Bel of app: +31 6 33721505."
+        canonical="/"
+      />
+      <div className="min-h-screen bg-white">
+        <Navbar />
+        <Hero />
+        <PriceCalculator />
+        <Services />
+        <WhyUs />
+        <Fleet />
+        <Pricing />
+        <Testimonials />
+        <FAQ />
+        <Contact />
+        <Footer />
+        <FloatingWhatsApp />
+        <CookieBanner />
+      </div>
+    </>
   )
 }
 
@@ -65,6 +74,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/tarieven" element={<Tarieven />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="*" element={<NotFound />} />

@@ -1,20 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <!-- Hoofdpagina -->
   <url>
     <loc>https://www.taxiamro.nl/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-13</lastmod>
+    <lastmod>2026-06-14</lastmod>
   </url>
+
+  <!-- Tarieven pagina -->
+  <url>
+    <loc>https://www.taxiamro.nl/tarieven</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+
   <!-- Blog overzicht -->
   <url>
     <loc>https://www.taxiamro.nl/blog</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <lastmod>2026-05-13</lastmod>
+    <priority>0.8</priority>
+    <lastmod>2026-06-14</lastmod>
   </url>
-  <!-- Blog posts — originele 5 -->
+
+  <!-- Blog posts -->
   <url>
     <loc>https://www.taxiamro.nl/blog/taxi-groningen-schiphol-prijs-2026</loc>
     <changefreq>monthly</changefreq>
@@ -45,11 +56,10 @@
     <priority>0.8</priority>
     <lastmod>2026-05-12</lastmod>
   </url>
-  <!-- Blog posts — nieuwe 20 -->
   <url>
     <loc>https://www.taxiamro.nl/blog/taxi-leeuwarden-schiphol-prijs</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <lastmod>2026-05-13</lastmod>
   </url>
   <url>
@@ -166,4 +176,5 @@
     <priority>0.7</priority>
     <lastmod>2026-05-13</lastmod>
   </url>
+
 </urlset>

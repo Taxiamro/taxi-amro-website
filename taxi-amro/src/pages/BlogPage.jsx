@@ -4,6 +4,7 @@ import { blogPosts, categories } from '../data/blogPosts'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
+import Seo from '../components/Seo'
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState('Alle')
@@ -27,6 +28,11 @@ export default function BlogPage() {
 
   return (
     <>
+      <Seo
+        title="Taxi Blog | Tips, prijzen & routes in Noord-Nederland"
+        description="Reisinformatie voor taxi naar Schiphol, Eemshaven, Groningen Airport en meer. Prijzen, reistijden en tips van Taxi Amro."
+        canonical="/blog"
+      />
       <Navbar blogMode />
       <main className="pt-16 min-h-screen bg-white">
         {/* Hero */}

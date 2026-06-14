@@ -1,10 +1,4 @@
-const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'Diensten', href: '#services' },
-  { label: 'Tarieven', href: '#pricing' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+import { Link } from 'react-router-dom'
 
 const serviceLinks = [
   { label: 'Vliegveld Transfer', href: '#services' },
@@ -13,6 +7,15 @@ const serviceLinks = [
   { label: 'Groepsvervoer (8 pax)', href: '#services' },
   { label: 'Stads Taxi Groningen', href: '#services' },
   { label: 'Grensoverschrijdend (DE)', href: '#services' },
+]
+
+const populaireRitten = [
+  { label: 'Taxi → Schiphol',     href: '/tarieven#schiphol'   },
+  { label: 'Taxi → Eemshaven',    href: '/tarieven#eemshaven'  },
+  { label: 'Taxi → Airport Eelde',href: '/tarieven#eelde'      },
+  { label: 'Taxi → Leeuwarden',   href: '/tarieven#leeuwarden' },
+  { label: 'Taxi → Bremen Airport',href: '/tarieven#bremen'    },
+  { label: 'Stadsrit Groningen',  href: '/tarieven#stad'       },
 ]
 
 const regionLinks = [
@@ -31,7 +34,6 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed mb-4">
               Betrouwbare taxiservice in Groningen, Friesland en Drenthe. 24/7 beschikbaar voor vliegveld, Eemshaven en zakelijk vervoer.
             </p>
-            {/* NAP */}
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="tel:+31633721505" className="text-amber-400 hover:text-amber-300 font-semibold flex items-center gap-2 transition-colors">
@@ -45,7 +47,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
-                  className="text-gray-400 hover:text-green-400 flex items-center gap-2 transition-colors">
+                   className="text-gray-400 hover:text-green-400 flex items-center gap-2 transition-colors">
                   <span>💬</span> WhatsApp
                 </a>
               </li>
@@ -59,31 +61,29 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Navigatie</h4>
             <ul className="space-y-2">
-              {navLinks.map((link) => (
-                <li key={link.href}>
-                  <a href={link.href} className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
-                    {link.label}
-                  </a>
-                </li>
-              ))}
+              <li><a href="/" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Home</a></li>
+              <li><Link to="/tarieven" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Tarieven</Link></li>
+              <li><a href="/#services" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Diensten</a></li>
+              <li><Link to="/blog" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Blog</Link></li>
+              <li><a href="/#contact" className="text-gray-400 hover:text-amber-400 transition-colors text-sm">Contact</a></li>
             </ul>
           </div>
 
-          {/* Diensten */}
+          {/* Populaire ritten */}
           <div>
-            <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Diensten</h4>
+            <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Populaire ritten</h4>
             <ul className="space-y-2">
-              {serviceLinks.map((link) => (
+              {populaireRitten.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
+                  <Link to={link.href} className="text-gray-400 hover:text-amber-400 transition-colors text-sm">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Regio's */}
+          {/* Werkgebied */}
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Werkgebied</h4>
             <ul className="space-y-2">
@@ -114,20 +114,12 @@ export default function Footer() {
               <p>KvK: 87581868 &nbsp;|&nbsp; BTW: NL004440433B79</p>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
-              <a
-                href="/privacybeleid.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-amber-400 transition-colors underline underline-offset-2"
-              >
+              <a href="/privacybeleid.pdf" target="_blank" rel="noopener noreferrer"
+                 className="text-gray-500 hover:text-amber-400 transition-colors underline underline-offset-2">
                 Privacybeleid
               </a>
-              <a
-                href="/algemene-voorwaarden.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-amber-400 transition-colors underline underline-offset-2"
-              >
+              <a href="/algemene-voorwaarden.pdf" target="_blank" rel="noopener noreferrer"
+                 className="text-gray-500 hover:text-amber-400 transition-colors underline underline-offset-2">
                 Algemene Voorwaarden
               </a>
               <span className="text-gray-600">|</span>
