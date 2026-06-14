@@ -1,3 +1,4 @@
+import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
@@ -5,6 +6,7 @@ import Contact from '../components/Contact'
 import Seo from '../components/Seo'
 
 export default function ContactPage() {
+  useScrollRevealAll()
   return (
     <>
       <Seo
@@ -13,7 +15,7 @@ export default function ContactPage() {
         canonical="/contact"
       />
       <div className="min-h-screen bg-white">
-        <Navbar blogMode />
+        <Navbar />
         <main className="pt-16">
           <Contact />
         </main>

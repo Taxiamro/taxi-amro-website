@@ -1,3 +1,4 @@
+import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
@@ -5,6 +6,7 @@ import Services from '../components/Services'
 import Seo from '../components/Seo'
 
 export default function Diensten() {
+  useScrollRevealAll()
   return (
     <>
       <Seo
@@ -13,7 +15,7 @@ export default function Diensten() {
         canonical="/diensten"
       />
       <div className="min-h-screen bg-white">
-        <Navbar blogMode />
+        <Navbar />
         <main className="pt-16">
           <Services />
         </main>
