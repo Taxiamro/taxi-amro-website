@@ -65,7 +65,7 @@ export const blogPosts = [
       <p><strong>Kan ik achteraf betalen?</strong><br/>Ja, zakelijke klanten kunnen op factuur betalen. Particulieren kunnen contant, pin of via Tikkie betalen.</p>
 
       <p>Klaar om te boeken? Bel of app ons op <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. We staan voor u klaar, 24 uur per dag, 7 dagen per week.</p>
-    \`,
+    `,
   },
   {
     slug: 'taxi-groningen-schiphol-prijs-2026',
