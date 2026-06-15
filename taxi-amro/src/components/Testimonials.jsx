@@ -75,6 +75,23 @@ export default function Testimonials() {
             </div>
           ))}
         </div>
+
+        {/* Review CTA */}
+        <div className="mt-12 text-center">
+          <p className="text-gray-500 text-sm mb-4">Tevreden over uw rit? Laat een review achter op Google.</p>
+          <a
+            href="https://g.page/r/JOUW_REVIEW_LINK_HIER/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-white border-2 border-amber-400 hover:bg-amber-50 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all hover:scale-105 shadow-sm text-sm"
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#fbbf24" stroke="#fbbf24" strokeWidth="1" strokeLinejoin="round"/>
+            </svg>
+            Schrijf een Google review
+          </a>
+          <p className="text-gray-400 text-xs mt-3">Het duurt minder dan 1 minuut en helpt ons enorm.</p>
+        </div>
       </div>
     </section>
   )
