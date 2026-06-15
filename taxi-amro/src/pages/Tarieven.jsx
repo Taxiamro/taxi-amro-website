@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import FloatingWhatsApp from '../components/FloatingWhatsApp'
 import { useScrollRevealAll } from '../hooks/useScrollReveal'
 import { useScrollTilt } from '../hooks/useScrollTilt'
+import PriceCalculator from '../components/PriceCalculator'
 
 const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20graag%20een%20vaste%20prijs%20weten.'
 const TEL = '+31633721505'
@@ -99,8 +100,8 @@ export default function Tarieven() {
   return (
     <>
       <Seo
-        title="Wat kost een taxi in Groningen? | Tarieven Taxi Amro"
-        description="Bekijk vaste taxitarieven in Noord-Nederland: Schiphol, Eemshaven, Leeuwarden en meer. Geen verrassingen, prijs vooraf bekend."
+        title="Taxi Tarieven Groningen | Bereken je Ritprijs | Taxi Amro"
+        description="Bereken direct je taxiprijs. Schiphol €491, Eemshaven €98, Eelde €42. Officieel metertarief met afstandskorting tot 25%. Vaste prijs, geen extra kosten."
         canonical="/tarieven"
         schema={schema}
       />
@@ -141,6 +142,9 @@ export default function Tarieven() {
             </div>
           </div>
         </section>
+
+        {/* Inline prijscalculator */}
+        <PriceCalculator />
 
         {/* Tarieven cards grid */}
         <section className="py-20 bg-white">
