@@ -70,25 +70,12 @@ export function HomePage() {
         canonical="/"
         schema={{
           '@context': 'https://schema.org',
-          '@graph': [
-            {
-              '@type': 'TaxiService',
-              name: 'Taxi Amro Noord-Nederland',
-              url: 'https://www.taxiamro.nl',
-              telephone: '+31633721505',
-              priceRange: '€15 t/m €425',
-              areaServed: ['Groningen', 'Friesland', 'Drenthe'],
-            },
-            {
-              '@type': 'FAQPage',
-              mainEntity: [
-                { '@type': 'Question', name: 'Wat kost een taxi in Groningen?', acceptedAnswer: { '@type': 'Answer', text: 'Een stadsrit in Groningen kost €15. Naar Groningen Airport Eelde €25, naar Eemshaven €65, naar Schiphol €275. Gebruik onze prijscalculator voor een vaste prijs op maat.' } },
-                { '@type': 'Question', name: 'Wat kost een taxi van Groningen naar Schiphol?', acceptedAnswer: { '@type': 'Answer', text: 'Een taxi van Groningen naar Schiphol kost €275 vaste prijs (circa 205 km). Prijs geldt voor maximaal 4 personen, geen toeslag voor bagage of tijdstip.' } },
-                { '@type': 'Question', name: 'Rekent Taxi Amro een nachttarief?', acceptedAnswer: { '@type': 'Answer', text: "Nee. Bij Taxi Amro betaal je altijd de vooraf afgesproken vaste prijs, ook 's nachts, in het weekend of op feestdagen." } },
-                { '@type': 'Question', name: 'Is er een retourkorting beschikbaar?', acceptedAnswer: { '@type': 'Answer', text: 'Ja, bij een retourrit ontvang je 10% korting op de totaalprijs. Selecteer Retour rit in de boekingswidget of vraag ernaar via WhatsApp.' } },
-              ],
-            },
-          ],
+          '@type': 'TaxiService',
+          name: 'Taxi Amro Noord-Nederland',
+          url: 'https://www.taxiamro.nl',
+          telephone: '+31633721505',
+          priceRange: '€€',
+          areaServed: ['Groningen', 'Friesland', 'Drenthe'],
         }}
       />
       <div className="min-h-screen bg-white">
