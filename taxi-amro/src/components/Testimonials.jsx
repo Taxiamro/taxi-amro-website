@@ -80,7 +80,7 @@ export default function Testimonials() {
         <div className="mt-12 text-center">
           <p className="text-gray-500 text-sm mb-4">Tevreden over uw rit? Laat een review achter op Google.</p>
           <a
-            href="https://g.page/r/JOUW_REVIEW_LINK_HIER/review"
+            href="https://g.page/r/CdjYeiWETNmqEBM/review"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-white border-2 border-amber-400 hover:bg-amber-50 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all hover:scale-105 shadow-sm text-sm"
