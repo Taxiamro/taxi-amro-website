@@ -101,7 +101,7 @@ export default function Tarieven() {
     <>
       <Seo
         title="Wat Kost een Taxi in Groningen? | Bereken je Prijs | Taxi Amro"
-        description="Wat kost een taxi in Groningen? Bereken je ritprijs direct online. Officieel metertarief, afstandskorting tot 25%. Vaste prijs, 24/7 beschikbaar in heel Noord-Nederland."
+        description="Wat kost een taxi in Groningen? Taxichauffeur nodig naar Eemshaven, Schiphol of Eelde? Bereken je ritprijs direct. Vaste prijs, afstandskorting tot 25%. 24/7 beschikbaar."
         canonical="/tarieven"
         schema={schema}
       />

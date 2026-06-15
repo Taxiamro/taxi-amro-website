@@ -25,6 +25,7 @@ const QUICK_ROUTES = [
   { label: 'Eelde Airport', from: 'Groningen Centrum, Groningen', to: 'Groningen Airport Eelde, Eelde' },
   { label: 'Schiphol', from: 'Groningen Centrum, Groningen', to: 'Amsterdam Airport Schiphol, Amsterdam' },
   { label: 'Stadsrit Groningen', msg: 'Ik wil graag een stadsrit in Groningen boeken.' },
+  { label: 'Hoogkerk', msg: 'Ik wil graag een taxi naar of vanuit Hoogkerk boeken.' },
   { label: 'Zakelijke rit', msg: 'Ik wil graag een zakelijke rit boeken.' },
 ]
 
@@ -196,13 +197,13 @@ export default function Hero() {
           <div className="order-2 lg:order-1 flex flex-col items-center lg:items-start gap-6">
             <div className="inline-flex items-center gap-2 bg-amber-100 border border-amber-300 rounded-full px-4 py-1.5">
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-              <span className="text-amber-700 text-sm font-semibold">Groningen · 24/7 beschikbaar</span>
+              <span className="text-amber-700 text-sm font-semibold">Taxichauffeur Groningen · 24/7</span>
             </div>
 
             <div className="relative w-full max-w-lg px-8 sm:px-10 lg:px-0">
               <div className="absolute inset-0 rounded-3xl blur-3xl opacity-40" style={{ background:'linear-gradient(135deg,#fde68a 0%,#a7f3d0 100%)',transform:'scale(0.95) translateY(12px)' }} />
               <div className="car-3d relative rounded-3xl overflow-hidden shadow-2xl" style={{ boxShadow:'0 30px 80px rgba(0,0,0,0.18),0 8px 24px rgba(0,0,0,0.1)' }}>
-                <img src="/nexo-exterior.webp" alt="TaxiAmro Hyundai Nexo elektrische taxi Groningen" className="w-full h-72 object-cover" />
+                <img src="/nexo-exterior.webp" alt="Taxichauffeur Groningen - Taxi Amro Hyundai Nexo elektrisch" className="w-full h-72 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 px-5 py-4">
                   <div className="text-white font-bold text-base leading-tight">TaxiAmro Groningen</div>

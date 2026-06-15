@@ -40,10 +40,10 @@ export default function WhyUs() {
             Waarom Taxi Amro
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mt-3 mb-4">
-            Kwaliteit die u kunt voelen
+            Uw taxichauffeur in Groningen
           </h2>
           <p className="text-gray-500 text-lg max-w-xl mx-auto">
-            Een premium rijervaring die u telkens opnieuw kiest.
+            Betrouwbaar, op tijd en altijd met een vaste prijs. Taxi Amro rijdt door Groningen, Friesland en Drenthe.
           </p>
         </div>
 
