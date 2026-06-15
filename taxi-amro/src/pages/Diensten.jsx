@@ -13,8 +13,8 @@ export default function Diensten() {
   return (
     <>
       <Seo
-        title="Taxidiensten Groningen | Schiphol, Eemshaven en meer | Taxi Amro"
-        description="Taxi van Groningen naar Schiphol, Eemshaven, Duitsland en meer. Zakelijk vervoer, nachttaxi en rolstoelvervoer. Vaste prijs, 24/7 beschikbaar."
+        title="Taxidiensten Groningen | Vliegveld, Zakelijk & Meer | Taxi Amro"
+        description="Taxi nodig in Groningen? Wij rijden naar Schiphol, Eemshaven, luchthaven Eelde en heel Noord-Nederland. Zakelijk, privé of groepsvervoer. 24/7 beschikbaar."
         canonical="/diensten"
       />
       <div className="min-h-screen bg-white">

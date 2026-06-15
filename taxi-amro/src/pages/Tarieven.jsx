@@ -100,8 +100,8 @@ export default function Tarieven() {
   return (
     <>
       <Seo
-        title="Taxi Tarieven Groningen | Bereken je Ritprijs | Taxi Amro"
-        description="Bereken direct je taxiprijs. Schiphol €491, Eemshaven €98, Eelde €42. Officieel metertarief met afstandskorting tot 25%. Vaste prijs, geen extra kosten."
+        title="Wat Kost een Taxi in Groningen? | Bereken je Prijs | Taxi Amro"
+        description="Wat kost een taxi in Groningen? Bereken je ritprijs direct online. Officieel metertarief, afstandskorting tot 25%. Vaste prijs, 24/7 beschikbaar in heel Noord-Nederland."
         canonical="/tarieven"
         schema={schema}
       />

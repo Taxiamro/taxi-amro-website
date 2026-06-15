@@ -65,8 +65,8 @@ export function HomePage() {
   return (
     <>
       <Seo
-        title="Taxi Amro Groningen | Vaste Prijs, 24/7 Beschikbaar"
-        description="Taxi Groningen met vaste prijs. Bereken je ritprijs online. Schiphol €491, Eelde €42, Eemshaven €98. Geen toeslagen, 24/7 beschikbaar in Groningen, Friesland en Drenthe."
+        title="Taxi Groningen | Snel, Betrouwbaar & 24/7 | Taxi Amro"
+        description="Snel een taxi in Groningen nodig? Taxi Amro is 24/7 beschikbaar. Vaste prijs vooraf, geen verrassingen. Direct boeken via WhatsApp of bel +31 6 33721505."
         canonical="/"
         schema={{
           '@context': 'https://schema.org',
