@@ -1,5 +1,73 @@
 export const blogPosts = [
   {
+    slug: 'taxichauffeur-groningen',
+    title: 'Taxichauffeur Groningen: betrouwbaar, 24/7 en vaste prijs',
+    date: '2026-06-10',
+    category: 'Groningen',
+    readTime: '6 min',
+    excerpt: 'Op zoek naar een taxichauffeur in Groningen? Taxi Amro rijdt 24/7, vaste prijs vooraf, geen toeslagen voor nacht of weekend. Direct boeken via WhatsApp of telefoon.',
+    featuredImage: '/hero-car.png',
+    featuredImageAlt: 'Taxichauffeur Groningen - Taxi Amro Hyundai Nexo elektrisch',
+    author: 'Team TaxiAmro',
+    keywords: ['taxichauffeur groningen', 'taxi groningen', 'taxiservice groningen', '24/7 taxi groningen'],
+    content: `
+      <p>Een goede taxichauffeur in Groningen vinden is niet altijd eenvoudig. Je wilt iemand die op tijd is, de weg kent en een eerlijke prijs rekent. Taxi Amro is al jaren de vaste taxichauffeur voor reizigers in Groningen, Friesland en Drenthe. In dit artikel leggen we uit wat je kunt verwachten en hoe je eenvoudig een rit boekt.</p>
+
+      <h2>Wat maakt een goede taxichauffeur?</h2>
+      <p>Een professionele taxichauffeur is meer dan iemand die je van A naar B brengt. Het gaat om betrouwbaarheid, klantvriendelijkheid en een comfortabele rit. Bij Taxi Amro combineren we dat met:</p>
+      <ul>
+        <li><strong>Vaste prijs vooraf</strong> — je weet wat je betaalt, nog voor je instapt</li>
+        <li><strong>Elektrisch rijden</strong> — wij rijden in de Hyundai Nexo op waterstof, de schoonste auto op de weg</li>
+        <li><strong>Op tijd</strong> — we volgen je vlucht of trein en passen onze aankomsttijd aan</li>
+        <li><strong>24/7 bereikbaar</strong> — ook om 3:00 's nachts of op feestdagen</li>
+        <li><strong>Geen toeslagen</strong> — geen extra kosten voor nachtritten, weekends of feestdagen</li>
+      </ul>
+
+      <h2>Taxichauffeur Groningen: voor welke ritten?</h2>
+      <p>Als taxichauffeur in Groningen rijden wij voor particulieren en bedrijven. De meest voorkomende ritten zijn luchthaven- en vluchtenvervoer, zakelijk vervoer voor vergaderingen en congressen, medisch vervoer naar het UMCG of andere ziekenhuizen, avond- en nachtritten na een feestje of concert, en vervoer voor senioren die niet meer zelfstandig kunnen rijden.</p>
+      <p>We rijden ook buiten Groningen: naar Friesland, Drenthe, Overijssel en zelfs internationale bestemmingen als Bremen of Dusseldorf.</p>
+
+      <h2>Wat kost een taxichauffeur in Groningen?</h2>
+      <p>De prijzen van Taxi Amro zijn gebaseerd op de officiele Rijksoverheid-tarieven: een starttarief van <strong>€4,31</strong> en <strong>€3,17 per kilometer</strong>. Voor langere ritten geven we automatisch korting:</p>
+      <ul>
+        <li>25 tot 40 km: <strong>15% korting</strong></li>
+        <li>40 tot 100 km: <strong>20% korting</strong></li>
+        <li>Meer dan 100 km: <strong>25% korting</strong></li>
+      </ul>
+      <p>Een paar voorbeelden van populaire ritten:</p>
+      <ul>
+        <li>Stadsrit Groningen (tot 8 km): <strong>vanaf €20</strong></li>
+        <li>Groningen naar Eelde Airport: <strong>€42</strong></li>
+        <li>Groningen naar Eemshaven: <strong>€98</strong></li>
+        <li>Groningen naar Assen: <strong>€84</strong></li>
+        <li>Groningen naar Schiphol: <strong>€491</strong> (met 25% afstandskorting)</li>
+      </ul>
+      <p>Wil je exact weten wat jouw rit kost? Gebruik onze <a href="/tarieven">prijscalculator op de tarieven-pagina</a> of vraag direct een prijs aan via WhatsApp.</p>
+
+      <h2>Hoe boek je een taxichauffeur in Groningen?</h2>
+      <p>Boeken bij Taxi Amro is eenvoudig. Je kunt bellen naar <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of een bericht sturen via WhatsApp. We bevestigen je boeking altijd schriftelijk met de vaste prijs, ophaallocatie en verwachte reistijd.</p>
+      <p>Voor luchthavenritten adviseren we te boeken met minimaal 24 uur vooruit, zodat we jouw vluchtgegevens kunnen invoeren en de haaltijd kunnen afstemmen op de actuele vluchtstatus.</p>
+
+      <h2>Rijgebied: waar rijdt Taxi Amro?</h2>
+      <p>Onze thuisbasis is Groningen, maar we rijden door de hele provincie en ver daarbuiten. Tot ons vaste rijgebied behoren Groningen stad en omgeving (Hoogkerk, Haren, Zuidhorn, Ten Boer), de provincie Groningen (Eemshaven, Delfzijl, Winschoten, Veendam), Friesland (Leeuwarden, Drachten, Sneek, Heerenveen), Drenthe (Assen, Emmen, Hoogeveen, Meppel) en internationale bestemmingen op aanvraag.</p>
+
+      <h2>Zakelijk vervoer in Groningen</h2>
+      <p>Veel bedrijven in Groningen maken gebruik van Taxi Amro voor hun zakelijk vervoer. Wij bieden een zakelijke factuur aan en kunnen op vaste tijden voor uw medewerkers klaarstaan. Denk aan transport van en naar het vliegveld, vervoer tijdens congressen en beurzen in het EXPO Groningen of Martiniplaza, of woon-werkverkeer voor medewerkers die buiten de stad wonen.</p>
+      <p>Neem contact op voor zakelijke informatie via <a href="tel:+31633721505">+31 6 33721505</a> of bekijk onze <a href="/diensten">diensten-pagina</a>.</p>
+
+      <h2>Taxi Amro: duurzame taxichauffeur in Groningen</h2>
+      <p>Taxi Amro rijdt in de Hyundai Nexo, een auto die op waterstof rijdt. Dat betekent nul CO2-uitstoot onderweg, geen fijnstof en geen stikstofuitstoot. Voor bedrijven die duurzaamheid hoog in het vaandel hebben, is Taxi Amro een logische partner. Zo combineert u comfortabel zakelijk vervoer met een verantwoorde keuze voor het milieu.</p>
+
+      <h2>Veelgestelde vragen over taxichauffeur in Groningen</h2>
+      <p><strong>Hoe ver van tevoren moet ik boeken?</strong><br/>Voor stadsritten kunt u dezelfde dag boeken. Voor luchthavenritten raden we 24 uur van tevoren aan. Heeft u haast? Bel direct en we kijken wat mogelijk is.</p>
+      <p><strong>Zijn er extra kosten voor nachttarieven?</strong><br/>Nee. Bij Taxi Amro betaalt u altijd dezelfde vaste prijs, ongeacht het tijdstip. Geen nacht- of weekendtoeslag.</p>
+      <p><strong>Wat als mijn vlucht vertraagd is?</strong><br/>We volgen uw vluchtnummer en passen de ophaallocatie aan. De eerste 60 minuten wachttijd zijn gratis.</p>
+      <p><strong>Kan ik achteraf betalen?</strong><br/>Ja, zakelijke klanten kunnen op factuur betalen. Particulieren kunnen contant, pin of via Tikkie betalen.</p>
+
+      <p>Klaar om te boeken? Bel of app ons op <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. We staan voor u klaar, 24 uur per dag, 7 dagen per week.</p>
+    \`,
+  },
+  {
     slug: 'taxi-groningen-schiphol-prijs-2026',
     title: 'Wat kost een taxi van Groningen naar Schiphol in 2026?',
     date: '2026-05-12',
@@ -11,38 +79,69 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi groningen schiphol', 'prijs taxi schiphol', 'luchthavenvervoer groningen'],
     content: `
-      <p>Plan je een vlucht vanaf Schiphol en zoek je een betrouwbare taxi vanuit Groningen? Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs. In dit artikel leggen we precies uit wat een taxi van Groningen naar Schiphol kost, hoe lang de rit duurt en waarom een vooraf geboekte taxi vaak slimmer is dan zelf rijden.</p>
+      <p>Plan je een vlucht vanaf Schiphol en zoek je een betrouwbare taxi vanuit Groningen? Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs vooraf. In dit artikel leggen we precies uit wat een taxi van Groningen naar Schiphol kost, hoe lang de rit duurt en waarom een vooraf geboekte taxi slim is.</p>
+
+      <h2>Wat kost een taxi van Groningen naar Schiphol?</h2>
+      <p>De afstand van Groningen naar Schiphol is circa <strong>200 kilometer</strong>. Op basis van het officiele Rijksoverheid-tarief (starttarief €4,31 + €3,17/km) bedraagt de ritprijs voor 200 km:</p>
+      <p>Rekensommetje: €4,31 + (200 x €3,17) = €638,31. Maar bij Taxi Amro krijg je voor ritten boven de 100 km automatisch <strong>25% afstandskorting</strong>, waardoor de prijs uitkomt op <strong>€491</strong>. Dit is een vaste prijs — geen toeslagen voor file, nacht of weekend.</p>
+      <p>Wil je het zeker weten? Gebruik de <a href="/tarieven">prijscalculator op onze tarieven-pagina</a> voor een exacte berekening op basis van jouw ophaaladres.</p>
 
       <h2>Vaste prijs versus straattaxi</h2>
-      <p>Bij TaxiAmro werken we voor luchthavenritten met <strong>vaste vooraf afgesproken tarieven</strong>. Geen verrassingen achteraf, geen meter die doortikt in de file. Je weet vooraf precies wat je betaalt.</p>
-      <p>Een straattaxi van Groningen naar Schiphol rekent op basis van de wettelijke maximumtarieven (starttarief + kilometertarief + tijdtarief). Dat kan flink oplopen, zeker bij file op de A28 of A6.</p>
+      <p>Bij Taxi Amro werken we voor luchthavenritten met <strong>vaste vooraf afgesproken tarieven</strong>. Geen verrassingen achteraf, geen meter die doortikt in de file. Je weet vooraf precies wat je betaalt.</p>
+      <p>Een straattaxi van Groningen naar Schiphol rekent op basis van de wettelijke maximumtarieven (starttarief + kilometertarief + tijdtarief). Bij een rit van 2+ uur door het land kan het tijdtarief flink oplopen, zeker bij file op de A28 of A6. Dat risico heb je bij Taxi Amro niet.</p>
 
-      <h2>Hoe lang duurt de rit?</h2>
-      <p>De afstand Groningen — Schiphol is ongeveer <strong>200 km</strong>. Onder normale omstandigheden ben je in <strong>circa 2 uur en 15 minuten</strong> op de luchthaven. Wij adviseren altijd:</p>
+      <h2>Hoe lang duurt de rit Groningen naar Schiphol?</h2>
+      <p>De afstand Groningen naar Schiphol is ongeveer <strong>200 km</strong>. Onder normale omstandigheden ben je in <strong>circa 2 uur en 15 minuten</strong> op de luchthaven. Wij adviseren altijd:</p>
       <ul>
-        <li><strong>3 uur</strong> voor binnenlandse vluchten</li>
+        <li><strong>3 uur</strong> voor binnenlandse vluchten (check-in 2 uur van tevoren)</li>
         <li><strong>3,5 uur</strong> voor Europese vluchten</li>
         <li><strong>4 uur</strong> voor intercontinentale vluchten</li>
       </ul>
+      <p>Vroeg vertrekken loont: bij drukte op de A28 of werkzaamheden op de A6 kan de rit 30 tot 45 minuten langer duren. We volgen de verkeerssituatie en vertrekken op tijd.</p>
+
+      <h2>Retour Schiphol: bespaar nog meer</h2>
+      <p>Ga je ook terug vanuit Schiphol? Bij een retourrit krijg je <strong>10% extra korting</strong> bovenop de al toegepaste afstandskorting. Dat maakt een retour Groningen-Schiphol aanzienlijk voordeliger dan twee losse ritten boeken. Vraag naar de retourprijs bij het boeken.</p>
+
+      <h2>Wat is inbegrepen in de prijs?</h2>
+      <p>De vaste prijs van Taxi Amro voor de rit naar Schiphol omvat alles wat je nodig hebt:</p>
+      <ul>
+        <li>Ophalen aan de deur op het afgesproken tijdstip</li>
+        <li>Hulp met koffers en bagage</li>
+        <li>Gratis wifi in de auto</li>
+        <li>Waterflessen voor elke passagier</li>
+        <li>Vluchtvolgservice bij retourritten (gratis 60 minuten wachttijd na landing)</li>
+        <li>Betalen kan contant, pin of via Tikkie</li>
+      </ul>
+
+      <h2>Taxi naar Schiphol versus openbaar vervoer</h2>
+      <p>Je kunt ook met de trein van Groningen naar Schiphol. De intercity doet er circa 2,5 tot 3 uur over en kost per persoon rond de €35 enkele reis. Klinkt goedkoper, maar:</p>
+      <ul>
+        <li>Met 2 personen ben je samen al goedkoper uit met een taxi</li>
+        <li>Met grote koffers is de trein onpraktisch (trap af, overstap in Amsterdam, drukte)</li>
+        <li>Voor een vroege vlucht (voor 6:00) rijdt er geen trein</li>
+        <li>Met taxi rij je deur-tot-deur, zonder overstap of loopafstand</li>
+      </ul>
+      <p>Voor groepen van 2 of meer personen is een taxi naar Schiphol vrijwel altijd voordeliger en comfortabeler dan het openbaar vervoer.</p>
 
       <h2>Waarom een taxi in plaats van zelf rijden?</h2>
       <ol>
-        <li><strong>Geen parkeerkosten</strong> op Schiphol (al snel €30+ per dag)</li>
-        <li><strong>Geen stress</strong> in de file of bij verkeerd geparkeerd staan</li>
-        <li><strong>Comfortabel</strong> in onze luxe Hyundai Nexo — 100% elektrisch</li>
+        <li><strong>Geen parkeerkosten</strong> op Schiphol (al snel €30 of meer per dag)</li>
+        <li><strong>Geen stress</strong> in de file of bij het zoeken van parkeerplek</li>
+        <li><strong>Comfortabel</strong> in onze luxe Hyundai Nexo, 100% elektrisch en geruisloos</li>
         <li><strong>24/7 beschikbaar</strong> — ook voor die vroege ochtendvlucht om 5:00</li>
-        <li><strong>Vaste prijs</strong> vooraf bekend</li>
+        <li><strong>Vaste prijs</strong> vooraf vastgesteld, geen verrassingen</li>
       </ol>
 
-      <h2>Welke andere luchthavens rijden we?</h2>
-      <p>Naast Schiphol verzorgen wij ook luchthavenvervoer naar Eindhoven Airport, Groningen Airport Eelde, Bremen Airport en Düsseldorf Airport.</p>
+      <h2>Andere luchthavens</h2>
+      <p>Naast Schiphol verzorgen wij ook luchthavenvervoer naar Groningen Airport Eelde (35 km, €42), Eindhoven Airport (235 km), Bremen Airport (165 km) en Dusseldorf Airport (395 km). Vraag naar de prijs voor jouw bestemming.</p>
 
       <h2>Veelgestelde vragen</h2>
-      <p><strong>Hoe vroeg kan ik geboekt worden voor een ochtendvlucht?</strong><br/>24/7 — ook om 3:00 's nachts. Wij zijn altijd beschikbaar.</p>
-      <p><strong>Wat als mijn vlucht vertraagd is?</strong><br/>Bij ophaalritten vanaf Schiphol monitoren wij je vluchtnummer en passen de tijd aan. De eerste 60 minuten wachttijd na landing is gratis.</p>
-      <p><strong>Kan ik per pin betalen?</strong><br/>Ja, je kunt contant, per pin of via Tikkie/overschrijving betalen.</p>
+      <p><strong>Hoe vroeg kan ik geboekt worden voor een ochtendvlucht?</strong><br/>24/7, ook om 3:00 's nachts. Wij zijn altijd beschikbaar.</p>
+      <p><strong>Wat als mijn vlucht vertraagd is?</strong><br/>Bij ophaalritten vanaf Schiphol monitoren wij je vluchtnummer en passen de tijd aan. De eerste 60 minuten wachttijd na landing zijn gratis.</p>
+      <p><strong>Kan ik per pin betalen?</strong><br/>Ja, je kunt contant, per pin of via Tikkie betalen. Zakelijke klanten kunnen ook op factuur betalen.</p>
+      <p><strong>Hoe ver van tevoren moet ik boeken?</strong><br/>Voor luchthavenritten adviseren we minimaal 24 uur van tevoren. Last-minute is soms ook mogelijk; bel direct om te vragen.</p>
 
-      <p>Voor meer info over vervoer op Schiphol check de <a href="https://www.schiphol.nl/nl/vervoer/" target="_blank" rel="noopener noreferrer">officiële Schiphol website</a>.</p>
+      <p>Voor meer info over vervoer op Schiphol check de <a href="https://www.schiphol.nl/nl/vervoer/" target="_blank" rel="noopener noreferrer">officiele Schiphol website</a>. Klaar om te boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht.</p>
     `,
   },
   {
@@ -57,41 +156,47 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi eemshaven', 'cruise eemshaven taxi', 'havenvervoer noord-nederland'],
     content: `
-      <p>Eemshaven is een van de belangrijkste havens in Noord-Nederland. Werknemers van offshore-bedrijven, datacenters en de cruise-terminal hebben dagelijks vervoer nodig — vaak buiten reguliere openbaar vervoer-tijden. TaxiAmro rijdt <strong>24/7</strong> van en naar Eemshaven. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
+      <p>Eemshaven is een van de belangrijkste industriehavens van Nederland. Dagelijks zijn er honderden havenwerkers, offshore-medewerkers en cruisepassagiers die vervoer nodig hebben van en naar Groningen. Taxi Amro rijdt <strong>24/7</strong> van en naar Eemshaven, tegen een vaste prijs vooraf. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Voor wie rijden wij naar Eemshaven?</h2>
-      <h3>Havenwerkers en ploegendienst</h3>
-      <p>Werk je in de haven, op een schip of bij een van de offshore-bedrijven? Wij verzorgen vroege ochtendritten (vanaf 04:00) en late avondritten. Vaste klanten krijgen voorrang en kunnen rekenen op vaste prijzen.</p>
+      <h2>Hoe ver is Eemshaven van Groningen?</h2>
+      <p>De afstand van Groningen centrum naar Eemshaven is circa <strong>30 kilometer</strong>. Met de auto via de N360 ben je er in <strong>30 tot 40 minuten</strong>. Er is geen directe openbaar vervoer-verbinding op ploegendienst-tijden (vroeg in de ochtend of laat in de nacht), waardoor een taxi voor havenwerkers de enige praktische optie is.</p>
 
-      <h3>Cruisepassagiers</h3>
-      <p>Embarkeer je op een cruise vanuit Eemshaven Cruise Terminal? Wij rijden je rechtstreeks naar de juiste terminal met je bagage. Wij weten precies waar je moet zijn en helpen met je koffers.</p>
+      <h2>Wat kost een taxi naar Eemshaven?</h2>
+      <p>De vaste prijs voor een rit van Groningen naar Eemshaven is <strong>€98</strong>. Dit is een all-in prijs: geen toeslag voor nachtritten, geen extra kosten voor files of wachttijd aan de poort. Bij een retourrit krijg je 10% extra korting.</p>
+      <p>Kom je vanuit Delfzijl of Appingedam? De prijs verschilt per ophaallocatie. Gebruik de <a href="/tarieven">prijscalculator op onze tarieven-pagina</a> voor een exacte berekening.</p>
 
-      <h3>Zakelijk vervoer</h3>
-      <p>Voor management, klanten of leveranciers van bedrijven in Eemshaven bieden wij comfortabel zakelijk vervoer met facturering op rekening.</p>
+      <h2>Vervoer voor havenwerkers en ploegendiensten</h2>
+      <p>Veel werknemers in de Eemshaven werken in ploegendienst. Vroege ochtenddiensten beginnen soms al om 5:00 of 6:00. Taxi Amro is <strong>24/7 beschikbaar</strong>, ook op zaterdag, zondag en feestdagen. Je rijdt comfortabel naar je werk zonder zorgen over het openbaar vervoer of een kou van buiten wachten.</p>
+      <p>Bedrijven die regelmatig werknemers naar Eemshaven laten rijden, kunnen ook een vaste zakelijke overeenkomst sluiten met maandelijkse factuur. Neem contact op via <a href="tel:+31633721505">+31 6 33721505</a> voor meer informatie.</p>
 
-      <h2>Vanuit welke plaatsen rijden wij?</h2>
+      <h2>Cruisepassagiers: taxi van Groningen naar Eemshaven cruise terminal</h2>
+      <p>De <strong>Eemshaven cruise terminal</strong> is een van de vertrekpunten voor cruises naar Noorwegen, IJsland, de Britse Eilanden en de Baltische staten. Cruisepassagiers vanuit Groningen, Leeuwarden of Assen kiezen steeds vaker voor Taxi Amro om comfortabel naar de terminal gebracht te worden.</p>
+      <p>Bij cruisereizen heb je doorgaans veel bagage. In onze Hyundai Nexo is volop ruimte voor grote koffers. We helpen ook met in- en uitladen. Na je cruise halen we je op bij aankomst — ook als de aankomst vertraagd is.</p>
+
+      <h2>Welke bedrijven zijn gevestigd in Eemshaven?</h2>
+      <p>De Eemshaven is thuis voor grote internationale bedrijven. Vervoer naar deze locaties verzorgt Taxi Amro regelmatig:</p>
       <ul>
-        <li>Groningen → Eemshaven (~35 min)</li>
-        <li>Delfzijl → Eemshaven (~20 min)</li>
-        <li>Assen → Eemshaven (~50 min)</li>
-        <li>Leeuwarden → Eemshaven (~70 min)</li>
-        <li>Schiphol → Eemshaven (~2u 30min)</li>
+        <li><strong>Google</strong> — datacenter aan de Wilhelminahaven</li>
+        <li><strong>RWE</strong> — energiecentrale en windmolenpark</li>
+        <li><strong>Enercon</strong> — windturbineproductie en assemblage</li>
+        <li><strong>Amazon Web Services</strong> — datacenter Noord-Nederland</li>
+        <li><strong>Groningen Seaports</strong> — havenautoriteit en logistiek</li>
+        <li><strong>Offshore windparken</strong> — crew transfer en support vessels</li>
       </ul>
 
-      <h2>Waarom TaxiAmro?</h2>
-      <ul>
-        <li>✅ <strong>24/7 bereikbaar</strong> — ook bij nachtploegen</li>
-        <li>✅ <strong>Vaste tarieven</strong> — geen verrassingen</li>
-        <li>✅ <strong>Hyundai Nexo</strong> — 100% elektrisch, stil en comfortabel</li>
-        <li>✅ <strong>Bekende route</strong> — wij rijden dagelijks Eemshaven</li>
-        <li>✅ <strong>Plaats voor bagage</strong> — ideaal voor cruisepassagiers</li>
-      </ul>
+      <h2>Taxi van Eemshaven naar Groningen Airport Eelde</h2>
+      <p>Offshore-medewerkers die per helikopter of vliegtuig vertrekken vanuit Groningen Airport Eelde, kunnen bij ons ook de <strong>volledige transfer</strong> boeken: van Eemshaven of woonlocatie direct naar Eelde Airport. De prijs voor Eemshaven naar Eelde is circa €115. Vraag naar de exacte prijs bij het boeken.</p>
 
-      <h2>Veelgestelde vragen</h2>
-      <p><strong>Rijden jullie ook midden in de nacht?</strong><br/>Ja, 24 uur per dag, 7 dagen per week. Ook op feestdagen.</p>
-      <p><strong>Kan ik een vaste afspraak maken voor mijn ploegendienst?</strong><br/>Absoluut. Wij maken graag een vaste afspraak met vaste prijs voor terugkerende ritten.</p>
+      <h2>Openbaar vervoer naar Eemshaven: niet altijd mogelijk</h2>
+      <p>Er rijdt een streekbus (Qbuzz lijn 65) vanuit Groningen via Appingedam naar Eemshaven, maar alleen overdag en op werkdagen. Voor nacht- en weekenddiensten, of als je veel bagage hebt, is de bus geen optie. Taxi Amro is er altijd als de bus er niet rijdt.</p>
 
-      <p>Voor cruise- en havenschema's check de <a href="https://www.groningen-seaports.com/" target="_blank" rel="noopener noreferrer">Groningen Seaports website</a>.</p>
+      <h2>Veelgestelde vragen over taxi naar Eemshaven</h2>
+      <p><strong>Rijdt u ook naar Delfzijl?</strong><br/>Ja, Delfzijl ligt op de route naar Eemshaven. Prijs op aanvraag, doorgaans €75 tot €85 vanuit Groningen centrum.</p>
+      <p><strong>Kan ik maandelijks betalen als zakelijke klant?</strong><br/>Ja, zakelijke klanten kunnen op factuur betalen. We stellen een contract op met vaste tarieven per route.</p>
+      <p><strong>Hoe laat is de vroegste rit mogelijk?</strong><br/>Er is geen vroegste tijd. We rijden ook om 3:00 of 4:00 als dat nodig is voor een vroege dienst.</p>
+      <p><strong>Is er ruimte voor grote koffers of gereedschapskisten?</strong><br/>Ja, de Hyundai Nexo heeft een ruime kofferbak. Voor erg grote items (gereedschapskoffers, sporttassen) kunnen we overleggen over een groter voertuig.</p>
+
+      <p>Direct boeken voor vervoer naar of van Eemshaven? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht. We staan 24/7 voor je klaar.</p>
     `,
   },
   {
@@ -106,33 +211,32 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['waterstof taxi', 'hyundai nexo taxi', 'elektrische taxi groningen', 'duurzaam vervoer'],
     content: `
-      <p>Bij TaxiAmro rijden wij in een <strong>Hyundai Nexo</strong> — een 100% elektrische auto die rijdt op waterstof. Geen uitlaatgassen, geen lawaai, alleen waterdamp uit de uitlaat. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een schone, stille rit.</p>
+      <p>Taxi Amro rijdt als een van de weinige taxibedrijven in Noord-Nederland in een waterstofauto: de Hyundai Nexo. Maar wat is een waterstofauto precies? En wat merkt u als passagier van dit verschil? In dit artikel leggen we het uit.</p>
 
-      <h2>Wat is een waterstofauto?</h2>
-      <p>Een waterstofauto is een elektrische auto die zijn eigen stroom opwekt via een <strong>brandstofcel</strong>. Waterstof reageert met zuurstof uit de lucht, en het enige bijproduct is zuiver water. Geen CO₂, geen fijnstof, geen NOx.</p>
-      <p>De voordelen ten opzichte van een gewone elektrische auto:</p>
+      <h2>Hoe werkt een waterstofauto?</h2>
+      <p>Een waterstofauto gebruikt een brandstofcel die waterstof (H2) omzet in elektriciteit. Die elektriciteit drijft de elektromotor aan. Het enige wat uit de uitlaat komt is <strong>waterdamp</strong> — geen CO2, geen fijnstof, geen stikstofoxiden. De Hyundai Nexo is daarmee een van de schoonste voertuigen op de weg.</p>
+
+      <h2>Voordelen van waterstof ten opzichte van elektrisch</h2>
+      <p>Elektrische auto's laden langzaam op (30 minuten tot meerdere uren). De Hyundai Nexo tankt waterstof in <strong>slechts 5 minuten</strong>, vergelijkbaar met een benzineauto. Voor een taxi die 24/7 rijdt, is dat cruciaal: geen lange laadpauzes, altijd beschikbaar.</p>
+      <p>Bovendien heeft de Nexo een rijbereik van circa <strong>600 kilometer</strong> op een volle tank. Meer dan genoeg voor de langste ritten die Taxi Amro maakt, inclusief Groningen-Schiphol.</p>
+
+      <h2>Wat merkt u als passagier?</h2>
+      <p>De Hyundai Nexo is een grote, luxe SUV. Als passagier merkt u:</p>
       <ul>
-        <li><strong>Sneller tanken</strong> (3-5 minuten vs uren laden)</li>
-        <li><strong>Grotere actieradius</strong> (~650 km op één tank)</li>
-        <li><strong>Geen rekening houden met laadpaal-bezetting</strong></li>
+        <li><strong>Volkomen stil</strong> — geen motor- of uitlaatgeluid</li>
+        <li><strong>Ruim</strong> — veel beenruimte en een grote kofferbak</li>
+        <li><strong>Schone lucht</strong> — de Nexo zuivert zelfs de lucht die er doorheen gaat</li>
+        <li><strong>Comfortabele rit</strong> — soepele acceleratie, geen trillingen</li>
       </ul>
 
-      <h2>Wat merk jij als passagier?</h2>
-      <h3>1. Stil en comfortabel</h3>
-      <p>Geen motor die brult. Je kunt rustig telefoneren, werken of slapen tijdens je rit.</p>
-      <h3>2. Soepel rijden</h3>
-      <p>Elektrische motoren leveren direct vermogen — vloeiende acceleratie zonder geschakel.</p>
-      <h3>3. Nul uitstoot</h3>
-      <p>Je weet dat je rit <strong>nul uitstoot</strong> veroorzaakt. Goed voor je geweten én het klimaat.</p>
+      <h2>Duurzaam rijden in Groningen</h2>
+      <p>Steeds meer bedrijven en particulieren kiezen bewust voor duurzame opties. Door te rijden met Taxi Amro kiest u voor schoon vervoer zonder CO2-uitstoot. Dat is goed voor uw eigen reputatie als duurzaam bedrijf, en voor het milieu van Groningen en omgeving.</p>
 
-      <h2>Waarom rijden niet meer taxi's op waterstof?</h2>
-      <p>Waterstofauto's zijn duur, en het tanknetwerk is nog beperkt. In Noord-Nederland hebben wij gelukkig toegang tot een waterstofvulpunt, waardoor wij een van de weinige taxi-bedrijven in de regio zijn met 100% emissievrij vervoer.</p>
+      <h2>Waterstof in Noord-Nederland</h2>
+      <p>Noord-Nederland investeert volop in de waterstofeconomie. Met het Hydrogen Valley-project en investeringen in groene waterstof is de regio koploper in duurzame energie. Taxi Amro past perfect in dit verhaal als taxibedrijf dat rijdt op de brandstof van de toekomst.</p>
 
-      <h2>Veelgestelde vragen</h2>
-      <p><strong>Hoe veilig is een waterstoftaxi?</strong><br/>Volstrekt veilig. De Hyundai Nexo heeft een 5-sterren Euro NCAP veiligheidsbeoordeling.</p>
-      <p><strong>Is het duurder dan een gewone taxi?</strong><br/>Nee. Wij rekenen dezelfde tarieven maar je krijgt duurzaam en comfortabel vervoer.</p>
-
-      <p>Meer weten over waterstof? Lees op de <a href="https://www.rijksoverheid.nl/onderwerpen/duurzame-energie/waterstof" target="_blank" rel="noopener noreferrer">Rijksoverheid pagina over waterstof</a>.</p>
+      <h2>Meer weten of een rit boeken?</h2>
+      <p>Wilt u zelf ervaren hoe het is om in de Hyundai Nexo te rijden? Boek een rit via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. We vertellen u graag meer over de auto tijdens de rit.</p>
     `,
   },
   {
@@ -147,51 +251,59 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi eelde airport', 'groningen airport taxi', 'vroege vlucht eelde'],
     content: `
-      <p>Vertrek je vroeg in de ochtend vanaf <strong>Groningen Airport Eelde</strong>? Dan wil je geen risico nemen met OV of zelf rijden. TaxiAmro brengt je 24/7 stipt op tijd. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
+      <p>Vertrek je vroeg in de ochtend vanaf <strong>Groningen Airport Eelde</strong>? Dan wil je geen risico nemen met openbaar vervoer of zelf rijden. Taxi Amro brengt je 24/7 stipt op tijd naar Eelde Airport. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs vooraf.</p>
 
-      <h2>Waarom geen openbaar vervoer voor vroege vluchten?</h2>
-      <p>Eelde Airport ligt buiten Groningen, in Drenthe. De eerste bus rijdt vaak pas vanaf 06:00 — te laat voor de meeste internationale ochtendvluchten. Met koffers, in de kou, overstappen: geen aanrader om 04:30 's nachts.</p>
+      <h2>Groningen Airport Eelde: wat vlieg je waarheen?</h2>
+      <p>Groningen Airport Eelde is het regionale vliegveld van Noord-Nederland, gelegen in Eelde, ongeveer 10 kilometer ten zuiden van Groningen centrum. Vanuit Eelde vliegen maatschappijen als Transavia naar bestemmingen als Tenerife, Malaga, Rhodos, Antalya en Curacao. Ook chartervluchten en zakelijke vluchten vertrekken regelmatig vanuit Eelde.</p>
+      <p>Voor vakantievluchten geldt doorgaans een vroeg vertrek: check-in om 4:00 of 5:00 in de ochtend is geen uitzondering. Het openbaar vervoer rijdt op die tijden nog niet. Een taxi is dan de enige betrouwbare oplossing.</p>
 
-      <h2>Hoe laat moet ik op Eelde aankomen?</h2>
+      <h2>Hoe ver is Eelde Airport van Groningen?</h2>
+      <p>De afstand van Groningen centrum naar Groningen Airport Eelde is circa <strong>12 kilometer</strong>. Afhankelijk van jouw ophaaladres ben je in <strong>15 tot 25 minuten</strong> op de luchthaven. Vanuit Assen, Hoogeveen of Emmen is de afstand korter. Taxi Amro haalt je op bij jouw huisadres, ongeacht waar in de provincie je woont.</p>
+
+      <h2>Wat kost een taxi naar Eelde Airport?</h2>
+      <p>De vaste prijs voor een rit vanuit Groningen centrum naar Eelde Airport is <strong>€42</strong>. Voor adressen buiten Groningen centrum verschilt de prijs afhankelijk van je locatie. Gebruik de <a href="/tarieven">prijscalculator</a> voor een exacte berekening op basis van jouw ophaaladres.</p>
+      <p>Bij een <strong>retourrit</strong> (heen en terug) krijg je 10% extra korting. Handig als je ook bij terugkomst opgehaald wilt worden.</p>
+
+      <h2>Waarom niet zelf rijden naar Eelde?</h2>
+      <p>Veel reizigers overwegen zelf te rijden naar Eelde. Maar let op de kosten:</p>
       <ul>
-        <li><strong>Schengen vluchten:</strong> 1,5 uur vooraf inchecken</li>
-        <li><strong>Internationale vluchten:</strong> 2 uur vooraf</li>
-        <li><strong>Met bagage incheck:</strong> sluiting check-in 40 min voor vertrek</li>
+        <li>Parkeren bij Eelde Airport kost circa €7 per dag in de goedkoopste P-Long Stay</li>
+        <li>Een week vakantie = al snel €50 aan parkeerkosten</li>
+        <li>Bij vertraging van je vlucht staan je parkeerkosten door te lopen</li>
+        <li>Na een lange vlucht nog je auto terugzoeken is vermoeiend</li>
+      </ul>
+      <p>Met Taxi Amro parkeer je thuis, betaal je een vaste prijs en word je na thuiskomst gewoon afgezet bij je deur. Geen gedoe, geen extra kosten.</p>
+
+      <h2>Taxi terug vanuit Eelde: ophaalservice</h2>
+      <p>Taxi Amro verzorgt ook de ophaalrit als je terugkomt van vakantie of zakenreis. Geef je vluchtnummer door bij het boeken, dan volgen wij de vlucht live. Als je vlucht vroeg of laat aankomt, passen wij onze aankomsttijd aan. De eerste 30 minuten wachttijd na landing zijn gratis.</p>
+
+      <h2>Vroege vlucht: tips voor een stressvrij vertrek</h2>
+      <ul>
+        <li><strong>Boek de taxi minimaal 24 uur van tevoren</strong> zodat we jouw ophaallocatie en vertrekttijd kunnen bevestigen</li>
+        <li><strong>Check-in online</strong> voor vertrek, zodat je bij de luchthaven alleen bagage hoeft in te checken</li>
+        <li><strong>Leg je bagage klaar</strong> de avond ervoor, zodat je bij het opstaan direct weg kunt</li>
+        <li><strong>Zet je wekker 15 minuten eerder</strong> — bij vroege vluchten wil je geen haast</li>
+        <li><strong>Wij rijden stipt op tijd</strong> en bevestigen de avond voor vertrek altijd nog een keer de ophaalttijd</li>
       </ul>
 
-      <h2>Plan voorbeeld: vlucht vertrekt om 06:30</h2>
-      <table>
-        <tr><th>Tijd</th><th>Actie</th></tr>
-        <tr><td>04:00</td><td>Wakker worden</td></tr>
-        <tr><td>04:30</td><td>Taxi haalt je op</td></tr>
-        <tr><td>05:00</td><td>Aankomst Eelde</td></tr>
-        <tr><td>05:30</td><td>Check-in klaar</td></tr>
-        <tr><td>06:30</td><td>Vlucht vertrekt ✈️</td></tr>
-      </table>
-
-      <h2>Vanaf welke plaatsen rijden wij naar Eelde?</h2>
+      <h2>Vanuit andere plaatsen naar Eelde</h2>
+      <p>Taxi Amro haalt ook op buiten Groningen. Prijsindicaties voor populaire ophaallocaties naar Eelde Airport:</p>
       <ul>
-        <li>Groningen → Eelde (15 min)</li>
-        <li>Assen → Eelde (20 min)</li>
-        <li>Drachten → Eelde (45 min)</li>
-        <li>Leeuwarden → Eelde (55 min)</li>
-        <li>Emmen → Eelde (50 min)</li>
+        <li>Assen centrum: circa €35</li>
+        <li>Hoogeveen: circa €60</li>
+        <li>Leeuwarden: circa €80</li>
+        <li>Emmen: circa €75</li>
+        <li>Winschoten: circa €65</li>
       </ul>
+      <p>Niet jouw stad in de lijst? Bel ons voor een prijs op maat.</p>
 
-      <h2>Tips voor stressvrije ochtendvlucht</h2>
-      <ol>
-        <li><strong>Boek minimaal 24 uur vooraf</strong> voor garantie</li>
-        <li><strong>Zet wekker 30 min eerder</strong> dan je nodig denkt</li>
-        <li><strong>Bagage de avond ervoor klaar</strong> zetten</li>
-        <li><strong>Online inchecken</strong> scheelt 20 min op de luchthaven</li>
-        <li><strong>Vluchtnummer doorgeven</strong> zodat wij wijzigingen kunnen volgen</li>
-      </ol>
+      <h2>Veelgestelde vragen Eelde Airport taxi</h2>
+      <p><strong>Hoe vroeg kunnen jullie rijden?</strong><br/>Wij rijden 24/7, ook om 2:00 of 3:00 in de ochtend voor de vroegste vluchten.</p>
+      <p><strong>Wat als mijn vlucht vertraging heeft bij terugkomst?</strong><br/>We volgen je vlucht live. Je hoeft ons niet te bellen — wij passen onze aankomsttijd automatisch aan.</p>
+      <p><strong>Kan ik vlak voor vertrek nog boeken?</strong><br/>Voor vroege vluchten adviseren we altijd van tevoren te boeken. Last-minute is soms mogelijk; bel direct om te vragen.</p>
+      <p><strong>Kan ik ook vanuit Drenthe opgehaald worden?</strong><br/>Ja, we rijden door heel Groningen en Drenthe. Prijs verschilt per locatie.</p>
 
-      <h2>Veelgestelde vragen</h2>
-      <p><strong>Komen jullie ook helpen met de koffers?</strong><br/>Vanzelfsprekend. Onze chauffeur helpt met inladen en uitladen.</p>
-      <p><strong>Kan ik 2 dagen vooraf boeken?</strong><br/>Ja, en zelfs maanden vooraf. Hoe eerder hoe beter voor garantie.</p>
-
-      <p>Vluchttijden en info op <a href="https://www.groningenairport.nl/" target="_blank" rel="noopener noreferrer">Groningen Airport Eelde website</a>.</p>
+      <p>Klaar om te boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht. Taxi naar Eelde Airport — altijd op tijd, altijd vaste prijs.</p>
     `,
   },
   {
@@ -206,49 +318,33 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi emden', 'taxi leer duitsland', 'grensoverschrijdend vervoer', 'taxi naar duitsland'],
     content: `
-      <p>Heb je een afspraak in <strong>Emden</strong>, <strong>Leer</strong> of een andere stad net over de grens in Duitsland? TaxiAmro biedt comfortabel grensoverschrijdend vervoer vanuit heel Noord-Nederland. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs zonder verrassingen.</p>
+      <p>Woon je in Groningen en moet je naar Duitsland? Taxi Amro rijdt regelmatig grensoverschrijdend naar steden als Emden, Leer, Aurich en omgeving. Handig voor werk, familiebezoek of een verbinding naar een vliegveld of station in Duitsland. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom een Nederlandse taxi voor Duitsland?</h2>
+      <h2>Afstand Groningen naar Emden en Leer</h2>
+      <p>Emden ligt op circa 65 km van Groningen, vlak over de grens. Reistijd: ongeveer 50 minuten. Leer (Ostfriesland) is circa 80 km. Beide steden zijn goed bereikbaar via de A7 en de grensovergang bij Nieuwe Statenzijl of Nieuweschans.</p>
+
+      <h2>Prijzen grensoverschrijdend vervoer</h2>
+      <p>Voor ritten naar Duitsland geldt een vaste prijs op basis van het trajekt. Emden vanuit Groningen kost circa <strong>€130</strong>, Leer circa <strong>€155</strong>. Vraag naar de exacte prijs voor uw route via <a href="tel:+31633721505">+31 6 33721505</a>.</p>
+
+      <h2>Waarvoor rijden mensen naar Emden en Leer?</h2>
       <ul>
-        <li><strong>Geen taalbarrière</strong> — onze chauffeur spreekt Nederlands</li>
-        <li><strong>Bekende prijs vooraf</strong> — geen verrassingen</li>
-        <li><strong>Geen huurauto stress</strong> — geen buitenlandse boetes</li>
-        <li><strong>Eén aanspreekpunt</strong> voor zowel heen als terug</li>
-        <li><strong>Bekend met de route</strong> — Eemshaven, Nieuweschans, grensovergang</li>
+        <li>Woon-werkverkeer (bedrijven in de Emslandregio)</li>
+        <li>Familiebezoek in Oost-Friesland</li>
+        <li>Verbinding naar station Emden Hauptbahnhof (IC naar Bremen, Hamburg)</li>
+        <li>Ziekenhuisbezoek in Duitsland</li>
+        <li>Zakelijke meetings in de grensregio</li>
       </ul>
 
-      <h2>Naar welke Duitse plaatsen rijden wij?</h2>
-      <ul>
-        <li><strong>Emden</strong> — havenstad, cruise-terminal, VW-fabriek (~1 uur vanaf Groningen)</li>
-        <li><strong>Leer</strong> — historisch centrum, Meyer Werft (~1u 15min)</li>
-        <li><strong>Bremen</strong> — luchthaven en stad (~2 uur)</li>
-        <li><strong>Aurich</strong> — Ostfriesland regio</li>
-        <li><strong>Norden</strong> en Noordzee kustplaatsen</li>
-      </ul>
+      <h2>Vervoer naar Bremen Airport via Emden</h2>
+      <p>Bremen Airport is een populaire luchthaven voor Noord-Nederlanders die goedkoop willen vliegen via Ryanair of Lufthansa. De route loopt via Emden. Taxi Amro rijdt de route Groningen-Bremen Airport voor circa <strong>€455</strong>.</p>
 
-      <h2>Veelgemaakte ritten</h2>
-      <h3>Zakelijk vervoer naar VW Emden</h3>
-      <p>Veel klanten reizen voor vergaderingen of inspecties naar de Volkswagen-fabriek in Emden. Wij rijden je rechtstreeks naar het bedrijventerrein, wachten waar nodig en brengen je terug.</p>
-      <h3>Cruise vanuit Emden</h3>
-      <p>Bezoekers van AIDA cruises vanuit Emden Emspier worden door ons opgehaald van hun thuisadres in Nederland.</p>
-      <h3>Bremen Airport</h3>
-      <p>Een goedkoper alternatief voor Schiphol als de vlucht via Bremen vertrekt. Wij rijden je rechtstreeks naar de terminal.</p>
+      <h2>Documenten grensoverschrijdend</h2>
+      <p>Voor een rit naar Duitsland heeft u uw paspoort of identiteitskaart nodig. Er zijn geen extra kosten of toeslagen voor grensoverschrijdend vervoer. De prijs is altijd vast en vooraf afgesproken.</p>
 
-      <h2>Vanaf welke plaatsen rijden wij grensoverschrijdend?</h2>
-      <ul>
-        <li>Groningen → Emden (~1u)</li>
-        <li>Delfzijl → Emden (~45 min)</li>
-        <li>Eemshaven → Emden (~1u)</li>
-        <li>Winschoten → Leer (~30 min)</li>
-        <li>Assen → Emden (~1u 15min)</li>
-      </ul>
+      <h2>Zakelijk vervoer naar Duitsland</h2>
+      <p>Heeft uw bedrijf regelmatig medewerkers die naar Duitsland moeten? Taxi Amro biedt zakelijke contracten aan met maandelijkse factuur. Neem contact op voor een offerte op maat.</p>
 
-      <h2>Veelgestelde vragen</h2>
-      <p><strong>Mag een Nederlandse taxi in Duitsland rijden?</strong><br/>Ja, mits met geldige taxivergunning en juiste verzekering. Wij voldoen aan alle voorschriften.</p>
-      <p><strong>Spreekt de chauffeur Duits?</strong><br/>Onze chauffeurs spreken voldoende Duits om je te helpen op je bestemming.</p>
-      <p><strong>Is het duurder dan een Duitse taxi?</strong><br/>Vaak juist goedkoper vanwege onze vaste tarieven.</p>
-
-      <p>Meer info bij de <a href="https://www.anwb.nl/auto/rijden-in-duitsland" target="_blank" rel="noopener noreferrer">ANWB over rijden in Duitsland</a>.</p>
+      <p>Klaar voor uw rit naar Duitsland? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs vooraf.</p>
     `,
   },
   {
@@ -263,37 +359,35 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi leeuwarden schiphol', 'vervoer leeuwarden schiphol', 'luchthavenvervoer friesland'],
     content: `
-      <p>Vlieg je vanaf Schiphol en woon je in Leeuwarden of omstreken? Met TaxiAmro reis je comfortabel en zonder zorgen rechtstreeks naar de luchthaven. Bel direct <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
+      <p>Woon je in Leeuwarden en moet je naar Schiphol? De trein is een optie, maar niet altijd de beste. Een taxi van Leeuwarden naar Schiphol geeft je deur-tot-deur comfort, een vaste prijs en geen gedoe met bagage op het perron. Taxi Amro rijdt ook vanuit Friesland naar alle grote luchthavens. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Reistijd Leeuwarden — Schiphol</h2>
-      <p>De afstand bedraagt ongeveer <strong>150 km</strong> via de A7 en A6. Onder normale omstandigheden ben je in <strong>2 uur</strong> op Schiphol. Wij adviseren tijdens spits 30 minuten extra in te plannen.</p>
+      <h2>Afstand en reistijd Leeuwarden naar Schiphol</h2>
+      <p>De afstand van Leeuwarden naar Amsterdam Schiphol is circa <strong>160 kilometer</strong>. Onder normale omstandigheden ben je er in <strong>circa 1 uur en 45 minuten</strong>. We adviseren 3 tot 3,5 uur voor de vlucht te vertrekken, zodat je ruim op tijd bent voor check-in en security.</p>
 
-      <h2>Vaste prijs versus meter</h2>
-      <p>Voor luchthavenritten hanteren wij een <strong>vooraf afgesproken vaste prijs</strong>. Geen meter die in de file doorrekent, geen verrassing achteraf.</p>
+      <h2>Wat kost een taxi van Leeuwarden naar Schiphol?</h2>
+      <p>Op basis van de officiele tarieven (€4,31 starttarief + €3,17/km) en 20% afstandskorting voor ritten van 40 tot 100 km (plus 25% voor boven de 100 km) bedraagt de prijs voor Leeuwarden-Schiphol circa <strong>€156</strong>. Dit is een vaste all-in prijs, inclusief ophalen aan de deur.</p>
+      <p>Rijd je retour? Met 10% retourkorting bespaar je aanzienlijk op het totaalbedrag. Vraag naar de retourprijs bij het boeken.</p>
 
-      <h2>Vanaf welke plaatsen in Friesland rijden wij?</h2>
+      <h2>Taxi Leeuwarden versus trein naar Schiphol</h2>
+      <p>De trein van Leeuwarden naar Schiphol doet er minstens 2,5 uur over met overstap in Amsterdam. Prijs is circa €35 per persoon enkele reis. Met 2 of meer personen ben je met een taxi goedkoper uit en rij je rechtstreeks deur-tot-deur.</p>
       <ul>
-        <li>Leeuwarden — centrum en omliggende dorpen</li>
-        <li>Drachten</li>
-        <li>Heerenveen</li>
-        <li>Sneek, Bolsward, Joure</li>
-        <li>Dokkum, Lemmer, Stiens</li>
+        <li>Met 2 personen: trein €70 totaal vs. taxi €156 (maar: geen overstap, deur-tot-deur)</li>
+        <li>Vroege vlucht voor 6:00: geen trein mogelijk, taxi wel</li>
+        <li>Veel bagage: taxi comfortabeler dan trein/metro Schiphol</li>
       </ul>
 
-      <h2>Waarom kiezen voor een taxi?</h2>
-      <ol>
-        <li>Geen dure Schiphol-parkeerkosten (€30+ per dag)</li>
-        <li>Comfortabel reizen in onze waterstof Hyundai Nexo</li>
-        <li>24/7 beschikbaar — ook voor 5:00 ochtendvluchten</li>
-        <li>Wij volgen je vlucht en passen aan bij vertraging</li>
-      </ol>
+      <h2>Andere luchthavens vanuit Leeuwarden</h2>
+      <p>Taxi Amro rijdt ook vanuit Leeuwarden naar Groningen Airport Eelde (circa €80), Bremen Airport (circa €190) en Eindhoven Airport (circa €220). Vraag naar de actuele prijs voor jouw bestemming.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Hoe vroeg moet ik boeken?</strong><br/>Minimaal 24 uur vooraf adviseren wij. Voor zekerheid bij drukke periodes: 1 week vooraf.</p>
-      <p><strong>Hoeveel passagiers passen er?</strong><br/>4 passagiers + ruim bagage in de Hyundai Nexo.</p>
-      <p><strong>Wat als ik om 4:00 's ochtends moet vertrekken?</strong><br/>Geen probleem — wij rijden 24/7.</p>
+      <h2>Vanuit andere steden in Friesland</h2>
+      <p>Je hoeft niet in Leeuwarden te wonen. Taxi Amro haalt ook op in Drachten, Sneek, Heerenveen, Franeker, Harlingen en andere Friese plaatsen. Prijs op aanvraag via <a href="tel:+31633721505">+31 6 33721505</a>.</p>
 
-      <p>Voor actuele Schiphol-info: <a href="https://www.schiphol.nl/" target="_blank" rel="noopener noreferrer">Schiphol.nl</a>.</p>
+      <h2>Veelgestelde vragen</h2>
+      <p><strong>Rijden jullie ook 's nachts vanuit Leeuwarden?</strong><br/>Ja, 24/7 en zonder nacht- of weekendtoeslag.</p>
+      <p><strong>Kan ik ook opgehaald worden bij terugkomst op Schiphol?</strong><br/>Ja, we volgen je vlucht en staan klaar als je landt. Eerste 60 minuten wachttijd gratis.</p>
+      <p><strong>Betalen op factuur?</strong><br/>Ja, zakelijke klanten kunnen op maandelijkse factuur betalen.</p>
+
+      <p>Boek je rit van Leeuwarden naar Schiphol via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Vaste prijs, altijd op tijd.</p>
     `,
   },
   {
@@ -308,34 +402,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['studententaxi groningen', 'nachttaxi groningen', 'taxi uitgaan groningen'],
     content: `
-      <p>Groningen is een van de beste studentensteden van Nederland. Maar na een nacht stappen in de Poelestraat, Peperstraat of bij de Vismarkt wil je veilig en snel thuis. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een betaalbare studententaxi.</p>
+      <p>Groningen is een echte studentenstad met een bruisend nachtleven. Na een avond stappen wil je veilig thuiskomen — niet achterop de fiets in de regen, niet te voet door donkere straten. Taxi Amro rijdt 24/7 door Groningen en brengt je veilig thuis na een avond uit. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom een taxi en geen fiets?</h2>
-      <p>Met een paar biertjes op de fiets stappen is <strong>niet alleen onverstandig — het is strafbaar</strong>. Boetes voor dronken fietsen kunnen oplopen tot €240. Een taxi is goedkoper, veiliger en sneller.</p>
+      <h2>Veilig thuiskomen na het stappen</h2>
+      <p>Veiligheid staat voorop na een avond uit. Een taxi is altijd veiliger dan fietsen of lopen als je wat gedronken hebt. Bij Taxi Amro rij je in een schone, comfortabele auto met een nuchtere, professionele chauffeur. Geen gedoe, gewoon thuiskomen.</p>
 
-      <h2>Vanaf welke uitgaansgebieden halen wij op?</h2>
-      <ul>
-        <li><strong>Poelestraat / Peperstraat</strong> — meeste cafés en clubs</li>
-        <li><strong>Grote Markt</strong> en omstreken</li>
-        <li><strong>Vismarkt</strong> terrassen</li>
-        <li><strong>Studentenverenigingen</strong> — Vindicat, Albertus, Cleopatra</li>
-      </ul>
+      <h2>Wanneer rijden we door Groningen?</h2>
+      <p>Taxi Amro rijdt 24/7, dus ook op vrijdag- en zaterdagnacht. Of je nu om middernacht thuis wilt zijn of pas om 5 uur in de ochtend — we zijn er. Geen wachttijden, geen surge pricing, gewoon een vaste prijs die je vooraf weet.</p>
 
-      <h2>Naar welke wijken rijden wij?</h2>
-      <p>Helpman, Selwerd, Paddepoel, Vinkhuizen, Beijum, Lewenborg, Zernike Campus, Kardinge — heel Groningen en omliggende dorpen (Haren, Hoogkerk, Eelde).</p>
+      <h2>Naar buiten Groningen</h2>
+      <p>Woon je in een dorp of buiten de stad? Taxi Amro rijdt ook naar Hoogkerk, Haren, Zuidhorn, Leek, Winsum en andere plaatsen in de omgeving. Prijs op aanvraag.</p>
 
-      <h2>Tips voor uitgaande studenten</h2>
-      <ol>
-        <li><strong>Boek vooraf</strong> als je laat thuis wilt — anders soms 30+ min wachten</li>
-        <li><strong>Reis met een groep</strong> — deel de prijs</li>
-        <li><strong>Sla ons nummer op</strong>: +31 6 33721505</li>
-        <li><strong>Pin betaling</strong> mogelijk in de auto</li>
-        <li><strong>WhatsApp boeking</strong> — handig na een paar drankjes</li>
-      </ol>
+      <h2>Groepsritten voor studenten</h2>
+      <p>Met meerdere mensen samen een taxi nemen is slim: je deelt de kosten en iedereen komt veilig thuis. Bij Taxi Amro passen tot 4 personen comfortabel in de Hyundai Nexo. Verdeel de prijs en het is voor iedereen goedkoop.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Hoe laat rijden jullie?</strong><br/>24/7. Ook om 04:00 's ochtends.</p>
-      <p><strong>Mogen we eten/drinken meenemen?</strong><br/>Liever niet vanwege reinigingskosten bij morsen. Friet in gesloten zak OK.</p>
+      <h2>Hoe boek je een taxi na een avond stappen?</h2>
+      <p>Bel of WhatsApp ons op <a href="tel:+31633721505">+31 6 33721505</a>. Zeg waar je bent en waar je naartoe wilt. We geven een vaste prijs en staan snel voor de deur. Geen app nodig, geen account — gewoon bellen.</p>
+
+      <p>Veilig thuiskomen na een avond Groningen? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. We rijden je veilig naar huis.</p>
     `,
   },
   {
@@ -350,45 +434,22 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi bruiloft', 'trouwauto groningen', 'evenementen vervoer'],
     content: `
-      <p>Een bruiloft, jubileum of groot feest verdient zorgvuldig georganiseerd vervoer. Geen gedoe met parkeren, geen zorgen over alcohol achter het stuur. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een offerte.</p>
+      <p>Voor een bruiloft, verjaardag, jubileum of zakelijk evenement wil je op stijlvolle manier aankomen. Taxi Amro verzorgt feestvervoer in Noord-Nederland — van ceremonie naar feestlocatie, van gast naar hotel en alles daartussenin. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een offerte.</p>
 
-      <h2>Wat regelen wij voor jouw evenement?</h2>
-      <ul>
-        <li><strong>Pendeldienst</strong> tussen ceremonie, receptie en feestlocatie</li>
-        <li><strong>Vaste prijs</strong> afhankelijk van aantal ritten</li>
-        <li><strong>Eigen chauffeur</strong> die meedenkt en flexibel is</li>
-        <li><strong>Heen-en-terug</strong> voor gasten</li>
-        <li><strong>VIP-vervoer</strong> voor bruidspaar of eregasten</li>
-      </ul>
+      <h2>Trouwvervoer: de bruid, bruidegom of gasten</h2>
+      <p>Op je trouwdag wil je geen zorgen over vervoer. Taxi Amro rijdt het bruidspaar, de getuigen of de gasten van de ene locatie naar de andere. Stipt op tijd, in een nette auto. Of het nu gaat om de ceremonie, de fotoshoot of het feest — we staan voor u klaar.</p>
 
-      <h2>Voor welke evenementen?</h2>
-      <ul>
-        <li>Bruiloften en partnerschappen</li>
-        <li>Jubilea, verjaardagen</li>
-        <li>Doopfeesten, communies</li>
-        <li>Bedrijfsuitjes en kerstborrels</li>
-        <li>Concerten en festivals</li>
-        <li>Begrafenissen en uitvaarten</li>
-      </ul>
+      <h2>Vervoer voor feestgangers</h2>
+      <p>Organiseer je een groot feest? Dan wil je dat gasten veilig kunnen reizen zonder de auto te nemen. Taxi Amro biedt <strong>pendeldiensten</strong> aan voor feesten en evenementen: heen en weer rijden tussen parkeerlocatie, station of hotel en de feestlocatie.</p>
 
-      <h2>Hoe werkt het?</h2>
-      <ol>
-        <li><strong>Vraag offerte aan</strong> via telefoon, mail of WhatsApp</li>
-        <li><strong>Geef ons door:</strong> datum, locaties, tijden, aantal personen</li>
-        <li><strong>Wij maken een planning</strong> met vaste prijs</li>
-        <li><strong>Op de dag</strong>: wij staan stipt op tijd klaar</li>
-      </ol>
+      <h2>Evenementenvervoer in Groningen</h2>
+      <p>Groningen heeft diverse grote evenementenlocaties: Martiniplaza, EXPO Groningen, Oosterpoort en het Groninger Forum. Bij grote evenementen is parkeren altijd een uitdaging. Laat u voor en na het evenement rijden door Taxi Amro — comfortabel en zonder parkeergedoe.</p>
 
-      <h2>Tips voor stressvrij vervoer op je grote dag</h2>
-      <ol>
-        <li><strong>Boek 6 weken vooraf</strong> — populaire weekends raken vol</li>
-        <li><strong>Geef een tijdsbuffer</strong> mee</li>
-        <li><strong>Wijs een contactpersoon aan</strong> die ons kan bellen tijdens de dag</li>
-      </ol>
+      <h2>Vaste prijs voor feestvervoer</h2>
+      <p>Feestvervoer bij Taxi Amro werkt altijd op basis van een vaste prijs vooraf. U weet exact wat het kost en betaalt niets extra voor wachttijden of afwijkende tijdstippen. Vraag een offerte aan voor uw evenement.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kunnen jullie met meerdere voertuigen rijden?</strong><br/>Ja, via ons netwerk regelen wij meerdere auto's voor grotere groepen.</p>
-      <p><strong>Zijn jullie ook beschikbaar voor uitvaarten?</strong><br/>Ja, met passend voertuig en discrete service.</p>
+      <h2>Reserveer op tijd</h2>
+      <p>Voor bruiloften en grote evenementen raden we aan om tijdig te reserveren — zeker voor populaire weekenden in het voorjaar en de zomer. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor beschikbaarheid en prijs.</p>
     `,
   },
   {
@@ -403,36 +464,27 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi umcg', 'ziekenhuisvervoer groningen', 'taxi martini ziekenhuis'],
     content: `
-      <p>Een ziekenhuisafspraak, opname of bezoek aan een dierbare. Het laatste waar je dan op zit te wachten is parkeerzoekstress of een lange busrit. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Een afspraak in het UMCG of een ander ziekenhuis in Groningen vraagt om betrouwbaar vervoer. Of het nu gaat om een consult, een operatie of een behandelingsserie — Taxi Amro brengt u comfortabel en op tijd. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs.</p>
 
-      <p><strong>⚠️ Let op:</strong> wij verzorgen géén medisch noodvervoer. Bij medische spoed altijd 112 bellen.</p>
+      <h2>Ziekenhuisvervoer naar UMCG Groningen</h2>
+      <p>Het Universitair Medisch Centrum Groningen (UMCG) is een van de grootste ziekenhuizen van Nederland. Patienten komen er van ver voor specialistische behandelingen. Taxi Amro rijdt dagelijks van en naar het UMCG, ook voor patienten die minder mobiel zijn of die na een behandeling niet zelf kunnen rijden.</p>
 
-      <h2>Voor wie is dit geschikt?</h2>
-      <ul>
-        <li>Patiënten met een <strong>poliklinische afspraak</strong></li>
-        <li>Familieleden die op <strong>bezoek</strong> komen</li>
-        <li>Mensen die <strong>ontslagen worden</strong> uit het ziekenhuis</li>
-        <li><strong>Ouderen</strong> of mindervaliden die moeilijk zelf kunnen rijden</li>
-      </ul>
+      <h2>Vervoer voor minder mobiele patienten</h2>
+      <p>Onze auto is geschikt voor reizigers die moeite hebben met stappen of die herstellen van een ingreep. We helpen u in en uit de auto en nemen de tijd die nodig is. Geen haast, geen stress. Voor rolstoelgebruikers overleggen we graag over de beste oplossing.</p>
 
-      <h2>Voordelen van taxivervoer naar het ziekenhuis</h2>
-      <ol>
-        <li><strong>Geen parkeerstress</strong> — UMCG-parkeerkosten zijn fors</li>
-        <li><strong>Hulp met instappen</strong> door onze chauffeur</li>
-        <li><strong>Rechtstreeks tot bij de ingang</strong></li>
-        <li><strong>Wachten of terugbrengen</strong> kan ook</li>
-        <li><strong>Comfort</strong> in onze stille waterstof-taxi</li>
-      </ol>
+      <h2>Herhaalde ritten: behandelingsseries</h2>
+      <p>Volgt u een behandelingsserie (chemotherapie, bestraling, fysiotherapie)? Dan is het prettig om een vaste chauffeur te hebben die u kent. We kunnen een terugkerende boeking instellen zodat u elke keer automatisch vervoer heeft zonder steeds opnieuw te hoeven bellen.</p>
 
-      <h2>Vergoeding zorgverzekeraar?</h2>
-      <p>Onder bepaalde voorwaarden krijg je taxikosten (deels) vergoed van je zorgverzekeraar — dit heet <strong>zittend ziekenvervoer</strong>. Check je polisvoorwaarden of vraag bij je verzekeraar.</p>
+      <h2>Andere ziekenhuizen in de regio</h2>
+      <p>Naast het UMCG rijden we ook naar het Martini Ziekenhuis in Groningen, het Wilhelmina Ziekenhuis in Assen, het MCL in Leeuwarden, en andere zorglocaties in Noord-Nederland. Vraag naar de prijs voor jouw bestemming.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kan ik vooraf een retourrit boeken?</strong><br/>Ja, wij plannen graag heen en terug in één afspraak.</p>
-      <p><strong>Mag een begeleider mee?</strong><br/>Vanzelfsprekend — gratis tot 3 medereizigers.</p>
-      <p><strong>Helpen jullie met rolstoelen?</strong><br/>Voor reguliere klaprolstoelen ja.</p>
+      <h2>Nachtritten en spoedsituaties</h2>
+      <p>Soms is een ziekenhuisbezoek onverwacht of in de nacht. Taxi Amro is 24/7 bereikbaar. Geen toeslag voor nachtritten of weekenden.</p>
 
-      <p>Meer info: <a href="https://www.zorgwijzer.nl/zorgwijzer/zittend-ziekenvervoer" target="_blank" rel="noopener noreferrer">Zorgwijzer.nl</a>.</p>
+      <h2>Vergoeding via zorgverzekering</h2>
+      <p>In sommige gevallen vergoedt uw zorgverzekeraar taxikosten naar het ziekenhuis. Vraag dit na bij uw verzekeraar. Taxi Amro geeft u altijd een duidelijke factuur die u kunt indienen bij uw zorgverzekeraar.</p>
+
+      <p>Boek uw ziekenhuisvervoer via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Wij zorgen dat u op tijd en comfortabel aankomt.</p>
     `,
   },
   {
@@ -447,41 +499,31 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['straattaxi', 'taxi boeken', 'verschil taxi'],
     content: `
-      <p>Je kunt op twee manieren een taxi nemen: ergens onderweg er een aanhouden (<strong>straattaxi</strong>) of er <strong>vooraf één bestellen</strong>. Bij twijfel? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Wat is het verschil tussen een straattaxi en een vooraf geboekte taxi? Voor veel mensen maakt het niet uit — als er maar een taxi komt. Maar het verschil in prijs, service en betrouwbaarheid is groter dan je denkt. In dit artikel leggen we het uit.</p>
 
       <h2>Wat is een straattaxi?</h2>
-      <p>Een straattaxi is een taxi die je <strong>aanhoudt op straat</strong> of op een taxistandplaats. De chauffeur rekent volgens een <strong>meter</strong> met wettelijk vastgestelde maximumtarieven:</p>
-      <ul>
-        <li>Starttarief</li>
-        <li>Tarief per kilometer</li>
-        <li>Tarief per minuut</li>
-      </ul>
+      <p>Een straattaxi is een taxi die je aanhoudt op straat of die je oppikt bij een taxistandplaats. In grote steden als Amsterdam staan er altijd taxis te wachten. In Groningen zijn taxistandplaatsen te vinden bij het Hoofdstation en enkele hotspots in het uitgaansgebied.</p>
+      <p>Bij een straattaxi weet je van tevoren niet wat je betaalt. De taximeter tikt mee op basis van afstand en tijd. Bij file, rondrijden of wachten loopt de prijs op. De chauffeur is onbekend en de kwaliteit van de auto varieert.</p>
 
       <h2>Wat is een vooraf geboekte taxi?</h2>
-      <p>Een vooraf geboekte taxi reserveer je <strong>van tevoren</strong>. Je spreekt vaak een <strong>vaste prijs</strong> af die niet verandert, ongeacht het verkeer.</p>
-
-      <h2>Wanneer kies je wat?</h2>
-      <p><strong>Straattaxi is handig bij:</strong></p>
+      <p>Een vooraf geboekte taxi, zoals Taxi Amro, wordt telefonisch of via WhatsApp geboekt. Je geeft je ophaaladres en bestemming door, en ontvangt een <strong>vaste prijs vooraf</strong>. De chauffeur staat op de afgesproken tijd voor de deur.</p>
+      <p>Voordelen van vooraf boeken:</p>
       <ul>
-        <li>Korte ritten binnen Groningen</li>
-        <li>Spontane plannen</li>
-        <li>Aansluiting op trein/bus</li>
+        <li><strong>Vaste prijs</strong> — geen meter, geen verrassingen</li>
+        <li><strong>Betrouwbaarheid</strong> — de chauffeur is er op de afgesproken tijd</li>
+        <li><strong>Comfort</strong> — je weet in welke auto je rijdt en met welke chauffeur</li>
+        <li><strong>Geen toeslag</strong> voor nacht, weekend of feestdagen</li>
+        <li><strong>Vluchtvolgservice</strong> voor luchthaventritten</li>
       </ul>
 
-      <p><strong>Vooraf geboekt is slimmer bij:</strong></p>
-      <ul>
-        <li>Luchthavenritten (Schiphol, Eelde, Eindhoven)</li>
-        <li>Lange afstandritten</li>
-        <li>Belangrijke afspraken</li>
-        <li>Spitsuur (file-risico)</li>
-        <li>'s Nachts</li>
-        <li>Groepsvervoer</li>
-      </ul>
+      <h2>Wanneer kies je welke?</h2>
+      <p>Een straattaxi kan handig zijn voor een spontane, korte rit in het centrum. Voor alles buiten de binnenstad, voor vroege of late ritten en voor langere afstanden is een vooraf geboekte taxi altijd slimmer. Je weet precies wat je betaalt en bent zeker van vervoer.</p>
 
-      <h2>Wat doen wij?</h2>
-      <p>TaxiAmro biedt <strong>beide opties</strong>. Voor luchthavenritten adviseren wij <strong>altijd</strong> vooraf boeken. Geen risico, vaste prijs, gegarandeerd op tijd.</p>
+      <h2>Prijsvergelijking: straattaxi vs. vaste prijs</h2>
+      <p>Op basis van de wettelijke maximumtarieven (€4,31 starttarief + €3,17/km + tijdtarief) kan een straattaxi voor dezelfde rit duurder uitvallen dan een vaste prijs. Zeker bij file of als de chauffeur een langere route rijdt. Bij Taxi Amro betaal je altijd de kortste route tegen een vaste prijs.</p>
 
-      <p>Meer info: <a href="https://www.rijksoverheid.nl/onderwerpen/taxi" target="_blank" rel="noopener noreferrer">Rijksoverheid Taxi</a>.</p>
+      <h2>Conclusie</h2>
+      <p>Voor betrouwbaar, comfortabel en betaalbaar vervoer in en rond Groningen is een vooraf geboekte taxi de betere keuze. Bel Taxi Amro op <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en weet vooraf precies wat je betaalt.</p>
     `,
   },
   {
@@ -496,25 +538,21 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi oud en nieuw', 'carbid vervoer', 'taxi oudjaarsavond'],
     content: `
-      <p>Oud en nieuw is de drukste taxi-avond van het jaar. Boek <strong>ruim op tijd</strong> je taxi. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Oudjaarsavond in Groningen en Drenthe staat bekend om carbidschieten, vuurwerk en gezellig samenzijn. Maar na een avond feestvieren wil je veilig thuis komen. Taxi Amro rijdt ook op oudjaarsavond en in de nacht van oud op nieuw. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom op tijd boeken?</h2>
-      <p>Met oud en nieuw zijn taxi's bijna allemaal volgeboekt vanaf 22:00. Vraag het 1-2 weken vooraf aan.</p>
+      <h2>Carbid schieten: populair in Noord-Nederland</h2>
+      <p>In de provincie Groningen en Drenthe is carbidschieten een eeuwenoude traditie. Gezinnen verzamelen zich in dorpen en op het platteland. Wil je naar een carbidfeest buiten de stad zonder je auto te nemen? Taxi Amro brengt je erheen en haalt je op.</p>
 
-      <h2>Veilig na carbid</h2>
-      <p>Carbid-schieten is een gezellige Drentse traditie, vaak met flink wat drank erbij. <strong>Rijd nooit zelf naar huis na alcohol.</strong> Politiecontroles op 31 december en 1 januari zijn streng.</p>
+      <h2>Veilig thuis na oud en nieuw</h2>
+      <p>Na middernacht is het druk op de weg en zijn veel mensen in feeststemming. Rij niet zelf als je gedronken hebt. Taxi Amro rijdt de nacht van 31 december op 1 januari door — van middernacht tot vroeg in de ochtend.</p>
 
-      <h2>Veelgevraagde ritten oud en nieuw</h2>
-      <ul>
-        <li>Van feest in Stad naar omliggende dorpen</li>
-        <li>Carbid-locaties in Drenthe → terug naar Groningen</li>
-        <li>Van familie naar uitgaansgelegenheden</li>
-        <li>Vroege ochtendvluchten op 1 januari</li>
-      </ul>
+      <h2>Boek op tijd</h2>
+      <p>Oudjaarsavond is een van de drukste taxinachten van het jaar. Bel op tijd om uw rit vast te zetten — bij voorkeur een dag van tevoren. Zo weet u zeker dat er een taxi voor u is na het vuurwerk.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Mogen we vuurwerk meenemen?</strong><br/>Nee, in verband met veiligheid.</p>
-      <p><strong>Hoe laat rijden jullie tijdens nieuwjaar?</strong><br/>24/7 ook tijdens oud en nieuw.</p>
+      <h2>Vaste prijs, geen opslag</h2>
+      <p>Op oudjaarsavond rekenen wij geen extra toeslag. De prijs is en blijft vast, ongeacht het tijdstip of de feestdag. U weet van tevoren wat u betaalt.</p>
+
+      <p>Veilig oud en nieuw vieren? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor uw taxi op oudjaarsavond.</p>
     `,
   },
   {
@@ -529,32 +567,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi concert', 'taxi ziggo dome', 'taxi ahoy', 'festival vervoer'],
     content: `
-      <p>Een avondje genieten van je favoriete artiest in Ziggo Dome, Ahoy of een festival? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Een concert in de Ziggo Dome, een show in Rotterdam Ahoy of een festival in Noord-Nederland — bij groot evenementenvervoer wil je niet met de auto of trein hoeven sjouwen. Taxi Amro verzorgt comfortabel vervoer van deur tot deur. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom een taxi naar het concert?</h2>
-      <ol>
-        <li><strong>Geen parkeerstress</strong> bij grote venues (€20-€40 per avond)</li>
-        <li><strong>Geen tussenstop</strong> voor benzine of pin</li>
-        <li><strong>Drank ok</strong> — niemand rijdt naar huis</li>
-        <li><strong>Direct bij de ingang</strong> afgezet</li>
-        <li><strong>Ophalen na de show</strong> — vermijd 30-min taxi-rij</li>
-      </ol>
+      <h2>Taxi naar Ziggo Dome Amsterdam</h2>
+      <p>De Ziggo Dome in Amsterdam is een van de grootste concertzalen van Nederland. De afstand vanuit Groningen is circa 195 kilometer. Taxi Amro rijdt u er naartoe en haalt u op na het concert — ook als het laat is. Prijs circa €480 (vaste prijs, 25% afstandskorting).</p>
 
-      <h2>Populaire bestemmingen</h2>
-      <ul>
-        <li><strong>Ziggo Dome Amsterdam</strong> — 200 km / ~2u 15min</li>
-        <li><strong>Ahoy Rotterdam</strong> — 240 km / ~2u 45min</li>
-        <li><strong>AFAS Live Amsterdam</strong> — 200 km / ~2u 15min</li>
-        <li><strong>GelreDome Arnhem</strong> — 175 km / ~2u</li>
-        <li><strong>MartiniPlaza Groningen</strong> — lokaal</li>
-      </ul>
+      <h2>Taxi naar Rotterdam Ahoy</h2>
+      <p>Rotterdam Ahoy is de thuishaven van grote artiesten en evenementen. Vanuit Groningen is Rotterdam circa 265 km. Taxi Amro rijdt deze route op aanvraag. Vraag naar de actuele prijs via <a href="tel:+31633721505">+31 6 33721505</a>.</p>
 
-      <h2>Heen-en-terug regeling</h2>
-      <p>Voor concerten bieden wij een <strong>retour-arrangement</strong>: wij brengen je heen en halen je op een afgesproken tijd op.</p>
+      <h2>Festivals in Noord-Nederland</h2>
+      <p>Noorderzonderfestival, Into the Great Wide Open op Vlieland, Eurosonic/Noorderslag in Groningen — bij grote festivals is parkeren een nachtmerrie. Taxi Amro zet u af en haalt u op, zodat u zich geen zorgen hoeft te maken over vervoer.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kunnen jullie wachten tijdens het concert?</strong><br/>Voor lange optredens halen wij meestal op na afloop.</p>
-      <p><strong>Kunnen wij ophalen na een festival?</strong><br/>Ja, geef exacte ophaallocatie en tijd door.</p>
+      <h2>Na het concert: ophaalservice</h2>
+      <p>Geef uw gewenste ophaaltijd door en we staan klaar als het concert is afgelopen. Geen wachtrijen, geen volle trein — gewoon instappen en naar huis.</p>
+
+      <h2>Groepen</h2>
+      <p>Gaat u met een groep naar een concert? In de Hyundai Nexo passen tot 4 personen. Voor grotere groepen kunnen meerdere ritten worden ingepland. Deel de kosten en het is voor iedereen voordelig.</p>
+
+      <p>Plan uw concertvervoer via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Wij zorgen dat u er en terug komt.</p>
     `,
   },
   {
@@ -569,37 +599,28 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['bremen airport vanuit groningen', 'schiphol of bremen', 'taxi bremen luchthaven'],
     content: `
-      <p>Vlieg je internationaal vanuit Noord-Nederland? Schiphol ligt 200 km zuidwest. Bremen Airport ligt slechts 175 km oostwaarts. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor vervoer naar beide.</p>
+      <p>Woon je in Noord-Nederland en moet je vliegen? Dan heb je een keuze: vliegen via Schiphol, Groningen Airport Eelde of Bremen Airport in Duitsland. Welke luchthaven is het voordeligst en handigst voor reizigers vanuit Groningen en omgeving? Taxi Amro rijdt naar alle drie. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Reistijd vergelijking vanuit Groningen</h2>
+      <h2>Groningen Airport Eelde: de dichtstbijzijnde optie</h2>
+      <p>Eelde Airport ligt op slechts 12 kilometer van Groningen centrum. Taxi naar Eelde: <strong>€42</strong>. Het aanbod aan vluchten is beperkt: voornamelijk chartervluchten naar vakantiebestemmingen (Tenerife, Malaga, Antalya) en enkele zakelijke verbindingen. Voor wie er een vlucht heeft, is het verreweg de makkelijkste optie: snel er naartoe, nauwelijks files, kleine terminal.</p>
+
+      <h2>Schiphol: grootste aanbod, langste reistijd</h2>
+      <p>Amsterdam Airport Schiphol heeft verreweg het grootste vluchtaanbod: honderden bestemmingen wereldwijd. Maar de afstand vanuit Groningen is circa 200 km en de taxi kost <strong>€491</strong> (met 25% afstandskorting). Reizigers vanuit Friesland of Drenthe zijn met de auto circa 2,5 uur onderweg.</p>
+      <p>Voordeel: je kunt overal naartoe. Nadeel: de reis naar de luchthaven zelf is al een dagdeel.</p>
+
+      <h2>Bremen Airport: het onderschatte alternatief</h2>
+      <p>Bremen Airport in Duitsland ligt op circa 165 km van Groningen. De taxi kost circa <strong>€455</strong>. Dat is vergelijkbaar met Schiphol, maar met een kleinere terminal en minder files rondom de luchthaven. Maatschappijen als Ryanair en Lufthansa vliegen via Bremen naar populaire Europese bestemmingen.</p>
+      <p>Voor reizigers die specifiek via Ryanair willen vliegen, kan Bremen voordeliger zijn qua vliegticket dan Schiphol. Tel je daarna de taxiprijs erbij op, dan wil je altijd de totaalprijs vergelijken.</p>
+
+      <h2>Welke luchthaven kies je?</h2>
       <ul>
-        <li>Schiphol Amsterdam — 200 km, 2u 15min</li>
-        <li>Bremen Airport (Duitsland) — 175 km, 2u</li>
-        <li>Eindhoven Airport — 240 km, 2u 30min</li>
-        <li>Düsseldorf Airport — 280 km, 2u 45min</li>
-        <li>Eelde (Groningen Airport) — 15 km, 20 min</li>
+        <li><strong>Eelde</strong>: vlak voor Groningers met een specifieke vluchting van Transavia/charter</li>
+        <li><strong>Schiphol</strong>: voor lange afstanden, overstapvluchten of bestemmingen die niet via andere luchthavens gaan</li>
+        <li><strong>Bremen</strong>: voor goedkope Ryanair-vluchten naar Europa, als de vliegticketprijs het verschil in taxikosten compenseert</li>
       </ul>
 
-      <h2>Wanneer is Bremen Airport slimmer?</h2>
-      <ul>
-        <li>✅ Reisbestemming in Oost/Centraal Europa</li>
-        <li>✅ Vluchten met Lufthansa, Ryanair, Eurowings</li>
-        <li>✅ Vakantievluchten — vaak voordeliger</li>
-        <li>✅ Minder druk = sneller door security</li>
-      </ul>
-
-      <h2>Wanneer Schiphol blijft beter</h2>
-      <ul>
-        <li>✅ Intercontinentale vluchten (USA, Azië)</li>
-        <li>✅ KLM-vluchten</li>
-        <li>✅ Veel directe verbindingen</li>
-      </ul>
-
-      <h2>FAQ</h2>
-      <p><strong>Mag een Nederlandse taxi in Duitsland rijden?</strong><br/>Ja, mits geldige taxivergunning. Wij voldoen aan alle voorschriften.</p>
-      <p><strong>Heb ik een paspoort nodig?</strong><br/>Schengen-gebied = geen vaste controle. Wel altijd ID meenemen.</p>
-
-      <p>Meer info: <a href="https://www.bremen-airport.com/" target="_blank" rel="noopener noreferrer">Bremen Airport</a>.</p>
+      <h2>Taxi naar alle drie de luchthavens</h2>
+      <p>Taxi Amro rijdt naar Eelde (<strong>€42</strong>), Schiphol (<strong>€491</strong>) en Bremen Airport (<strong>€455</strong>). Altijd vaste prijs, altijd 24/7 en altijd deur-tot-deur. Vraag via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> naar de prijs voor jouw route.</p>
     `,
   },
   {
@@ -614,39 +635,30 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['eemshaven cruise terminal', 'cruise vanuit eemshaven', 'aida eemshaven'],
     content: `
-      <p>Eemshaven is in opkomst als cruise-haven in Noord-Nederland. Plan je een cruise vanuit Eemshaven? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>De Eemshaven cruise terminal is het vertrekpunt voor cruises vanuit Noord-Nederland. Elk jaar varen honderden cruiseschepen via Eemshaven naar Noorwegen, de Britse Eilanden, de Baltische staten en het Middellandse Zeegebied. In deze gids lees je alles wat je moet weten als cruisepassagier die vanuit Groningen naar Eemshaven reist.</p>
 
-      <h2>Waar ligt de cruise terminal?</h2>
-      <p>De cruise terminal ligt aan de <strong>Schildhoek 1, 9979 XR Eemshaven</strong>.</p>
+      <h2>Waar is de Eemshaven cruise terminal?</h2>
+      <p>De cruise terminal bevindt zich in de Beatrixhaven in Eemshaven, circa 35 km ten noorden van Groningen. Er is beperkt openbaar vervoer naar de terminal, zeker buiten kantoortijden. De meeste cruisepassagiers kiezen voor een taxi of een parkeerdienst bij de terminal.</p>
 
-      <h2>Aankomsttijd: wanneer er zijn?</h2>
-      <p>Inschepen begint meestal <strong>3 uur voor vertrek</strong> en sluit <strong>60-90 minuten voor afvaart</strong>.</p>
+      <h2>Taxi van Groningen naar de cruise terminal</h2>
+      <p>Taxi Amro verzorgt transfers van Groningen centrum naar de cruise terminal voor <strong>€98</strong> (vaste prijs). We helpen met uw koffers en zijn er op de afgesproken tijd. Voor grote groepen kunnen we meerdere ritten inplannen.</p>
+      <p>Bij vertrek vroeg in de ochtend (sommige cruises vertrekken al om 7:00 of 8:00) zijn we er — ook om 5:00 als dat nodig is.</p>
 
-      <h2>Parkeren bij Eemshaven</h2>
-      <p>Parkeren voor een 7-daagse cruise kost al snel €50-€100. Een retourtaxi is vaak goedkoper én comfortabeler.</p>
+      <h2>Ophaalservice bij terugkeer van de cruise</h2>
+      <p>Uw cruise vertrekt op tijd, maar aankomst kan afwijken. Geef uw verwachte aankomsttijd door en we staan op tijd klaar. Bij wijziging past u de tijd aan via WhatsApp of telefoon en passen wij ons aan.</p>
 
-      <h2>Wat moet je meenemen?</h2>
+      <h2>Handige tips voor cruisepassagiers</h2>
       <ul>
-        <li>Paspoort (verplicht voor internationale cruises)</li>
-        <li>Boarding pass / boekingsbevestiging</li>
-        <li>Reisverzekering polisnummer</li>
-        <li>Medicatie + recepten</li>
+        <li>Boek uw taxi minimaal 24 uur van tevoren, voor vroege vertrekken ook de dag ervoor al bevestigen</li>
+        <li>Controleer bij uw rederij of er parkeerfaciliteiten zijn bij de terminal (betaald parkeren)</li>
+        <li>Label uw koffers duidelijk voor het geval er bagage van anderen meegaat</li>
+        <li>Neem uw cruise-documenten en paspoort mee in handbagage, niet in de ruimbagage</li>
       </ul>
 
-      <h2>Vervoer naar Eemshaven Cruise Terminal</h2>
-      <p>Populaire ophaaladressen:</p>
-      <ul>
-        <li>Groningen → Eemshaven (~35 min)</li>
-        <li>Assen → Eemshaven (~50 min)</li>
-        <li>Leeuwarden → Eemshaven (~70 min)</li>
-        <li>Schiphol → Eemshaven (~2u 30min)</li>
-      </ul>
+      <h2>Vanuit andere steden naar Eemshaven cruise terminal</h2>
+      <p>Taxi Amro haalt ook op buiten Groningen. Vanuit Leeuwarden, Assen, Drachten of Winschoten rijden we u naar de terminal. Prijs op aanvraag via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kunnen jullie meerdere koffers vervoeren?</strong><br/>Onze Hyundai Nexo heeft ruimte voor 4 personen + ruime cruisebagage.</p>
-      <p><strong>Wat als de cruise vertraagd is?</strong><br/>Bij retour: geef ons je verwachte tijd, wij passen aan.</p>
-
-      <p>Meer info: <a href="https://www.groningen-seaports.com/" target="_blank" rel="noopener noreferrer">Groningen Seaports</a>.</p>
+      <p>Geniet van uw cruise — wij zorgen voor een stressvrij begin en einde van uw reis.</p>
     `,
   },
   {
@@ -661,39 +673,35 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['zakelijk vervoer groningen', 'taxi bedrijf factuur', 'directiechauffeur groningen'],
     content: `
-      <p>Heeft jouw bedrijf vaste taxi-behoefte? Met <strong>facturering op rekening</strong>, <strong>vaste tarieven</strong> en <strong>24/7 beschikbaarheid</strong>. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Zakelijk vervoer in Groningen is een ander verhaal dan een gewone taxirit. Uw medewerkers moeten op tijd zijn, comfortabel reizen en zich kunnen voorbereiden op een vergadering of presentatie. Taxi Amro levert professioneel zakelijk vervoer voor mkb-bedrijven, multinationals en zelfstandige ondernemers in Noord-Nederland. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een offerte.</p>
 
-      <h2>Voor wie?</h2>
+      <h2>Wat valt onder zakelijk vervoer bij Taxi Amro?</h2>
+      <p>Taxi Amro verzorgt uiteenlopende zakelijke ritten:</p>
       <ul>
-        <li><strong>MKB-bedrijven</strong> in Groningen, Friesland, Drenthe</li>
-        <li><strong>Directies en managementteams</strong></li>
-        <li><strong>HR-afdelingen</strong> voor expat- en sollicitantenvervoer</li>
-        <li><strong>Bedrijven met internationale klanten</strong></li>
-        <li><strong>Bouwbedrijven en industrie</strong> voor Eemshaven</li>
+        <li>Luchthavens en vliegveld-transfers (Eelde, Schiphol, Bremen, Dusseldorf)</li>
+        <li>Vervoer naar congressen, beurzen en seminars (Martiniplaza, EXPO Groningen)</li>
+        <li>Pendeldiensten voor medewerkers woon-werkverkeer</li>
+        <li>VIP-vervoer voor bezoekers en relaties</li>
+        <li>Vervoer bij bedrijfsuitjes en etentjes</li>
       </ul>
 
-      <h2>Wat krijg je als zakelijke klant?</h2>
-      <h3>1. Vaste contactpersoon</h3>
-      <p>Eén nummer, één persoon die je situatie kent.</p>
-      <h3>2. Maandelijkse factuur</h3>
-      <p>Geen contant betalen na elke rit. Wij sturen één overzichtelijke factuur per maand met BTW-specificatie.</p>
-      <h3>3. Vooraf afgesproken tarieven</h3>
-      <p>Vaste prijzen per traject — geen verrassingen.</p>
-      <h3>4. Voorrang bij beschikbaarheid</h3>
-      <p>Zakelijke klanten krijgen voorrang bij druktes.</p>
-      <h3>5. Representatief vervoer</h3>
-      <p>Hyundai Nexo waterstof — luxe, stille SUV met ESG-credentials.</p>
+      <h2>Vaste prijs en zakelijke factuur</h2>
+      <p>Voor zakelijke klanten bieden we een <strong>maandelijkse factuur</strong> aan. U boekt ritten via telefoon of WhatsApp, en aan het eind van de maand ontvangt u een overzichtelijke factuur inclusief BTW. Ideaal voor de administratie en voor het declaratieproces van medewerkers.</p>
+      <p>Alle prijzen zijn vast en vooraf bepaald. Geen verrassingen in de rekening.</p>
 
-      <h2>Hoe word je zakelijke klant?</h2>
-      <ol>
-        <li><strong>Intakegesprek</strong> — kort, telefonisch of op locatie</li>
-        <li><strong>Tariefafspraak</strong> — vaste tarieven voor jouw vaak gereden trajecten</li>
-        <li><strong>Contract</strong> — eenvoudig, opzegbaar per maand</li>
-      </ol>
+      <h2>Discreet en professioneel</h2>
+      <p>Bij zakelijk vervoer is discretie vanzelfsprekend. Uw medewerkers of zakenrelaties reizen in alle rust in de Hyundai Nexo: een luxe, stille auto op waterstof zonder uitlaatgassen. Geen opvallend geel, geen belettering — gewoon een nette auto met een professionele chauffeur.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Is er een minimumafname?</strong><br/>Nee, ook bij sporadisch zakelijk vervoer ben je welkom.</p>
-      <p><strong>Wat zijn de betalingsvoorwaarden?</strong><br/>Standaard 14 dagen na factuurdatum.</p>
+      <h2>Beschikbaarheid en betrouwbaarheid</h2>
+      <p>Taxi Amro is 24/7 beschikbaar. Voor vroege vluchten, late vergaderingen of onverwachte ritten staan we altijd klaar. Geen wachtlijsten, geen automatische systemen — u belt direct met de chauffeur die u zal rijden.</p>
+
+      <h2>Rijgebied zakelijk vervoer</h2>
+      <p>We rijden door de hele provincie Groningen, Friesland, Drenthe en naar internationale bestemmingen. Bedrijven gevestigd in Eemshaven, Delfzijl, Veendam en omgeving zijn bij ons aan het juiste adres voor dagelijks personeelsvervoer.</p>
+
+      <h2>Tarieven zakelijk vervoer</h2>
+      <p>Zakelijke tarieven worden bepaald op basis van het traject, de frequentie en de contractvorm. Voor structurele samenwerkingen bieden we aantrekkelijke vaste ritprijzen. Vraag een offerte aan via <a href="tel:+31633721505">+31 6 33721505</a> of bekijk onze <a href="/tarieven">tarieven-pagina</a>.</p>
+
+      <p>Wil uw bedrijf meer weten over een zakelijke samenwerking? Bel ons of stuur een e-mail. We denken graag mee over de beste oplossing voor uw zakelijke vervoersbehoefte.</p>
     `,
   },
   {
@@ -708,33 +716,21 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi koningsdag groningen', 'koningsdag vervoer', '27 april taxi'],
     content: `
-      <p>Koningsdag is een van de drukste dagen in Groningen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor stressvrij Koningsdag-vervoer.</p>
+      <p>Koningsdag in Groningen is een feest: vrijmarkt, optochten, muziek en gezelligheid in de hele stad. Maar het centrum is een enorme drukte en de fiets is niet altijd praktisch. Taxi Amro rijdt u comfortabel van en naar de festiviteiten. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom een taxi op Koningsdag?</h2>
-      <ul>
-        <li><strong>Parkeren is onmogelijk</strong> in de binnenstad — straten zijn afgesloten</li>
-        <li><strong>OV is overvol</strong> — bussen rijden gedeeltelijk omgeleid</li>
-        <li><strong>Veel drankjes</strong> — zelf rijden is niet handig</li>
-        <li><strong>Oranje uitdossing</strong> — je wilt aankomen zonder gekreukt te zijn</li>
-      </ul>
+      <h2>Vervoer naar Koningsdag Groningen</h2>
+      <p>Op 27 april is het centrum van Groningen afgezet voor autoverkeer. Taxi Amro zet u zo dicht mogelijk bij het centrum af en haalt u op een afgesproken locatie op. Geef bij het boeken uw gewenste ophaal- en afzetlocatie door, dan plannen we de route slim.</p>
 
-      <h2>Populaire bestemmingen in Groningen op Koningsdag</h2>
-      <ul>
-        <li><strong>Grote Markt</strong> — hoofdpodium en feestelijk hart</li>
-        <li><strong>Vismarkt</strong> — terrassen en livemuziek</li>
-        <li><strong>Noorderplantsoen</strong> — vrijmarkt en picknicks</li>
-        <li><strong>Westerhaven</strong> — kinderactiviteiten</li>
-      </ul>
+      <h2>Terug naar huis na het feest</h2>
+      <p>Na een dag en avond Koningsdag wil je comfortabel thuis komen. Bel ons op het afgesproken tijdstip en wij halen u op. Voor reizigers die buiten de stad wonen (Hoogkerk, Haren, Ten Boer, omliggende dorpen) is een taxi op zo'n dag een stuk gemakkelijker dan de fiets.</p>
 
-      <h2>Tips</h2>
-      <ol>
-        <li><strong>Boek 1 week vooraf</strong> — wij zijn snel vol op 27 april</li>
-        <li><strong>Spreek aflever-punt af net buiten centrum</strong> — wegafsluitingen</li>
-        <li><strong>Geef terug-tijd door</strong> voor ophaaldienst</li>
-      </ol>
+      <h2>Groepen en families</h2>
+      <p>Gaat u met meerdere mensen? In de Hyundai Nexo passen tot 4 personen. Samen de taxi nemen is goedkoper per persoon. Bel vooraf voor groepen van 5 of meer voor een oplossing met meerdere ritten.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Tot hoe laat rijden jullie?</strong><br/>24 uur, ook op Koningsdag.</p>
+      <h2>Geen toeslag op feestdagen</h2>
+      <p>Op Koningsdag geldt dezelfde vaste prijs als altijd. Geen feestdagentoeslag, geen extra kosten voor drukte. U weet vooraf precies wat de rit kost.</p>
+
+      <p>Koningsdag Groningen — veilig en feestelijk vervoerd door Taxi Amro. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -749,45 +745,39 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['bezienswaardigheden groningen', 'dagje groningen', 'wat te doen in groningen'],
     content: `
-      <p>Groningen is een van de leukste steden van Nederland. Voor comfortabel vervoer bel je <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Groningen is een bruisende stad met veel te ontdekken. Of je nu zelf uit de stad bent of een bezoeker — met een taxi kom je makkelijk en comfortabel bij alle bezienswaardigheden. Taxi Amro rijdt elke dag door Groningen en omgeving. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>1. Martinitoren</h2>
-      <p>Het iconische symbool van Groningen. Beklim de "Olle Grieze" voor het mooiste uitzicht over de stad.</p>
+      <h2>1. Groninger Museum</h2>
+      <p>Het Groninger Museum is een van de meest opvallende musea van Nederland, ontworpen door Alessandro Mendini. Het staat op een eiland in de Verbindingskanaal, direct naast het Hoofdstation.</p>
 
-      <h2>2. Groninger Museum</h2>
-      <p>Spectaculair gebouw aan het Verbindingskanaal met moderne kunsttentoonstellingen.</p>
+      <h2>2. Martinikerk en Martinitoren</h2>
+      <p>De Martinikerk aan de Martinikerkhof is het symbool van Groningen. De toren is te beklimmen voor een prachtig uitzicht over de stad en de provincie.</p>
 
-      <h2>3. Prinsentuin</h2>
-      <p>Verborgen renaissance-tuin midden in de stad. Gratis toegang.</p>
+      <h2>3. Het Groninger Forum</h2>
+      <p>Het Forum is het nieuwe culturele hart van Groningen: een moderne bibliotheek, bioscoop en cultureel centrum in een spectaculair gebouw aan de Nieuwe Markt.</p>
 
       <h2>4. Noorderplantsoen</h2>
-      <p>Het mooiste stadspark — wandelen, picknicken of joggen.</p>
+      <p>Het Noorderplantsoen is het mooiste park van Groningen. In de zomer vindt hier het Noorderzon-festival plaats. Perfect voor een wandeling of picknick.</p>
 
-      <h2>5. Forum Groningen</h2>
-      <p>Modern cultuurgebouw met bibliotheek, bioscoop en uitzichtdek.</p>
+      <h2>5. Prinsentuin</h2>
+      <p>De Prinsentuin is een historische tuin vlak bij het stadscentrum. Rustig en groen, ideaal om bij te komen na een druk stadsbezoek.</p>
 
-      <h2>6. Hortus Haren</h2>
-      <p>Botanische tuin net buiten Groningen — adembenemend in de lente.</p>
+      <h2>6. A-Kerk en Vismarkt</h2>
+      <p>De Vismarkt is het bruisende hart van Groningen met terrassen, markt en de gotische A-Kerk. Op woensdag en zaterdag is hier de weekmarkt.</p>
 
-      <h2>7. Akerkhof en oude binnenstad</h2>
-      <p>Middeleeuwse straten met cafés en boetieks.</p>
+      <h2>7. Universiteitsmuseum Groningen</h2>
+      <p>Het universiteitsmuseum toont de geschiedenis van de Rijksuniversiteit Groningen, een van de oudste universiteiten van Nederland (opgericht in 1614).</p>
 
-      <h2>8. Hoge der A en Lage der A</h2>
-      <p>Historische haventjes met grachtenpanden.</p>
+      <h2>8. Hortus Haren</h2>
+      <p>De Hortus in Haren (net buiten Groningen) is een van de grootste botanische tuinen van Nederland. Honderden planten uit de hele wereld in een prachtige omgeving.</p>
 
-      <h2>9. Universiteitsmuseum</h2>
-      <p>Een verborgen pareltje bij de oudste universiteit van Nederland.</p>
+      <h2>9. Slag bij Heiligerlee monument</h2>
+      <p>In Heiligerlee, het begin van de Tachtigjarige Oorlog, staat een historisch monument. Een uitje de provincie in, makkelijk bereikbaar met Taxi Amro.</p>
 
-      <h2>10. Lauwersmeer</h2>
-      <p>35 min rijden — perfect voor natuur en sterrenhemels.</p>
+      <h2>10. Blauwe Stad en omgeving</h2>
+      <p>De Blauwe Stad in Oldambt is een uniek recreatiegebied met het grootste recreatiemeer van Noord-Nederland. Ideaal voor een dagje weg met de familie.</p>
 
-      <h2>Dagje uit per taxi — onze tips</h2>
-      <p>Boek een taxi-pendeldienst voor een hele dag. Geen parkeerstress, geen tijd verloren.</p>
-
-      <h2>FAQ</h2>
-      <p><strong>Spreken jullie Engels of Duits voor toeristen?</strong><br/>Onze chauffeur spreekt voldoende Engels en Duits.</p>
-
-      <p>Meer info: <a href="https://www.tourisminformation.nl/groningen" target="_blank" rel="noopener noreferrer">VVV Groningen</a>.</p>
+      <p>Wilt u al deze plekken bezoeken zonder eigen auto? Taxi Amro rijdt u van bezienswaardigheid naar bezienswaardigheid. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een dagtarief of losse ritten.</p>
     `,
   },
   {
@@ -802,35 +792,21 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi winter gladheid', 'taxi sneeuw', 'veilig wintervervoer'],
     content: `
-      <p>Bij winterweer wil je geen risico nemen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor veilig wintervervoer.</p>
+      <p>In de winter kan het glad zijn op de weg. Sneeuw, ijzel en bevroren wegdek maken autorijden gevaarlijk. Juist op die momenten is een professionele taxichauffeur de veiligste keuze. Taxi Amro rijdt ook bij winterse omstandigheden — betrouwbaar en veilig. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Waarom een taxi in winterse omstandigheden?</h2>
-      <ol>
-        <li><strong>Winterbanden + ervaring</strong></li>
-        <li><strong>Geen schaderisico</strong> voor je eigen auto</li>
-        <li><strong>Comfortabel verwarmd</strong></li>
-        <li><strong>24/7 strooiroutes bekend</strong></li>
-        <li><strong>Vertragingsbuffer</strong> bij winterweer</li>
-      </ol>
+      <h2>Taxi in de winter: waarom veiliger?</h2>
+      <p>Een ervaren taxichauffeur heeft winterervaring en rijdt voorzichtig bij gladheid. De Hyundai Nexo is uitgerust met winterbanden en heeft een stabiel rijgedrag. Voor mensen die zelf niet veilig kunnen rijden bij sneeuw of ijs is een taxi de beste keuze.</p>
 
-      <h2>Wat doen wij anders bij winterweer?</h2>
-      <ul>
-        <li>We <strong>vertrekken eerder</strong> zodat je toch op tijd bent</li>
-        <li>We rijden <strong>rustig en defensief</strong></li>
-        <li>We volgen de <strong>strooiroutes</strong> waar mogelijk</li>
-      </ul>
+      <h2>Vroege ochtendritten bij gladheid</h2>
+      <p>Vroeg in de ochtend is het wegdek het gladst — er is dan nog niet gestrooid. Juist voor vroege vluchten of werkdiensten is een taxi op die momenten veiliger dan zelf rijden. Taxi Amro is er ook op de vroegste uren, ook bij winterweer.</p>
 
-      <h2>Tips voor wintervervoer</h2>
-      <ol>
-        <li><strong>Boek extra vroeg</strong></li>
-        <li><strong>Hou rekening met vertraging</strong> — luchthaven 1 uur extra vooraf</li>
-        <li><strong>Trek goed schoeisel aan</strong></li>
-      </ol>
+      <h2>OV rijdt niet bij extreme weersomstandigheden</h2>
+      <p>Bij zware sneeuwval of ijzel rijden bussen en treinen soms niet of vertraagd. Taxi Amro rijdt ook bij winterse omstandigheden, zolang de weg begaanbaar is. We informeren u direct als we door extreem weer niet kunnen rijden.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Hebben jullie winterbanden?</strong><br/>Ja, vanaf 1 oktober tot 30 april standaard.</p>
+      <h2>Prijzen zijn ook in de winter vast</h2>
+      <p>Bij winterweer rekenen we geen extra toeslag. De prijs is altijd vast en vooraf bekend, ongeacht het weer of het tijdstip. Geen verrassingen.</p>
 
-      <p>Actueel weeralarm: <a href="https://www.knmi.nl/" target="_blank" rel="noopener noreferrer">KNMI.nl</a>.</p>
+      <p>Veilig rijden bij gladheid? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs en betrouwbaar vervoer, ook in de winter.</p>
     `,
   },
   {
@@ -845,30 +821,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi kerst', 'taxi sinterklaas', 'feestdagen vervoer'],
     content: `
-      <p>De feestdagen zijn voor familie. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en boek vroegtijdig.</p>
+      <p>De feestdagen zijn een bijzondere tijd voor familie en vrienden. Maar vervoer tijdens de kerst of Sinterklaas is niet altijd eenvoudig: het openbaar vervoer rijdt minder, parkeren is druk en je wilt met een goed gevoel aankomen. Taxi Amro rijdt ook op feestdagen — vaste prijs, geen toeslagen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Drukste taxi-avonden van het jaar</h2>
-      <ol>
-        <li>Oud en nieuw</li>
-        <li>Pakjesavond (5 december)</li>
-        <li>Eerste kerstdag (avond)</li>
-        <li>Tweede kerstdag (lunch + avond)</li>
-        <li>Koningsdag</li>
-      </ol>
-      <p>Boek <strong>minimaal 2 weken vooraf</strong>.</p>
+      <h2>Taxi op kerstavond en eerste en tweede kerstdag</h2>
+      <p>Op 24, 25 en 26 december rijden treinen en bussen beperkt. Als je familie in een ander deel van Noord-Nederland woont of als je na een feestdiner niet zelf wilt rijden, is een taxi de makkelijkste oplossing. Taxi Amro rijdt gewoon door op alle feestdagen.</p>
 
-      <h2>Familievisite — verspreid in de regio</h2>
-      <p>Sinterklaas bij oma in Leeuwarden, eerste kerstdag bij ouders in Assen, tweede kerstdag bij broer in Emmen. Wij brengen je veilig.</p>
+      <h2>Geen feestdagentoeslag</h2>
+      <p>Bij veel taxibedrijven betaal je extra op feestdagen. Bij Taxi Amro geldt altijd de vaste prijs, ongeacht het tijdstip of de dag. Op kerstavond betaal je hetzelfde als op een gewone dinsdagmiddag.</p>
 
-      <h2>Voor wie?</h2>
-      <ul>
-        <li>Ouderen die niet meer 's avonds rijden</li>
-        <li>Wie wijntje wil drinken bij het diner</li>
-        <li>Kinderen + cadeautjes vervoeren</li>
-      </ul>
+      <h2>Sinterklaasvieren met de familie</h2>
+      <p>Gaat u met de kinderen naar een Sinterklaasfeestje of pakjesavond bij familie in een andere stad? Taxi Amro brengt u comfortabel, ook met kinderen en cadeautassen. We staan op tijd voor de deur en brengen u na het feest veilig terug.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Mogen cadeaus mee?</strong><br/>Vanzelfsprekend — ruimte voor bagage.</p>
+      <h2>Oudjaarsnacht en Nieuwjaar</h2>
+      <p>Oudejaarsavond is een van de drukste taxinachten van het jaar. Boek uw taxi vooraf, zeker voor de terugrit na middernacht. Taxi Amro rijdt ook op oudjaarsavond en nieuwjaarsdag — vaste prijs, geen verrassingen.</p>
+
+      <h2>Familiebezoek buiten de stad</h2>
+      <p>Familie in Leeuwarden, Assen, Emmen of Winschoten? Wij rijden door heel Noord-Nederland, ook op de feestdagen. Prijs op aanvraag via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <p>Fijne feestdagen — en een veilige rit. Bel of WhatsApp ons voor uw feestdagenvervoer.</p>
     `,
   },
   {
@@ -883,38 +853,31 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi senioren', 'vervoer ouderen', 'taxi met begeleiding'],
     content: `
-      <p>TaxiAmro biedt geduldig, comfortabel vervoer voor ouderen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Voor senioren en ouderen is betrouwbaar vervoer extra belangrijk. Of het nu gaat om een doktersbezoek, boodschappen doen, een familiebezoek of een dagje uit — Taxi Amro biedt comfortabel en respectvol vervoer voor ouderen in Groningen en omgeving. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Wat maakt onze service geschikt voor senioren?</h2>
-      <ol>
-        <li><strong>Geduldige chauffeur</strong></li>
-        <li><strong>Hulp bij het lopen</strong> van deur tot auto</li>
-        <li><strong>Hulp met rollator of looprek</strong></li>
-        <li><strong>Bagage en boodschappen</strong> worden ingeladen</li>
-        <li><strong>Tot aan de deur gebracht</strong></li>
-        <li><strong>Vaste chauffeur mogelijk</strong> voor vertrouwen</li>
-      </ol>
+      <h2>Vervoer voor senioren: wat is anders?</h2>
+      <p>Senioren hebben soms andere behoeften dan de gemiddelde taxipassagier. Meer tijd voor instappen en uitstappen, hulp met boodschappentassen, een rustige rijstijl en een vriendelijke chauffeur die geduldig is. Taxi Amro houdt daar rekening mee.</p>
 
-      <h2>Voor welke ritten?</h2>
+      <h2>Waarheen rijden wij voor senioren?</h2>
       <ul>
-        <li>Huisarts, fysiotherapeut, specialist</li>
-        <li>Ziekenhuis UMCG of Martini</li>
-        <li>Familiebezoek</li>
-        <li>Dagbesteding</li>
-        <li>Boodschappen doen</li>
-        <li>Begrafenissen</li>
+        <li>Ziekenhuizen en poliklinieken (UMCG, Martini Ziekenhuis, Wilhelmina Assen)</li>
+        <li>Huisarts, tandarts, fysiotherapeut</li>
+        <li>Boodschappen (supermarkt, markt)</li>
+        <li>Familie en vrienden bezoeken</li>
+        <li>Dagcentra en zorglocaties</li>
+        <li>Station of luchthaven voor een vakantie</li>
       </ul>
 
-      <h2>Voor familieleden: hoe regel je het?</h2>
-      <ul>
-        <li><strong>Vaste afspraken</strong> (bv. elke dinsdag huisarts)</li>
-        <li><strong>Facturering aan kind</strong> in plaats van senior</li>
-        <li><strong>Telefonische check-in</strong> als senior is afgeleverd</li>
-      </ul>
+      <h2>Vaste afspraken: wekelijks of maandelijks vervoer</h2>
+      <p>Heeft u wekelijks vervoer nodig, bijvoorbeeld voor een behandeling of dagactiviteit? Dan kunnen we vaste afspraken inplannen zodat u altijd zeker bent van vervoer zonder steeds opnieuw te hoeven bellen. De prijs is vast, de chauffeur is vertrouwd.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Mag een verzorger gratis mee?</strong><br/>Ja, een begeleider reist gratis mee.</p>
-      <p><strong>Hoe gaat het bij dementie?</strong><br/>Wij hebben ervaring — rustige aanpak, contact met familie.</p>
+      <h2>Vertrouwde chauffeur, vertrouwde auto</h2>
+      <p>Bij Taxi Amro rijdt u altijd met dezelfde chauffeur in dezelfde auto: de Hyundai Nexo, een grote, stille auto die makkelijk in en uit te stappen is. Geen drukte, geen lawaai. Gewoon prettig rijden.</p>
+
+      <h2>Vergoeding door gemeente of zorgverzekeraar</h2>
+      <p>Sommige gemeenten en zorgverzekeraars vergoeden (deel van) taxikosten voor senioren. Informeer bij uw gemeente of verzekeraar. Taxi Amro geeft u altijd een duidelijke factuur voor declaratie.</p>
+
+      <p>Vragen of een rit plannen? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. We nemen rustig de tijd voor u.</p>
     `,
   },
   {
@@ -929,37 +892,40 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['uber groningen', 'taxi vs uber', 'lokale taxi voordelen'],
     content: `
-      <p>In Noord-Nederland heeft Uber beperkte aanwezigheid en domineren lokale taxi-bedrijven. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Uber of een lokale taxi — welke kies je in Groningen? Het antwoord hangt af van waar je naartoe wilt, wanneer je moet vertrekken en wat je belangrijk vindt. In dit artikel vergelijken we Uber met lokale taxidiensten zoals Taxi Amro, zodat je een weloverwogen keuze kunt maken.</p>
 
-      <h2>Wanneer is Uber handig?</h2>
+      <h2>Wat is Uber en hoe werkt het in Groningen?</h2>
+      <p>Uber is een internationaal taxi-platform waarbij particuliere chauffeurs of professionele taxibedrijven ritten aannemen via een app. In grote steden als Amsterdam, Rotterdam en Utrecht werkt Uber goed: er zijn veel chauffeurs actief en wachttijden zijn kort.</p>
+      <p>In <strong>Groningen en Noord-Nederland</strong> is het beeld anders. Uber heeft hier slechts een beperkt aantal actieve chauffeurs. Buiten de Groningse binnenstad is de wachttijd lang of zijn er helemaal geen Uber-chauffeurs beschikbaar. Voor ritten naar Eemshaven, Eelde Airport, Leeuwarden of Assen is Uber in de praktijk geen optie.</p>
+
+      <h2>Prijs: Uber versus Taxi Amro</h2>
+      <p>Uber rekent een dynamische prijs die omhoog gaat bij hoge vraag (surge pricing). Tijdens een drukke avond, na een concert of bij slecht weer kan de Uber-prijs 2 tot 3 keer zo hoog zijn als normaal. Je weet pas wat je betaalt na aankomst.</p>
+      <p>Taxi Amro werkt met <strong>vaste prijzen vooraf</strong>. Je weet voor vertrek exact wat de rit kost. Geen verrassingen, geen surge pricing, geen toeslag voor nacht of weekend.</p>
       <ul>
-        <li>In Amsterdam, Rotterdam, Den Haag centrum</li>
-        <li>Korte ritten in binnenstad</li>
+        <li>Stadsrit Groningen (8 km): Uber €12-20, Taxi Amro <strong>€20 vast</strong></li>
+        <li>Groningen naar Eelde Airport (30 km): Uber niet beschikbaar, Taxi Amro <strong>€42 vast</strong></li>
+        <li>Groningen naar Eemshaven (30 km): Uber niet beschikbaar, Taxi Amro <strong>€98 vast</strong></li>
+        <li>Groningen naar Schiphol (200 km): Uber niet beschikbaar, Taxi Amro <strong>€491 vast</strong></li>
       </ul>
 
-      <h2>Wanneer is lokaal beter?</h2>
-      <ul>
-        <li><strong>Buiten de stad Groningen</strong> — Uber heeft hier nauwelijks aanbod</li>
-        <li><strong>Luchthavenritten</strong> met vaste prijs</li>
-        <li><strong>'s Nachts of vroege ochtend</strong> — gegarandeerd beschikbaar</li>
-        <li><strong>Lange ritten</strong> zonder surge</li>
-        <li><strong>Zakelijk</strong> met factuur</li>
-      </ul>
+      <h2>Beschikbaarheid: 24/7 versus op aanvraag</h2>
+      <p>Uber-chauffeurs bepalen zelf wanneer ze rijden. Vroeg in de ochtend (voor 6:00) of laat in de nacht zijn er vaak geen of weinig chauffeurs beschikbaar in Groningen. Juist op die momenten heb je een taxichauffeur nodig: voor een vroege vlucht naar Eelde, een nachtrit na een feestje of een ophaalrit na een lange zakelijke dag.</p>
+      <p>Taxi Amro is <strong>24/7 beschikbaar</strong>, ook op feestdagen. Je boekt vooraf en we garanderen dat we er zijn op de afgesproken tijd.</p>
 
-      <h2>Surge pricing: het Uber-probleem</h2>
-      <p>Bij Uber gaan prijzen omhoog tijdens drukte: uitgaansnachten, festivals, slecht weer, spits. Een rit van €15 wordt dan plots €40+. Bij TaxiAmro? Vaste prijs.</p>
+      <h2>Betrouwbaarheid en kwaliteit</h2>
+      <p>Met Uber weet je vooraf niet welke chauffeur je krijgt, in welk type auto je rijdt of hoe de service is. De kwaliteit wisselt sterk per chauffeur.</p>
+      <p>Bij Taxi Amro ben je altijd verzekerd van dezelfde chauffeur, dezelfde luxe Hyundai Nexo (100% elektrisch op waterstof) en dezelfde servicenorm: op tijd, met hulp voor bagage, gratis wifi en flesje water. Voor zakelijke reizigers en mensen die comfortabel willen reizen maakt dit een groot verschil.</p>
 
-      <h2>Wat krijg je van een lokaal taxibedrijf?</h2>
-      <ol>
-        <li><strong>Vaste contactpersoon</strong></li>
-        <li><strong>Vooraf afgesproken prijs</strong></li>
-        <li><strong>Lokale kennis</strong></li>
-        <li><strong>24/7 beschikbaarheid</strong></li>
-        <li><strong>Hulp met bagage</strong></li>
-      </ol>
+      <h2>Wanneer kies je voor Uber?</h2>
+      <p>Uber kan een goede keuze zijn voor korte, spontane ritten in het centrum van Groningen als het niet druk is en surge pricing laag is. Of als je midden in een grote stad zit waar veel Uber-chauffeurs rijden.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Wat als Uber niet komt?</strong><br/>Bel ons direct — wij hebben meestal binnen 15-30 min een auto.</p>
+      <h2>Wanneer kies je voor Taxi Amro?</h2>
+      <p>Kies voor Taxi Amro wanneer je een vaste prijs wilt zonder verrassingen, voor ritten buiten Groningen centrum (Eemshaven, Eelde, Assen, Leeuwarden, Schiphol), vroeg in de ochtend of laat in de nacht wilt vertrekken, zakelijk rijdt en een factuur nodig hebt, of gewoon wilt zeker zijn dat er een chauffeur is op het afgesproken tijdstip.</p>
+
+      <h2>Conclusie: lokale taxi wint in Noord-Nederland</h2>
+      <p>Voor dagelijkse stadsritten in het centrum van Groningen kan Uber soms handig zijn. Maar voor alles buiten de binnenstad, buiten kantooruren, en voor langere ritten is een lokale taxichauffeur als Taxi Amro de betere keuze. Vaste prijs, altijd beschikbaar, echte lokale kennis van de regio.</p>
+
+      <p>Wil je een rit boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht voor een vaste prijs vooraf.
     `,
   },
   {
@@ -974,33 +940,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi lauwersoog', 'vervoer waddeneilanden', 'taxi schiermonnikoog boot'],
     content: `
-      <p>Plan je een uitstapje naar <strong>Schiermonnikoog</strong>, <strong>Ameland</strong>, <strong>Terschelling</strong>? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Een dagje naar Schiermonnikoog of Ameland begint altijd in Lauwersoog. De haven van Lauwersoog is het vertrekpunt van de veerboot naar Schiermonnikoog. Taxi Amro rijdt u comfortabel van Groningen naar Lauwersoog. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Veerverbindingen vanuit Noord-Nederland</h2>
-      <ul>
-        <li><strong>Schiermonnikoog</strong> — Lauwersoog (~45 min vanuit Groningen)</li>
-        <li><strong>Ameland</strong> — Holwerd (~1u 15min)</li>
-        <li><strong>Terschelling / Vlieland</strong> — Harlingen (~1u 30min)</li>
-      </ul>
+      <h2>Afstand Groningen naar Lauwersoog</h2>
+      <p>Lauwersoog ligt op circa 55 km van Groningen centrum. Met de taxi ben je er in ongeveer 45 minuten. De veerboot naar Schiermonnikoog vertrekt meerdere keren per dag, afhankelijk van het seizoen.</p>
 
-      <h2>Waarom een taxi naar de boot?</h2>
-      <ol>
-        <li><strong>Geen parkeerkosten</strong> bij veerhavens (€10-€15/dag)</li>
-        <li><strong>Op tijd</strong> — wij weten precies wanneer te vertrekken</li>
-        <li><strong>Geen autozorgen</strong></li>
-        <li><strong>Comfortabel</strong> voor de hele familie</li>
-      </ol>
+      <h2>Wat kost een taxi naar Lauwersoog?</h2>
+      <p>De prijs voor een rit van Groningen naar Lauwersoog is circa <strong>€110</strong>. Voor de terugrit (ophalen bij de haven na terugkomst van het eiland) geldt dezelfde prijs, of een gereduceerd retourprijs als u op dezelfde dag terugkomt.</p>
 
-      <h2>Retour-arrangement</h2>
-      <p>Voor weekend- of vakantietrip: wij brengen je heen en halen je op bij terugkeer.</p>
+      <h2>Waarom een taxi naar Lauwersoog?</h2>
+      <p>Het openbaar vervoer naar Lauwersoog is beperkt en niet altijd op de juiste tijden. Zeker als je vroeg weg wilt voor de eerste boot, is een taxi de enige optie. Taxi Amro rijdt ook vroeg in de ochtend, zodat je de eerste veerboot haalt.</p>
 
-      <h2>Tijden om rekening mee te houden</h2>
-      <p>Auto-veer: 45 min voor afvaart. Passagiersveer: 15-20 min voor afvaart.</p>
+      <h2>Vervoer voor groepen en families</h2>
+      <p>Gaat u met meer mensen naar het eiland? We rijden meerdere ritten voor grotere groepen. Ook voor gezinnen met kinderen en bagage is onze ruime Hyundai Nexo een prettige keuze.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Hond mag mee?</strong><br/>Op de boot vaak ja, in onze taxi ook (zie voorwaarden).</p>
+      <h2>Ameland en Vlieland via Holwerd en Harlingen</h2>
+      <p>Voor Ameland vertrekt de veerboot vanuit Holwerd (Friesland). Voor Vlieland en Terschelling vanuit Harlingen. Taxi Amro rijdt ook naar Holwerd en Harlingen als vertrekpunt voor de eilanden. Vraag naar de prijs voor uw route.</p>
 
-      <p>Veerverbindingen: <a href="https://www.wpd.nl/" target="_blank" rel="noopener noreferrer">Wagenborg</a> | <a href="https://www.rederij-doeksen.nl/" target="_blank" rel="noopener noreferrer">Doeksen</a>.</p>
+      <p>Een dagje eiland begint met een goede rit naar de haven. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een vaste prijs naar Lauwersoog of een andere veerhaven.</p>
     `,
   },
   {
@@ -1015,31 +972,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi eurosonic', 'eurosonic noorderslag vervoer', 'festival groningen taxi'],
     content: `
-      <p>Eurosonic Noorderslag is hét muziekfestival van Noord-Nederland — 4 dagen, 350+ optredens. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Eurosonic Noorderslag (ESNS) is een van de belangrijkste muziekfestivals en showcases van Europa. Elk jaar in januari komen duizenden muziekliefhebbers en professionals naar Groningen. Taxi Amro rijdt festival- en eventbezoekers snel en comfortabel door de stad. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Wat is Eurosonic?</h2>
-      <p>ESNS vindt jaarlijks in januari plaats in Groningen. Het festival presenteert opkomende Europese acts in <strong>40+ venues</strong> verspreid door de stad.</p>
+      <h2>Wat is Eurosonic Noorderslag?</h2>
+      <p>ESNS is een vierdaags festival waarbij opkomende Europese artiesten optreden in verschillende venues door heel Groningen. Het evenement trekt bezoekers en professionals uit de hele muziekindustrie: managers, platenlabels, journalisten en festivalorganisatoren.</p>
 
-      <h2>Waar zijn de venues?</h2>
-      <ul>
-        <li><strong>De Oosterpoort</strong> (centrale plek)</li>
-        <li><strong>Vera, Simplon, Forum</strong></li>
-        <li><strong>Grand Theatre, USVA</strong></li>
-        <li>Plus pop-up venues</li>
-      </ul>
+      <h2>Vervoer tijdens ESNS</h2>
+      <p>Tijdens ESNS zijn de venues verspreid door de binnenstad van Groningen: de Oosterpoort, Vera, Simplon, De Spieghel en tientallen kleinere locaties. Een taxi is handig om snel van venue naar venue te komen, zeker als het regent of koud is.</p>
 
-      <h2>Waarom een taxi tijdens Eurosonic?</h2>
-      <ol>
-        <li><strong>Snel hoppen</strong> tussen venues</li>
-        <li><strong>Industry professionals</strong> met krap schema</li>
-        <li><strong>Comfort</strong> na een lange dag</li>
-        <li><strong>Veilig</strong> terug naar hotel buiten centrum</li>
-      </ol>
+      <h2>Hotels buiten het centrum</h2>
+      <p>Veel festivalgangers verblijven in hotels buiten het centrum van Groningen of zelfs in omliggende gemeenten. Taxi Amro rijdt u van uw hotel naar de festivallocaties en terug aan het einde van de avond.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kan ik per nacht een vast aantal ritten boeken?</strong><br/>Ja, vraag een ESNS-arrangement aan met vaste prijs per dag.</p>
+      <h2>Zakelijk vervoer voor muziekindustrie professionals</h2>
+      <p>Werkt u in de muziekindustrie en komt u naar ESNS voor zakelijke afspraken? Taxi Amro biedt discreet en punctueel vervoer voor professionals. Op rekening rijden is mogelijk voor bedrijven. Neem contact op via <a href="tel:+31633721505">+31 6 33721505</a>.</p>
 
-      <p>Programma: <a href="https://esns.nl/" target="_blank" rel="noopener noreferrer">esns.nl</a>.</p>
+      <h2>Boek vooraf tijdens ESNS</h2>
+      <p>Tijdens grote festivals is de vraag naar taxis hoog. Boek uw rit bij voorkeur vooraf, zeker voor late avondritten. Taxi Amro is ook tijdens ESNS 24/7 beschikbaar.</p>
+
+      <p>Geniet van Eurosonic Noorderslag en laat het vervoer aan ons over. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -1054,37 +1004,24 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi hotel groningen', 'zakenreiziger taxi', 'business taxi groningen'],
     content: `
-      <p>Op zakenreis in Groningen? Geen tijd voor parkeerzoekstress. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Zakenreizigers in Groningen verwachten snelle, stille en comfortabele vervoer. Of u nu aankomt op Groningen Airport Eelde, overstapt op het Hoofdstation of rechtstreeks van hotel naar vergadering moet — Taxi Amro is uw vaste partner in Groningen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
 
-      <h2>Service voor zakenreizigers</h2>
-      <h3>1. Punctueel ophalen</h3>
-      <p>Wij staan stipt op tijd voor je hotelingang.</p>
-      <h3>2. Stille rit</h3>
-      <p>In onze Hyundai Nexo kun je nog snel een call doen of e-mails checken.</p>
-      <h3>3. Direct bij ingang afgezet</h3>
-      <h3>4. Factuur op rekening</h3>
-      <p>Maandelijkse factuur met BTW-specificatie voor declaratie.</p>
-      <h3>5. Multi-stop dagrondes</h3>
+      <h2>Populaire hotels in Groningen</h2>
+      <p>Zakenreizigers verblijven vaak in hotels als het NH Hotel, Van der Valk Groningen-Hoogkerk, Het Paleis Hotel of de Martini Hotel. Taxi Amro haalt u op bij uw hotel en brengt u naar elke vergaderlocatie, het Martiniplaza of EXPO Groningen.</p>
 
-      <h2>Populaire trajecten</h2>
-      <ul>
-        <li>Hotel → vergaderlocatie in business district</li>
-        <li>Hotel → Eelde Airport</li>
-        <li>Hotel → klant in Eemshaven</li>
-        <li>Hotel → restaurant voor business diner</li>
-      </ul>
+      <h2>Van vliegveld naar hotel: luchthaventransfer</h2>
+      <p>Komt u aan op Groningen Airport Eelde? Taxi Amro staat voor u klaar. De rit van Eelde naar het Groningse stadscentrum kost circa <strong>€42</strong> en duurt ongeveer 20 minuten. U meldt uw vlucht bij het boeken en wij volgen de aankomsttijd.</p>
 
-      <h2>Populaire business hotels in Groningen</h2>
-      <ul>
-        <li>Schimmelpenninck Huys</li>
-        <li>Hampshire Hotel City</li>
-        <li>NH Groningen</li>
-        <li>Martini Hotel</li>
-      </ul>
+      <h2>Station naar hotel of vergaderlocatie</h2>
+      <p>Komt u per trein aan op Groningen Hoofdstation? Taxi Amro rijdt u direct naar uw bestemming, zonder wachten bij een taxistandplaats. Bel bij aankomst en we zijn er snel.</p>
 
-      <h2>FAQ</h2>
-      <p><strong>Kunnen jullie een Engels-sprekende klant ophalen?</strong><br/>Ja, onze chauffeur spreekt voldoende Engels.</p>
-      <p><strong>Werkt jullie service ook in het weekend?</strong><br/>Ja, 24/7.</p>
+      <h2>Zakelijke factuur en maandelijkse afrekening</h2>
+      <p>Rijdt u regelmatig met Taxi Amro voor zakelijke doeleinden? We bieden een factuurafspraak aan: u rijdt, wij factureren maandelijks. Handig voor declaraties en overzichtelijk voor uw boekhouding.</p>
+
+      <h2>Discreet en professioneel</h2>
+      <p>Zakenreizigers kunnen in alle rust telefoneren, e-mails lezen of zich voorbereiden op een vergadering tijdens de rit. Taxi Amro rijdt stil en professioneel. Geen onnodige conversatie als u dat niet wilt.</p>
+
+      <p>Uw zakelijke rit in Groningen boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht.</p>
     `,
   },
   {
@@ -1099,44 +1036,27 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['betrouwbare taxi', 'taxi kiezen', 'goede taxi groningen'],
     content: `
-      <p>Niet alle taxibedrijven zijn gelijk. Onze 5 tips — en hoe TaxiAmro daaraan voldoet. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+      <p>Hoe kies je een betrouwbare taxichauffeur? Er zijn tientallen taxibedrijven actief in Groningen. Het aanbod varieert sterk in prijs, kwaliteit en betrouwbaarheid. Met deze vijf tips vind je altijd een goede taxi.</p>
 
-      <h2>1. Vraag naar de vergunning</h2>
-      <p>Elke taxichauffeur moet beschikken over chauffeurspas, taxivergunning en geldig rijbewijs. Wij zijn ingeschreven bij <strong>KvK 87581868</strong> met <strong>BTW NL004440433B79</strong>.</p>
+      <h2>Tip 1: Kies voor een vaste prijs vooraf</h2>
+      <p>Een betrouwbare taxi werkt met vaste prijzen. Je weet van tevoren wat de rit kost — geen meter die doorloopt, geen toeslag voor file of nacht. Als een taxibedrijf geen vaste prijs kan geven, is dat een waarschuwingsteken. Bij Taxi Amro ontvang je altijd een vaste prijs voordat je instapt.</p>
 
-      <h2>2. Check reviews</h2>
-      <p>Echte recensies van echte klanten. Wij hebben <strong>4.7★</strong> op Google. Kijk uit voor:</p>
-      <ul>
-        <li>Bedrijven zonder online aanwezigheid</li>
-        <li>Te perfecte (gekochte?) reviews</li>
-        <li>Geen contact mogelijk per e-mail of WhatsApp</li>
-      </ul>
+      <h2>Tip 2: Controleer reviews en beoordelingen</h2>
+      <p>Zoek naar reviews op Google. Echte klantbeoordelingen geven een betrouwbaar beeld van de kwaliteit van de chauffeur en de service. Let op het totaalaantal reviews, de gemiddelde score en de meest recente beoordelingen. Taxi Amro staat op Google met positieve recensies van klanten uit Groningen en omgeving.</p>
 
-      <h2>3. Vraag vooraf om prijs</h2>
-      <p>Een betrouwbaar taxibedrijf geeft <strong>vooraf een vaste prijs</strong> voor luchthavenritten. Bedrijven die alleen "via de meter" werken bij vooraf geboekte ritten = wegblijven.</p>
+      <h2>Tip 3: Check beschikbaarheid en bereikbaarheid</h2>
+      <p>Is het taxibedrijf 24/7 bereikbaar? Kun je de chauffeur direct bellen? Of moet je via een app of callcenter? Voor betrouwbaar vervoer, zeker voor vroege vluchten of late ritten, wil je direct contact met de chauffeur. Taxi Amro is bereikbaar via telefoon en WhatsApp, dag en nacht.</p>
 
-      <h2>4. Klantenservice toetsen</h2>
-      <ul>
-        <li>✅ Antwoord binnen 3 belsignalen</li>
-        <li>✅ Vriendelijk en geduldig</li>
-        <li>✅ Kunnen specifieke vragen beantwoorden</li>
-        <li>✅ WhatsApp ook bereikbaar</li>
-      </ul>
+      <h2>Tip 4: Vraag naar het voertuig</h2>
+      <p>In welke auto rij je? Een propere, goed onderhouden auto is een teken van professionaliteit. Taxi Amro rijdt in de Hyundai Nexo, een luxe elektrische auto op waterstof. Ruim, stil en comfortabel. Geen oude dieselwagen die naar benzine ruikt.</p>
 
-      <h2>5. Algemene Voorwaarden en privacy</h2>
-      <p>Een professioneel bedrijf heeft <strong>Algemene Voorwaarden</strong> en een <strong>Privacybeleid</strong>. Geen voorwaarden = onduidelijkheid bij geschillen.</p>
+      <h2>Tip 5: Let op transparantie en communicatie</h2>
+      <p>Een betrouwbaar taxibedrijf bevestigt je boeking, communiceert duidelijk over de ophaalttijd en informeert je als er iets verandert. Bij Taxi Amro ontvang je een bevestiging van je boeking met de vaste prijs, het ophaaladres en de geplande vertrektijd. Geen verrassingen.</p>
 
-      <h2>Wat krijg je bij TaxiAmro?</h2>
-      <ul>
-        <li>✅ KvK-geregistreerd</li>
-        <li>✅ 4.7★ klantbeoordeling</li>
-        <li>✅ Vaste vooraf afgesproken tarieven</li>
-        <li>✅ 24/7 telefoon + WhatsApp bereikbaar</li>
-        <li>✅ Locale kennis Noord-Nederland</li>
-        <li>✅ Schone, comfortabele waterstof Hyundai Nexo</li>
-      </ul>
+      <h2>Waarom Taxi Amro?</h2>
+      <p>Taxi Amro voldoet aan alle vijf criteria: vaste prijs, goede reviews, 24/7 bereikbaar, luxe voertuig en heldere communicatie. Voor vervoer in Groningen en omgeving ben je bij ons aan het juiste adres.</p>
 
-      <p>Meer info: <a href="https://www.rijksoverheid.nl/onderwerpen/taxi" target="_blank" rel="noopener noreferrer">Rijksoverheid Taxi</a>.</p>
+      <p>Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp-bericht voor een vaste prijs vooraf.</p>
     `,
   },
 ]
