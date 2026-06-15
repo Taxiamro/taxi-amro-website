@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, useNavigate, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhyUs from './components/WhyUs'
@@ -39,6 +39,16 @@ function HashRedirect() {
   }, [navigate])
   return null
 }
+
+// Scroll naar boven bij elke route-wissel
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [pathname])
+  return null
+}
+
 
 function useScrollReveal() {
   useEffect(() => {
@@ -146,6 +156,7 @@ export function HomePage() {
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <HashRedirect />
       <Routes>
         <Route path="/"          element={<HomePage />} />

@@ -206,17 +206,17 @@ export default function PriceCalculator() {
                 : 'perspective(800px) rotateX(0deg) rotateY(0deg)',
               transition: hovered ? 'transform 0.1s ease-out' : 'transform 0.5s ease',
             }}
-            className="relative bg-white rounded-3xl shadow-xl shadow-gray-200/80 p-8 overflow-hidden"
+            className="relative bg-white rounded-3xl shadow-xl shadow-gray-200/80 p-5 sm:p-8"
           >
             {/* decorative orb */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none z-0">
               <div className="spin-orb w-3 h-3 rounded-full bg-amber-300/40 blur-sm" />
             </div>
             <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-amber-100/60 blur-3xl pointer-events-none" />
 
             {/* API key warning */}
             {noKey && (
-              <div className="mb-5 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-start gap-3">
+              <div className="mb-5 bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-start gap-3 relative z-10">
                 <svg viewBox="0 0 24 24" fill="none" width="18" height="18" className="flex-shrink-0 mt-0.5">
                   <path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="#d97706" strokeWidth="2" strokeLinecap="round"/>
                 </svg>
@@ -228,7 +228,7 @@ export default function PriceCalculator() {
             )}
 
             {/* From */}
-            <div className="mb-4 relative">
+            <div className="mb-4 relative z-10">
               <label className="text-gray-500 text-xs font-semibold uppercase tracking-wide block mb-2">
                 Vertrekpunt
               </label>
@@ -247,7 +247,7 @@ export default function PriceCalculator() {
             </div>
 
             {/* Route line */}
-            <div className="flex items-center gap-2 my-1 pl-3.5">
+            <div className="flex items-center gap-2 my-1 pl-3.5 relative z-10">
               <div className="flex flex-col gap-1">
                 <div className="w-0.5 h-3 bg-gray-300 rounded ml-1" />
                 <div className="w-0.5 h-3 bg-gray-200 rounded ml-1" />
@@ -272,7 +272,7 @@ export default function PriceCalculator() {
             </div>
 
             {/* To */}
-            <div className="mb-6 relative">
+            <div className="mb-6 relative z-10">
               <label className="text-gray-500 text-xs font-semibold uppercase tracking-wide block mb-2">
                 Bestemming
               </label>
@@ -291,7 +291,7 @@ export default function PriceCalculator() {
             </div>
 
             {error && (
-              <p className="text-red-500 text-xs mb-4 flex items-center gap-1.5">
+              <p className="text-red-500 text-xs mb-4 flex items-center gap-1.5 relative z-10">
                 <svg viewBox="0 0 24 24" fill="none" width="14" height="14">
                   <circle cx="12" cy="12" r="10" stroke="#ef4444" strokeWidth="2"/>
                   <path d="M12 8v4m0 4h.01" stroke="#ef4444" strokeWidth="2" strokeLinecap="round"/>
@@ -303,6 +303,7 @@ export default function PriceCalculator() {
             <button
               onClick={calculate}
               disabled={noKey || loading}
+              style={{position: "relative", zIndex: 10}}
               className="w-full bg-gray-900 hover:bg-gray-800 disabled:bg-gray-200 disabled:text-gray-400 text-white font-bold py-4 rounded-xl transition-all hover:shadow-lg hover:shadow-gray-900/20 active:scale-95 flex items-center justify-center gap-2 text-sm"
             >
               {loading ? (

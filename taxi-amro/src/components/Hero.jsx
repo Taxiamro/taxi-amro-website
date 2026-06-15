@@ -292,20 +292,20 @@ export default function Hero() {
                   </div>
 
                   {/* Date + time + passengers */}
-                  <div className="grid grid-cols-3 gap-2 mb-4">
+                  <div className="grid grid-cols-2 xs:grid-cols-3 gap-2 mb-4">
                     <div className="relative">
                       <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
                       <input type="date" value={date} onChange={(e) => setDate(e.target.value)}
-                        className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-8 pr-2 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-xs" />
+                        className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-7 pr-1 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-[11px]" />
                     </div>
                     <div className="relative">
                       <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                       </svg>
                       <input type="time" value={time} onChange={(e) => setTime(e.target.value)}
-                        className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-8 pr-2 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-xs" />
+                        className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-7 pr-1 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-[11px]" />
                     </div>
                     <div className="bg-gray-50 border border-gray-200 rounded-xl px-2 py-2 flex items-center justify-between">
                       <button type="button" onClick={() => setPassengers(p => Math.max(1,p-1))}
