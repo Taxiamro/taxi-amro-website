@@ -4,9 +4,16 @@ import { Link } from 'react-router-dom'
 const MAPS_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
 
 const PRICING = {
-  startTarief: 7.50,
-  prijsPerKm: 2.35,
+  startTarief: 4.31,
+  prijsPerKm: 3.17,
   minimumPrijs: 15.00,
+}
+
+function getDiscount(km) {
+  if (km > 100) return { pct: 0.25, label: '25% korting (>100 km)' }
+  if (km >= 40)  return { pct: 0.20, label: '20% korting (40–100 km)' }
+  if (km >= 25)  return { pct: 0.15, label: '15% korting (>25 km)' }
+  return { pct: 0, label: null }
 }
 
 const DISCOUNTS = [
@@ -94,9 +101,12 @@ export default function Hero() {
           if (el?.status !== 'OK') return
           const km = el.distance.value / 1000
           const rawPrice = Math.max(PRICING.minimumPrijs, PRICING.startTarief + km * PRICING.prijsPerKm)
+          const disc = getDiscount(km)
           setPriceResult({
             km: km.toFixed(1),
             rawPrice: Math.round(rawPrice),
+            discountedPrice: Math.round(rawPrice * (1 - disc.pct)),
+            discount: disc,
             distText: el.distance.text,
             durText: el.duration.text,
             from: res.originAddresses[0],
@@ -112,7 +122,7 @@ export default function Hero() {
 
   const getFinalPrice = () => {
     if (!priceResult) return 0
-    let p = priceResult.rawPrice
+    let p = priceResult.discountedPrice ?? priceResult.rawPrice
     const retour = activeDiscounts.includes('retour')
     if (retour) p = Math.round(p * 0.90)
     return p
@@ -154,7 +164,7 @@ export default function Hero() {
 
   const finalPrice = getFinalPrice()
   const hasRetour = activeDiscounts.includes('retour')
-  const savings = priceResult ? priceResult.rawPrice - finalPrice : 0
+  const savings = priceResult ? (priceResult.discountedPrice ?? priceResult.rawPrice) - finalPrice : 0
 
   return (
     <section
@@ -365,14 +375,19 @@ export default function Hero() {
                       <div className="absolute -top-6 -right-6 w-24 h-24 bg-amber-400/10 rounded-full blur-xl" />
                       <p className="text-gray-400 text-xs mb-1">Vaste ritprijs</p>
                       <div className="flex items-end justify-center gap-2">
-                        {hasRetour && (
+                        {(hasRetour || (priceResult.discount?.pct > 0)) && (
                           <span className="text-gray-500 line-through text-lg">€{priceResult.rawPrice}</span>
                         )}
                         <span className="text-amber-400 font-bold text-4xl">€{finalPrice}</span>
                       </div>
-                      {savings > 0 && (
-                        <div className="inline-flex items-center gap-1 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mt-1.5">
-                          ✓ €{savings} bespaard met retour korting
+                      {priceResult.discount?.label && (
+                        <div className="inline-flex items-center gap-1 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mt-1">
+                          ✓ {priceResult.discount.label}
+                        </div>
+                      )}
+                      {hasRetour && (
+                        <div className="inline-flex items-center gap-1 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mt-1">
+                          ✓ Extra 10% retour korting
                         </div>
                       )}
                       <p className="text-gray-500 text-xs mt-1.5">Incl. alle kosten · vaste prijs</p>

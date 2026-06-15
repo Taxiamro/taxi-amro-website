@@ -10,15 +10,15 @@ const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20g
 const TEL = '+31633721505'
 
 const tarieven = [
-  { id: 'schiphol',   rit: 'Groningen → Schiphol',           afstand: '~205 km', prijs: '€275', icon: '✈️', accent: '#3b82f6', bg: 'linear-gradient(135deg,#eff6ff,#fff)', border: 'rgba(59,130,246,0.2)', glow: 'rgba(59,130,246,0.12)' },
-  { id: 'eelde',      rit: 'Groningen → Airport Eelde',       afstand: '~12 km',  prijs: '€25',  icon: '🛫', accent: '#8b5cf6', bg: 'linear-gradient(135deg,#f5f3ff,#fff)', border: 'rgba(139,92,246,0.2)',  glow: 'rgba(139,92,246,0.12)' },
-  { id: 'eemshaven',  rit: 'Groningen → Eemshaven',           afstand: '~35 km',  prijs: '€65',  icon: '🚢', accent: '#10b981', bg: 'linear-gradient(135deg,#ecfdf5,#fff)', border: 'rgba(16,185,129,0.2)',  glow: 'rgba(16,185,129,0.12)' },
-  { id: 'leeuwarden', rit: 'Groningen → Leeuwarden',          afstand: '~60 km',  prijs: '€95',  icon: '🏙️', accent: '#f59e0b', bg: 'linear-gradient(135deg,#fffbeb,#fff)', border: 'rgba(245,158,11,0.2)',  glow: 'rgba(245,158,11,0.12)' },
-  { id: 'assen',      rit: 'Groningen → Assen',               afstand: '~30 km',  prijs: '€55',  icon: '🗺️', accent: '#ef4444', bg: 'linear-gradient(135deg,#fef2f2,#fff)', border: 'rgba(239,68,68,0.2)',   glow: 'rgba(239,68,68,0.12)'  },
-  { id: 'drachten',   rit: 'Groningen → Drachten',            afstand: '~40 km',  prijs: '€70',  icon: '📍', accent: '#06b6d4', bg: 'linear-gradient(135deg,#ecfeff,#fff)', border: 'rgba(6,182,212,0.2)',   glow: 'rgba(6,182,212,0.12)'  },
-  { id: 'bremen',     rit: 'Groningen → Bremen Airport',      afstand: '~190 km', prijs: '€295', icon: '🇩🇪', accent: '#f97316', bg: 'linear-gradient(135deg,#fff7ed,#fff)', border: 'rgba(249,115,22,0.2)',  glow: 'rgba(249,115,22,0.12)' },
-  { id: 'dusseldorf', rit: 'Groningen → Düsseldorf Airport',  afstand: '~290 km', prijs: '€425', icon: '🌍', accent: '#ec4899', bg: 'linear-gradient(135deg,#fdf2f8,#fff)', border: 'rgba(236,72,153,0.2)',  glow: 'rgba(236,72,153,0.12)' },
-  { id: 'stad',       rit: 'Stadsrit Groningen',              afstand: 'tot 5 km',prijs: '€15',  icon: '🏘️', accent: '#64748b', bg: 'linear-gradient(135deg,#f8fafc,#fff)', border: 'rgba(100,116,139,0.2)', glow: 'rgba(100,116,139,0.12)' },
+  { id: 'schiphol',   rit: 'Groningen naar Schiphol',           afstand: '~205 km', prijs: '€491', vanPrijs: '€654', korting: '25%', icon: '✈️', accent: '#3b82f6', bg: 'linear-gradient(135deg,#eff6ff,#fff)', border: 'rgba(59,130,246,0.2)', glow: 'rgba(59,130,246,0.12)' },
+  { id: 'eelde',      rit: 'Groningen naar Airport Eelde',       afstand: '~12 km',  prijs: '€42',  vanPrijs: null,   korting: null,  icon: '🛫', accent: '#8b5cf6', bg: 'linear-gradient(135deg,#f5f3ff,#fff)', border: 'rgba(139,92,246,0.2)',  glow: 'rgba(139,92,246,0.12)' },
+  { id: 'eemshaven',  rit: 'Groningen naar Eemshaven',           afstand: '~35 km',  prijs: '€98',  vanPrijs: '€115', korting: '15%', icon: '🚢', accent: '#10b981', bg: 'linear-gradient(135deg,#ecfdf5,#fff)', border: 'rgba(16,185,129,0.2)',  glow: 'rgba(16,185,129,0.12)' },
+  { id: 'leeuwarden', rit: 'Groningen naar Leeuwarden',          afstand: '~60 km',  prijs: '€156', vanPrijs: '€195', korting: '20%', icon: '🏙️', accent: '#f59e0b', bg: 'linear-gradient(135deg,#fffbeb,#fff)', border: 'rgba(245,158,11,0.2)',  glow: 'rgba(245,158,11,0.12)' },
+  { id: 'assen',      rit: 'Groningen naar Assen',               afstand: '~30 km',  prijs: '€84',  vanPrijs: '€99',  korting: '15%', icon: '🗺️', accent: '#ef4444', bg: 'linear-gradient(135deg,#fef2f2,#fff)', border: 'rgba(239,68,68,0.2)',   glow: 'rgba(239,68,68,0.12)'  },
+  { id: 'drachten',   rit: 'Groningen naar Drachten',            afstand: '~40 km',  prijs: '€105', vanPrijs: '€131', korting: '20%', icon: '📍', accent: '#06b6d4', bg: 'linear-gradient(135deg,#ecfeff,#fff)', border: 'rgba(6,182,212,0.2)',   glow: 'rgba(6,182,212,0.12)'  },
+  { id: 'bremen',     rit: 'Groningen naar Bremen Airport',      afstand: '~190 km', prijs: '€455', vanPrijs: '€607', korting: '25%', icon: '🇩🇪', accent: '#f97316', bg: 'linear-gradient(135deg,#fff7ed,#fff)', border: 'rgba(249,115,22,0.2)',  glow: 'rgba(249,115,22,0.12)' },
+  { id: 'dusseldorf', rit: 'Groningen naar Düsseldorf Airport',  afstand: '~290 km', prijs: '€693', vanPrijs: '€924', korting: '25%', icon: '🌍', accent: '#ec4899', bg: 'linear-gradient(135deg,#fdf2f8,#fff)', border: 'rgba(236,72,153,0.2)',  glow: 'rgba(236,72,153,0.12)' },
+  { id: 'stad',       rit: 'Stadsrit Groningen',                 afstand: 'tot 5 km',prijs: '€20',  vanPrijs: null,   korting: null,  icon: '🏘️', accent: '#64748b', bg: 'linear-gradient(135deg,#f8fafc,#fff)', border: 'rgba(100,116,139,0.2)', glow: 'rgba(100,116,139,0.12)' },
 ]
 
 const schema = {
@@ -78,6 +78,9 @@ function TariefCard({ t, index }) {
             <div>
               <p className="font-semibold text-gray-900 text-sm leading-tight">{t.rit}</p>
               <p className="text-gray-400 text-xs mt-0.5">{t.afstand}</p>
+              {t.korting && (
+                <span className="inline-block bg-green-100 text-green-700 text-xs font-bold px-2 py-0.5 rounded-full mt-1">{t.korting} korting</span>
+              )}
             </div>
           </div>
           <div className="text-right flex-shrink-0">

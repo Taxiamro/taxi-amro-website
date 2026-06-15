@@ -1,9 +1,16 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 
 const PRICING = {
-  startTarief: 7.50,
-  prijsPerKm: 2.35,
+  startTarief: 4.31,
+  prijsPerKm: 3.17,
   minimumPrijs: 15.00,
+}
+
+function getDiscount(km) {
+  if (km > 100) return { pct: 0.25, label: '25% korting (>100 km)' }
+  if (km >= 40)  return { pct: 0.20, label: '20% korting (40–100 km)' }
+  if (km >= 25)  return { pct: 0.15, label: '15% korting (>25 km)' }
+  return { pct: 0, label: null }
 }
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
 
@@ -122,12 +129,14 @@ export default function PriceCalculator() {
           const el = res.rows[0]?.elements[0]
           if (el?.status !== 'OK') return setError('Kon afstand niet berekenen. Bel +31 6 33721505.')
           const km = el.distance.value / 1000
-          const ruwePrijs = PRICING.startTarief + (km * PRICING.prijsPerKm)
-          const totalePrijs = Math.max(PRICING.minimumPrijs, ruwePrijs)
-          const eindPrijs = Math.round(totalePrijs)
+          const rawPrijs = Math.max(PRICING.minimumPrijs, PRICING.startTarief + km * PRICING.prijsPerKm)
+          const disc = getDiscount(km)
+          const eindPrijs = Math.round(rawPrijs * (1 - disc.pct))
           setResult({
             km: km.toFixed(1),
+            rawPrice: Math.round(rawPrijs),
             price: eindPrijs,
+            discount: disc,
             distText: el.distance.text,
             durText: el.duration.text,
             origin: res.originAddresses[0],
@@ -375,11 +384,19 @@ export default function PriceCalculator() {
                   <div className="absolute -bottom-6 -left-6 w-24 h-24 rounded-full bg-yellow-500/10 blur-xl" />
                   <div className="relative z-10">
                     <div className="text-gray-400 text-xs uppercase tracking-wide mb-1">Geschatte ritprijs</div>
-                    <div className="text-yellow-400 font-bold text-4xl mb-1">
-                      € {result.price}
+                        <div className="flex items-end justify-center gap-2 mb-1">
+                      {result.discount.pct > 0 && (
+                        <span className="text-gray-500 line-through text-xl mb-1">€{result.rawPrice}</span>
+                      )}
+                      <div className="text-yellow-400 font-bold text-4xl">€ {result.price}</div>
                     </div>
+                    {result.discount.label && (
+                      <div className="inline-flex items-center gap-1 bg-green-500/20 text-green-400 text-xs font-semibold px-3 py-1 rounded-full mb-1">
+                        ✓ {result.discount.label}
+                      </div>
+                    )}
                     <div className="text-gray-400 text-sm mb-1">Afstand: {result.km.replace('.', ',')} km</div>
-                    <div className="text-gray-600 text-xs mb-5">Indicatie. Definitieve prijs via WhatsApp.</div>
+                    <div className="text-gray-600 text-xs mb-5">Vaste prijs op basis van officieel metertarief.</div>
                     <button
                       onClick={handleWhatsApp}
                       className="w-full bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3.5 rounded-xl transition-all hover:shadow-lg hover:shadow-yellow-400/30 active:scale-95 flex items-center justify-center gap-2 text-sm"
