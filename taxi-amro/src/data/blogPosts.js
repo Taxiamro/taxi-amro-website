@@ -74,6 +74,15 @@ export const blogPosts = [
 
       <h2>Uw taxichauffeur in Groningen</h2>
       <p>Als u in Groningen of omgeving een betrouwbare taxichauffeur zoekt, is het antwoord eenvoudig: Taxi Amro. Bel of WhatsApp <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een snelle offerte en reservering. We zijn er voor u, elke dag van het jaar, op elk tijdstip dat u ons nodig heeft.</p>
+
+      <h2>Taxichauffeur in Groningen: Uber en Bolt als concurrent</h2>
+      <p>Uber en Bolt hebben ook in Groningen een deel van de taximarkt veroverd. Maar voor de typische Groningse taxipassagier — die een betrouwbare rit naar Schiphol wil, een ziekenhuisbezoek heeft of 's nachts veilig thuis wil komen — bieden deze apps onvoldoende zekerheid. Een lokale taxichauffeur die de stad kent, altijd bereikbaar is en een vaste prijs geeft is de betere keuze.</p>
+
+      <h2>Wat kost een taxichauffeur in Groningen?</h2>
+      <p>De officiële taxitarieven zijn landelijk geregeld: €4,31 starttarief en €3,17 per kilometer. Taxi Amro past hier bovenop afstandskortingen toe voor langere ritten. Voorbeelden van veelgevraagde ritten: Groningen centrum naar het UMCG ca. €12–€15; centrum naar Schiphol ca. €200; centrum naar Assen ca. €65; centrum naar station ca. €8–€12. Bel voor uw exacte prijs: <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>24/7 bereikbaar: ook als Uber er niet is</h2>
+      <p>Taxi Amro is 24 uur per dag, 7 dagen per week bereikbaar. Ook om 3:00 's nachts, ook op Kerstmis, ook op Koningsdag. Apps als Uber en Bolt zijn afhankelijk van het aanbod van chauffeurs — en dat aanbod is op ongunstige tijden laag. Taxi Amro heeft geen "geen chauffeurs beschikbaar"-melding. U belt, wij rijden.</p>
     `,
   },
   {
@@ -160,6 +169,16 @@ export const blogPosts = [
 
       <h2>Schiphol ophalen: werking van vluchttracering</h2>
       <p>Bij de terugrit geven passagiers hun vluchtnummer door aan Taxi Amro. We volgen de vlucht via FlightRadar24 of een vergelijkbaar systeem. Als de landing 20 minuten later is dan gepland, passen we de rijdtijd aan. U staat nooit te wachten bij de aankomsthal — de chauffeur is er precies wanneer u door de douane loopt. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Uber vs. Taxi Amro voor Groningen–Schiphol</h2>
+      <p>Uber heeft in Groningen beperkte dekking. Voor een rit van 200+ km naar Schiphol is Uber vrijwel nooit beschikbaar vanuit Groningen — het platform is gericht op stedelijk vervoer, niet op lange ritten tussen steden. Bolt rijdt al helemaal niet naar Schiphol vanuit het noorden. Taxi Amro rijdt deze route dagelijks en heeft een vaste prijs die u vooraf kent. Geen surge, geen annuleringen last-minute, geen chauffeur die de rit weigert omdat Schiphol te ver is.</p>
+
+      <h2>Wat kost een taxi van Groningen naar Schiphol?</h2>
+      <p>De vaste prijs van Groningen centrum naar Schiphol bij Taxi Amro is circa <strong>€190–€210</strong>. Dit is inclusief 20% afstandskorting die wij toepassen op ritten van 40–100 km. Voor ritten boven 100 km geldt 25% korting. De prijs is all-in: geen toeslagen, geen extra kosten voor bagage, geen nacht- of weekendopslag. U weet het vooraf.</p>
+      <p>Vergelijk dit met de trein: per persoon circa €35–€45, maar voor 3–4 personen samen is de taxi per persoon goedkoper. Bovendien spaart u 45–60 minuten reistijd en het gedoe van overstappen in Amsterdam Centraal.</p>
+
+      <h2>Bolt en Uber: waarom ze niet werken voor luchthavenritten vanuit Groningen</h2>
+      <p>Bolt is actief in een aantal Nederlandse steden maar heeft in Groningen nauwelijks chauffeurs die bereid zijn naar Schiphol te rijden. Uber heeft hetzelfde probleem: bij een rit van 200 km moet de chauffeur leeg terug of lang wachten op een retourrit. Geen enkele app-chauffeur doet dat voor een normale Uber-prijs. Taxi Amro is een gespecialiseerde langafstandsdienst die dagelijks op en neer rijdt naar Schiphol — dat maakt het verschil.</p>
     `,
   },
   {
@@ -233,6 +252,12 @@ export const blogPosts = [
 
       <h2>Na de cruise: direct naar huis</h2>
       <p>Na een cruise bent u moe maar voldaan. Het laatste wat u wilt is wachten op een taxi of sjouwen met koffers naar een parkeerplaats. Taxi Amro staat klaar bij de uitgang van de terminal zodra u aangeeft dat u van boord gaat. Stuur een WhatsApp en we zijn er. Direct naar huis, comfortabel en zonder omkijken.</p>
+
+      <h2>Uber naar de Eemshaven: geen optie</h2>
+      <p>Uber rijdt niet naar de Eemshaven. De haven ligt te ver buiten het stedelijk gebied waar Uber-chauffeurs actief zijn. Bolt heeft eveneens geen aanbod voor de Eemshaven. Voor passagiers die vanuit Groningen of omgeving naar de cruise terminal willen is Taxi Amro de enige betrouwbare vervoersoptie. Wij kennen de haven, weten welke ingang voor uw schip is en rijden u deur tot deur.</p>
+
+      <h2>Wat kost een taxi naar de Eemshaven?</h2>
+      <p>Groningen centrum naar Eemshaven (ca. 35 km): vaste prijs ca. <strong>€95–€110</strong>. Assen naar Eemshaven (ca. 65 km): ca. <strong>€135–€150</strong>. Leeuwarden naar Eemshaven (ca. 90 km): ca. <strong>€175–€185</strong>. Alle prijzen zijn vast en all-in — geen toeslagen voor bagage of vroeg vertrek. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor uw exacte prijs.</p>
     `,
   },
   {
@@ -292,6 +317,12 @@ export const blogPosts = [
 
       <h2>Duurzaamheidsdoelstellingen van bedrijven</h2>
       <p>Steeds meer bedrijven hebben duurzaamheidsdoelstellingen in hun beleid opgenomen. Het gebruik van een emissievrije taxi past in dat beleid. Taxi Amro kan een duurzaamheidsverklaring afgeven dat uw rit met nul directe CO₂-uitstoot is gereden — handig voor uw duurzaamheidsrapportage of ESG-verslaglegging.</p>
+
+      <h2>Uber en Bolt: rijden ze op waterstof?</h2>
+      <p>De meeste Uber- en Bolt-chauffeurs rijden in gewone benzine- of dieselauto's, soms in een elektrische auto. Waterstof-taxi's zijn uiterst zeldzaam — zelfs in grote steden als Amsterdam zijn er maar een handvol. In de regio Groningen rijdt Taxi Amro als enige taxidienst dagelijks op waterstof. Als u bewust voor een emissievrije rit kiest, is Taxi Amro de enige optie.</p>
+
+      <h2>Wat kost een waterstoftaxi in Groningen?</h2>
+      <p>De prijs van Taxi Amro is gelijk aan die van een gewone taxi — er is geen "duurzaamheidstoeslag". U betaalt de normale vaste prijs en rijdt emissievrij. Voorbeelden: rit binnen Groningen ca. <strong>€10–€20</strong>; naar Schiphol ca. <strong>€200</strong>; naar Bremen Airport ca. <strong>€180</strong>. Groen rijden kost u dus niets extra. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -368,6 +399,15 @@ export const blogPosts = [
 
       <h2>Vroege ochtend: Taxi Amro is er</h2>
       <p>Vluchten vanaf Eelde vertrekken soms al vroeg in de ochtend. Taxi Amro rijdt ook om 4:00, 5:00 of 6:00 's ochtends. We zijn stipt, kennen de route en zorgen dat u ruim op tijd bij de terminal bent. Boek de avond van tevoren en slaap gerust — wij zijn er als u ons nodig heeft. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Wat kost een taxi naar Groningen Airport Eelde?</h2>
+      <p>Vanuit Groningen centrum naar Eelde is de prijs circa <strong>€35–€45</strong>. Vanuit Assen circa €40–€50. Vanuit Drachten circa €65–€75. Dit zijn vaste prijzen — geen meter, geen verrassing. Voor twee personen is de taxi altijd goedkoper dan twee treinkaartjes plus de bus naar de terminal.</p>
+
+      <h2>Uber en Bolt naar Eelde Airport</h2>
+      <p>Uber heeft in de regio Groningen beperkte beschikbaarheid, zeker vroeg in de ochtend. Om 4:00 of 5:00 's ochtends is de kans klein dat een Uber-chauffeur beschikbaar is. Bolt rijdt niet actief in de regio rond Eelde. Taxi Amro rijdt wel, ook bij vroege vluchten en ook op zon- en feestdagen. Zeker voor vroege vluchten is het niet verantwoord om te rekenen op een app — boek vooraf bij een betrouwbare taxidienst.</p>
+
+      <h2>Prijsvergelijking: taxi vs. parkeren op Eelde</h2>
+      <p>Dagparkeren op Groningen Airport Eelde kost circa €9 per dag. Bij een weekvakantie met 7 overnachtingen betaalt u dus €63 voor parkeren — vergelijkbaar met een taxiritje van Groningen naar Eelde en terug (ca. €70–€80 retour). Maar bij parkeren sjouwt u zelf met koffers door de regen, staat u in de file bij terugkomst en heeft u de stress van "heb ik de auto goed geparkeerd". Met Taxi Amro niet.</p>
     `,
   },
   {
@@ -422,6 +462,15 @@ export const blogPosts = [
 
       <h2>Grensritten: geen toeslagen</h2>
       <p>Sommige taxibedrijven rekenen een toeslag voor internationale ritten. Bij Taxi Amro betaalt u de vaste ritprijs, geen extra internationale toeslag. De grens rijden we gewoon door. Uw prijs is uw prijs, of de bestemming nu Groningen, Emden of Bremen is. Vraag een prijs aan via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Uber en Bolt in Duitsland: werkt dat?</h2>
+      <p>Uber is in Duitsland actief in grote steden als Hamburg, Berlijn en München, maar niet of nauwelijks in Emden of Leer. Bolt heeft in Oost-Friesland geen dienst. Als u vanuit Groningen naar Emden of Leer moet, zijn app-gebaseerde diensten geen realistische optie. Taxi Amro rijdt cross-border en heeft de juiste vergunning voor internationaal personenvervoer. Dat maakt het de enige betrouwbare keuze voor de grensrit.</p>
+
+      <h2>Wat kost een taxi van Groningen naar Emden of Leer?</h2>
+      <p>Groningen–Emden (ca. 55 km): vaste prijs circa <strong>€120–€130</strong>. Groningen–Leer (ca. 70 km): vaste prijs circa <strong>€145–€155</strong>. Groningen–Bremen Airport (ca. 170 km): vaste prijs circa <strong>€175–€185</strong>. Alle prijzen zijn all-in, inclusief eventuele tolkosten. Geen verrassingen bij aankomst in Duitsland.</p>
+
+      <h2>Alternatief voor de grensrit: openbaar vervoer</h2>
+      <p>Er rijden treinen van Groningen naar Leer en Emden via Bad Nieuweschans, maar die zijn traag en omslachtig, zeker met bagage. De reistijd per trein naar Emden is circa 1,5 uur met overstap. Per taxi doet u er 45 minuten over, deur tot deur. Voor zakelijke ritten en medische afspraken is de tijdsbesparing significant en rechtvaardigt de taxiprijs zich snel.</p>
     `,
   },
   {
@@ -478,6 +527,16 @@ export const blogPosts = [
 
       <h2>Boek ook voor grote groepen</h2>
       <p>Reist u met meerdere mensen van Leeuwarden naar Schiphol? In de Hyundai Nexo passen 4 personen. Voor grotere groepen regelen we meerdere ritten of zoeken we een groter voertuig op aanvraag. Geef bij boeking het aantal personen en de hoeveelheid bagage door zodat we optimaal kunnen plannen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Wat kost een taxi van Leeuwarden naar Schiphol?</h2>
+      <p>De vaste prijs bij Taxi Amro voor Leeuwarden–Schiphol bedraagt circa <strong>€300–€330</strong>, afhankelijk van het exacte vertrekadres. Dit is inclusief afstandskorting. De prijs staat vast — geen meterstand die oploopt bij file, geen nacht- of weekendtoeslag. U betaalt wat u vooraf heeft afgesproken, punt.</p>
+      <p>Tip: bij 2 personen is de taxi per persoon €150–€165, goedkoper dan veel business class treinkaartjes en véél comfortabeler dan de gewone trein met overstap in Amsterdam.</p>
+
+      <h2>Uber en Bolt vanuit Leeuwarden naar Schiphol</h2>
+      <p>Uber is in Leeuwarden soms beschikbaar voor korte stadsritten, maar voor een rit van 145 km naar Schiphol zijn er vrijwel nooit chauffeurs beschikbaar. Bolt is in Leeuwarden nauwelijks actief. Voor lange afstandsritten van en naar de luchthaven biedt alleen een gespecialiseerde taxidienst als Taxi Amro de zekerheid die u nodig heeft. Geen app-willekeur, geen last-minute annuleringen — gewoon een betrouwbare taxi die er is wanneer u hem nodig heeft.</p>
+
+      <h2>Wat is goedkoper: taxi of trein vanuit Leeuwarden?</h2>
+      <p>Trein Leeuwarden–Schiphol kost per persoon circa €30–€40. Met 3 personen betaalt u €90–€120 voor de trein, vergelijkbaar met de taxi gedeeld door 3. Maar bij de trein heeft u overstap in Amsterdam, geen garantie op een zitplek met grote koffers en een reisbureau dat geen vluchttracering doet. Taxi Amro brengt u van deur tot deur met vluchttracering en vaste prijs. Comfortabel en betrouwbaar wint het altijd.</p>
     `,
   },
   {
@@ -534,6 +593,15 @@ export const blogPosts = [
 
       <h2>Betalen: pin of contant</h2>
       <p>Bij Taxi Amro kunt u zowel pinnen als contant betalen. Handig als uw telefoon bijna leeg is of als u liever cash betaalt na een avond stappen. De prijs is altijd vast en vooraf bekend, dus u weet wat u op zak moet hebben. Geen verrassingen bij de eindafrekening.</p>
+
+      <h2>Uber en Bolt na het stappen: betrouwbaar?</h2>
+      <p>Op vrijdag- en zaterdagnacht in Groningen zijn Uber en Bolt druk. Surge pricing kan de prijs verdubbelen of verdrievoudigen. Wachttijden lopen op. Chauffeurs annuleren ritten omdat ze liever een andere rit pakken. Na een avond stappen wil je gewoon snel en betrouwbaar naar huis — zonder verrassingen bij de prijs of annulering. Taxi Amro biedt vaste prijzen ook op nachtelijke uren en is te boeken zonder app.</p>
+
+      <h2>Wat kost een nachtrit in Groningen?</h2>
+      <p>Een rit binnen Groningen (bijv. Poelestraat naar Paddepoel, ca. 3 km) kost bij Taxi Amro circa <strong>€10–€15</strong>, vaste prijs. Groningen centrum naar Haren: ca. <strong>€25</strong>. Groningen naar Assen: ca. <strong>€65</strong>. Groningen naar Veendam: ca. <strong>€50</strong>. Geen nachtopslag, geen surge — altijd dezelfde vaste prijs, ook om 4:00 's ochtends na een studentenfeest.</p>
+
+      <h2>Bolt in Groningen: wat u moet weten</h2>
+      <p>Bolt heeft in Groningen een bescheiden aanwezigheid. Op donderdagavond (studentenavond) en zaterdagnacht zijn er soms Bolt-chauffeurs, maar de dekking is onbetrouwbaar. Bij slecht weer of op feestdagen is er nauwelijks keuze. Taxi Amro is er altijd — bel gewoon <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en u bent binnen korte tijd thuis.</p>
     `,
   },
   {
@@ -591,6 +659,12 @@ export const blogPosts = [
 
       <h2>Last-minute bruiloftsvervoer</h2>
       <p>Heeft uw geplande vervoer afgezegd op het laatste moment? Bel Taxi Amro. We doen ons best om ook op korte termijn een rit te regelen. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> direct en leg de situatie uit. We lossen het zo goed mogelijk op — uw grote dag mag niet mislopen door een vervoersprobleem.</p>
+
+      <h2>Uber op uw bruiloft: waarom dat risico nemen?</h2>
+      <p>Op uw trouwdag wilt u geen risico lopen. Uber en Bolt bieden geen garantie: chauffeurs kunnen annuleren, de prijs kan hoger zijn dan verwacht en er is geen persoonlijk contact. Voor uw bruiloft verdient u een taxi die u van tevoren heeft besproken, die weet wat er die dag verwacht wordt en die 100% betrouwbaar is. Taxi Amro is dat. Reserveer ruim van tevoren via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Wat kost bruiloftsvervoer in Groningen?</h2>
+      <p>De prijs voor bruiloftsvervoer hangt af van de route en het aantal ritten. Een enkele rit van de ceremonie naar de feestzaal binnen Groningen: ca. <strong>€20–€35</strong>. Van het bruidshuis naar de kerk en daarna naar de feestzaal: ca. <strong>€50–€75</strong>. Retourrit voor gasten van de feestzaal naar het hotel: ca. <strong>€15–€25</strong> per rit. Vraag een offerte op maat voor uw complete bruiloftsvervoer.</p>
     `,
   },
   {
@@ -661,6 +735,12 @@ export const blogPosts = [
 
       <h2>Regelmatige klanten: het geeft rust</h2>
       <p>Patiënten die voor langdurige behandelingen regelmatig naar het ziekenhuis moeten — chemotherapie, dialyse, fysiotherapie — kunnen bij Taxi Amro een vaste planning afspreken. Elke keer dezelfde chauffeur, dezelfde auto, hetzelfde vertrouwde gezicht. Dat geeft rust in een anders stressvolle periode. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor terugkerende ziekenhuisritten.</p>
+
+      <h2>Uber voor ziekenhuisbezoek: geen goed idee</h2>
+      <p>Na een operatie of intensieve behandeling bent u niet in staat om een Uber-app te bedienen of te wachten totdat een chauffeur beschikbaar is. Taxi Amro wordt vooraf geboekt — u weet dat de taxi er is zodra u naar buiten loopt. Geen zoeken in een app met trillende handen, geen wachttijden op straat na een behandeling. Medisch vervoer vraagt om betrouwbaarheid die alleen een vooraf geboekte taxi kan bieden.</p>
+
+      <h2>Wat kost een taxi naar het UMCG of Martini Ziekenhuis?</h2>
+      <p>Rit van Groningen centrum naar het UMCG: ca. <strong>€10–€15</strong>. Vanuit Assen naar UMCG: ca. <strong>€65</strong>. Vanuit Drachten naar UMCG: ca. <strong>€80</strong>. Vanuit Emmen naar UMCG: ca. <strong>€75</strong>. Alle prijzen zijn vast. Voor regelmatige ziekenhuisritten kunt u een abonnement of vaste afspraak bespreken via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -713,6 +793,15 @@ export const blogPosts = [
 
       <h2>Groningen en omgeving: vooraf boeken loont altijd</h2>
       <p>In een stad als Amsterdam is een straattaxi altijd wel te vinden. In Groningen en de provincies eromheen is dat anders. Straattaxi's zijn schaars buiten het centrum en vrijwel afwezig in dorpen en buitenwijken. Voor iedereen in Noord-Nederland geldt: vooraf boeken is de enige zekerheid. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en weet zeker dat er een taxi is wanneer u die nodig heeft.</p>
+
+      <h2>Uber, Bolt en straattaxi: wat is het verschil?</h2>
+      <p>Uber en Bolt zijn technisch gezien geen straattaxi's maar platform-taxi's: ze koppelen passagiers aan zelfstandige chauffeurs via een app. Ze zijn moderner dan de klassieke straattaxi maar hebben vergelijkbare nadelen: dynamische prijzen, geen garantie op beschikbaarheid en soms onbekende chauffeurs. Een vooraf geboekte taxidienst als Taxi Amro combineert het beste van beide werelden: gemak van boeking én zekerheid van een vaste prijs en bekende chauffeur.</p>
+
+      <h2>Wat kost een straattaxi vs. vooraf geboekte taxi?</h2>
+      <p>Een straattaxi in Groningen rekent de officiële metertarieven: €4,31 starttarief plus €3,17 per km. Bij file of oponthoud loopt de meter door. Een rit van het centrum naar Schiphol per straattaxi zou theoretisch €640+ kosten op de meter (200 km x €3,17 + start). Taxi Amro rekent met een vaste prijs van circa €200 door het toepassen van afstandskortingen. Dat is het verschil tussen meter en vaste prijs in de praktijk.</p>
+
+      <h2>Hoe werkt boeking bij Taxi Amro?</h2>
+      <p>Boeking is eenvoudig: WhatsApp of bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Geef uw ophaaladres, bestemming en gewenste tijdstip door. U ontvangt direct een vaste prijs. Geen app nodig, geen account, geen creditcard koppelen. Betaling kan contant of per pin. Simpel, snel en zeker.</p>
     `,
   },
   {
@@ -767,6 +856,12 @@ export const blogPosts = [
 
       <h2>Locaties voor carbidschieten in de regio</h2>
       <p>Populaire carbidlocaties in de regio zijn onder andere Winschoten, Veendam, Delfzijl en kleine dorpen als Siddeburen, Slochteren en Hoogkerk. Taxi Amro rijdt naar al deze locaties. Geef uw bestemming door bij het boeken en we rijden u er comfortabel naartoe en terug.</p>
+
+      <h2>Uber en Bolt op oudjaarsavond: surge pricing op z'n ergst</h2>
+      <p>Oudjaarsavond is het toppunt van Uber surge pricing. Na middernacht, als iedereen tegelijk naar huis wil, schiet de prijs omhoog. Een rit die normaal €15 kost, kan op oudjaarsavond oplopen tot €45 of meer. Bolt heeft hetzelfde probleem. Taxi Amro rekent altijd dezelfde vaste prijs — ook op oudjaarsavond, ook na middernacht. Boek vooraf en weet wat u betaalt.</p>
+
+      <h2>Wat kost een taxi op oudjaarsavond?</h2>
+      <p>Bij Taxi Amro betaalt u dezelfde prijs als op een doordeweekse dag, zonder opslag. Voorbeelden: rit binnen Groningen ca. <strong>€10–€20</strong>; naar een dorp buiten de stad ca. <strong>€30–€60</strong> afhankelijk van afstand; Groningen–Assen ca. <strong>€65</strong>. Geen nacht- of feestdagopslag. Altijd vaste prijs. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en boek op tijd.</p>
     `,
   },
   {
@@ -834,6 +929,12 @@ export const blogPosts = [
 
       <h2>Concertkaarten + taxi: het ideale pakket</h2>
       <p>Plan uw concertavond compleet: kaartjes bestellen én gelijk uw taxi boeken. Zo heeft u de hele avond in handen. Geef bij het boeken aan hoe laat het concert eindigt (doorgaans circa 23:00–00:00) en we plannen uw ophaalrit. Na het concert wandelt u naar buiten en staat uw taxi klaar. Geen gedoe, geen wachten. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Uber naar de Ziggo Dome of Rotterdam Ahoy: werkt dat?</h2>
+      <p>Uber rijdt wel in Amsterdam en Rotterdam, maar vanuit Groningen naar de Ziggo Dome is geen enkele Uber-chauffeur bereid die rit te rijden voor een normale prijs. De afstand (200+ km) is simpelweg te groot voor het Uber-model. Bolt heeft hetzelfde probleem. Voor langere concertritten vanuit Noord-Nederland is Taxi Amro de enige betrouwbare keuze. Wij rijden de lange afstand graag, met een vaste prijs die u vooraf weet.</p>
+
+      <h2>Wat kost een taxi naar een concert buiten Groningen?</h2>
+      <p>Groningen naar Ziggo Dome Amsterdam (ca. 200 km): circa <strong>€480</strong> (inclusief 25% afstandskorting). Groningen naar TivoliVredenburg Utrecht (ca. 190 km): circa <strong>€460</strong>. Groningen naar Rotterdam Ahoy (ca. 265 km): op aanvraag. Voor lange concertritten geldt: hoe meer personen mee, hoe lager de prijs per persoon. Met 4 personen naar de Ziggo Dome kost de taxi per persoon circa €120 — vergelijkbaar met een treinkaartje maar dan deur tot deur. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -893,6 +994,12 @@ export const blogPosts = [
 
       <h2>Taxi naar de luchthaven: checklist</h2>
       <p>Boek minstens 24 uur van tevoren. Geef uw vluchtnummer door voor realtime tracking. Geef de hoeveelheid bagage aan bij boeking. Plan vroeg genoeg voor check-in en beveiliging. Bewaar de contactgegevens van Taxi Amro: <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Met deze checklist bent u altijd goed voorbereid op uw luchthavenaxi.</p>
+
+      <h2>Uber en Bolt naar Bremen Airport: niet beschikbaar</h2>
+      <p>Uber en Bolt rijden niet van Groningen naar Bremen Airport. De grensoverschrijdende rit van 170 km is buiten het bereik van het app-model voor lokale ritten. Taxi Amro heeft de juiste vergunning voor internationaal vervoer en rijdt deze route dagelijks. Of u nu vroeg in de ochtend vertrekt of laat in de avond terugkomt — wij rijden de route naar Duitsland.</p>
+
+      <h2>Wat kost een taxi van Groningen naar de luchthaven?</h2>
+      <p>Groningen naar Schiphol (ca. 200 km): ca. <strong>€190–€210</strong>. Groningen naar Bremen Airport (ca. 170 km): ca. <strong>€175–€185</strong>. Groningen naar Hannover Airport (ca. 230 km): ca. <strong>€220–€240</strong>. Groningen naar Eindhoven Airport (ca. 220 km): op aanvraag. Alle prijzen zijn vast, all-in, geen verrassingen. Bel voor uw exacte prijs: <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -955,6 +1062,12 @@ export const blogPosts = [
 
       <h2>Uw cruise begint goed met Taxi Amro</h2>
       <p>Een cruise is een bijzondere reis — neem geen risico met uw vervoer naar de haven. Taxi Amro zorgt dat u op tijd, comfortabel en zonder stress aan boord gaat. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en leg uw cruisedatum en vertrekttijd door. We bevestigen uw boeking en uw cruise begint al bij uw voordeur.</p>
+
+      <h2>Taxikosten Eemshaven: wat is redelijk?</h2>
+      <p>Een rit van Groningen naar de Eemshaven van circa 35 km kost bij Taxi Amro ca. <strong>€95–€110</strong>. Vergelijk dit met een huurauto (parkeerkosten in de haven, benzine, ritprijs retour) en de taxi is goedkoper én gemakkelijker. Er zijn geen andere taxidiensten die de Eemshaven regelmatig bedienen — Taxi Amro is de vaste partner voor cruise-passagiers in de regio.</p>
+
+      <h2>Geen Uber of Bolt naar de Eemshaven</h2>
+      <p>Uber en Bolt rijden niet naar de Eemshaven. De haven is te ver buiten het stedelijk gebied en er zijn nauwelijks passagiers die de terugrit willen. Dit maakt Taxi Amro de enige betrouwbare optie voor vervoer van en naar de Eemshaven cruise terminal. Boek op tijd — op drukke cruisedagen is er meer vraag dan aanbod. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -1011,6 +1124,12 @@ export const blogPosts = [
 
       <h2>Groningen–Amsterdam in één dag</h2>
       <p>Een dagtrip van Groningen naar Amsterdam voor vergaderingen is goed te doen met Taxi Amro. Wij rijden u vroeg in de ochtend naar Amsterdam, u heeft uw vergaderingen, en 's avonds rijden we u terug. U werkt in de auto, rust uit, of bereidt uw vergadering voor. Geen rijstress, geen parkeerproblemen in Amsterdam. Prijs: circa €400–€450 retour. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Uber for Business vs. Taxi Amro voor zakelijk gebruik</h2>
+      <p>Uber heeft een zakelijke oplossing genaamd Uber for Business. Bedrijven kunnen hiermee centraal taxi's boeken voor medewerkers. Klinkt handig, maar in Groningen is de beschikbaarheid van Uber-chauffeurs beperkt. Voor vroege ochtendritten naar Schiphol, ritten naar Duitsland of vervoer buiten de stad biedt Uber for Business onvoldoende zekerheid. Taxi Amro biedt dezelfde zakelijke factuurregeling zonder de onbetrouwbaarheid van een app-platform in een regio met beperkte dekking.</p>
+
+      <h2>Wat kost zakelijk taxivervoer in Groningen?</h2>
+      <p>De prijs is afhankelijk van de rit. Indicatieve zakelijke ritprijzen bij Taxi Amro: Groningen centrum–Schiphol ca. €200; Groningen–Assen ca. €65; Groningen–Leeuwarden ca. €80; Groningen–Bremen Airport ca. €180; Groningen–Amsterdam centrum ca. €280. Alle prijzen zijn vast en all-in. U declareert de factuur en weet exact wat u heeft betaald. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor een zakelijke offerte.</p>
     `,
   },
   {
@@ -1068,6 +1187,12 @@ export const blogPosts = [
 
       <h2>Taxi Amro: uw vaste vervoerspartner voor feestdagen</h2>
       <p>Koningsdag is slechts één van de vele feestdagen waarop Taxi Amro u van dienst is. Van Sinterklaas tot Kerstmis, van Bevrijdingsdag tot Oud en Nieuw — wij rijden het hele jaar voor u. Sla ons nummer op en bel wanneer u ons nodig heeft: <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. Altijd bereikbaar, altijd vaste prijs.</p>
+
+      <h2>Uber en Bolt op Koningsdag in Groningen</h2>
+      <p>Op Koningsdag is de binnenstad van Groningen deels afgesloten. Uber- en Bolt-chauffeurs kunnen niet bij alle locaties komen en weten de alternatieve routes niet altijd. Bovendien is er op feestdagen minder aanbod van app-chauffeurs. Taxi Amro kent de stad en rijdt ook op feestdagen langs de beste route, rekening houdend met afsluitingen en drukte.</p>
+
+      <h2>Wat kost een taxi op Koningsdag?</h2>
+      <p>Taxi Amro rekent geen feestdagtoeslag op Koningsdag. Prijs is gelijk aan andere dagen: rit binnen Groningen ca. <strong>€10–€20</strong>; van buiten de stad naar Groningen centrum ca. <strong>€30–€80</strong> afhankelijk van uw vertrekplaats. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en boek uw Koningsdagtaxi ruim van tevoren.</p>
     `,
   },
   {
@@ -1133,6 +1258,12 @@ export const blogPosts = [
 
       <h2>Dag- en meerdaagse bezoeken</h2>
       <p>Verlengt u uw bezoek aan Groningen naar meerdere dagen? Dan kunt u de bezienswaardigheden rustig spreiden. Taxi Amro verzorgt ook meerdaagse transfers vanuit uw hotel of B&B naar de locaties van uw keuze. Bespreek bij boeking uw volledige programma en we plannen de ritten efficiënt in. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Taxi of Uber voor een stedentrip Groningen?</h2>
+      <p>Voor een stedentrip naar Groningen is Uber een optie voor korte ritten binnen de stad. Maar als u vanuit een ander deel van Nederland komt of bezienswaardigheden buiten het centrum wilt bezoeken (zoals Hortus Haren of Bourtange), schiet Uber tekort. Taxi Amro biedt flexibel dagvervoer voor toeristen: u bepaalt de route, wij rijden. Geen meter die tikt, een vaste prijs per rit of dagdeel.</p>
+
+      <h2>Wat kost een taxi voor toeristen in Groningen?</h2>
+      <p>Rit van het centrum naar het Groninger Museum: ca. <strong>€8</strong>. Naar de Hortus Haren: ca. <strong>€20</strong>. Dagtrip naar Bourtange (heen en terug): ca. <strong>€120</strong>. Dagtarief voor meerdere toeristische stops op aanvraag. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en plan uw perfecte Groningen-dag.</p>
     `,
   },
   {
@@ -1190,6 +1321,12 @@ export const blogPosts = [
 
       <h2>Veiligheid boven alles</h2>
       <p>Bij extreme weersomstandigheden stelt Taxi Amro veiligheid altijd voorop. Als de weg naar uw bestemming onbegaanbaar is, overleggen we samen over alternatieven. We rijden nooit roekeloze ritten om een deadline te halen. Uw veiligheid en die van onze chauffeur zijn het allerbelangrijkste. Betrouwbaar rijden betekent ook: weten wanneer het niet verstandig is en dat eerlijk communiceren.</p>
+
+      <h2>Uber en Bolt bij gladheid: niet beschikbaar</h2>
+      <p>Bij extreem winterweer melden veel Uber- en Bolt-chauffeurs zich af. Ze rijden liever niet op gladde wegen in hun eigen auto. Het resultaat: op de momenten dat u een taxi het hardst nodig heeft, is er geen Uber beschikbaar. Taxi Amro rijdt met winterbanden en een ervaren chauffeur die gewend is aan Noord-Nederlandse winteromstandigheden. Wij zijn er ook als de wegen glad zijn.</p>
+
+      <h2>Wat kost een wintertaxi in Groningen?</h2>
+      <p>De prijs bij Taxi Amro verandert niet in de winter. Geen winteropslag, geen slechte-weeropslag. U betaalt de normale vaste prijs, ook als het sneeuwt of ijzelt. Zo weet u altijd waar u aan toe bent. Prijs voor een rit binnen Groningen: ca. <strong>€10–€20</strong>. Naar het ziekenhuis UMCG: ca. <strong>€12–€18</strong>. Naar Schiphol: ca. <strong>€200</strong>. Altijd vast. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -1244,6 +1381,12 @@ export const blogPosts = [
 
       <h2>Nieuwjaarsdag: ook dan rijden we</h2>
       <p>Op 1 januari rijden openbaar vervoer en veel taxidiensten beperkt. Taxi Amro rijdt ook op nieuwjaarsdag. Of u nu vroeg thuis wilt na de oudejaarsnacht of 's middags een familiebezoek wilt afleggen — we zijn bereikbaar en rijden u naar uw bestemming. Vaste prijs, ook op nieuwjaarsdag.</p>
+
+      <h2>Uber en Bolt op de feestdagen: onbetrouwbaar</h2>
+      <p>Op Kerstavond, Sinterklaasavond en Oudjaarsavond zijn er weinig Uber- en Bolt-chauffeurs beschikbaar. De meeste chauffeurs zijn zelf ook thuis bij hun familie. Wie er wel rijdt, vraagt surge pricing — soms 3x of 4x de normale prijs. Op de drukste avonden van het jaar is een vooraf geboekte taxi bij Taxi Amro de enige zekerheid. Geen surge, geen verrassing, gewoon vaste prijs.</p>
+
+      <h2>Wat kost een kerst- of sinterklaastxi?</h2>
+      <p>Taxi Amro rekent op Sinterklaas en Kerstmis dezelfde vaste tarieven als op alle andere dagen. Geen feestdagtoeslag. Voorbeeldprijzen: rit binnen Groningen ca. <strong>€10–€20</strong>; Groningen naar Assen ca. <strong>€65</strong>; Groningen naar Leeuwarden ca. <strong>€80</strong>; ophalen van station Groningen ca. <strong>€10</strong>. Alles vast, alles vooraf bekend. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
     `,
   },
   {
@@ -1299,6 +1442,12 @@ export const blogPosts = [
 
       <h2>Contact opnemen: eenvoudig en direct</h2>
       <p>Senioren die liever bellen dan appen: dat kan altijd. Bel gewoon <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en leg uw situatie uit. We nemen de tijd voor u, luisteren goed en plannen alles correct in. U hoeft geen app te installeren of een account aan te maken. Gewoon bellen volstaat.</p>
+
+      <h2>Uber en Bolt voor ouderen: drempel te hoog</h2>
+      <p>Uber en Bolt vereisen een smartphone met app, een gekoppeld betaalmiddel en voldoende technische vaardigheid. Voor veel senioren is dat een te hoge drempel. Taxi Amro werkt gewoon via de telefoon — bellen of een eenvoudig WhatsApp-bericht. Geen app, geen account, geen gedoe. U belt, wij rijden. Zo simpel is het.</p>
+
+      <h2>Wat kost een taxi voor senioren in Groningen?</h2>
+      <p>Veelgevraagde ritten voor senioren: UMCG naar huis in Groningen centrum ca. <strong>€12–€18</strong>. Groningen naar Assen ca. <strong>€65</strong>. Groningen naar Delfzijl ca. <strong>€60</strong>. Supermarkt en terug (ca. 2 km) ca. <strong>€8–€12</strong>. Alle prijzen zijn vast en vooraf bekend. Bij vaste wekelijkse ritten kunt u een gunstige afspraak maken voor een reeks ritten.</p>
     `,
   },
   {
@@ -1359,6 +1508,18 @@ export const blogPosts = [
 
       <h2>Lokale kennis: priceless</h2>
       <p>Taxi Amro rijdt al jaren in de regio Groningen. De chauffeur kent de sluiproutes, weet welke wegen bij wegwerkzaamheden worden vermeden en weet precies welke ingang van het UMCG, Schiphol of de Eemshaven u nodig heeft. Dat lokale kennisvoordeel heeft geen enkele app. Het is het verschil tussen een chauffeur die de stad kent en een navigatiesysteem dat de kortste route kiest zonder context.</p>
+
+      <h2>Bolt in Groningen: is het een optie?</h2>
+      <p>Bolt is een Estse concurrent van Uber die ook in Nederland actief is, onder andere in steden als Amsterdam, Rotterdam en Utrecht. In Groningen heeft Bolt een kleine aanwezigheid, maar het aanbod is onvoorspelbaar. Op drukke momenten of bij slecht weer zijn er weinig Bolt-chauffeurs beschikbaar, en de prijzen stijgen dan mee. Voor een geplande rit — zoals een luchthavenrit vroeg in de ochtend — is Bolt geen betrouwbare optie in de regio Groningen.</p>
+
+      <h2>Wat kost een Uber vs. Taxi Amro in Groningen?</h2>
+      <p>Voor een kortere rit binnen Groningen (bijv. centrum naar Paddepoel, ca. 4 km) kost Uber circa €8–€12. Taxi Amro: ook circa €10–€15, vaste prijs. Voor een langere rit zoals Groningen–Schiphol (ca. 200 km) heeft Uber geen aanbod — te ver voor lokale Uber-chauffeurs. Taxi Amro: circa €200, vaste prijs. Het verschil is duidelijk: Uber is voor korte stadsritten, Taxi Amro voor alles wat verder gaat.</p>
+
+      <h2>Surge pricing: het gevaar van apps</h2>
+      <p>Uber en Bolt hanteren dynamische prijzen. Op drukke momenten — vrijdagnacht, na een concert, bij regen — kan de prijs met 2x of 3x vermenigvuldigd zijn. U ziet het pas als u wilt boeken. Taxi Amro kent geen surge pricing. De prijs die u bij boeking ontvangt, is de prijs die u betaalt. Of het nu vrijdagnacht is, Koningsdag of een doorsnee dinsdagmiddag.</p>
+
+      <h2>Betrouwbaarheid: annuleringen bij apps</h2>
+      <p>Een veelgehoorde klacht over Uber en Bolt is dat chauffeurs ritten annuleren na acceptatie, soms omdat de bestemming hen niet bevalt. Dat kan een enorm probleem zijn als u op weg bent naar de luchthaven of een medische afspraak. Bij Taxi Amro wordt een geboekte rit nooit geannuleerd. Wij zijn er wanneer we beloofd hebben — dat is onze belofte.</p>
     `,
   },
   {
@@ -1421,6 +1582,12 @@ export const blogPosts = [
 
       <h2>Lente en herfst: rustigere seizoenen op het eiland</h2>
       <p>Schiermonnikoog is in de zomer druk. Lente en herfst zijn rustiger, met prachtige natuur en weinig toeristen. Juist dan is het eiland op zijn mooist. Taxi Amro rijdt het hele jaar naar Lauwersoog, ook in het voor- en naseizoen wanneer de veerboten minder frequent varen. Bel vooraf om te controleren op welke tijden we u het beste kunnen ophalen: <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>.</p>
+
+      <h2>Uber naar Lauwersoog: bestaat dat?</h2>
+      <p>Lauwersoog ligt 55 km ten noorden van Groningen. Er zijn geen Uber- of Bolt-chauffeurs die deze rit aanbieden — te ver, te weinig passagiers terug. Alleen een gespecialiseerde taxidienst als Taxi Amro rijdt betrouwbaar naar Lauwersoog. Wij doen dit regelmatig voor eilandreizigers en kennen de route, de veerterminal en de parkeergelegenheid bij de haven.</p>
+
+      <h2>Wat kost een taxi naar Lauwersoog en Schiermonnikoog?</h2>
+      <p>Groningen centrum naar Lauwersoog (ca. 55 km): vaste prijs ca. <strong>€120–€130</strong>. Assen naar Lauwersoog (ca. 75 km): ca. <strong>€150–€160</strong>. Retour dezelfde dag (wachttijd inbegrepen): op aanvraag. De veerboot naar Schiermonnikoog kost circa €12 per persoon bovenop de taxiprijs. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor uw eilandtaxi.</p>
     `,
   },
   {
@@ -1475,6 +1642,12 @@ export const blogPosts = [
 
       <h2>Internationale gasten: welkom in Groningen</h2>
       <p>ESNS trekt professionals uit meer dan 50 landen. Voor buitenlandse bezoekers is Groningen een nieuwe stad. Taxi Amro is de perfecte eerste kennismaking met de Groningse gastvrijheid. We rijden u van het vliegveld of station naar uw hotel, lichten u onderweg bij over de stad en zorgen dat u de festivaldagen zo efficiënt en comfortabel mogelijk doorbrengt.</p>
+
+      <h2>Uber en Bolt tijdens ESNS in Groningen</h2>
+      <p>Tijdens Eurosonic Noorderslag stroomt Groningen vol met bezoekers. Uber en Bolt hebben meer chauffeurs beschikbaar dan normaal, maar surge pricing is een reëel risico op drukke festivalavonden. Na een late show om 2:00 of 3:00 's ochtends kan de prijs met een app aanzienlijk hoger uitvallen dan normaal. Taxi Amro biedt vaste ESNS-tarieven zonder surprise. Boek vooraf voor de zekerheid.</p>
+
+      <h2>Wat kost een taxi tijdens ESNS in Groningen?</h2>
+      <p>Ritten binnen Groningen (van festivallocatie naar hotel) kosten ca. <strong>€10–€20</strong>, afhankelijk van de afstand. Van Groningen naar hotels in Assen of Leeuwarden: ca. <strong>€65–€80</strong>. Van/naar Schiphol of Bremen Airport voor internationale bezoekers: ca. <strong>€180–€210</strong>. Alle ESNS-ritprijzen zijn vast. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor uw festival-taxi.</p>
     `,
   },
   {
@@ -1536,6 +1709,12 @@ export const blogPosts = [
 
       <h2>Contactgegevens en reservering</h2>
       <p>Boek uw zakelijke vervoer in Groningen via <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a>. WhatsApp werkt ook uitstekend voor snelle reserveringen. Geef uw naam, bedrijf, datum, tijdstip en bestemming door en u ontvangt een directe bevestiging. Voor vaste zakelijke klanten plannen we ook op weekbasis. Professioneel vervoer in Groningen — dat is Taxi Amro.</p>
+
+      <h2>Uber en Bolt voor zakenreizigers in Groningen: werkt het?</h2>
+      <p>Zakenreizigers in Amsterdam of Rotterdam kunnen vaak een betrouwbare Uber vinden. In Groningen is dat anders. De beschikbaarheid van Uber en Bolt is wisselend, zeker buiten piekuren. Voor een vroege ochtendrit van uw hotel naar een vergaderlocatie of de luchthaven is het te riskant om te vertrouwen op een app. Taxi Amro biedt garantie: wij zijn er wanneer u ons boekt, altijd. Dat is wat zakenreizigers nodig hebben.</p>
+
+      <h2>Wat kost een taxi van een Gronings hotel naar zakelijke locaties?</h2>
+      <p>Hotel in Groningen centrum naar Schiphol: ca. <strong>€200</strong>. Hotel naar Zernike Campus: ca. <strong>€15</strong>. Hotel naar Martini Ziekenhuis: ca. <strong>€12</strong>. Hotel naar Groningen Centraal: ca. <strong>€10</strong>. Hotel naar Martiniplaza: ca. <strong>€8</strong>. Alle bedragen zijn vaste prijzen, geen meter. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> voor uw exacte prijs.</p>
     `,
   },
   {
@@ -1594,6 +1773,15 @@ export const blogPosts = [
 
       <h2>Wat doet u bij een slechte taxiervaring?</h2>
       <p>Heeft u een slechte ervaring gehad met een taxidienst? Meld dit bij de Inspectie Leefomgeving en Transport (ILT) of via de lokale Kamer van Koophandel. Voor een klacht over Taxi Amro kunt u ons direct benaderen — we nemen klachten serieus en lossen ze op. Een klacht is voor ons een kans om te verbeteren. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een bericht.</p>
+
+      <h2>Taxi, Uber of Bolt: wat kiezen voor welke situatie?</h2>
+      <p>Voor een spontane korte rit in het centrum van een grote stad zoals Amsterdam kan Uber of Bolt handig zijn. Voor geplande ritten, luchthavenvervoer, ritten buiten de stad, medische ritten of ritten vroeg in de ochtend is een vooraf geboekte taxidienst als Taxi Amro altijd de betere keuze. De vuistregel: als het niet erg is als de auto 10 minuten later is of 20% duurder uitvalt, gebruik een app. Als u zekerheid nodig heeft — gebruik Taxi Amro.</p>
+
+      <h2>Wat kost een taxi in Groningen gemiddeld?</h2>
+      <p>De officiële taxitarieven in Nederland zijn: €4,31 starttarief, €3,17 per km en €0,58 per minuut wachttijd. Taxi Amro hanteert deze tarieven maar past afstandskortingen toe: 15% bij 25–40 km, 20% bij 40–100 km en 25% bij meer dan 100 km. Enkele voorbeeldprijzen: Groningen centrum–Schiphol circa €200; Groningen–Bremen Airport circa €180; Groningen–Assen circa €65; rit binnen Groningen centrum circa €10–€20.</p>
+
+      <h2>Conclusie: kies slim, kies veilig</h2>
+      <p>De vijf tips in dit artikel helpen u de juiste taxi te kiezen. Vaste prijs, goede reviews, gecertificeerd, professionele auto en bereikbaarheid — dat zijn de criteria. Taxi Amro scoort op alle vijf. Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> en ervaar het verschil van professioneel, betrouwbaar taxivervoer in Groningen en omgeving.</p>
     `,
   },
 ]
