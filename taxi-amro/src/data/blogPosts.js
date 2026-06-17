@@ -6,11 +6,15 @@ export const blogPosts = [
     category: 'Groningen',
     readTime: '6 min',
     excerpt: 'Op zoek naar een taxichauffeur in Groningen? Taxi Amro rijdt 24/7, vaste prijs vooraf, geen toeslagen voor nacht of weekend. Direct boeken via WhatsApp of telefoon.',
-    featuredImage: '/hero-car.png',
+    featuredImage: '/taxi-amro-logo.webp',
     featuredImageAlt: 'Taxichauffeur Groningen - Taxi Amro Hyundai Nexo elektrisch',
     author: 'Team TaxiAmro',
     keywords: ['taxichauffeur groningen', 'taxi groningen', 'taxiservice groningen', '24/7 taxi groningen'],
-    content: `
+    content: `<div style="text-align:center;margin-bottom:2rem;">
+  <img src="/taxi-amro-logo.webp" alt="Taxi Amro Groningen - Betrouwbare taxiservice" style="max-width:280px;width:100%;margin:0 auto;border-radius:16px;box-shadow:0 4px 24px rgba(0,0,0,0.10);" />
+</div>
+
+
       <p>Een goede taxichauffeur in Groningen vinden is niet altijd eenvoudig. Je wilt iemand die op tijd is, de weg kent en een eerlijke prijs rekent. Taxi Amro is al jaren de vaste taxichauffeur voor reizigers in Groningen, Friesland en Drenthe. In dit artikel leggen we uit wat je kunt verwachten en hoe je eenvoudig een rit boekt.</p>
 
       <h2>Wat maakt een goede taxichauffeur?</h2>

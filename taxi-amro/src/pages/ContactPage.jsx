@@ -156,14 +156,16 @@ export default function ContactPage() {
             <div data-reveal className="fade-up text-center mb-10">
               <h2 className="text-2xl font-bold text-gray-900">Handige informatie</h2>
             </div>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid sm:grid-cols-2 gap-4 items-stretch">
               {infoItems.map((item, i) => (
-                <div key={item.title} data-reveal className={`fade-up stagger-${i + 1}`}>
-                  <div className="flex items-start gap-4 bg-white rounded-2xl p-5 border border-gray-100 shadow-sm hover:border-amber-200 hover:shadow-md transition-all">
-                    <span className="text-3xl flex-shrink-0">{item.icon}</span>
+                <div key={item.title} data-reveal className={`fade-up stagger-${i + 1} flex`}>
+                  <div className="flex items-center gap-4 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:border-amber-300 hover:shadow-md transition-all w-full min-h-[96px]">
+                    <div className="w-12 h-12 rounded-xl bg-amber-50 flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">{item.icon}</span>
+                    </div>
                     <div>
-                      <p className="font-semibold text-gray-900 text-sm mb-1">{item.title}</p>
-                      <p className="text-gray-500 text-sm">{item.text}</p>
+                      <p className="font-bold text-gray-900 text-sm mb-0.5">{item.title}</p>
+                      <p className="text-gray-500 text-sm leading-snug">{item.text}</p>
                     </div>
                   </div>
                 </div>
