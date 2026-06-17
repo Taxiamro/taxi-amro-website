@@ -21,6 +21,10 @@ import GronSchiphol from './pages/routes/GronSchiphol'
 import GronAssen from './pages/routes/GronAssen'
 import GronLeeuwarden from './pages/routes/GronLeeuwarden'
 import GronEemshaven from './pages/routes/GronEemshaven'
+import GronEindhoven from './pages/routes/GronEindhoven'
+import GronEelde from './pages/routes/GronEelde'
+import GronDusseldorf from './pages/routes/GronDusseldorf'
+import GronBremen from './pages/routes/GronBremen'
 import Reviews from './pages/Reviews'
 import Luchthaven from './pages/blog/Luchthaven'
 import Zakelijk from './pages/blog/Zakelijk'
@@ -177,6 +181,10 @@ export default function App() {
         <Route path="/taxi-groningen-assen"      element={<GronAssen />} />
         <Route path="/taxi-groningen-leeuwarden" element={<GronLeeuwarden />} />
         <Route path="/taxi-groningen-eemshaven"  element={<GronEemshaven />} />
+        <Route path="/taxi-groningen-eindhoven-airport"  element={<GronEindhoven />} />
+        <Route path="/taxi-groningen-eelde-airport"      element={<GronEelde />} />
+        <Route path="/taxi-groningen-dusseldorf-airport" element={<GronDusseldorf />} />
+        <Route path="/taxi-groningen-bremen-airport"     element={<GronBremen />} />
         <Route path="/reviews"             element={<Reviews />} />
         <Route path="/blog/luchthaven"   element={<Luchthaven />} />
         <Route path="/blog/zakelijk"     element={<Zakelijk />} />

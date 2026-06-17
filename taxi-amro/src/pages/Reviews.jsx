@@ -204,6 +204,10 @@ export default function Reviews() {
           <div className="flex flex-wrap justify-center gap-3">
             {[
               { to: '/taxi-groningen-schiphol', label: '✈️ Schiphol €491' },
+              { to: '/taxi-groningen-eindhoven-airport', label: '✈️ Eindhoven €645' },
+              { to: '/taxi-groningen-dusseldorf-airport', label: '✈️ Düsseldorf €693' },
+              { to: '/taxi-groningen-bremen-airport', label: '✈️ Bremen €455' },
+              { to: '/taxi-groningen-eelde-airport', label: '🛫 Eelde €42' },
               { to: '/taxi-groningen-assen', label: '🗺️ Assen €84' },
               { to: '/taxi-groningen-leeuwarden', label: '🏛️ Leeuwarden €156' },
               { to: '/taxi-groningen-eemshaven', label: '⚓ Eemshaven €98' },

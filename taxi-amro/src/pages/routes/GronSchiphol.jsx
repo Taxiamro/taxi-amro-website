@@ -43,9 +43,10 @@ const route = {
     { q: 'Is Uber beschikbaar van Groningen naar Schiphol?', a: 'Uber rijdt zelden lange afstanden vanuit Groningen en is vroeg in de ochtend nauwelijks beschikbaar. Bij hoge vraag loopt de surge price op zonder de zekerheid van een vaste prijs.' },
   ],
   relatedRoutes: [
-    { slug: '/taxi-groningen-assen', label: 'Groningen → Assen' },
-    { slug: '/taxi-groningen-leeuwarden', label: 'Groningen → Leeuwarden' },
-    { slug: '/taxi-groningen-eemshaven', label: 'Groningen → Eemshaven' },
+    { slug: '/taxi-groningen-eindhoven-airport', label: 'Groningen → Eindhoven Airport' },
+    { slug: '/taxi-groningen-dusseldorf-airport', label: 'Groningen → Düsseldorf Airport' },
+    { slug: '/taxi-groningen-bremen-airport', label: 'Groningen → Bremen Airport' },
+    { slug: '/taxi-groningen-eelde-airport', label: 'Groningen → Airport Eelde' },
   ],
 }
 

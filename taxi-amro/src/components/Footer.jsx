@@ -10,12 +10,14 @@ const navLinks = [
 ]
 
 const populaireRitten = [
-  { label: '✈️  Taxi → Schiphol',       href: '/taxi-groningen-schiphol',  prijs: '€491' },
-  { label: '⚓  Taxi → Eemshaven',      href: '/taxi-groningen-eemshaven', prijs: '€98'  },
-  { label: '🗺️  Taxi → Assen',           href: '/taxi-groningen-assen',     prijs: '€84'  },
-  { label: '🏛️  Taxi → Leeuwarden',      href: '/taxi-groningen-leeuwarden',prijs: '€156' },
-  { label: '🛫  Taxi → Airport Eelde',   href: '/tarieven#eelde',           prijs: '€42'  },
-  { label: '🇩🇪  Taxi → Bremen Airport', href: '/tarieven#bremen',          prijs: '€455' },
+  { label: '✈️  Taxi → Schiphol',          href: '/taxi-groningen-schiphol',           prijs: '€491' },
+  { label: '✈️  Taxi → Eindhoven Airport', href: '/taxi-groningen-eindhoven-airport',  prijs: '€645' },
+  { label: '✈️  Taxi → Düsseldorf Airport', href: '/taxi-groningen-dusseldorf-airport', prijs: '€693' },
+  { label: '✈️  Taxi → Bremen Airport',    href: '/taxi-groningen-bremen-airport',     prijs: '€455' },
+  { label: '🛫  Taxi → Airport Eelde',     href: '/taxi-groningen-eelde-airport',      prijs: '€42'  },
+  { label: '⚓  Taxi → Eemshaven',         href: '/taxi-groningen-eemshaven',          prijs: '€98'  },
+  { label: '🏛️  Taxi → Leeuwarden',        href: '/taxi-groningen-leeuwarden',         prijs: '€156' },
+  { label: '🗺️  Taxi → Assen',             href: '/taxi-groningen-assen',              prijs: '€84'  },
 ]
 
 const regionLinks = [

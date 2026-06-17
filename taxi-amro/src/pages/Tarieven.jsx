@@ -189,9 +189,10 @@ export default function Tarieven() {
                     { route: 'Groningen → Eemshaven', icon: '⚓', afstand: '~35 km', meter: '€115', vast: '€98', besparing: '15%', slug: '/taxi-groningen-eemshaven' },
                     { route: 'Groningen → Leeuwarden', icon: '🏛️', afstand: '~60 km', meter: '€195', vast: '€156', besparing: '20%', slug: '/taxi-groningen-leeuwarden' },
                     { route: 'Groningen → Drachten', icon: '📍', afstand: '~40 km', meter: '€131', vast: '€105', besparing: '20%', slug: null },
-                    { route: 'Groningen → Bremen Airport', icon: '🇩🇪', afstand: '~190 km', meter: '€607', vast: '€455', besparing: '25%', slug: null },
-                    { route: 'Groningen → Düsseldorf Airport', icon: '🌍', afstand: '~290 km', meter: '€924', vast: '€693', besparing: '25%', slug: null },
-                    { route: 'Groningen Airport Eelde', icon: '🛫', afstand: '~12 km', meter: '—', vast: '€42', besparing: '—', slug: null },
+                    { route: 'Groningen → Eindhoven Airport', icon: '✈️', afstand: '~270 km', meter: '€860', vast: '€645', besparing: '25%', slug: '/taxi-groningen-eindhoven-airport' },
+                    { route: 'Groningen → Bremen Airport', icon: '🇩🇪', afstand: '~190 km', meter: '€607', vast: '€455', besparing: '25%', slug: '/taxi-groningen-bremen-airport' },
+                    { route: 'Groningen → Düsseldorf Airport', icon: '🌍', afstand: '~290 km', meter: '€924', vast: '€693', besparing: '25%', slug: '/taxi-groningen-dusseldorf-airport' },
+                    { route: 'Groningen Airport Eelde', icon: '🛫', afstand: '~12 km', meter: '—', vast: '€42', besparing: '—', slug: '/taxi-groningen-eelde-airport' },
                     { route: 'Stadsrit Groningen', icon: '🏘️', afstand: 'tot 5 km', meter: '—', vast: '€20', besparing: '—', slug: null },
                   ].map((r, i) => (
                     <tr key={r.route} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
