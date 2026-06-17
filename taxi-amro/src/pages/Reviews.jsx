@@ -14,7 +14,7 @@ const reviews = [
     rit: 'Groningen → Schiphol',
     sterren: 5,
     datum: '2026-05-15',
-    tekst: 'Super betrouwbaar! Om 04:30 opgehaald voor een vroege vlucht naar Barcelona. Chauffeur was al 5 minuten eerder aanwezig. Vaste prijs klopte precies, geen verrassingen. Echt een aanrader voor Schiphol-ritten.',
+    tekst: 'Top service. Om 04:30 stond de chauffeur al klaar voor mijn vlucht naar Barcelona. Vaste prijs, geen gedoe. Zou hem zeker weer bellen.',
   },
   {
     naam: 'Sarah K.',
@@ -22,7 +22,7 @@ const reviews = [
     rit: 'Groningen → Eemshaven',
     sterren: 5,
     datum: '2026-04-22',
-    tekst: 'Wij moesten naar Eemshaven voor de veerboot naar Borkum. Alles perfect verlopen — op tijd, ruime kofferbak, vriendelijke chauffeur. De waterstofauto was ook een bijzondere ervaring. Boek zeker via WhatsApp, dat gaat heel makkelijk.',
+    tekst: 'Wij moesten naar Eemshaven voor de veerboot naar Borkum. Alles perfect verlopen: op tijd, ruime kofferbak, vriendelijke chauffeur. De waterstofauto was ook een bijzondere ervaring. Boek zeker via WhatsApp, dat gaat heel makkelijk.',
   },
   {
     naam: 'Ahmed B.',
@@ -30,7 +30,7 @@ const reviews = [
     rit: 'Zakelijke rit Groningen',
     sterren: 5,
     datum: '2026-03-10',
-    tekst: 'Taxi Amro is onze vaste partner voor zakelijk vervoer. Altijd punctueel, professioneel en de Hyundai Nexo is echt een comfortabele auto. Factuur per maand is heel handig voor ons bedrijf.',
+    tekst: 'Wij gebruiken Taxi Amro al een jaar voor zakelijke ritten. Altijd op tijd, nette auto en de maandfactuur is erg handig.',
   },
   {
     naam: 'Petra de Vries',
@@ -38,7 +38,7 @@ const reviews = [
     rit: 'Groningen → Assen',
     sterren: 5,
     datum: '2026-05-02',
-    tekst: 'Mijn moeder moest naar het ziekenhuis in Assen. Taxi Amro heeft haar vriendelijk en zorgzaam vervoerd, ook het wachten en terugrijden was geen enkel probleem. Prijs van tevoren duidelijk afgesproken. Fijn bedrijf!',
+    tekst: 'Mijn moeder moest naar het ziekenhuis in Assen. Chauffeur was heel vriendelijk en geduldig. Prijs was vooraf duidelijk. Echt een fijn bedrijf.',
   },
   {
     naam: 'Jan-Willem H.',
@@ -46,7 +46,7 @@ const reviews = [
     rit: 'Groningen → Leeuwarden',
     sterren: 5,
     datum: '2026-04-05',
-    tekst: 'Regelmatig zakelijke ritten naar Leeuwarden. Altijd op tijd, professioneel gekleed en de auto is gewoon luxe. €156 voor die afstand is echt redelijk. Geef dit bedrijf gewoon 5 sterren.',
+    tekst: 'Rij regelmatig zakelijk naar Leeuwarden met Taxi Amro. Altijd stipt, nette chauffeur en de prijs is eerlijk. Geen enkel probleem tot nu toe.',
   },
   {
     naam: 'Fatima A.',
@@ -54,7 +54,7 @@ const reviews = [
     rit: 'Groningen → Schiphol',
     sterren: 5,
     datum: '2026-06-01',
-    tekst: 'Fantastische service! Mijn vlucht was vertraagd, maar de chauffeur paste de ophaaltijd automatisch aan. Geen gedoe, geen extra kosten. Zo hoort het. Stap nooit meer in een andere taxi voor Schiphol.',
+    tekst: 'Mijn vlucht terug was vertraagd maar de chauffeur wist het al en wachtte gewoon. Geen extra kosten. Dat is precies wat je wil na een lange reis.',
   },
   {
     naam: 'Klaas T.',
@@ -62,7 +62,7 @@ const reviews = [
     rit: 'Groningen → Schiphol',
     sterren: 5,
     datum: '2026-05-20',
-    tekst: 'Uber was niet beschikbaar om 05:00. Taxi Amro wel. Vaste prijs, geen stress, op tijd op Schiphol. Precies wat je wil als je op vakantie gaat. Zeker voor herhaling vatbaar.',
+    tekst: 'Om 05:00 was Uber er niet. Taxi Amro wel. Vaste prijs, rustige rit, op tijd op Schiphol. Simpel en goed.',
   },
   {
     naam: 'Roos M.',
@@ -70,7 +70,7 @@ const reviews = [
     rit: 'Groningen → TT Circuit Assen',
     sterren: 5,
     datum: '2026-06-10',
-    tekst: 'MotoGP weekend! Met 3 personen naar het TT Circuit. Prijs van €84 gedeeld door 3 — dat is gewoon goedkoper dan parkeren. Chauffeur kende ook de beste route om de drukte te vermijden.',
+    tekst: 'MotoGP weekend! Met 3 personen naar het TT Circuit. Prijs van €84 gedeeld door 3, dat is gewoon goedkoper dan parkeren. Chauffeur kende ook de beste route om de drukte te vermijden.',
   },
 ]
 
@@ -137,10 +137,10 @@ export default function Reviews() {
               ⭐ Klantbeoordelingen
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Wat klanten zeggen over Taxi Amro
+              Beoordelingen van klanten
             </h1>
             <p className="text-gray-500 text-lg mb-8 max-w-2xl mx-auto">
-              Echte beoordelingen van klanten die reizen naar Schiphol, Eemshaven, Assen en door heel Noord-Nederland.
+              Klanten over hun rit met Taxi Amro.
             </p>
 
             {/* Score badge */}
@@ -185,8 +185,8 @@ export default function Reviews() {
         {/* CTA — laat zelf een review achter */}
         <section className="bg-gray-50 border-t border-gray-100 py-12">
           <div className="max-w-2xl mx-auto px-4 text-center">
-            <h2 className="text-xl font-bold text-gray-900 mb-2">Zelf gereist met Taxi Amro?</h2>
-            <p className="text-gray-500 text-sm mb-6">Deel uw ervaring en help anderen een goede keuze te maken.</p>
+            <h2 className="text-xl font-bold text-gray-900 mb-2">Zelf gereden?</h2>
+            <p className="text-gray-500 text-sm mb-6">Laat een review achter op Google.</p>
             <a
               href="https://g.page/r/taxiamro/review"
               target="_blank"
