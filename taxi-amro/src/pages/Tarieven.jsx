@@ -163,6 +163,65 @@ export default function Tarieven() {
           </div>
         </section>
 
+
+        {/* Statische prijstabel — SEO-vriendelijk HTML */}
+        <section className="py-16 bg-white border-t border-gray-100">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Vaste prijzen per route — 2026</h2>
+              <p className="text-gray-500 text-sm">All-in, geen toeslagen. Metertarief Nederland: €4,31 start + €3,17/km.</p>
+            </div>
+            <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-gray-900 text-white">
+                    <th className="text-left px-5 py-3.5 font-semibold">Route</th>
+                    <th className="text-center px-5 py-3.5 font-semibold">Afstand</th>
+                    <th className="text-center px-5 py-3.5 font-semibold">Metertarief</th>
+                    <th className="text-center px-5 py-3.5 font-semibold text-amber-400">Vaste prijs</th>
+                    <th className="text-center px-5 py-3.5 font-semibold text-green-400">Besparing</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { route: 'Groningen → Schiphol', icon: '✈️', afstand: '~205 km', meter: '€654', vast: '€491', besparing: '25%', slug: '/taxi-groningen-schiphol' },
+                    { route: 'Groningen → Assen', icon: '🗺️', afstand: '~30 km', meter: '€99', vast: '€84', besparing: '15%', slug: '/taxi-groningen-assen' },
+                    { route: 'Groningen → Eemshaven', icon: '⚓', afstand: '~35 km', meter: '€115', vast: '€98', besparing: '15%', slug: '/taxi-groningen-eemshaven' },
+                    { route: 'Groningen → Leeuwarden', icon: '🏛️', afstand: '~60 km', meter: '€195', vast: '€156', besparing: '20%', slug: '/taxi-groningen-leeuwarden' },
+                    { route: 'Groningen → Drachten', icon: '📍', afstand: '~40 km', meter: '€131', vast: '€105', besparing: '20%', slug: null },
+                    { route: 'Groningen → Bremen Airport', icon: '🇩🇪', afstand: '~190 km', meter: '€607', vast: '€455', besparing: '25%', slug: null },
+                    { route: 'Groningen → Düsseldorf Airport', icon: '🌍', afstand: '~290 km', meter: '€924', vast: '€693', besparing: '25%', slug: null },
+                    { route: 'Groningen Airport Eelde', icon: '🛫', afstand: '~12 km', meter: '—', vast: '€42', besparing: '—', slug: null },
+                    { route: 'Stadsrit Groningen', icon: '🏘️', afstand: 'tot 5 km', meter: '—', vast: '€20', besparing: '—', slug: null },
+                  ].map((r, i) => (
+                    <tr key={r.route} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="px-5 py-3 border-b border-gray-100 font-medium text-gray-800">
+                        <span className="mr-2">{r.icon}</span>
+                        {r.slug ? (
+                          <Link to={r.slug} className="hover:text-amber-600 hover:underline transition-colors">{r.route}</Link>
+                        ) : r.route}
+                      </td>
+                      <td className="px-5 py-3 border-b border-gray-100 text-center text-gray-500">{r.afstand}</td>
+                      <td className="px-5 py-3 border-b border-gray-100 text-center text-gray-400 line-through">{r.meter}</td>
+                      <td className="px-5 py-3 border-b border-gray-100 text-center font-bold text-amber-600 text-base">{r.vast}</td>
+                      <td className="px-5 py-3 border-b border-gray-100 text-center">
+                        {r.besparing !== '—' ? (
+                          <span className="bg-green-100 text-green-700 text-xs font-bold px-2 py-0.5 rounded-full">{r.besparing}</span>
+                        ) : <span className="text-gray-400">—</span>}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-center text-xs text-gray-400 mt-4">
+              Tarieven zijn vaste prijzen all-in. Geen toeslagen voor vroeg/laat, bagage of tolwegen.
+              Niet gevonden?{' '}
+              <a href={WA} target="_blank" rel="noopener noreferrer" className="text-amber-600 hover:underline font-medium">Vraag een offerte aan</a>.
+            </p>
+          </div>
+        </section>
+
         {/* Hoe berekend */}
         <section className="py-20 bg-gradient-to-br from-gray-50 to-amber-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

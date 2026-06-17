@@ -17,6 +17,14 @@ import Tarieven from './pages/Tarieven'
 import Diensten from './pages/Diensten'
 import ContactPage from './pages/ContactPage'
 import Seo from './components/Seo'
+import GronSchiphol from './pages/routes/GronSchiphol'
+import GronAssen from './pages/routes/GronAssen'
+import GronLeeuwarden from './pages/routes/GronLeeuwarden'
+import GronEemshaven from './pages/routes/GronEemshaven'
+import Reviews from './pages/Reviews'
+import Luchthaven from './pages/blog/Luchthaven'
+import Zakelijk from './pages/blog/Zakelijk'
+import Evenementen from './pages/blog/Evenementen'
 import { Link } from 'react-router-dom'
 
 // Redirect hash-fragments naar echte routes
@@ -165,6 +173,14 @@ export default function App() {
         <Route path="/contact"   element={<ContactPage />} />
         <Route path="/blog"      element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
+        <Route path="/taxi-groningen-schiphol"  element={<GronSchiphol />} />
+        <Route path="/taxi-groningen-assen"      element={<GronAssen />} />
+        <Route path="/taxi-groningen-leeuwarden" element={<GronLeeuwarden />} />
+        <Route path="/taxi-groningen-eemshaven"  element={<GronEemshaven />} />
+        <Route path="/reviews"             element={<Reviews />} />
+        <Route path="/blog/luchthaven"   element={<Luchthaven />} />
+        <Route path="/blog/zakelijk"     element={<Zakelijk />} />
+        <Route path="/blog/evenementen"  element={<Evenementen />} />
         <Route path="*"          element={<NotFound />} />
       </Routes>
     </BrowserRouter>
