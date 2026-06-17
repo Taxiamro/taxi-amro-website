@@ -37,7 +37,7 @@ export default function Diensten() {
               </span>
             </div>
             <h1 data-reveal className="fade-up stagger-1 text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-              Taxi op maat —<br className="hidden md:block" /> voor elke rit
+              Taxi op maat<br className="hidden md:block" /> voor elke rit
             </h1>
             <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 mb-8 max-w-xl mx-auto">
               Van vliegveld transfer tot Eemshaven shuttle. Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>. 24/7 beschikbaar.

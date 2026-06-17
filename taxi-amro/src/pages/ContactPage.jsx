@@ -120,15 +120,32 @@ export default function ContactPage() {
             </div>
 
             {/* Google Maps */}
-            <div data-reveal className="fade-up stagger-4 rounded-3xl overflow-hidden border border-gray-100 shadow-sm" style={{ height: 280 }}>
-              <iframe
-                title="Groningen kaart"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37925.34890916774!2d6.522273636669637!3d53.21917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c83282ddf14e87%3A0x200827462e40e3ca!2sGroningen!5e0!3m2!1snl!2snl!4v1700000000000!5m2!1snl!2snl"
-                width="100%" height="280"
-                style={{ border: 0 }}
-                allowFullScreen loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
+            <div data-reveal className="fade-up stagger-4">
+              <div className="rounded-3xl overflow-hidden border border-gray-100 shadow-md" style={{ height: 320 }}>
+                <iframe
+                  title="Taxi Amro Groningen"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37925.34890916774!2d6.522273636669637!3d53.21917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c83282ddf14e87%3A0x200827462e40e3ca!2sGroningen!5e0!3m2!1snl!2snl!4v1700000000000!5m2!1snl!2snl"
+                  width="100%" height="320"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </div>
+              {/* Map footer */}
+              <div className="mt-3 flex items-center justify-between px-1">
+                <div className="flex items-center gap-2 text-sm text-gray-500">
+                  <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse inline-block" />
+                  <span>Taxi Amro — actief in heel Groningen</span>
+                </div>
+                <a
+                  href="https://maps.google.com/?q=Groningen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-amber-600 font-semibold hover:underline"
+                >
+                  Openen in Maps →
+                </a>
+              </div>
             </div>
           </div>
         </section>
