@@ -171,24 +171,31 @@ function ServiceCard({ service, index }) {
         display: 'flex',
         flexDirection: 'column',
       }}>
-        {/* Photo */}
-        <div style={{ position: 'relative', height: 180, flexShrink: 0 }}>
-          <img
-            src={service.image}
-            alt={service.imageAlt}
-            style={{
-              width: '100%',
-              height: '100%',
-              objectFit: 'cover',
-              display: 'block',
-              filter: hovered ? 'brightness(1.05)' : 'brightness(0.95)',
-              transition: 'filter 0.35s ease',
-            }}
-          />
+        {/* Gradient header — professioneel zonder stock foto */}
+        <div style={{ position: 'relative', height: 160, flexShrink: 0, overflow: 'hidden',
+          background: `linear-gradient(135deg, ${service.accent}22 0%, ${service.accent}08 100%)`,
+          borderBottom: `1px solid ${service.border}`,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          {/* Decoratieve achtergrondcirkel */}
           <div style={{
-            position: 'absolute', inset: 0,
-            background: `linear-gradient(to bottom, transparent 40%, ${service.accent}30 100%)`,
+            position: 'absolute', width: 200, height: 200, borderRadius: '50%',
+            background: `radial-gradient(circle, ${service.accent}18 0%, transparent 70%)`,
+            top: '50%', left: '50%', transform: 'translate(-50%, -50%)',
           }} />
+          <div style={{
+            position: 'absolute', width: 120, height: 120, borderRadius: '50%',
+            background: `${service.accent}10`,
+            top: -20, right: -20,
+          }} />
+          {/* SVG icoon gecentreerd */}
+          <div style={{
+            transform: hovered ? 'scale(1.1) translateY(-2px)' : 'scale(1)',
+            transition: 'transform 0.3s ease',
+            position: 'relative', zIndex: 1,
+          }}>
+            {service.icon}
+          </div>
           {/* Popular badge */}
           {service.tag && (
             <div style={{
