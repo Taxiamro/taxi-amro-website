@@ -72,57 +72,35 @@ export default function BlogPostPage() {
       </Helmet>
       <Navbar blogMode />
       <main className="pt-16 min-h-screen bg-white">
-        {/* Hero — gradient header professioneel */}
-        {(() => {
-          const CAT_STYLES = {
-            'Luchthaven': { from: '#1d4ed8', to: '#3b82f6' },
-            'Prijzen':    { from: '#b45309', to: '#f59e0b' },
-            'Eemshaven':  { from: '#065f46', to: '#10b981' },
-            'Zakelijk':   { from: '#1e293b', to: '#475569' },
-            'Tips':       { from: '#5b21b6', to: '#8b5cf6' },
-            'Evenementen':{ from: '#9f1239', to: '#f43f5e' },
-            'Groningen':  { from: '#166534', to: '#22c55e' },
-            'Duitsland':  { from: '#374151', to: '#9ca3af' },
-          }
-          const cs = CAT_STYLES[post.category] || { from: '#1f2937', to: '#6b7280' }
-          return (
-            <div className="relative w-full overflow-hidden" style={{ height: 360 }}>
-              <div className="absolute inset-0" style={{
-                background: `linear-gradient(135deg, ${cs.from} 0%, ${cs.to} 100%)`,
-              }} />
-              {/* Decoratieve cirkels */}
-              <div className="absolute" style={{ width: 400, height: 400, borderRadius: '50%', background: 'rgba(255,255,255,0.05)', top: -100, right: -100 }} />
-              <div className="absolute" style={{ width: 250, height: 250, borderRadius: '50%', background: 'rgba(255,255,255,0.04)', bottom: -80, left: 60 }} />
-              {/* Emoji groot gecentreerd */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span style={{ fontSize: 100, opacity: 0.18, userSelect: 'none', filter: 'blur(1px)' }}>
-                  {post.emoji || '🚕'}
-                </span>
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent" />
-              {/* Breadcrumb overlay */}
-              <div className="absolute top-4 left-4 right-4">
-                <nav className="flex items-center gap-2 text-sm text-white/80">
-                  <Link to="/" className="hover:text-white transition-colors">Home</Link>
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <Link to="/blog" className="hover:text-white transition-colors">Blog</Link>
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  <span className="text-white font-medium line-clamp-1">{post.title}</span>
-                </nav>
-              </div>
+        {/* Hero image */}
+        <div className="relative w-full overflow-hidden" style={{ height: 400 }}>
+          <img
+            src={post.featuredImage}
+            alt={post.featuredImageAlt}
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-gray-900/70 via-gray-900/20 to-transparent" />
+          {/* Breadcrumb overlay */}
+          <div className="absolute top-4 left-4 right-4">
+            <nav className="flex items-center gap-2 text-sm text-white/80">
+              <Link to="/" className="hover:text-white transition-colors">Home</Link>
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+              <Link to="/blog" className="hover:text-white transition-colors">Blog</Link>
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+              <span className="text-white font-medium line-clamp-1">{post.title}</span>
+            </nav>
+          </div>
           {/* Category badge */}
-              <div className="absolute bottom-6 left-4 sm:left-8">
-                <span className="bg-white/20 backdrop-blur text-white text-xs font-bold px-3 py-1.5 rounded-full border border-white/30">
-                  {post.category}
-                </span>
-              </div>
-            </div>
-          )
-        })()}
+          <div className="absolute bottom-6 left-4 sm:left-8">
+            <span className="bg-amber-400 text-gray-900 text-xs font-bold px-3 py-1.5 rounded-full">
+              {post.category}
+            </span>
+          </div>
+        </div>
 
         {/* Article content */}
         <div className="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-10">
@@ -258,10 +236,12 @@ export default function BlogPostPage() {
                   <div className="flex flex-col gap-4">
                     {relatedPosts.map((p) => (
                       <Link key={p.slug} to={`/blog/${p.slug}`} className="flex gap-3 group">
-                        <div className="w-16 h-16 rounded-lg flex-shrink-0 flex items-center justify-center text-2xl"
-                          style={{ background: 'linear-gradient(135deg, #1d4ed820, #3b82f620)' }}>
-                          {p.emoji || '🚕'}
-                        </div>
+                        <img
+                          src={p.featuredImage}
+                          alt={p.featuredImageAlt}
+                          className="w-16 h-16 rounded-lg object-cover flex-shrink-0"
+                          loading="lazy"
+                        />
                         <div>
                           <p className="text-xs text-amber-600 font-medium mb-0.5">{p.category}</p>
                           <p className="text-sm font-semibold text-gray-800 leading-snug group-hover:text-amber-600 transition-colors line-clamp-2">
@@ -284,10 +264,12 @@ export default function BlogPostPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {relatedPosts.map((p) => (
                 <Link key={p.slug} to={`/blog/${p.slug}`} className="flex gap-3 group">
-                  <div className="w-16 h-16 rounded-lg flex-shrink-0 flex items-center justify-center text-2xl"
-                  style={{ background: 'linear-gradient(135deg, #1d4ed820, #3b82f620)' }}>
-                  {p.emoji || '🚕'}
-                </div>
+                  <img
+                    src={p.featuredImage}
+                    alt={p.featuredImageAlt}
+                    className="w-16 h-16 rounded-lg object-cover flex-shrink-0"
+                    loading="lazy"
+                  />
                   <div>
                     <p className="text-xs text-amber-600 font-medium mb-0.5">{p.category}</p>
                     <p className="text-sm font-semibold text-gray-800 leading-snug group-hover:text-amber-600 transition-colors line-clamp-2">

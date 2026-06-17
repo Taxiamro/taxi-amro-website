@@ -11,38 +11,21 @@ function formatDate(dateStr) {
   return new Date(dateStr).toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' })
 }
 
-const CATEGORY_STYLES = {
-  'Luchthaven': { bg: 'from-blue-600 to-blue-400',    icon: '✈️', pattern: '#3b82f6' },
-  'Prijzen':    { bg: 'from-amber-500 to-yellow-400',  icon: '💶', pattern: '#f59e0b' },
-  'Eemshaven':  { bg: 'from-teal-600 to-emerald-400',  icon: '⚓', pattern: '#10b981' },
-  'Zakelijk':   { bg: 'from-slate-700 to-slate-500',   icon: '💼', pattern: '#64748b' },
-  'Tips':       { bg: 'from-purple-600 to-violet-400', icon: '💡', pattern: '#7c3aed' },
-  'Evenementen':{ bg: 'from-pink-600 to-rose-400',     icon: '🎉', pattern: '#e11d48' },
-  'Groningen':  { bg: 'from-green-600 to-lime-400',    icon: '🏙️', pattern: '#16a34a' },
-  'Duitsland':  { bg: 'from-gray-700 to-gray-500',     icon: '🇩🇪', pattern: '#374151' },
-}
-
 function BlogCard({ post }) {
-  const style = CATEGORY_STYLES[post.category] || { bg: 'from-gray-600 to-gray-400', icon: '📰', pattern: '#6b7280' }
   return (
     <article className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col">
-      {/* Gradient header — geen lage-kwaliteit afbeeldingen */}
-      <Link to={`/blog/${post.slug}`} className="block relative overflow-hidden" style={{ height: 180 }}>
-        <div className={`w-full h-full bg-gradient-to-br ${style.bg} flex items-center justify-center relative`}>
-          {/* Decoratieve cirkels */}
-          <div className="absolute top-0 right-0 w-32 h-32 rounded-full opacity-20" style={{ background: 'white', transform: 'translate(30%, -30%)' }} />
-          <div className="absolute bottom-0 left-0 w-24 h-24 rounded-full opacity-10" style={{ background: 'white', transform: 'translate(-30%, 30%)' }} />
-          {/* Emoji icoon */}
-          <span className="text-6xl drop-shadow-lg group-hover:scale-110 transition-transform duration-300 relative z-10 select-none">
-            {post.emoji || style.icon}
-          </span>
-        </div>
+      <Link to={`/blog/${post.slug}`} className="block relative overflow-hidden" style={{ height: 200 }}>
+        <img
+          src={post.featuredImage}
+          alt={post.featuredImageAlt}
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          loading="lazy"
+        />
         <div className="absolute top-3 left-3">
-          <span className="bg-white/90 backdrop-blur text-gray-800 text-xs font-bold px-2.5 py-1 rounded-full shadow-sm">
+          <span className="bg-amber-400 text-gray-900 text-xs font-bold px-2.5 py-1 rounded-full shadow-sm">
             {post.category}
           </span>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-black/20 to-transparent" />
       </Link>
       <div className="p-5 flex flex-col flex-1">
         <div className="flex items-center gap-3 text-xs text-gray-400 mb-3">
