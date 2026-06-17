@@ -126,7 +126,7 @@ export default function RoutePage({ route }) {
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 mt-8 text-xs text-gray-500">
-              <span className="flex items-center gap-1"><Stars /> 4.9/5 beoordelingen</span>
+              <span className="flex items-center gap-1"><Stars /> 4.7/5 · 29 reviews</span>
               <span>• Vaste prijs, geen meter</span>
               <span>• 24/7 beschikbaar</span>
               <span>• Waterstof taxi (0 CO₂)</span>
@@ -175,7 +175,7 @@ export default function RoutePage({ route }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {[
+                  {(route.compareRows || [
                     ['Prijs vooraf bekend', '✅ Altijd vast', '❌ Dynamisch (surge)'],
                     ['Beschikbaar om 04:00', '✅ Altijd', '⚠️ Wisselend'],
                     [`Rit naar ${route.naar}`, '✅ Dagelijks', '❌ Niet of zelden'],
@@ -183,7 +183,7 @@ export default function RoutePage({ route }) {
                     ['Vluchttracering ophalen', '✅ Inbegrepen', '❌ Niet beschikbaar'],
                     ['Waterstof (0 CO₂)', '✅ Hyundai Nexo', '❌ Benzine/diesel'],
                     ['Ruime kofferbak bagage', '✅ XL kofferbak', '⚠️ Afhankelijk auto'],
-                  ].map(([feat, amro, other], i) => (
+                  ]).map(([feat, amro, other], i) => (
                     <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                       <td className="px-4 py-2.5 font-medium text-gray-700 border-b border-gray-100">{feat}</td>
                       <td className="px-4 py-2.5 text-center border-b border-gray-100 text-green-700 font-medium">{amro}</td>

@@ -25,6 +25,20 @@ import GronEindhoven from './pages/routes/GronEindhoven'
 import GronEelde from './pages/routes/GronEelde'
 import GronDusseldorf from './pages/routes/GronDusseldorf'
 import GronBremen from './pages/routes/GronBremen'
+import GronAmsterdam from './pages/routes/GronAmsterdam'
+import GronZwolle from './pages/routes/GronZwolle'
+import GronHolwerd from './pages/routes/GronHolwerd'
+import GronLauwersoog from './pages/routes/GronLauwersoog'
+import GronDrachten from './pages/routes/GronDrachten'
+import GronEmmen from './pages/routes/GronEmmen'
+import GronWinschoten from './pages/routes/GronWinschoten'
+import GronDelfzijl from './pages/routes/GronDelfzijl'
+import GronHeerenveen from './pages/routes/GronHeerenveen'
+import GronSuikerterrein from './pages/routes/GronSuikerterrein'
+import GronGraanfabriek from './pages/routes/GronGraanfabriek'
+import GronPaleis from './pages/routes/GronPaleis'
+import GronMartiniplaza from './pages/routes/GronMartiniplaza'
+import GronOosterpoort from './pages/routes/GronOosterpoort'
 import Reviews from './pages/Reviews'
 import Luchthaven from './pages/blog/Luchthaven'
 import Zakelijk from './pages/blog/Zakelijk'
@@ -87,7 +101,7 @@ export function HomePage() {
   return (
     <>
       <Seo
-        title="Taxichauffeur Groningen | 24/7 Taxi | Vaste Prijs | Taxi Amro"
+        title="Taxi Groningen | 24/7 Taxichauffeur, Vaste Prijs | Taxi Amro"
         description="Op zoek naar een taxichauffeur in Groningen? Taxi Amro rijdt 24/7, vaste prijs vooraf. Geen toeslag voor nacht of weekend. Boek direct via WhatsApp of bel +31 6 33721505."
         canonical="/"
         schema={{
@@ -185,6 +199,20 @@ export default function App() {
         <Route path="/taxi-groningen-eelde-airport"      element={<GronEelde />} />
         <Route path="/taxi-groningen-dusseldorf-airport" element={<GronDusseldorf />} />
         <Route path="/taxi-groningen-bremen-airport"     element={<GronBremen />} />
+        <Route path="/taxi-groningen-amsterdam" element={<GronAmsterdam />} />
+        <Route path="/taxi-groningen-zwolle" element={<GronZwolle />} />
+        <Route path="/taxi-groningen-holwerd" element={<GronHolwerd />} />
+        <Route path="/taxi-groningen-lauwersoog" element={<GronLauwersoog />} />
+        <Route path="/taxi-groningen-drachten" element={<GronDrachten />} />
+        <Route path="/taxi-groningen-emmen" element={<GronEmmen />} />
+        <Route path="/taxi-groningen-winschoten" element={<GronWinschoten />} />
+        <Route path="/taxi-groningen-delfzijl" element={<GronDelfzijl />} />
+        <Route path="/taxi-groningen-heerenveen" element={<GronHeerenveen />} />
+        <Route path="/taxi-groningen-suikerterrein" element={<GronSuikerterrein />} />
+        <Route path="/taxi-groningen-graanfabriek" element={<GronGraanfabriek />} />
+        <Route path="/taxi-groningen-paleis" element={<GronPaleis />} />
+        <Route path="/taxi-groningen-martiniplaza" element={<GronMartiniplaza />} />
+        <Route path="/taxi-groningen-oosterpoort" element={<GronOosterpoort />} />
         <Route path="/reviews"             element={<Reviews />} />
         <Route path="/blog/luchthaven"   element={<Luchthaven />} />
         <Route path="/blog/zakelijk"     element={<Zakelijk />} />

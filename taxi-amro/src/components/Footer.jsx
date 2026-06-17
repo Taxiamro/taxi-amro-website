@@ -14,6 +14,7 @@ const populaireRitten = [
   { label: '✈️  Taxi → Eindhoven Airport', href: '/taxi-groningen-eindhoven-airport',  prijs: '€645' },
   { label: '✈️  Taxi → Düsseldorf Airport', href: '/taxi-groningen-dusseldorf-airport', prijs: '€693' },
   { label: '✈️  Taxi → Bremen Airport',    href: '/taxi-groningen-bremen-airport',     prijs: '€455' },
+  { label: '🏙️  Taxi → Amsterdam',         href: '/taxi-groningen-amsterdam',          prijs: '€445' },
   { label: '🛫  Taxi → Airport Eelde',     href: '/taxi-groningen-eelde-airport',      prijs: '€42'  },
   { label: '⚓  Taxi → Eemshaven',         href: '/taxi-groningen-eemshaven',          prijs: '€98'  },
   { label: '🏛️  Taxi → Leeuwarden',        href: '/taxi-groningen-leeuwarden',         prijs: '€156' },
@@ -21,8 +22,14 @@ const populaireRitten = [
 ]
 
 const regionLinks = [
-  'Groningen', 'Assen', 'Leeuwarden', 'Drachten',
-  'Heerenveen', 'Emmen', 'Eemshaven', 'Emden (DE)',
+  { label: 'Groningen', href: '/' },
+  { label: 'Assen', href: '/taxi-groningen-assen' },
+  { label: 'Leeuwarden', href: '/taxi-groningen-leeuwarden' },
+  { label: 'Drachten', href: '/taxi-groningen-drachten' },
+  { label: 'Heerenveen', href: '/taxi-groningen-heerenveen' },
+  { label: 'Emmen', href: '/taxi-groningen-emmen' },
+  { label: 'Winschoten', href: '/taxi-groningen-winschoten' },
+  { label: 'Delfzijl', href: '/taxi-groningen-delfzijl' },
 ]
 
 const blogCategories = [
@@ -141,9 +148,9 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-4 text-xs uppercase tracking-widest">Werkgebied</h4>
             <ul className="space-y-2">
               {regionLinks.map((r) => (
-                <li key={r} className="text-gray-400 text-sm flex items-center gap-2">
+                <li key={r.label} className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-amber-400 rounded-full flex-shrink-0" />
-                  {r}
+                  <Link to={r.href} className="text-gray-400 hover:text-amber-400 transition-colors text-sm">{r.label}</Link>
                 </li>
               ))}
             </ul>
