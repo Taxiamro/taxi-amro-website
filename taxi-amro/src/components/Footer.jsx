@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="flex flex-wrap justify-center sm:justify-between items-center gap-4 text-xs text-gray-400">
             <div className="flex flex-wrap justify-center gap-6">
               <span className="flex items-center gap-1.5"><span className="text-amber-400">★★★★★</span> 4.9/5 beoordelingen</span>
-              <span className="flex items-center gap-1.5"><span className="text-green-400">●</span> Waterstoftaxi — 0 CO₂</span>
+              <span className="flex items-center gap-1.5"><span className="text-green-400">●</span> Waterstoftaxi, 0 CO₂</span>
               <span className="flex items-center gap-1.5"><span className="text-blue-400">✓</span> Vaste prijs, nooit meer</span>
               <span className="flex items-center gap-1.5"><span className="text-amber-400">⏱</span> 24/7 beschikbaar</span>
             </div>
@@ -64,7 +64,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
 
-          {/* Brand column — wider */}
+          {/* Brand column, wider */}
           <div className="lg:col-span-2">
             {/* Logo text mark */}
             <div className="mb-5">
@@ -89,7 +89,7 @@ export default function Footer() {
               <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-3 group">
                 <span className="w-8 h-8 bg-green-500/10 rounded-lg flex items-center justify-center text-sm group-hover:bg-green-500/20 transition-colors">💬</span>
-                <span className="text-gray-300 text-sm group-hover:text-green-400 transition-colors">WhatsApp — direct antwoord</span>
+                <span className="text-gray-300 text-sm group-hover:text-green-400 transition-colors">WhatsApp, direct antwoord</span>
               </a>
               <a href="mailto:taxiamro@outlook.com"
                 className="flex items-center gap-3 group">

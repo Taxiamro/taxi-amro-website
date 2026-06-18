@@ -126,7 +126,7 @@ export default function RoutePage({ route }) {
             </div>
 
             <div className="flex flex-wrap justify-center gap-4 mt-8 text-xs text-gray-500">
-              <span className="flex items-center gap-1"><Stars /> 4.7/5 · 29 reviews</span>
+              <span className="flex items-center gap-1"><Stars /> 4.9/5 beoordelingen</span>
               <span>• Vaste prijs, geen meter</span>
               <span>• 24/7 beschikbaar</span>
               <span>• Waterstof taxi (0 CO₂)</span>

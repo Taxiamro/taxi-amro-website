@@ -182,7 +182,7 @@ export default function Reviews() {
           </div>
         </section>
 
-        {/* CTA — laat zelf een review achter */}
+        {/* CTA, laat zelf een review achter */}
         <section className="bg-gray-50 border-t border-gray-100 py-12">
           <div className="max-w-2xl mx-auto px-4 text-center">
             <h2 className="text-xl font-bold text-gray-900 mb-2">Zelf gereden?</h2>

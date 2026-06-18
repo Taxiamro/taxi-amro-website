@@ -101,7 +101,7 @@ export function HomePage() {
   return (
     <>
       <Seo
-        title="Taxi Groningen | 24/7 Taxichauffeur, Vaste Prijs | Taxi Amro"
+        title="Taxichauffeur Groningen | 24/7 Taxi | Vaste Prijs | Taxi Amro"
         description="Op zoek naar een taxichauffeur in Groningen? Taxi Amro rijdt 24/7, vaste prijs vooraf. Geen toeslag voor nacht of weekend. Boek direct via WhatsApp of bel +31 6 33721505."
         canonical="/"
         schema={{

@@ -22,7 +22,7 @@ const route = {
     ['Beschikbaar na sluitingstijd', '✅ Ook na 04:00', '⚠️ Wisselend'],
     ['Ophalen op afgesproken plek', '✅ Altijd', '⚠️ Onduidelijk'],
     ['Groep tot 4 personen', '✅ Samen in één auto', '⚠️ Afhankelijk'],
-    ['Geen surge bij piekdrukte', '✅ Vaste prijs', '❌ 2–3× duurder'],
+    ['Geen surge bij piekdrukte', '✅ Vaste prijs', '❌ 2 tot 3× duurder'],
     ['Chauffeur annuleert niet', '✅ Nooit', '⚠️ Komt voor'],
     ['Waterstof (0 CO₂)', '✅ Hyundai Nexo', '❌ Benzine/diesel'],
   ],
@@ -38,7 +38,7 @@ const route = {
   ],
   faqs: [
     { q: 'Wat kost een taxi naar MartiniPlaza?', a: 'Vanaf €25 vanuit het centrum van Groningen. Vanuit andere wijken kan het iets afwijken.' },
-    { q: 'Halen jullie me op na het concert?', a: 'Ja, op een afgesproken plek — zo vermijd je de drukte op het parkeerterrein.' },
+    { q: 'Halen jullie me op na het concert?', a: 'Ja, op een afgesproken plek, zo vermijd je de drukte op het parkeerterrein.' },
     { q: 'Kan ik een factuur krijgen voor een congres?', a: 'Zeker, geef het bij het boeken aan.' },
     { q: 'Is er surge bij grote evenementen?', a: 'Nee, de prijs staat vooraf vast.' },
     { q: 'Rijden jullie ook \'s avonds laat?', a: 'Ja, 24/7 zonder toeslag.' },

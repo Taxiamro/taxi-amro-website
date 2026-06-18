@@ -29,16 +29,16 @@ const route = {
   ],
   body: [
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;">Taxi van Groningen naar Zwolle</h2>
-    <p>Zwolle is een belangrijk knooppunt tussen Noord- en Midden-Nederland. Taxi Amro rijdt u voor een vaste prijs van <strong>€255</strong> rechtstreeks van Groningen naar Zwolle — naar het station, een afspraak of een privéadres. We rijden via de A28 en doen er doorgaans ±1u15 over.</p>`,
+    <p>Zwolle is een belangrijk knooppunt tussen Noord- en Midden-Nederland. Taxi Amro rijdt u voor een vaste prijs van <strong>€255</strong> rechtstreeks van Groningen naar Zwolle, naar het station, een afspraak of een privéadres. We rijden via de A28 en doen er doorgaans ±1u15 over.</p>`,
 
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Naar het Isala ziekenhuis of een zakelijke afspraak</h2>
     <p>Veel klanten reizen naar het Isala ziekenhuis of een bedrijf in de regio Zwolle. Wij brengen u rustig en op tijd tot aan de ingang, wachten indien gewenst en rijden u weer terug. Comfortabel en betrouwbaar, ook bij vroege afspraken.</p>`,
 
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Aansluiting of overstap vermijden</h2>
-    <p>Met de trein stapt u vaak over en bent u afhankelijk van de dienstregeling. Met een vaste taxiprijs reist u direct van deur tot deur, met al uw bagage en op uw eigen tijd — handig bij vroege of late reizen wanneer het OV beperkt rijdt.</p>`,
+    <p>Met de trein stapt u vaak over en bent u afhankelijk van de dienstregeling. Met een vaste taxiprijs reist u direct van deur tot deur, met al uw bagage en op uw eigen tijd, handig bij vroege of late reizen wanneer het OV beperkt rijdt.</p>`,
   ],
   faqs: [
-    { q: 'Wat kost een taxi van Groningen naar Zwolle?', a: 'Vaste prijs €255 all-in. Het metertarief zou ±€320 zijn — u bespaart 20%.' },
+    { q: 'Wat kost een taxi van Groningen naar Zwolle?', a: 'Vaste prijs €255 all-in. Het metertarief zou ±€320 zijn, u bespaart 20%.' },
     { q: 'Hoe lang duurt de rit van Groningen naar Zwolle?', a: 'Gemiddeld ±1u15 via de A28.' },
     { q: 'Rijden jullie tot het Isala ziekenhuis?', a: 'Ja, van deur tot deur tot aan de ingang. Op verzoek wachten wij en rijden u weer terug.' },
     { q: 'Is er een toeslag voor avond of weekend?', a: 'Nee. De prijs van €255 geldt 24/7, ook \'s avonds, \'s nachts en in het weekend.' },

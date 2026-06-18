@@ -164,11 +164,11 @@ export default function Tarieven() {
         </section>
 
 
-        {/* Statische prijstabel — SEO-vriendelijk HTML */}
+        {/* Statische prijstabel, SEO-vriendelijk HTML */}
         <section className="py-16 bg-white border-t border-gray-100">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Vaste prijzen per route — 2026</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">Vaste prijzen per route, 2026</h2>
               <p className="text-gray-500 text-sm">All-in, geen toeslagen. Metertarief Nederland: €4,31 start + €3,17/km.</p>
             </div>
             <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
@@ -221,7 +221,7 @@ export default function Tarieven() {
                       <td className="px-5 py-3 border-b border-gray-100 text-center">
                         {r.besparing !== '—' ? (
                           <span className="bg-green-100 text-green-700 text-xs font-bold px-2 py-0.5 rounded-full">{r.besparing}</span>
-                        ) : <span className="text-gray-400">—</span>}
+                        ) : <span className="text-gray-400">, </span>}
                       </td>
                     </tr>
                   ))}

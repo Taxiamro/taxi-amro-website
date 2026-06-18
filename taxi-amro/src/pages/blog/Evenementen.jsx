@@ -6,7 +6,7 @@ const category = {
   icon: '🎉',
   heroBg: 'bg-gradient-to-br from-purple-50 via-white to-amber-50',
   h1: 'Taxi naar evenementen in Groningen en Noord-Nederland',
-  intro: 'Festivals, concerten, bruiloften, TT Circuit, Eurosonic, Koningsdag — wij brengen u veilig heen en terug.',
+  intro: 'Festivals, concerten, bruiloften, TT Circuit, Eurosonic, Koningsdag, wij brengen u veilig heen en terug.',
   seoTitle: 'Taxi Evenementen Groningen | Festival, Concert, TT | Taxi Amro',
   seoDesc: 'Taxi naar festivals, concerten en evenementen vanuit Groningen. TT Assen, Eurosonic, Ahoy. Vaste prijs, geen surge pricing. Lees onze event-blogs.',
   title: 'Taxi naar evenementen Groningen',

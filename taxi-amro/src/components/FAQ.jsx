@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     q: 'Is een vaste prijs mogelijk?',
-    a: 'Ja! Voor alle ritten — vliegveldtransfers, Eemshaven, zakelijke ritten en langere trajecten. Geen onverwachte kosten onderweg. Bekijk onze tarieven pagina voor alle vaste prijzen.',
+    a: 'Ja! Voor alle ritten, vliegveldtransfers, Eemshaven, zakelijke ritten en langere trajecten. Geen onverwachte kosten onderweg. Bekijk onze tarieven pagina voor alle vaste prijzen.',
   },
   {
     q: 'Hebben jullie ook vervoer voor groepen?',
@@ -32,7 +32,7 @@ const faqs = [
   },
   {
     q: 'Hoe laat moet ik boeken voor een vroege vlucht?',
-    a: 'Wij adviseren minimaal 24 uur van tevoren te boeken, maar last-minute boekingen zijn ook mogelijk. Voor vroege ochtendvluchten (bijv. 5:00 of 6:00 uur) zijn wij altijd beschikbaar — wij halen u thuis op.',
+    a: 'Wij adviseren minimaal 24 uur van tevoren te boeken, maar last-minute boekingen zijn ook mogelijk. Voor vroege ochtendvluchten (bijv. 5:00 of 6:00 uur) zijn wij altijd beschikbaar, wij halen u thuis op.',
   },
   // 10 nieuwe vragen
   {
@@ -41,11 +41,11 @@ const faqs = [
   },
   {
     q: 'Wat zijn de tarieven voor ritten binnen Noord-Nederland?',
-    a: 'Onze vaste prijzen: Groningen–Assen €84 (30 km), Groningen–Eemshaven €98 (35 km), Groningen–Leeuwarden €156 (60 km). Alle prijzen zijn all-in. Bekijk het volledige overzicht op onze tarieven pagina.',
+    a: 'Onze vaste prijzen: Groningen, Assen €84 (30 km), Groningen, Eemshaven €98 (35 km), Groningen, Leeuwarden €156 (60 km). Alle prijzen zijn all-in. Bekijk het volledige overzicht op onze tarieven pagina.',
   },
   {
     q: 'Is Taxi Amro goedkoper dan Uber in Groningen?',
-    a: 'Voor korte ritten in de stad is Uber soms goedkoper. Voor vliegveldtransfers en ritten buiten Groningen is Taxi Amro bijna altijd voordeliger — en altijd met een vaste prijs. Uber hanteert surge pricing bij hoge vraag (evenementen, carnaval, nacht), waardoor de prijs kan verdubbelen. Bij Taxi Amro betaalt u altijd hetzelfde bedrag.',
+    a: 'Voor korte ritten in de stad is Uber soms goedkoper. Voor vliegveldtransfers en ritten buiten Groningen is Taxi Amro bijna altijd voordeliger, en altijd met een vaste prijs. Uber hanteert surge pricing bij hoge vraag (evenementen, carnaval, nacht), waardoor de prijs kan verdubbelen. Bij Taxi Amro betaalt u altijd hetzelfde bedrag.',
   },
   {
     q: 'Rijdt Bolt ook naar Schiphol vanuit Groningen?',
@@ -53,11 +53,11 @@ const faqs = [
   },
   {
     q: 'Zijn er toeslagen voor vroege ochtend- of nachtritten?',
-    a: 'Nee. Taxi Amro werkt met vaste prijzen zonder extra toeslagen — ongeacht het tijdstip. Of u nu om 03:00 naar Schiphol moet of om 23:00 thuiskomt van een evenement: de prijs is altijd hetzelfde.',
+    a: 'Nee. Taxi Amro werkt met vaste prijzen zonder extra toeslagen, ongeacht het tijdstip. Of u nu om 03:00 naar Schiphol moet of om 23:00 thuiskomt van een evenement: de prijs is altijd hetzelfde.',
   },
   {
     q: 'Kan ik een taxi boeken voor een retourrit (heen en terug)?',
-    a: 'Ja. Geef bij het boeken beide tijden door — heen en terug. Wij plannen beide ritten in. Bij luchthavens volgen we uw vlucht live zodat we de terugrit automatisch aanpassen bij vertraging.',
+    a: 'Ja. Geef bij het boeken beide tijden door, heen en terug. Wij plannen beide ritten in. Bij luchthavens volgen we uw vlucht live zodat we de terugrit automatisch aanpassen bij vertraging.',
   },
   {
     q: 'Hoe werkt vluchttracering bij Taxi Amro?',
@@ -65,7 +65,7 @@ const faqs = [
   },
   {
     q: 'Wat maakt Taxi Amro anders dan andere taxibedrijven in Groningen?',
-    a: 'We rijden in een Hyundai Nexo — een waterstofauto met 0 gram CO₂-uitstoot. We bieden altijd een vaste prijs vooraf. We zijn 24/7 beschikbaar inclusief feestdagen. En we zijn gespecialiseerd in Noord-Nederland, met dagelijkse ritten naar Schiphol, Eemshaven, Leeuwarden en Assen.',
+    a: 'We rijden in een Hyundai Nexo, een waterstofauto met 0 gram CO₂-uitstoot. We bieden altijd een vaste prijs vooraf. We zijn 24/7 beschikbaar inclusief feestdagen. En we zijn gespecialiseerd in Noord-Nederland, met dagelijkse ritten naar Schiphol, Eemshaven, Leeuwarden en Assen.',
   },
   {
     q: 'Rijdt Taxi Amro ook voor zakelijke klanten en bedrijven?',

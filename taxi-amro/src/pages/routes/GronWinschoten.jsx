@@ -9,7 +9,7 @@ const route = {
   orb1: 'bg-amber-400',
   orb2: 'bg-amber-300',
   h1: 'Taxi Groningen → Winschoten',
-  intro: 'Naar Winschoten of de Blauwestad voor een vaste prijs van €105. Zakelijk, bezoek of dagje uit — 24/7.',
+  intro: 'Naar Winschoten of de Blauwestad voor een vaste prijs van €105. Zakelijk, bezoek of dagje uit, 24/7.',
   seoTitle: 'Taxi Groningen Winschoten | Vaste Prijs €105 | 24/7 Taxi Amro',
   seoDesc: 'Taxi van Groningen naar Winschoten voor €105 vaste prijs all-in. Oost-Groningen, Blauwestad, zakelijk of bezoek. 24/7. Boek via WhatsApp.',
   prijs: '€105',
@@ -29,17 +29,17 @@ const route = {
   ],
   body: [
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;">Taxi van Groningen naar Winschoten</h2>
-    <p>Winschoten is het centrum van Oost-Groningen, vlak bij de Blauwestad. Taxi Amro rijdt u voor een vaste prijs van <strong>€105</strong> rechtstreeks van Groningen naar Winschoten via de A7 — doorgaans in ±35 minuten.</p>`,
+    <p>Winschoten is het centrum van Oost-Groningen, vlak bij de Blauwestad. Taxi Amro rijdt u voor een vaste prijs van <strong>€105</strong> rechtstreeks van Groningen naar Winschoten via de A7, doorgaans in ±35 minuten.</p>`,
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Blauwestad, zakelijk of op bezoek</h2>
-    <p>Of u nu naar de Blauwestad gaat, een zakelijke afspraak heeft of familie bezoekt — wij brengen u van deur tot deur, op tijd en zonder parkeerzorgen. Factuur op verzoek.</p>`,
+    <p>Of u nu naar de Blauwestad gaat, een zakelijke afspraak heeft of familie bezoekt, wij brengen u van deur tot deur, op tijd en zonder parkeerzorgen. Factuur op verzoek.</p>`,
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Vaste prijs, ook vroeg of laat</h2>
-    <p>De prijs van €105 geldt 24/7 zonder toeslag. In Oost-Groningen is het OV beperkt, zeker \'s avonds — met ons reist u altijd op tijd en comfortabel.</p>`,
+    <p>De prijs van €105 geldt 24/7 zonder toeslag. In Oost-Groningen is het OV beperkt, zeker \'s avonds, met ons reist u altijd op tijd en comfortabel.</p>`,
   ],
   faqs: [
-    { q: 'Wat kost een taxi van Groningen naar Winschoten?', a: 'Vaste prijs €105 all-in. Het metertarief zou ±€131 zijn — u bespaart 20%.' },
+    { q: 'Wat kost een taxi van Groningen naar Winschoten?', a: 'Vaste prijs €105 all-in. Het metertarief zou ±€131 zijn, u bespaart 20%.' },
     { q: 'Hoe lang duurt de rit van Groningen naar Winschoten?', a: 'Gemiddeld ±35 minuten via de A7.' },
     { q: 'Rijden jullie ook naar de Blauwestad?', a: 'Ja, van deur tot deur naar elk adres in de regio Winschoten en Blauwestad.' },
-    { q: 'Rijden jullie ook \'s avonds en in het weekend?', a: 'Ja, 24/7 zonder toeslag — handig waar het OV beperkt rijdt.' },
+    { q: 'Rijden jullie ook \'s avonds en in het weekend?', a: 'Ja, 24/7 zonder toeslag, handig waar het OV beperkt rijdt.' },
     { q: 'Hoeveel personen kunnen mee?', a: 'Tot 4 personen voor dezelfde vaste prijs.' },
   ],
   relatedRoutes: [

@@ -9,7 +9,7 @@ const route = {
   orb1: 'bg-pink-400',
   orb2: 'bg-amber-300',
   h1: 'Taxi naar Het Paleis in Groningen',
-  intro: 'Een avond uit in Het Paleis? Wij brengen je heen en halen je veilig op na sluitingstijd — vaste prijs, geen surge.',
+  intro: 'Een avond uit in Het Paleis? Wij brengen je heen en halen je veilig op na sluitingstijd, vaste prijs, geen surge.',
   seoTitle: 'Taxi Het Paleis Groningen | Uitgaansvervoer | Taxi Amro',
   seoDesc: 'Taxi naar Het Paleis in Groningen. Veilig uitgaan, ophalen na sluitingstijd. Vaste prijs, geen surge pricing. Boek direct via WhatsApp.',
   prijs: '€22',
@@ -22,7 +22,7 @@ const route = {
     ['Beschikbaar na sluitingstijd', '✅ Ook na 04:00', '⚠️ Wisselend'],
     ['Ophalen op afgesproken plek', '✅ Altijd', '⚠️ Onduidelijk'],
     ['Groep tot 4 personen', '✅ Samen in één auto', '⚠️ Afhankelijk'],
-    ['Geen surge bij piekdrukte', '✅ Vaste prijs', '❌ 2–3× duurder'],
+    ['Geen surge bij piekdrukte', '✅ Vaste prijs', '❌ 2 tot 3× duurder'],
     ['Chauffeur annuleert niet', '✅ Nooit', '⚠️ Komt voor'],
     ['Waterstof (0 CO₂)', '✅ Hyundai Nexo', '❌ Benzine/diesel'],
   ],
@@ -31,7 +31,7 @@ const route = {
     <p>Het Paleis is een bekende uitgaans- en evenementenlocatie in Groningen. Taxi Amro brengt je er voor een vaste prijs vanaf <strong>€22</strong> (vanuit het centrum) naartoe, zodat je zorgeloos kunt beginnen aan je avond.</p>`,
 
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Veilig terug na sluitingstijd</h2>
-    <p>Het uitgaan loopt vaak door tot in de kleine uurtjes. Wij rijden 24/7 en staan op een afgesproken plek klaar, ook na 04:00 — veilig samen terug, ook met een borrel op.</p>`,
+    <p>Het uitgaan loopt vaak door tot in de kleine uurtjes. Wij rijden 24/7 en staan op een afgesproken plek klaar, ook na 04:00, veilig samen terug, ook met een borrel op.</p>`,
 
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Vaste prijs voor de hele groep</h2>
     <p>Tot 4 personen rijden samen voor dezelfde prijs. Reserveer vooraf, dan is de rit naar huis al geregeld voordat de avond begint.</p>`,

@@ -135,7 +135,7 @@ export default function ContactPage() {
               <div className="mt-3 flex items-center justify-between px-1">
                 <div className="flex items-center gap-2 text-sm text-gray-500">
                   <span className="w-2.5 h-2.5 bg-green-500 rounded-full animate-pulse inline-block" />
-                  <span>Taxi Amro — actief in heel Groningen</span>
+                  <span>Taxi Amro, actief in heel Groningen</span>
                 </div>
                 <a
                   href="https://maps.google.com/?q=Groningen"
