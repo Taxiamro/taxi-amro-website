@@ -321,7 +321,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.taxiamro.nl/taxi-groningen-paleis</loc>
+    <loc>https://www.taxiamro.nl/taxi-groningen-the-palace</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -334,6 +334,12 @@
   </url>
   <url>
     <loc>https://www.taxiamro.nl/taxi-groningen-oosterpoort</loc>
+    <lastmod>2026-06-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.taxiamro.nl/taxi-groningen-drie-gezusters</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

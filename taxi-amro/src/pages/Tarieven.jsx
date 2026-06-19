@@ -128,12 +128,12 @@ export default function Tarieven() {
               Wat kost een taxi<br className="hidden md:block" /> in Groningen?
             </h1>
             <p data-reveal className="fade-up stagger-2 text-lg text-gray-500 mb-8 max-w-xl mx-auto">
-              Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>. Geen verrassingen achteraf.
+              Bereken hieronder zelf je ritprijs. Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>, geen verrassingen achteraf.
             </p>
             <div data-reveal className="fade-up stagger-3 flex flex-wrap justify-center gap-3">
-              <a href={WA} target="_blank" rel="noopener noreferrer"
+              <a href="#tarief-berekenaar"
                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all shadow-md shadow-amber-200 text-sm hover:scale-105">
-                💬 Vraag vaste prijs via WhatsApp
+                🧮 Bereken je ritprijs
               </a>
               <a href={`tel:${TEL}`}
                  className="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-amber-400 text-gray-700 hover:text-amber-600 font-semibold px-6 py-3 rounded-xl transition-all text-sm hover:scale-105">
@@ -203,9 +203,10 @@ export default function Tarieven() {
                     { route: 'Groningen → Lauwersoog (Schiermonnikoog)', icon: '⛴️', afstand: '~38 km', meter: '€135', vast: '€110', besparing: '18%', slug: '/taxi-groningen-lauwersoog' },
                     { route: 'Taxi → Suikerterrein (evenement)', icon: '🎪', afstand: '~3 km', meter: '—', vast: 'vanaf €25', besparing: '—', slug: '/taxi-groningen-suikerterrein' },
                     { route: 'Taxi → De Graanfabriek', icon: '🎶', afstand: '~3 km', meter: '—', vast: 'vanaf €25', besparing: '—', slug: '/taxi-groningen-graanfabriek' },
-                    { route: 'Taxi → Het Paleis', icon: '🎉', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-paleis' },
+                    { route: 'Taxi → The Palace', icon: '🎉', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-the-palace' },
                     { route: 'Taxi → MartiniPlaza', icon: '🎤', afstand: '~3 km', meter: '—', vast: 'vanaf €25', besparing: '—', slug: '/taxi-groningen-martiniplaza' },
                     { route: 'Taxi → De Oosterpoort', icon: '🎷', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-oosterpoort' },
+                    { route: 'Taxi → De Drie Gezusters', icon: '🍻', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-drie-gezusters' },
                     { route: 'Stadsrit Groningen', icon: '🏘️', afstand: 'tot 5 km', meter: '—', vast: '€20', besparing: '—', slug: null },
                   ].map((r, i) => (
                     <tr key={r.route} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
@@ -221,7 +222,7 @@ export default function Tarieven() {
                       <td className="px-5 py-3 border-b border-gray-100 text-center">
                         {r.besparing !== '—' ? (
                           <span className="bg-green-100 text-green-700 text-xs font-bold px-2 py-0.5 rounded-full">{r.besparing}</span>
-                        ) : <span className="text-gray-400">, </span>}
+                        ) : <span className="text-gray-300">·</span>}
                       </td>
                     </tr>
                   ))}

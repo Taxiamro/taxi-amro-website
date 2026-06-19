@@ -45,7 +45,7 @@ const route = {
   ],
   relatedRoutes: [
     { slug: '/taxi-groningen-martiniplaza', label: 'Taxi → MartiniPlaza' },
-    { slug: '/taxi-groningen-paleis', label: 'Taxi → Het Paleis' },
+    { slug: '/taxi-groningen-the-palace', label: 'Taxi → The Palace' },
     { slug: '/taxi-groningen-graanfabriek', label: 'Taxi → De Graanfabriek' },
   ],
 }

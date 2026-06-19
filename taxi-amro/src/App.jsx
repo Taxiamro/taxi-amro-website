@@ -39,6 +39,7 @@ import GronGraanfabriek from './pages/routes/GronGraanfabriek'
 import GronPaleis from './pages/routes/GronPaleis'
 import GronMartiniplaza from './pages/routes/GronMartiniplaza'
 import GronOosterpoort from './pages/routes/GronOosterpoort'
+import GronDrieGezusters from './pages/routes/GronDrieGezusters'
 import Reviews from './pages/Reviews'
 import Luchthaven from './pages/blog/Luchthaven'
 import Zakelijk from './pages/blog/Zakelijk'
@@ -210,9 +211,10 @@ export default function App() {
         <Route path="/taxi-groningen-heerenveen" element={<GronHeerenveen />} />
         <Route path="/taxi-groningen-suikerterrein" element={<GronSuikerterrein />} />
         <Route path="/taxi-groningen-graanfabriek" element={<GronGraanfabriek />} />
-        <Route path="/taxi-groningen-paleis" element={<GronPaleis />} />
+        <Route path="/taxi-groningen-the-palace" element={<GronPaleis />} />
         <Route path="/taxi-groningen-martiniplaza" element={<GronMartiniplaza />} />
         <Route path="/taxi-groningen-oosterpoort" element={<GronOosterpoort />} />
+        <Route path="/taxi-groningen-drie-gezusters" element={<GronDrieGezusters />} />
         <Route path="/reviews"             element={<Reviews />} />
         <Route path="/blog/luchthaven"   element={<Luchthaven />} />
         <Route path="/blog/zakelijk"     element={<Zakelijk />} />

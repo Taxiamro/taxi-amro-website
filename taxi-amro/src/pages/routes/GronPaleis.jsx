@@ -1,17 +1,17 @@
 import RoutePage from '../RoutePage'
 
 const route = {
-  slug: '/taxi-groningen-paleis',
+  slug: '/taxi-groningen-the-palace',
   van: 'Groningen',
-  naar: 'Het Paleis',
+  naar: 'The Palace',
   icon: '🎉',
   heroBg: 'bg-gradient-to-br from-pink-50 via-white to-amber-50',
   orb1: 'bg-pink-400',
   orb2: 'bg-amber-300',
-  h1: 'Taxi naar Het Paleis in Groningen',
-  intro: 'Een avond uit in Het Paleis? Wij brengen je heen en halen je veilig op na sluitingstijd, vaste prijs, geen surge.',
-  seoTitle: 'Taxi Het Paleis Groningen | Uitgaansvervoer | Taxi Amro',
-  seoDesc: 'Taxi naar Het Paleis in Groningen. Veilig uitgaan, ophalen na sluitingstijd. Vaste prijs, geen surge pricing. Boek direct via WhatsApp.',
+  h1: 'Taxi naar The Palace in Groningen',
+  intro: 'Een avond uit in The Palace? Wij brengen je heen en halen je veilig op na sluitingstijd, vaste prijs, geen surge.',
+  seoTitle: 'Taxi The Palace Groningen | Uitgaansvervoer | Taxi Amro',
+  seoDesc: 'Taxi naar The Palace in Groningen. Veilig uitgaan, ophalen na sluitingstijd. Vaste prijs, geen surge pricing. Boek direct via WhatsApp.',
   prijs: '€22',
   prijsRaw: '22',
   kortingLabel: 'Vaste ritprijs vanaf het centrum',
@@ -27,8 +27,8 @@ const route = {
     ['Waterstof (0 CO₂)', '✅ Hyundai Nexo', '❌ Benzine/diesel'],
   ],
   body: [
-    `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;">Taxi naar Het Paleis</h2>
-    <p>Het Paleis is een bekende uitgaans- en evenementenlocatie in Groningen. Taxi Amro brengt je er voor een vaste prijs vanaf <strong>€22</strong> (vanuit het centrum) naartoe, zodat je zorgeloos kunt beginnen aan je avond.</p>`,
+    `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;">Taxi naar The Palace</h2>
+    <p>The Palace is een bekende uitgaans- en evenementenlocatie in Groningen. Taxi Amro brengt je er voor een vaste prijs vanaf <strong>€22</strong> (vanuit het centrum) naartoe, zodat je zorgeloos kunt beginnen aan je avond.</p>`,
 
     `<h2 style="font-size:1.1rem;font-weight:700;color:#111827;margin-bottom:0.75rem;margin-top:1.5rem;">Veilig terug na sluitingstijd</h2>
     <p>Het uitgaan loopt vaak door tot in de kleine uurtjes. Wij rijden 24/7 en staan op een afgesproken plek klaar, ook na 04:00, veilig samen terug, ook met een borrel op.</p>`,
@@ -37,7 +37,7 @@ const route = {
     <p>Tot 4 personen rijden samen voor dezelfde prijs. Reserveer vooraf, dan is de rit naar huis al geregeld voordat de avond begint.</p>`,
   ],
   faqs: [
-    { q: 'Wat kost een taxi naar Het Paleis?', a: 'Vanaf €22 vanuit het centrum van Groningen. Vanuit andere wijken kan het iets afwijken.' },
+    { q: 'Wat kost een taxi naar The Palace?', a: 'Vanaf €22 vanuit het centrum van Groningen. Vanuit andere wijken kan het iets afwijken.' },
     { q: 'Halen jullie me op na sluitingstijd?', a: 'Ja, ook na 04:00 op een afgesproken plek.' },
     { q: 'Is er surge bij piekdrukte?', a: 'Nee, je betaalt altijd de vaste prijs.' },
     { q: 'Kunnen we met de groep mee?', a: 'Ja, tot 4 personen in één auto.' },
@@ -46,7 +46,7 @@ const route = {
   relatedRoutes: [
     { slug: '/taxi-groningen-suikerterrein', label: 'Taxi → Suikerterrein' },
     { slug: '/taxi-groningen-graanfabriek', label: 'Taxi → De Graanfabriek' },
-    { slug: '/taxi-groningen-martiniplaza', label: 'Taxi → MartiniPlaza' },
+    { slug: '/taxi-groningen-drie-gezusters', label: 'Taxi → De Drie Gezusters' },
   ],
 }
 
