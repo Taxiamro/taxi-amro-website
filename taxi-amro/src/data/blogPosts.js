@@ -1,5 +1,37 @@
 export const blogPosts = [
   {
+    slug: 'taxi-tt-assen-2026-vervoer',
+    title: 'Taxi naar de TT Assen 2026: slim vervoer naar het circuit',
+    date: '2026-06-19',
+    category: 'Evenementen',
+    readTime: '5 min',
+    excerpt: 'TT Assen 26 t/m 28 juni 2026? Reis slim naar het TT Circuit: vaste prijs, geen parkeerstress en ophalen na de races. Vanuit Groningen en omgeving.',
+    featuredImage: '/tt-assen.svg',
+    featuredImageAlt: 'TT Assen 26 t/m 28 juni 2026, taxivervoer naar het TT Circuit met Taxi Amro',
+    author: 'Team TaxiAmro',
+    keywords: ['taxi tt assen', 'vervoer tt assen', 'taxi tt circuit assen', 'tt assen 2026'],
+    content: `
+      <p>De TT van Assen is van <strong>26 t/m 28 juni 2026</strong> en trekt tienduizenden bezoekers naar het TT Circuit. Het is feest, sport en festival in één, maar het betekent ook drukke wegen en een parkeerplek ver van de ingang. In deze blog lees je hoe je slim en zonder stress naar de TT reist.</p>
+
+      <h2>Wanneer is de TT Assen 2026?</h2>
+      <p>De TT Assen vindt plaats van <strong>vrijdag 26 tot en met zondag 28 juni 2026</strong> op het TT Circuit Assen. Naast de races is er een uitgebreid avond- en festivalprogramma in en rond Assen.</p>
+
+      <h2>Waarom een taxi naar de TT?</h2>
+      <p>Tijdens het TT-weekend lopen de toegangswegen vol en is parkeren een uitdaging. Met een taxi vermijd je de files, hoef je niet ver te lopen en kun je gerust een drankje drinken. Je reist veilig samen heen en weer, zonder je zorgen te maken over een bob of een parkeerplek.</p>
+
+      <h2>Vanuit Groningen naar het TT Circuit</h2>
+      <p>Vanuit Groningen is het ongeveer 35 km naar het TT Circuit, zo'n 35 minuten rijden. Taxi Amro brengt je voor een <strong>vaste prijs vanaf €95</strong> tot dicht bij de ingang en haalt je na afloop weer op, ook laat in de avond. Bekijk alle details op onze pagina <a href="/taxi-tt-assen">taxi naar de TT Assen</a>.</p>
+
+      <h2>Op tijd boeken loont</h2>
+      <p>Tijdens het TT-weekend zijn taxi's snel volgeboekt. Reserveer daarom ruim van tevoren, dan is je rit gegarandeerd. Met je vrienden reis je tot 4 personen samen voor dezelfde prijs, dus je deelt de kosten.</p>
+
+      <h2>Wat kost het precies?</h2>
+      <p>De prijs hangt af van je opstapplaats. Bereken eenvoudig je ritprijs op onze <a href="/tarieven">tarieven-pagina</a>, of vraag direct een vaste prijs aan via WhatsApp. Ook voor een rit naar <a href="/taxi-groningen-assen">Assen centrum</a> staan wij voor je klaar.</p>
+
+      <p>Klaar om te boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp. Wij regelen je vervoer naar de TT Assen 2026 van begin tot eind.</p>
+    `,
+  },
+  {
     slug: 'taxichauffeur-groningen',
     title: 'Taxichauffeur Groningen: betrouwbaar, 24/7 en vaste prijs',
     date: '2026-06-10',

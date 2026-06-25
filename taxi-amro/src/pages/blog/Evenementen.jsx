@@ -12,6 +12,7 @@ const category = {
   title: 'Taxi naar evenementen Groningen',
   description: 'Blogs over taxi vervoer naar festivals, concerten, bruiloften en evenementen vanuit Groningen.',
   slugs: [
+    'taxi-tt-assen-2026-vervoer',
     'taxi-bruiloft-feest-evenement-vervoer',
     'taxi-concert-ahoy-ziggo-dome-festival',
     'eurosonic-noorderslag-festival-groningen-vervoer',

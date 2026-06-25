@@ -207,6 +207,7 @@ export default function Tarieven() {
                     { route: 'Taxi → MartiniPlaza', icon: '🎤', afstand: '~3 km', meter: '—', vast: 'vanaf €25', besparing: '—', slug: '/taxi-groningen-martiniplaza' },
                     { route: 'Taxi → De Oosterpoort', icon: '🎷', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-oosterpoort' },
                     { route: 'Taxi → De Drie Gezusters', icon: '🍻', afstand: '~2 km', meter: '—', vast: 'vanaf €22', besparing: '—', slug: '/taxi-groningen-drie-gezusters' },
+                    { route: 'Taxi → TT Assen (26 t/m 28 juni)', icon: '🏁', afstand: '~35 km', meter: '€118', vast: '€95', besparing: '20%', slug: '/taxi-tt-assen' },
                     { route: 'Stadsrit Groningen', icon: '🏘️', afstand: 'tot 5 km', meter: '—', vast: '€20', besparing: '—', slug: null },
                   ].map((r, i) => (
                     <tr key={r.route} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
