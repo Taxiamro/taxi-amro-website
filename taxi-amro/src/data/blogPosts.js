@@ -11,24 +11,42 @@ export const blogPosts = [
     author: 'Team TaxiAmro',
     keywords: ['taxi tt assen', 'vervoer tt assen', 'taxi tt circuit assen', 'tt assen 2026'],
     content: `
-      <p>De TT van Assen is van <strong>26 t/m 28 juni 2026</strong> en trekt tienduizenden bezoekers naar het TT Circuit. Het is feest, sport en festival in één, maar het betekent ook drukke wegen en een parkeerplek ver van de ingang. In deze blog lees je hoe je slim en zonder stress naar de TT reist.</p>
+      <p>De TT van Assen is van <strong>26 t/m 28 juni 2026</strong> het grootste motorsportevenement van Nederland. Drie dagen lang stroomt het TT Circuit vol met tienduizenden fans en verandert Assen in een groot festival. Genieten dus, maar het betekent ook drukke wegen, volle parkeerterreinen en lange wachtrijen. In deze gids lees je hoe je slim, op tijd en zonder stress naar de TT reist en weer veilig thuiskomt.</p>
 
       <h2>Wanneer is de TT Assen 2026?</h2>
-      <p>De TT Assen vindt plaats van <strong>vrijdag 26 tot en met zondag 28 juni 2026</strong> op het TT Circuit Assen. Naast de races is er een uitgebreid avond- en festivalprogramma in en rond Assen.</p>
+      <p>De TT Assen vindt plaats van <strong>vrijdag 26 tot en met zondag 28 juni 2026</strong> op het TT Circuit Assen. Vrijdag en zaterdag staan in het teken van trainingen en kwalificaties, zondag is de grote racedag. Rond het circuit en in het centrum van Assen is er een uitgebreid avond- en festivalprogramma met muziek en horeca.</p>
 
       <h2>Waarom een taxi naar de TT?</h2>
-      <p>Tijdens het TT-weekend lopen de toegangswegen vol en is parkeren een uitdaging. Met een taxi vermijd je de files, hoef je niet ver te lopen en kun je gerust een drankje drinken. Je reist veilig samen heen en weer, zonder je zorgen te maken over een bob of een parkeerplek.</p>
+      <p>Tijdens het TT-weekend lopen alle toegangswegen vol. Wie met de eigen auto gaat, staat vaak lang in de file en parkeert ver van de ingang op een vol terrein. Na afloop duurt het soms een uur voordat je het parkeerterrein af bent. Met een taxi vermijd je dat allemaal:</p>
+      <ul>
+        <li>Geen filestress en geen zoektocht naar een parkeerplek</li>
+        <li>Tot dicht bij de ingang afgezet en na afloop weer opgehaald</li>
+        <li>Je kunt gerust een biertje drinken, wij zijn je vaste bob</li>
+        <li>Samen reizen met je vrienden en de kosten delen</li>
+      </ul>
 
       <h2>Vanuit Groningen naar het TT Circuit</h2>
-      <p>Vanuit Groningen is het ongeveer 35 km naar het TT Circuit, zo'n 35 minuten rijden. Taxi Amro brengt je voor een <strong>vaste prijs vanaf €95</strong> tot dicht bij de ingang en haalt je na afloop weer op, ook laat in de avond. Bekijk alle details op onze pagina <a href="/taxi-tt-assen">taxi naar de TT Assen</a>.</p>
+      <p>Vanuit Groningen is het ongeveer 35 kilometer naar het TT Circuit, zo'n 35 minuten rijden via de A28. Taxi Amro brengt je voor een <strong>vaste prijs vanaf €95</strong> rechtstreeks naar het circuit en haalt je na afloop weer op, ook laat in de avond. Alle details staan op onze pagina <a href="/taxi-tt-assen">taxi naar de TT Assen</a>. Kom je uit een andere plaats in de regio, zoals Haren, Zuidhorn of Hoogkerk? Ook dan rijden we je met een vaste prijs naar Assen.</p>
 
-      <h2>Op tijd boeken loont</h2>
-      <p>Tijdens het TT-weekend zijn taxi's snel volgeboekt. Reserveer daarom ruim van tevoren, dan is je rit gegarandeerd. Met je vrienden reis je tot 4 personen samen voor dezelfde prijs, dus je deelt de kosten.</p>
+      <h2>Ophalen na de races, ook laat</h2>
+      <p>Het mooie van een taxi is dat je niet hoeft te wachten tot het parkeerterrein leegloopt. Spreek vooraf een ophaalplek en tijd af, dan staan wij klaar zodra jij wilt. Taxi Amro rijdt 24/7, dus ook na het avondprogramma brengen we je veilig naar huis. Je chauffeur annuleert niet en er is geen surge pricing zoals bij apps op piekmomenten.</p>
 
-      <h2>Wat kost het precies?</h2>
-      <p>De prijs hangt af van je opstapplaats. Bereken eenvoudig je ritprijs op onze <a href="/tarieven">tarieven-pagina</a>, of vraag direct een vaste prijs aan via WhatsApp. Ook voor een rit naar <a href="/taxi-groningen-assen">Assen centrum</a> staan wij voor je klaar.</p>
+      <h2>Met de groep: kosten delen</h2>
+      <p>Ga je met vrienden naar de TT? Tot 4 personen reizen samen in één auto voor dezelfde vaste prijs. Verdeel je €95 over vier personen, dan kost de heenrit je nog geen €24 per persoon, zonder parkeerkosten of benzine. Vaak goedkoper en comfortabeler dan apart rijden.</p>
 
-      <p>Klaar om te boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp. Wij regelen je vervoer naar de TT Assen 2026 van begin tot eind.</p>
+      <h2>Handige tips voor het TT-weekend</h2>
+      <ul>
+        <li><strong>Boek ruim van tevoren.</strong> Tijdens de TT zijn taxi's snel volgeboekt. Reserveer een paar dagen vooruit zodat je rit zeker is.</li>
+        <li><strong>Vertrek op tijd.</strong> Houd rekening met extra drukte op de A28 en rond het circuit, zeker op de racedag.</li>
+        <li><strong>Spreek een duidelijke ophaalplek af.</strong> Rond het circuit is het druk, een vaste plek scheelt zoeken.</li>
+        <li><strong>Geef je groepsgrootte door.</strong> Zo weten we zeker dat iedereen mee kan.</li>
+      </ul>
+
+      <h2>Waarom Taxi Amro?</h2>
+      <p>Taxi Amro is je betrouwbare taxi in Groningen en omgeving, met een vaste prijs vooraf en zonder verrassingen achteraf. We rijden in een schone waterstoftaxi (Hyundai Nexo, nul CO2-uitstoot) en zijn 24/7 bereikbaar, ook in het weekend en op feestdagen. Bekijk gerust onze <a href="/reviews">reviews</a> of <a href="/tarieven">bereken je ritprijs</a>.</p>
+
+      <h2>Boek je TT-rit</h2>
+      <p>Klaar om te boeken? Bel <a href="tel:+31633721505"><strong>+31 6 33721505</strong></a> of stuur een WhatsApp. Wij regelen je vervoer naar de TT Assen 2026 van begin tot eind, heen en terug, voor een vaste prijs. Ook voor een rit naar <a href="/taxi-groningen-assen">Assen centrum</a> staan we voor je klaar.</p>
     `,
   },
   {
