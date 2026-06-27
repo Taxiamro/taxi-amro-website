@@ -16,13 +16,19 @@ export function getDiscount(km) {
 }
 
 // Bereken de vaste prijs uit de afstand. Retour = extra 10% korting (zelfde logica als de calculators).
-export function computeFare(km, { retour = false } = {}) {
-  const rawPrice = Math.max(PRICING.minimumPrijs, PRICING.startTarief + km * PRICING.prijsPerKm)
+export function computeFare(km, { retour = false, factor = 1 } = {}) {
+  const meter = Math.max(PRICING.minimumPrijs, PRICING.startTarief + km * PRICING.prijsPerKm)
   const disc = getDiscount(km)
-  const discountedPrice = Math.round(rawPrice * (1 - disc.pct))
-  const finalPrice = retour ? Math.round(discountedPrice * 0.9) : discountedPrice
-  return { rawPrice: Math.round(rawPrice), discountedPrice, finalPrice, discount: disc }
+  const base = meter * (1 - disc.pct) * factor
+  const finalPrice = retour ? Math.round(base * 0.9) : Math.round(base)
+  return { rawPrice: Math.round(meter * factor), discountedPrice: Math.round(base), finalPrice, discount: disc }
 }
+
+// Voertuigen met eigen prijs (factor t.o.v. de standaard taxi). Pas factor aan naar je echte busje-tarief.
+export const VEHICLES = [
+  { id: 'taxi', label: 'Taxi', sub: 'max 4 personen', max: 4, factor: 1, icon: '🚗' },
+  { id: 'busje', label: 'Taxibusje', sub: 'max 8 personen', max: 8, factor: 1.35, icon: '🚐' },
+]
 
 export function loadGoogleMaps() {
   return new Promise((resolve, reject) => {
