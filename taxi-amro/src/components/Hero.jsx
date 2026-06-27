@@ -127,6 +127,7 @@ export default function Hero() {
     const from = priceResult?.from || pickupRef.current?.value || pickup
     const to = priceResult?.to || destRef.current?.value || destination
     const finalPrice = getFinalPrice()
+  const todayStr = new Date().toISOString().slice(0, 10)
     const discountLines = activeDiscounts.includes('retour') ? ('\n Retour korting: 10% toegepast' + (retourTijd ? '\n Retour ophaaltijd: ' + retourTijd.replace('T', ' ') : '')) : ''
     const zakelijk = activeDiscounts.includes('zakelijk') ? '\n Factuur gewenst: Ja' : ''
     const dateStr = date ? `\n Datum: ${date}` : ''
@@ -287,7 +288,7 @@ export default function Hero() {
                       <svg className="absolute left-2.5 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                       </svg>
-                      <input type="date" value={date} onChange={(e) => setDate(e.target.value)}
+                      <input type="date" min={todayStr} value={date} onChange={(e) => setDate(e.target.value)}
                         className="w-full bg-gray-50 border border-gray-200 rounded-xl pl-7 pr-1 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-[11px]" />
                     </div>
                     <div className="relative">

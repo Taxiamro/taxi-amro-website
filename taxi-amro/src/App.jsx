@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhyUs from './components/WhyUs'
 import Fleet from './components/Fleet'
-import PriceCalculator from './components/PriceCalculator'
+import BookingWizard from './components/BookingWizard'
 import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
@@ -120,7 +120,14 @@ export function HomePage() {
       <div className="min-h-screen bg-white">
         <Navbar />
         <Hero />
-        <PriceCalculator />
+        <section id="tarief-berekenaar" className="py-16 bg-gradient-to-br from-slate-50 via-white to-amber-50/50">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 text-center mb-8">
+            <span className="text-amber-500 font-semibold text-xs uppercase tracking-widest">Boeken</span>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-2 mb-2">Boek je taxi</h2>
+            <p className="text-gray-500 text-sm sm:text-base">Bereken je vaste prijs en boek direct in een paar stappen.</p>
+          </div>
+          <BookingWizard />
+        </section>
 
         {/* Snelle links */}
         <section className="py-10 bg-gray-50">
