@@ -71,6 +71,13 @@ export default async function handler(req, res) {
 
   const rideRows = [['Van', b.ophaal], ['Naar', b.bestemming], ['Datum', `${b.datum} om ${b.tijd}`], ['Voertuig', voertuig], ['Personen', b.personen], retourStr && ['Retour', retourStr], factuurStr && ['Factuur', factuurStr]]
 
+  const confirmSubject = 'Bevestiging van je taxirit bij Taxi Amro'
+  const confirmBody = `Hoi ${b.naam},\n\nJe taxirit is bevestigd:\nDatum: ${b.datum} om ${b.tijd}\nVan: ${b.ophaal}\nNaar: ${b.bestemming}\nVoertuig: ${voertuig}\nPrijs: ${prijs} vaste prijs all-in`
+    + (b.retour ? `\nRetour: ophalen ${String(b.retourtijd || '').replace('T', ' ')}` : '')
+    + (b.factuur ? `\nFactuur: je ontvangt een factuur` : '')
+    + `\n\nTot dan. Vragen? Bel of app 0633721505.\n\nGroet, Taxi Amro`
+  const mailto = 'mailto:' + b.email + '?subject=' + encodeURIComponent(confirmSubject) + '&body=' + encodeURIComponent(confirmBody)
+
   const key = process.env.RESEND_API_KEY
   let emailed = false
   if (key) {
@@ -79,7 +86,8 @@ export default async function handler(req, res) {
       priceCard(prijs) + detailRows(rideRows) +
       (b.opmerking ? `<p style="margin:14px 0 0;color:#475569;font-size:13px;"><b>Opmerking:</b> ${esc(b.opmerking)}</p>` : '') +
       `<p style="margin:20px 0 0;color:#475569;font-size:13px;line-height:1.6;">Vragen of iets wijzigen? Bel of app <a href="tel:+31633721505" style="color:#d97706;font-weight:bold;">+31 6 33721505</a>. We zien je graag.</p>`
-    const ownerBtns = `<table role="presentation" cellpadding="0" cellspacing="0" style="margin:20px 0 4px;"><tr><td style="padding-right:10px;"><a href="${wa}" style="background:#22c55e;color:#ffffff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:14px;display:inline-block;">WhatsApp klant</a></td><td><a href="${ics}" style="background:#0f172a;color:#ffffff;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:14px;display:inline-block;">Zet in agenda</a></td></tr></table>`
+    const btn = (href, bg, col, txt) => `<a href="${href}" style="background:${bg};color:${col};padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:bold;font-size:14px;display:inline-block;margin:0 8px 8px 0;">${txt}</a>`
+    const ownerBtns = `<div style="margin:20px 0 4px;">` + btn(mailto, '#fbbf24', '#0f172a', 'Bevestig per e-mail') + btn(wa, '#22c55e', '#ffffff', 'WhatsApp klant') + btn(ics, '#0f172a', '#ffffff', 'Zet in agenda') + `</div>`
     const ownerInner = `<h1 style="margin:0 0 8px;font-size:20px;color:#0f172a;">Nieuwe boeking</h1>` +
       `<p style="margin:0;color:#475569;font-size:14px;">Van ${esc(b.naam)} &middot; ${esc(b.telefoon)} &middot; ${esc(b.email)}</p>` +
       priceCard(prijs) + detailRows(rideRows) +

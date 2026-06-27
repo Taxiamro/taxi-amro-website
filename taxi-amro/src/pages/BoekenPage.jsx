@@ -262,10 +262,6 @@ function Confirmation({ b, onReset }) {
         {b.factuur && <Row label="Factuur" value="Ja" />}
         <Row label="Vaste prijs" value={prijs} />
       </div>
-      <div className="grid sm:grid-cols-2 gap-3">
-        <a href={wa} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold py-3.5 rounded-xl transition-all text-sm">💬 WhatsApp klant</a>
-        <a href={ics} className="flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white font-bold py-3.5 rounded-xl transition-all text-sm">📅 Zet in agenda</a>
-      </div>
       <button onClick={onReset} className="w-full mt-4 text-gray-500 hover:text-amber-600 text-sm font-medium">Nieuwe rit boeken</button>
       <p className="text-center mt-3"><Link to="/" className="text-amber-600 text-sm">← Terug naar home</Link></p>
     </div>
