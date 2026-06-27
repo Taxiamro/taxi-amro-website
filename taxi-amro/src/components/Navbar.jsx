@@ -62,7 +62,6 @@ export default function Navbar() {
             <Link to="/reviews"   className={linkClass}>Reviews</Link>
             <Link to="/blog"      className={linkClass}>Blog</Link>
             <Link to="/contact"   className={linkClass}>Contact</Link>
-            <Link to="/boeken" className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-4 py-2 rounded-xl text-sm transition-colors">Boek nu</Link>
           </div>
 
           {/* Phone + CTA */}
@@ -74,10 +73,10 @@ export default function Navbar() {
               </svg>
               +31 6 33721505
             </a>
-            <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
+            <Link to="/boeken"
                className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-semibold px-5 py-2 rounded-lg text-sm transition-colors shadow-sm">
-              Boek Nu
-            </a>
+              Boek nu
+            </Link>
           </div>
 
           {/* Mobile hamburger */}

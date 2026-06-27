@@ -28,7 +28,8 @@ const empty = { naam: '', telefoon: '', email: '', datum: '', tijd: '', personen
 
 export default function BoekenPage() {
   const [step, setStep] = useState(1)
-  const [form, setForm] = useState(empty)
+  const _params = typeof window !== 'undefined' ? new URLSearchParams(window.location.search) : null
+  const [form, setForm] = useState({ ...empty, ophaal: _params?.get('van') || '', bestemming: _params?.get('naar') || '' })
   const [dist, setDist] = useState(null)       // {km, distText, durText}
   const [calc, setCalc] = useState(false)
   const [errors, setErrors] = useState({})
