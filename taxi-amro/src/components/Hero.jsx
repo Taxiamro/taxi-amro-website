@@ -1,20 +1,9 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
+import { PRICING, getDiscount } from '../lib/fare'
 
 const MAPS_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
 
-const PRICING = {
-  startTarief: 4.31,
-  prijsPerKm: 3.17,
-  minimumPrijs: 15.00,
-}
-
-function getDiscount(km) {
-  if (km > 100) return { pct: 0.25, label: '25% korting (>100 km)' }
-  if (km >= 40)  return { pct: 0.20, label: '20% korting (40 tot 100 km)' }
-  if (km >= 25)  return { pct: 0.15, label: '15% korting (>25 km)' }
-  return { pct: 0, label: null }
-}
 
 const DISCOUNTS = [
   { id: 'retour',    label: 'Retour rit',     pct: 0.10, color: '#10b981', icon: '🔄' },

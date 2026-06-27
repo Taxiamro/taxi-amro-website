@@ -62,6 +62,7 @@ export default function Navbar() {
             <Link to="/reviews"   className={linkClass}>Reviews</Link>
             <Link to="/blog"      className={linkClass}>Blog</Link>
             <Link to="/contact"   className={linkClass}>Contact</Link>
+            <Link to="/boeken" className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-4 py-2 rounded-xl text-sm transition-colors">Boek nu</Link>
           </div>
 
           {/* Phone + CTA */}
@@ -107,6 +108,7 @@ export default function Navbar() {
           <Link to="/reviews"  onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Reviews</Link>
           <Link to="/blog"     onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Blog</Link>
           <Link to="/contact"  onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Contact</Link>
+          <Link to="/boeken" onClick={() => setMenuOpen(false)} className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-4 py-2.5 rounded-xl text-center">Boek nu</Link>
           <a href="tel:+31633721505"
              className="flex items-center gap-2 text-amber-600 font-bold text-base border border-amber-200 bg-amber-50 rounded-lg px-4 py-2.5">
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
