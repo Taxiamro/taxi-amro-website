@@ -127,7 +127,6 @@ export default function Hero() {
     const from = priceResult?.from || pickupRef.current?.value || pickup
     const to = priceResult?.to || destRef.current?.value || destination
     const finalPrice = getFinalPrice()
-  const todayStr = new Date().toISOString().slice(0, 10)
     const discountLines = activeDiscounts.includes('retour') ? ('\n Retour korting: 10% toegepast' + (retourTijd ? '\n Retour ophaaltijd: ' + retourTijd.replace('T', ' ') : '')) : ''
     const zakelijk = activeDiscounts.includes('zakelijk') ? '\n Factuur gewenst: Ja' : ''
     const dateStr = date ? `\n Datum: ${date}` : ''
@@ -155,6 +154,7 @@ export default function Hero() {
   }
 
   const finalPrice = getFinalPrice()
+  const todayStr = new Date().toISOString().slice(0, 10)
   const hasRetour = activeDiscounts.includes('retour')
   const savings = priceResult ? (priceResult.discountedPrice ?? priceResult.rawPrice) - finalPrice : 0
 
