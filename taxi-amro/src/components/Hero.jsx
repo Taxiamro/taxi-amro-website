@@ -61,6 +61,7 @@ export default function Hero() {
   const [time, setTime] = useState('')
   const [passengers, setPassengers] = useState(1)
   const [activeDiscounts, setActiveDiscounts] = useState([])
+  const [retourTijd, setRetourTijd] = useState('')
   const [priceResult, setPriceResult] = useState(null)
   const [calculating, setCalculating] = useState(false)
   const [step, setStep] = useState(1) // 1 = form, 2 = price+book
@@ -137,7 +138,7 @@ export default function Hero() {
     const from = priceResult?.from || pickupRef.current?.value || pickup
     const to = priceResult?.to || destRef.current?.value || destination
     const finalPrice = getFinalPrice()
-    const discountLines = activeDiscounts.includes('retour') ? '\n Retour korting: 10% toegepast' : ''
+    const discountLines = activeDiscounts.includes('retour') ? ('\n Retour korting: 10% toegepast' + (retourTijd ? '\n Retour ophaaltijd: ' + retourTijd.replace('T', ' ') : '')) : ''
     const zakelijk = activeDiscounts.includes('zakelijk') ? '\n Factuur gewenst: Ja' : ''
     const dateStr = date ? `\n Datum: ${date}` : ''
     const timeStr = time ? `\n Tijd: ${time}` : ''
@@ -417,6 +418,13 @@ export default function Hero() {
                       })}
                     </div>
 
+                    {hasRetour && (
+                      <div className="mb-3">
+                        <label className="text-gray-500 text-xs font-semibold uppercase tracking-wide block mb-1.5">Retour ophaaltijd</label>
+                        <input type="datetime-local" value={retourTijd} onChange={(e) => setRetourTijd(e.target.value)}
+                          className="w-full bg-gray-50 border border-gray-200 rounded-xl px-3 py-3 text-gray-900 focus:outline-none focus:border-amber-400 transition-colors text-sm" />
+                      </div>
+                    )}
                     {/* Book button */}
                     <button onClick={handleBook}
                       className="w-full bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold py-3.5 rounded-xl transition-all hover:scale-[1.01] shadow-md shadow-amber-200 text-sm flex items-center justify-center gap-2 mb-2">
