@@ -12,7 +12,7 @@ function shell(inner) {
     `<table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr><td align="center">` +
     `<table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;background:#ffffff;border-radius:16px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,0.07);">` +
     `<tr><td style="background:#0f172a;padding:22px 32px;">` +
-    `<span style="font-size:22px;font-weight:800;color:#ffffff;">Taxi</span><span style="font-size:22px;font-weight:800;color:#fbbf24;">Amro</span>` +
+    `<span style="display:inline-block;background:#ffffff;border-radius:10px;padding:6px 12px;"><img src="https://www.taxiamro.nl/taxi-amro-logo.png" alt="Taxi Amro" height="30" style="height:30px;display:block;" /></span>` +
     `<div style="color:#94a3b8;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;margin-top:3px;">Taxichauffeur Groningen &middot; 24/7</div>` +
     `</td></tr><tr><td style="padding:30px 32px;">${inner}</td></tr>` +
     `<tr><td style="background:#f8fafc;padding:18px 32px;border-top:1px solid #eef2f7;color:#94a3b8;font-size:12px;line-height:1.6;">` +
