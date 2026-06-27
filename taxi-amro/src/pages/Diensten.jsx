@@ -43,9 +43,9 @@ export default function Diensten() {
               Van vliegveld transfer tot Eemshaven shuttle. Altijd een <strong className="text-gray-700">vaste prijs vooraf</strong>. 24/7 beschikbaar.
             </p>
             <div data-reveal className="fade-up stagger-3 flex flex-wrap justify-center gap-3">
-              <Link to="/tarieven"
+              <Link to="/boeken"
                  className="inline-flex items-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3 rounded-xl transition-all shadow-md shadow-amber-200 text-sm hover:scale-105">
-                🧮 Bereken je ritprijs
+                📅 Boeken
               </Link>
               <a href="tel:+31633721505"
                  className="inline-flex items-center gap-2 border-2 border-gray-200 hover:border-amber-400 text-gray-700 hover:text-amber-600 font-semibold px-6 py-3 rounded-xl transition-all text-sm hover:scale-105">
