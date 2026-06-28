@@ -42,16 +42,11 @@ export default function Navbar() {
             onMouseLeave={() => { setLogoHovered(false); setTilt({ x: 0, y: 0 }) }}
             style={{ perspective: 400, display: 'inline-flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}
           >
-            <span style={{
-              fontWeight: 800, fontSize: 20, letterSpacing: '-0.3px',
-              background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 60%, #1d4ed8 100%)',
-              WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text',
+            <img src="/taxi-amro-logo.png" alt="Taxi Amro" style={{
+              height: 46, width: 'auto', display: 'block',
               transform: `rotateX(${tilt.x * 0.5}deg) rotateY(${tilt.y * 0.5}deg) translateZ(${logoHovered ? 6 : 0}px)`,
               transition: logoHovered ? 'transform 0.06s ease' : 'transform 0.5s ease',
-              display: 'block',
-            }}>
-              Taxi Amro
-            </span>
+            }} />
           </Link>
 
           {/* Desktop nav: Home | Tarieven | Diensten | Blog | Contact */}
