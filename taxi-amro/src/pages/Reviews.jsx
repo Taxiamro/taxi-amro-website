@@ -6,7 +6,7 @@ import FloatingWhatsApp from '../components/FloatingWhatsApp'
 
 const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20graag%20een%20taxi%20boeken.'
 const TEL = 'tel:+31633721505'
-const REVIEW_URL = 'https://www.google.com/maps/search/?api=1&query=Taxi+Amro+Groningen'
+const REVIEW_URL = 'https://g.page/r/CdjYeiWETNmqEBM/review'
 
 const reviews = [
   {
