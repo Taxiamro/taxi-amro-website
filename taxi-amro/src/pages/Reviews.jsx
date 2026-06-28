@@ -77,36 +77,11 @@ const reviews = [
 
 const schema = {
   '@context': 'https://schema.org',
-  '@graph': [
-    {
-      '@type': 'LocalBusiness',
-      name: 'Taxi Amro Noord-Nederland',
-      url: 'https://www.taxiamro.nl',
-      telephone: '+31633721505',
-      aggregateRating: {
-        '@type': 'AggregateRating',
-        ratingValue: '4.9',
-        reviewCount: reviews.length.toString(),
-        bestRating: '5',
-        worstRating: '1',
-      },
-    },
-    ...reviews.map(r => ({
-      '@type': 'Review',
-      author: { '@type': 'Person', name: r.naam },
-      datePublished: r.datum,
-      reviewBody: r.tekst,
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: r.sterren.toString(),
-        bestRating: '5',
-      },
-      itemReviewed: {
-        '@type': 'TaxiService',
-        name: 'Taxi Amro Noord-Nederland',
-      },
-    })),
-  ],
+  '@type': 'TaxiService',
+  name: 'Taxi Amro Noord-Nederland',
+  url: 'https://www.taxiamro.nl/reviews',
+  telephone: '+31633721505',
+  areaServed: ['Groningen', 'Friesland', 'Drenthe'],
 }
 
 function Stars({ n = 5 }) {
