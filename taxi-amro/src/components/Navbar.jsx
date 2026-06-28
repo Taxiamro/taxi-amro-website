@@ -110,10 +110,6 @@ export default function Navbar() {
             </svg>
             +31 6 33721505
           </a>
-          <a href="https://wa.me/31633721505" target="_blank" rel="noopener noreferrer"
-             className="bg-amber-400 text-gray-900 font-semibold px-5 py-2 rounded-lg text-center">
-            Boek Nu via WhatsApp
-          </a>
         </div>
       )}
     </nav>

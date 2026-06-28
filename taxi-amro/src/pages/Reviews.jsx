@@ -6,6 +6,7 @@ import FloatingWhatsApp from '../components/FloatingWhatsApp'
 
 const WA = 'https://wa.me/31633721505?text=Hallo%20Taxi%20Amro%2C%20ik%20wil%20graag%20een%20taxi%20boeken.'
 const TEL = 'tel:+31633721505'
+const REVIEW_URL = 'https://www.google.com/maps/search/?api=1&query=Taxi+Amro+Groningen'
 
 const reviews = [
   {
@@ -151,9 +152,9 @@ export default function Reviews() {
             </div>
 
             <div className="flex flex-wrap justify-center gap-3">
-              <a href={WA} target="_blank" rel="noopener noreferrer"
+              <a href={REVIEW_URL} target="_blank" rel="noopener noreferrer"
                 className="bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3 rounded-xl text-sm transition-all shadow-md shadow-amber-200 hover:scale-105">
-                💬 Boek via WhatsApp
+                ⭐ Schrijf een review
               </a>
               <a href={TEL}
                 className="border-2 border-gray-200 hover:border-amber-400 text-gray-700 font-semibold px-7 py-3 rounded-xl text-sm transition-all hover:scale-105">
@@ -188,7 +189,7 @@ export default function Reviews() {
             <h2 className="text-xl font-bold text-gray-900 mb-2">Zelf gereden?</h2>
             <p className="text-gray-500 text-sm mb-6">Laat een review achter op Google.</p>
             <a
-              href="https://g.page/r/taxiamro/review"
+              href={REVIEW_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-7 py-3 rounded-xl text-sm transition-all hover:scale-105 shadow-md shadow-amber-200"
