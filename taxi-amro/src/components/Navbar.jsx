@@ -54,6 +54,7 @@ export default function Navbar() {
             <Link to="/"          className={linkClass}>Home</Link>
             <Link to="/tarieven"  className={linkClass}>Tarieven</Link>
             <Link to="/diensten"  className={linkClass}>Diensten</Link>
+            <Link to="/faq"       className={linkClass}>FAQ</Link>
             <Link to="/reviews"   className={linkClass}>Reviews</Link>
             <Link to="/blog"      className={linkClass}>Blog</Link>
             <Link to="/contact"   className={linkClass}>Contact</Link>
@@ -99,6 +100,7 @@ export default function Navbar() {
           <Link to="/"         onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Home</Link>
           <Link to="/tarieven" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Tarieven</Link>
           <Link to="/diensten" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Diensten</Link>
+          <Link to="/faq" onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">FAQ</Link>
           <Link to="/reviews"  onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Reviews</Link>
           <Link to="/blog"     onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Blog</Link>
           <Link to="/contact"  onClick={() => setMenuOpen(false)} className="text-gray-700 hover:text-amber-600 transition-colors font-medium">Contact</Link>

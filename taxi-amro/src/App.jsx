@@ -17,6 +17,7 @@ import Tarieven from './pages/Tarieven'
 import Diensten from './pages/Diensten'
 import ContactPage from './pages/ContactPage'
 import BoekenPage from './pages/BoekenPage'
+import FaqPage from './pages/FaqPage'
 import Seo from './components/Seo'
 import GronSchiphol from './pages/routes/GronSchiphol'
 import GronAssen from './pages/routes/GronAssen'
@@ -200,6 +201,7 @@ export default function App() {
         <Route path="/tarieven"  element={<Tarieven />} />
         <Route path="/contact"   element={<ContactPage />} />
         <Route path="/boeken"    element={<BoekenPage />} />
+        <Route path="/faq"       element={<FaqPage />} />
         <Route path="/blog"      element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/taxi-groningen-schiphol"  element={<GronSchiphol />} />
